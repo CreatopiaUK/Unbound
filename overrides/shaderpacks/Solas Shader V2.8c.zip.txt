@@ -1,0 +1,8 @@
+#Mon Jun 23 21:15:47 BST 2025
+shadowDistance=512.0
+GI=true
+DYNAMIC_HANDLIGHT_STRENGTH=2.00
+shadowMapResolution=4096
+FLOODFILL_RADIUS=1.2
+AO=true
+VL_SAMPLES=12
