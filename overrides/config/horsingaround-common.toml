@@ -1,0 +1,6 @@
+
+#General settings
+[General]
+	#Add tamed mountable entities to the call list [Default: false]
+	addOnMount = false
+

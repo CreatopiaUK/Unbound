@@ -1,0 +1,12 @@
+
+#General configuration settings for Hiccup's Legacy
+[general]
+	#Show a message to the player on spawn
+	showPlayerMessage = false
+	#Give a book to the player on spawn
+	givePlayerBookOnSpawn = false
+	#Allows the Fireworm to spawn fire on death
+	allowFirewormGrief = true
+	#Allows the Whispering Death to tunnel through blocks
+	allowWhisperingDeathGrief = true
+
