@@ -1,0 +1,30 @@
+{
+	"index": 2,
+	"attributes": {
+		"generic.max_health": 26,
+		"generic.armor": 2,
+		"generic.movement_speed": 0.06,
+		"paraglider:max_stamina": 10
+	},
+	"starting_skills": [
+		"epicfight:roll",
+		"epicfight:endurance"
+	],
+	"items": [
+		{
+			"id": "minecraft:shield",
+			"slot": "offhand"
+		},
+		{
+			"id": "minecraft:stone_sword",
+			"slot": "mainhand"
+		},
+		{
+			"id": "minecraft:bread",
+			"count": 6,
+			"slot": "mainhand"
+		}
+	],
+	"animation": "epicfight:biped/combat/sword_auto1",
+	"offset": [0, 0]
+}
