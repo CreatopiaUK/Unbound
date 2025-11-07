@@ -1,0 +1,119 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_sword_is_mightier_than_the_pen"
+	group: "58B80097DBF7B618"
+	id: "41A9198200AA636E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1A4E6CD6AF931F34"
+			tasks: [{
+				id: "39C277CADCE88E65"
+				title: "kill them all"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1A4E6CD6AF931F34"]
+			id: "1B3BF51A4F3EB7B4"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "53D8CBDEBF187527"
+					table_id: 1678933771948855992L
+					type: "random"
+				}
+				{
+					id: "4F231C5E0B573036"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Warning:Repeatable quest farm is advised"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: "minecraft:skeleton_skull"
+				id: "0F15BC2DC283FE1A"
+				title: "Grind them up!!"
+				type: "kill"
+				value: 150L
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1A4E6CD6AF931F34"]
+			id: "43C35719555A6B40"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0C606F8FB10446BB"
+					table_id: 1678933771948855992L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0BAF671DF5B6EE25"
+					table_id: 181974124547911387L
+					type: "random"
+				}
+				{
+					id: "29FAE45844A98F8D"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "hexagon"
+			subtitle: "U can do it"
+			tasks: [{
+				entity: "minecraft:creeper"
+				icon: "minecraft:creeper_head"
+				id: "03EC360AA19368B3"
+				title: "Watch out for the explosions"
+				type: "kill"
+				value: 100L
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1A4E6CD6AF931F34"]
+			id: "5F94C4288796C6D6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4CD8D3BFEB5897BC"
+					table_id: 1678933771948855992L
+					type: "random"
+				}
+				{
+					id: "78131D44633D4D4E"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Farm again???"
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_head"
+				id: "15CB495D218077A3"
+				title: "SeRiOuS BrAiN DaMaGe"
+				type: "kill"
+				value: 150L
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+	]
+	title: "The sword is mightier than the pen"
+}

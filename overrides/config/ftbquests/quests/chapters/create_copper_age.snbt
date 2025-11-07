@@ -1,0 +1,166 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_copper_age"
+	group: "2BE1A27F73200C54"
+	id: "4D2818A3A0916C51"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4EC032711D6F33E5"]
+			id: "18DEC3CB677E66F1"
+			tasks: [{
+				id: "725589296580BF4C"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18DEC3CB677E66F1"]
+			id: "06622140490120E5"
+			tasks: [{
+				id: "0445CC207E26EA96"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["121352810823C7EF"]
+			id: "640056A26E42A793"
+			tasks: [{
+				id: "10BC89FE87CB4C25"
+				item: "fluid:centrifugal_pump"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["18DEC3CB677E66F1"]
+			id: "5A47B439079743D2"
+			tasks: [{
+				id: "5A2411DCBE920280"
+				item: "fluid:copper_tap"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18DEC3CB677E66F1"]
+			id: "3B13DA23B348582C"
+			tasks: [{
+				id: "5F1F07AB044529F7"
+				item: "fluid:fluid_interface"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3B13DA23B348582C"]
+			id: "6E42852E5480F53C"
+			tasks: [{
+				id: "774EDD5BD514896E"
+				item: "fluid:smart_fluid_interface"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["18DEC3CB677E66F1"]
+			id: "121352810823C7EF"
+			tasks: [{
+				id: "16D73B4B80B0C4F1"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4DE86F0A782BA767"]
+			id: "74BB8DCC0A4EE923"
+			tasks: [{
+				id: "0CF2BB5561C6A88D"
+				item: "create:smart_fluid_pipe"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["18DEC3CB677E66F1"]
+			id: "4DE86F0A782BA767"
+			tasks: [{
+				id: "19BA39337CEC0B9D"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3B13DA23B348582C"]
+			id: "078C500F28733BAA"
+			tasks: [{
+				id: "761469922210F5A6"
+				item: "create:portable_fluid_interface"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18DEC3CB677E66F1"]
+			id: "20F0E1A556E13EAB"
+			tasks: [{
+				id: "306A90AADA31C61F"
+				item: "create_enchantment_industry:disenchanter"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["18DEC3CB677E66F1"]
+			id: "44560F24D4FA9EEA"
+			tasks: [{
+				id: "0F1F60419D423105"
+				item: "create_enchantment_industry:printer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["18DEC3CB677E66F1"]
+			id: "22F4ED5E4C1E2FC6"
+			tasks: [{
+				id: "65CE9B79CAD55B62"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["18DEC3CB677E66F1"]
+			id: "330833B9A92695C6"
+			tasks: [{
+				id: "23285C116031EE47"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+	]
+	title: "Age 3: Copper"
+}

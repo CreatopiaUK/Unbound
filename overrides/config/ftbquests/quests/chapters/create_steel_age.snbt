@@ -1,0 +1,56 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_steel_age"
+	group: "2BE1A27F73200C54"
+	id: "2268097174E74FE5"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["565A738FD933C9BA"]
+			id: "70B17E1C44E7F16C"
+			tasks: [{
+				id: "392160E945A46F4A"
+				item: "tfmg:steel_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70B17E1C44E7F16C"]
+			id: "1586438935622654"
+			tasks: [{
+				id: "4BC2FE6D879BB59A"
+				item: "tfmg:industrial_aluminum_casing"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["70B17E1C44E7F16C"]
+			id: "151621226B85939A"
+			tasks: [{
+				id: "57A8E8979B0828FA"
+				item: "tfmg:heavy_machinery_casing"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["70B17E1C44E7F16C"]
+			id: "2312DEBB1F06D068"
+			tasks: [{
+				id: "4B5E0B6425B6B5C9"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+	]
+	title: "Age 10: Steel"
+}

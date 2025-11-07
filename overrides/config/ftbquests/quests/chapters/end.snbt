@@ -1,0 +1,152 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end"
+	group: "7B22D4A0939AEFDE"
+	id: "7C1569F14DE8B889"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1F638D509244726A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21EC643A0C84F5EF"
+				table_id: 6781338738570165713L
+				type: "random"
+			}]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "allthetweaks:mini_end"
+				id: "502F516BF2EBC49C"
+				title: "Welcome to the End"
+				type: "dimension"
+			}]
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"1F638D509244726A"
+				"464D6095AC3CDAA7"
+			]
+			id: "4E11421AE31F7149"
+			rewards: [{
+				id: "006CFAB1931408C2"
+				type: "xp"
+				xp: 3000
+			}]
+			tasks: [{
+				icon: "minecraft:end_rod"
+				id: "378798729CEA4671"
+				structure: "minecraft:end_city"
+				title: "Find ur first end city"
+				type: "structure"
+			}]
+			title: "Dont forget that elytra"
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E11421AE31F7149"]
+			description: ["{image:mekanism:item/hdpe_elytra width:100 height:100 align:center}"]
+			id: "7975464B39D640DF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "75EFCD1354A2AB66"
+					table_id: 6781338738570165713L
+					type: "random"
+				}
+				{
+					id: "47884FB673DD2F29"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "37A7647880BE2E54"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "might come handy later on"
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1F638D509244726A"]
+			id: "464D6095AC3CDAA7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F324E26E6614F01"
+					table_id: 6781338738570165713L
+					type: "all_table"
+				}
+				{
+					id: "40C32743D6371B2B"
+					item: "cataclysm:void_eye"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:dragon_egg"
+				id: "6EBD8D38140B7CF6"
+				title: "Defeat the dragon"
+				type: "kill"
+				value: 1L
+			}]
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["464D6095AC3CDAA7"]
+			id: "0D99BF9088F297E8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1CE4ED1F51A77D07"
+					table_id: 6781338738570165713L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "570DD3DD5765E37A"
+					table_id: 4381086907456634712L
+					type: "choice"
+				}
+				{
+					id: "6E02E85F49470DCD"
+					type: "xp_levels"
+					xp_levels: 70
+				}
+			]
+			subtitle: "Respawn the dragon and kill it again"
+			tasks: [
+				{
+					count: 8L
+					id: "52697C1DD45E82A6"
+					item: "minecraft:end_crystal"
+					type: "item"
+				}
+				{
+					advancement: "minecraft:end/respawn_dragon"
+					criterion: ""
+					id: "4A0BB9D937B32B9F"
+					type: "advancement"
+				}
+			]
+			x: -6.0d
+			y: -3.5d
+		}
+	]
+	title: "The End"
+}

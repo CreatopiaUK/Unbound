@@ -1,0 +1,83 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "occultism"
+	group: "6B05E91E7584D695"
+	icon: {
+		Count: 1
+		id: "occultism:dictionary_of_spirits"
+		tag: {
+			"modonomicon:book_id": "occultism:dictionary_of_spirits"
+		}
+	}
+	id: "3606781C29772F5F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&l&5Welcome to Occultism!&r"
+				""
+				"Magicians are not as powerful as they appear.  "
+				"Their true strength comes from spirits — bound demons from &d\"The Other Place\"&r, who perform magic on their behalf."
+				""
+				"Occultism is all about &opacts, rituals, and summons&r.  "
+				"With their help you can automate tasks, store enormous amounts of items, mine in void dimensions, and even gain familiars."
+				""
+				"{@pagebreak}"
+				""
+				"&6First Step&r"
+				""
+				"Break the grass until you find &dDemon’s Dream Seeds&r.  "
+				""
+				""
+				"&dPro Tip:&r  "
+				"Occultism works step by step.  "
+				"Don’t try to summon powerful demons right away... master the basics first!"
+				""
+				"This mod can look scary, but it’s very rewarding.  "
+				"Follow the dictionary, and you’ll be summoning spirits in no time."
+			]
+			id: "1CEC1E329AFDCCD1"
+			subtitle: "Where the cult is born"
+			tasks: [{
+				id: "78333D9E03659318"
+				item: "occultism:datura"
+				type: "item"
+			}]
+			title: "Welcome to Occultism"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CEC1E329AFDCCD1"]
+			id: "4CE5E7201F4328AA"
+			tasks: [{
+				id: "2F2AA87D63BF6821"
+				item: {
+					Count: 1
+					id: "occultism:dictionary_of_spirits"
+					tag: {
+						"modonomicon:book_id": "occultism:dictionary_of_spirits"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1CEC1E329AFDCCD1"]
+			icon: "occultism:spirit_fire"
+			id: "41250C5EA424BCF2"
+			tasks: [{
+				id: "055F3BF124150ABF"
+				title: "Make some fire!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	title: "Occultism"
+}

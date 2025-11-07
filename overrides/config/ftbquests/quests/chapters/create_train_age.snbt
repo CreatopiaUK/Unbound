@@ -1,0 +1,89 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_train_age"
+	group: "2BE1A27F73200C54"
+	id: "139C56BC14D15314"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4F3B948FEA2BB929"]
+			id: "0C4AAC740C6C99B8"
+			tasks: [{
+				id: "17AF5E881EF926E9"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C4AAC740C6C99B8"]
+			id: "4FA3CC546555DE14"
+			tasks: [{
+				id: "20E309D2743A39CD"
+				item: "create:controls"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0C4AAC740C6C99B8"]
+			id: "78C6D9BAFC5780C6"
+			tasks: [{
+				id: "64CDF781D8629F62"
+				item: "create:track"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0C4AAC740C6C99B8"]
+			id: "44DF89B8C48B848F"
+			tasks: [{
+				id: "7D8DB82F997E1725"
+				item: "create:track_station"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C4AAC740C6C99B8"]
+			id: "244C6E60A41BC31F"
+			tasks: [{
+				id: "39BBD672F31C15BD"
+				item: "create:track_signal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0C4AAC740C6C99B8"]
+			id: "76372B718AD01C34"
+			tasks: [{
+				id: "0D55DC27632266EC"
+				item: "create:track_observer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C4AAC740C6C99B8"]
+			id: "784144A31A166AE5"
+			tasks: [{
+				id: "1D633EFE26E2585E"
+				item: "create:schedule"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+	]
+	title: "Age 7: Trains"
+}

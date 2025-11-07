@@ -1,0 +1,140 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "helpful_tips"
+	group: "71A5A283143C7D9F"
+	id: "6E95A67C3EAB73B1"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Once you have your first charging station and power generation the handy little configurable tools will allow you to create a fortress in no time"]
+			id: "2FDAD443DC645071"
+			tasks: [{
+				id: "461EEDE76DA157E4"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "buildinggadgets2:gadget_building"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "buildinggadgets2:gadget_exchanging"
+							}
+							{
+								Count: 1b
+								id: "buildinggadgets2:gadget_copy_paste"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "buildinggadgets2:gadget_cut_paste"
+								tag: {
+									pastereplace: 1b
+								}
+							}
+							{
+								Count: 1b
+								id: "buildinggadgets2:gadget_destruction"
+								tag: { }
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "building gadgets"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"&lGROW GROW GROW&r"
+				""
+				"There are alot of different growable items added in this pack "
+				"thanks to mods like farmers delight adding different foods"
+				"and mystical agriculture adding growable resources botany pots "
+				"will help you to compact and automate your farms easily"
+				"(you can still build massive create farms they are prettier)"
+			]
+			id: "70592B5B317AE564"
+			tasks: [{
+				id: "70FD826ADEAEFB2F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "botanypots:all_botany_pots"
+					}
+				}
+				title: "Any #botanypots:all_botany_pots"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: ["elevators need to be placed at the same x and z coordinats and will link to any other elevator above or below move by simply jumping to go up or crouching to go down."]
+			id: "17131C965FE54A49"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01B276F9A907EEE5"
+				table_id: 1678933771948855992L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2FF8C9A8EB034F48"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "elevatorid:elevators"
+					}
+				}
+				type: "item"
+			}]
+			title: "Elevation"
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			description: ["It slowly ticks up whenever its in your inventory, Place it in your curios slot and bind a key to it for when you really need it!"]
+			id: "2CB62EE7C4CF9FA2"
+			subtitle: "Time is money"
+			tasks: [{
+				id: "7C3059CEA5543838"
+				item: "tiab:time_in_a_bottle"
+				match_nbt: false
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2FDAD443DC645071"]
+			description: [
+				"You may have noticed if you hold down left alt (base keybind)"
+				"you get a handy dandy wheel appear."
+				""
+				"This wheel makes large scale building far simpler provided you have the blocks "
+				"and you can figure out what settings you need "
+				""
+				"&lIF YOU CAN'T PLACE BLOCKS YOU MAY HAVE SELECTED A MODE IN THIS MENU BY MISTAKE "
+			]
+			id: "27A95E45A33092F2"
+			tasks: [{
+				id: "66CF5A6A7160BE7F"
+				title: "Effortless Building"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+	]
+	title: "Helpful tips"
+}

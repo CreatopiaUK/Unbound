@@ -1,0 +1,14 @@
+{
+	chapter_groups: [
+		{ id: "71A5A283143C7D9F", title: "Getting Started" }
+		{ id: "7B22D4A0939AEFDE", title: "Dimensional Paradise" }
+		{ id: "3FEDCCADD53AC5E8", title: "Storage" }
+		{ id: "4FA6C94C55E25BA1", title: "Resource Generation" }
+		{ id: "45B7C661A941E9E5", title: "Power" }
+		{ id: "2BE1A27F73200C54", title: "Manufacturing" }
+		{ id: "6B05E91E7584D695", title: "Magic" }
+		{ id: "58B80097DBF7B618", title: "Slayer" }
+		{ id: "5C2274C8D239132D", title: "Fauna" }
+		{ id: "63765EECDAA7B99C", title: "MISC" }
+	]
+}

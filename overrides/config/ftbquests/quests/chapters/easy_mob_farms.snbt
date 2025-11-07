@@ -1,0 +1,2151 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "easy_mob_farms"
+	group: "4FA6C94C55E25BA1"
+	id: "7B47B51C3778EA82"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "689D6761EABA245C"
+			subtitle: "Easy mob farms allows you to make your own little terrariums of terror find cards by killing mobs and use them to generate your resources"
+			tasks: [{
+				id: "55826C1A44C5986B"
+				title: "Mob killing made easy"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["689D6761EABA245C"]
+			id: "48BF957251941E92"
+			rewards: [
+				{
+					count: 5
+					id: "3A56B4408C98CE02"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					id: "7ECAB51FFA945C8C"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Capture cards are the bases of this mod dropped by mobs *not all cards will activate this quest as there are to many for the filter the most common have been chosen*"
+			tasks: [{
+				id: "0AB9203FCC8263C9"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "easy_mob_farm:mob_capture_card"
+								tag: {
+									MobCaptureData: {
+										Data: { }
+										Foil: 0b
+										Name: "entity.minecraft.rabbit"
+										Rarity: "COMMON"
+										Type: "minecraft:rabbit"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "easy_mob_farm:mob_capture_card"
+								tag: {
+									MobCaptureData: {
+										Color: "white"
+										Data: {
+											Color: 0
+										}
+										Foil: 0b
+										Name: "entity.minecraft.sheep"
+										Rarity: "COMMON"
+										Type: "minecraft:sheep"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "easy_mob_farm:mob_capture_card"
+								tag: {
+									MobCaptureData: {
+										Data: { }
+										Foil: 0b
+										Name: "entity.minecraft.pillager"
+										Rarity: "COMMON"
+										Type: "minecraft:pillager"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "easy_mob_farm:mob_capture_card"
+								tag: {
+									MobCaptureData: {
+										Data: { }
+										Foil: 0b
+										Name: "entity.minecraft.pig"
+										Rarity: "COMMON"
+										Type: "minecraft:pig"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "easy_mob_farm:mob_capture_card"
+								tag: {
+									MobCaptureData: {
+										Data: { }
+										Foil: 0b
+										Name: "entity.minecraft.skeleton"
+										Rarity: "COMMON"
+										Type: "minecraft:skeleton"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "easy_mob_farm:mob_capture_card"
+								tag: {
+									MobCaptureData: {
+										Data: { }
+										Foil: 0b
+										Name: "entity.minecraft.creeper"
+										Rarity: "COMMON"
+										Type: "minecraft:creeper"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "easy_mob_farm:mob_capture_card"
+								tag: {
+									MobCaptureData: {
+										Data: { }
+										Foil: 0b
+										Name: "entity.minecraft.spider"
+										Rarity: "COMMON"
+										Type: "minecraft:spider"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "easy_mob_farm:mob_capture_card"
+								tag: {
+									MobCaptureData: {
+										Data: { }
+										Foil: 0b
+										Name: "entity.minecraft.cow"
+										Rarity: "COMMON"
+										Type: "minecraft:cow"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "easy_mob_farm:mob_capture_card"
+								tag: {
+									MobCaptureData: {
+										Data: { }
+										Foil: 0b
+										Name: "entity.minecraft.iron_golem"
+										Rarity: "COMMON"
+										Type: "minecraft:iron_golem"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "easy_mob_farm:mob_capture_card"
+								tag: {
+									MobCaptureData: {
+										Data: { }
+										Foil: 0b
+										Name: "entity.minecraft.bee"
+										Rarity: "COMMON"
+										Type: "minecraft:bee"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "easy_mob_farm:mob_capture_card"
+								tag: {
+									MobCaptureData: {
+										Data: { }
+										Foil: 0b
+										Name: "entity.minecraft.drowned"
+										Rarity: "COMMON"
+										Type: "minecraft:drowned"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "easy_mob_farm:mob_capture_card"
+								tag: {
+									MobCaptureData: {
+										Data: { }
+										Foil: 0b
+										Name: "entity.minecraft.zombie_villager"
+										Rarity: "COMMON"
+										Type: "minecraft:zombie_villager"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "easy_mob_farm:mob_capture_card"
+								tag: {
+									MobCaptureData: {
+										Data: { }
+										Foil: 0b
+										Name: "entity.minecraft.slime"
+										Rarity: "UNCOMMON"
+										Type: "minecraft:slime"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "easy_mob_farm:mob_capture_card"
+								tag: {
+									MobCaptureData: {
+										Data: { }
+										Foil: 0b
+										Name: "entity.minecraft.villager"
+										Rarity: "COMMON"
+										Type: "minecraft:villager"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "easy_mob_farm:mob_capture_card"
+								tag: {
+									MobCaptureData: {
+										Data: { }
+										Foil: 0b
+										Name: "entity.minecraft.chicken"
+										Rarity: "COMMON"
+										Type: "minecraft:chicken"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "easy_mob_farm:mob_capture_card"
+								tag: {
+									MobCaptureData: {
+										Data: { }
+										Foil: 0b
+										Name: "entity.minecraft.zombie"
+										Rarity: "COMMON"
+										Type: "minecraft:zombie"
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Capture cards"
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["48BF957251941E92"]
+			id: "03183FD0CF1FB07C"
+			rewards: [
+				{
+					id: "0B81FC1725BAEA68"
+					item: {
+						Count: 1
+						id: "easy_mob_farm:mob_capture_card"
+						tag: {
+							MobCaptureData: {
+								Data: { }
+								Foil: 0b
+								Name: "entity.minecraft.pig"
+								Rarity: "COMMON"
+								Type: "minecraft:pig"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CE3C5EE613C82F8"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "The base ingridient for your lowest tier mob farm"
+			tasks: [{
+				id: "48C14D64FE8945AB"
+				item: "easy_mob_farm:tier0_mob_farm_template"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["03183FD0CF1FB07C"]
+			id: "081C0B5EFCC5D1F1"
+			rewards: [
+				{
+					id: "2D904D71957E9584"
+					item: {
+						Count: 1
+						id: "easy_mob_farm:mob_capture_card"
+						tag: {
+							MobCaptureData: {
+								Data: { }
+								Foil: 0b
+								Name: "entity.minecraft.zombified_piglin"
+								Rarity: "UNCOMMON"
+								Type: "minecraft:zombified_piglin"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "487FF3FD422B2BCF"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "The second tier of template for making your mob farms . Runs faster"
+			tasks: [{
+				id: "1E4C7806B967279B"
+				item: "easy_mob_farm:tier1_mob_farm_template"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["081C0B5EFCC5D1F1"]
+			id: "13CB4183AC2A6193"
+			rewards: [
+				{
+					id: "0EEECADE51849692"
+					item: {
+						Count: 1
+						id: "easy_mob_farm:mob_capture_card"
+						tag: {
+							MobCaptureData: {
+								Data: { }
+								Foil: 0b
+								Name: "entity.minecraft.blaze"
+								Rarity: "RARE"
+								Type: "minecraft:blaze"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B857E6B5B4A58EC"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "The third tier of template getting faster"
+			tasks: [{
+				id: "32D775472FA10A99"
+				item: "easy_mob_farm:tier2_mob_farm_template"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["13CB4183AC2A6193"]
+			id: "3E8D5022CD9D3AD9"
+			rewards: [
+				{
+					id: "31A0C7A40B795CD9"
+					item: {
+						Count: 1
+						id: "easy_mob_farm:mob_capture_card"
+						tag: {
+							MobCaptureData: {
+								Data: { }
+								Foil: 0b
+								Name: "entity.minecraft.wither_skeleton"
+								Rarity: "EPIC"
+								Type: "minecraft:wither_skeleton"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11BA8FA5F0CD9D34"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "487D5E6E01D7DC64"
+					item: "minecraft:cookie"
+					type: "item"
+				}
+			]
+			subtitle: "The Final tier of template and the fastest! good job have a cookie."
+			tasks: [{
+				id: "142976743689C0AA"
+				item: "easy_mob_farm:tier3_mob_farm_template"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["03183FD0CF1FB07C"]
+			id: "2664DBBAD685029A"
+			rewards: [
+				{
+					count: 6
+					id: "4A895CB6D25A8AD3"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "3A98E174A2589C95"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Does exactly what it says on the tin Place your farm mobs in and wait."
+			tasks: [{
+				id: "51DE087CA662D95F"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:animal_plains_farm"
+					tag: {
+						TierLevel: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "An acre"
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["03183FD0CF1FB07C"]
+			id: "5A4A6908D144A170"
+			rewards: [
+				{
+					count: 6
+					id: "74F4950E1E072F6C"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "3A16BE8557C6254F"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Grows your bees."
+			tasks: [{
+				id: "363E912F80CF8647"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:bee_hive_farm"
+					tag: {
+						TierLevel: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "A few honey combs"
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["03183FD0CF1FB07C"]
+			id: "37B29635F82D541E"
+			rewards: [
+				{
+					count: 6
+					id: "00F7676F3DEB7403"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "13203E3F8EF22E41"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "A space for overworld hostile mobs"
+			tasks: [{
+				id: "034CCC96260C81D5"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:monster_plains_cave_farm"
+					tag: {
+						TierLevel: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "A hole in the wall"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["03183FD0CF1FB07C"]
+			id: "39FE5352B8511D9A"
+			rewards: [
+				{
+					count: 6
+					id: "051ADC58DB443697"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "0D7261326707B107"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "It's hot in there. Your own compact desert paradise."
+			tasks: [{
+				id: "04A7A594EA2444FA"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:desert_farm"
+					tag: {
+						TierLevel: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "A sand pit"
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["03183FD0CF1FB07C"]
+			id: "4050E453B0D606D5"
+			rewards: [
+				{
+					count: 6
+					id: "38F7AD29757789A1"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "7253BBE16ADC9499"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Leave that poor village alone! Much easier than your standard golem farm."
+			tasks: [{
+				id: "377F0AC108A42F07"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:iron_golem_farm"
+					tag: {
+						TierLevel: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Hamlet slayer"
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["03183FD0CF1FB07C"]
+			id: "6817370EF3337C43"
+			rewards: [
+				{
+					count: 6
+					id: "3C10B2DA18F1B846"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "7C0083435DE4EA2F"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Don't feed the gators. slimes prefered habitat"
+			tasks: [{
+				id: "0E1BC79ADEED013D"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:swamp_farm"
+					tag: {
+						TierLevel: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "It's a bit muddy"
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["03183FD0CF1FB07C"]
+			id: "19C9243BA8873B58"
+			rewards: [
+				{
+					count: 6
+					id: "193B2E0AA8916550"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "50289C5D47C66A36"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Enhances chance of lucky drops."
+			tasks: [{
+				id: "63A229FD8BE06434"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:lucky_drop_farm"
+					tag: {
+						TierLevel: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "1 Leaf clover"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["03183FD0CF1FB07C"]
+			id: "5C648BD47FCE6F03"
+			rewards: [
+				{
+					count: 6
+					id: "71ACC8922538E0E4"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "7223019B17F80666"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Saves you from swinging on vines. jungle mobs will love there new home."
+			tasks: [{
+				id: "26AB5017C78CC075"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:jungle_farm"
+					tag: {
+						TierLevel: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "A few trees"
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["03183FD0CF1FB07C"]
+			id: "3F219FE931E5D361"
+			rewards: [
+				{
+					count: 6
+					id: "349F92720D4068C5"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "211F39AD95B3A888"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "A home for nether mobs"
+			tasks: [{
+				id: "2B0E2B4F086F9BE6"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:nether_fortress_farm"
+					tag: {
+						TierLevel: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "A little slice of nether"
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["03183FD0CF1FB07C"]
+			id: "51D198C402CF2BF2"
+			rewards: [
+				{
+					count: 6
+					id: "772B1A691458E7D0"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "5FC00A6637FD3409"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Water mobs will love this space"
+			tasks: [{
+				id: "6A818881E7045017"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:ocean_farm"
+					tag: {
+						TierLevel: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "It's basically a puddle"
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["081C0B5EFCC5D1F1"]
+			id: "6CF02A4FE66A2F29"
+			rewards: [
+				{
+					count: 2
+					id: "4A5D9394791DA6EB"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "537D277DE37085CF"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "Does exactly what it says on the tin Place your farm mobs in and wait."
+			tasks: [{
+				id: "379E91FF70FB0825"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:animal_plains_farm"
+					tag: {
+						CustomModelData: 1
+						TierLevel: 1
+					}
+				}
+				type: "item"
+			}]
+			title: "10 Acres"
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["081C0B5EFCC5D1F1"]
+			id: "63FA7F8CFE204702"
+			rewards: [
+				{
+					count: 2
+					id: "5D6F642DD60F4709"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "61781D6E9AC31E7B"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "Leave that poor village alone! Much easier than your standard golem farm."
+			tasks: [{
+				id: "23D6937FCD32177D"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:iron_golem_farm"
+					tag: {
+						CustomModelData: 1
+						TierLevel: 1
+					}
+				}
+				type: "item"
+			}]
+			title: "Village slayer"
+			x: -8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["081C0B5EFCC5D1F1"]
+			id: "4AD1E0CFEF5E07A0"
+			rewards: [
+				{
+					count: 2
+					id: "25493DA901D628E5"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "1EBDF53EE6477A72"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "Grows your bees."
+			tasks: [{
+				id: "17F0705481952DA8"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:bee_hive_farm"
+					tag: {
+						CustomModelData: 1
+						TierLevel: 1
+					}
+				}
+				type: "item"
+			}]
+			title: "A few slatted racks"
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["081C0B5EFCC5D1F1"]
+			id: "1759A0074AB1C9C4"
+			rewards: [
+				{
+					count: 2
+					id: "00479BC05E59FB25"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "25FC6D2D0E042F2E"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "It's hot in there. Your own compact desert paradise."
+			tasks: [{
+				id: "4B7248F0B00FBDB3"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:desert_farm"
+					tag: {
+						CustomModelData: 1
+						TierLevel: 1
+					}
+				}
+				type: "item"
+			}]
+			title: "A very dry beach"
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["081C0B5EFCC5D1F1"]
+			id: "019503AE2FE51C47"
+			rewards: [
+				{
+					count: 2
+					id: "34E68A9F70F528E1"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "3B8A754E78BB9294"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "Saves you from swinging on vines. jungle mobs will love there new home."
+			tasks: [{
+				id: "43C24A6FCD7DF47C"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:jungle_farm"
+					tag: {
+						CustomModelData: 1
+						TierLevel: 1
+					}
+				}
+				type: "item"
+			}]
+			title: "Basically a forest"
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["081C0B5EFCC5D1F1"]
+			id: "3EE4EC67FD072E9D"
+			rewards: [
+				{
+					count: 2
+					id: "47418FF55FB29978"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "3C2900DC279C0773"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "Don't feed the gators. slimes prefered habitat"
+			tasks: [{
+				id: "67B61F110AD29F38"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:swamp_farm"
+					tag: {
+						CustomModelData: 1
+						TierLevel: 1
+					}
+				}
+				type: "item"
+			}]
+			title: "It's like quicksand"
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["081C0B5EFCC5D1F1"]
+			id: "53B0CD0429A83A26"
+			rewards: [
+				{
+					count: 2
+					id: "3562E384DD8A2A72"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "5CB11A93807B99FC"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "Water mobs will love this space"
+			tasks: [{
+				id: "2190114BC25C9E13"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:ocean_farm"
+					tag: {
+						CustomModelData: 1
+						TierLevel: 1
+					}
+				}
+				type: "item"
+			}]
+			title: "A lake"
+			x: -8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["081C0B5EFCC5D1F1"]
+			id: "1A11623D35F284A6"
+			rewards: [
+				{
+					count: 2
+					id: "51DD80B675EBAE36"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "0B7EDC1B0B67F1AA"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "Enhances chance of lucky drops."
+			tasks: [{
+				id: "1FAAEF6050953DF9"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:lucky_drop_farm"
+					tag: {
+						CustomModelData: 1
+						TierLevel: 1
+					}
+				}
+				type: "item"
+			}]
+			title: "2 Leaf clover"
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["081C0B5EFCC5D1F1"]
+			id: "5A36CF55CAF5B380"
+			rewards: [
+				{
+					count: 2
+					id: "7BD754523DB32FC5"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "3A586C4406740A24"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "A space for overworld hostile mobs"
+			tasks: [{
+				id: "7DD985C019636889"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:monster_plains_cave_farm"
+					tag: {
+						CustomModelData: 1
+						TierLevel: 1
+					}
+				}
+				type: "item"
+			}]
+			title: "A Crevice"
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["081C0B5EFCC5D1F1"]
+			id: "7A6D75ECCCA3E5B8"
+			rewards: [
+				{
+					count: 2
+					id: "75BF7A2D3E973CD7"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "5BE28DBEB879927C"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "A home for nether mobs"
+			tasks: [{
+				id: "23490A6050858EDD"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:nether_fortress_farm"
+					tag: {
+						CustomModelData: 1
+						TierLevel: 1
+					}
+				}
+				type: "item"
+			}]
+			title: "A large slice of Nether"
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["13CB4183AC2A6193"]
+			id: "51ADCBA60CDE06E6"
+			rewards: [
+				{
+					count: 2
+					id: "1E5C2B429970E43B"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "5BD6AA5017FCA2A9"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "Does exactly what it says on the tin Place your farm mobs in and wait."
+			tasks: [{
+				id: "46D15D8AFC9E47E3"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:animal_plains_farm"
+					tag: {
+						CustomModelData: 2
+						TierLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "100 Acres"
+			x: -12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["13CB4183AC2A6193"]
+			id: "10B9839D9BC19870"
+			rewards: [
+				{
+					count: 2
+					id: "63C51B3CAF2CEFF3"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "3CAA28B6C1CDB3A9"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "Leave that poor village alone! Much easier than your standard golem farm."
+			tasks: [{
+				id: "5E45202D7B92CADD"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:iron_golem_farm"
+					tag: {
+						CustomModelData: 2
+						TierLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "Town slayer"
+			x: -12.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["13CB4183AC2A6193"]
+			id: "5F5F41F18AC11F07"
+			rewards: [
+				{
+					count: 2
+					id: "3701B83BA537621B"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "23C5F2E97B004467"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "It's hot in there. Your own compact desert paradise."
+			tasks: [{
+				id: "409D51F417718DB5"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:desert_farm"
+					tag: {
+						CustomModelData: 2
+						TierLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "A desert"
+			x: -11.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["13CB4183AC2A6193"]
+			id: "5FCEC0C76DB33FD8"
+			rewards: [
+				{
+					count: 2
+					id: "59E2152000C909CF"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "732259B0FF8315B7"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "Grows your bees."
+			tasks: [{
+				id: "2392DE387E747BA6"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:bee_hive_farm"
+					tag: {
+						CustomModelData: 2
+						TierLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "A whole hive"
+			x: -13.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["13CB4183AC2A6193"]
+			id: "3C1CDC0469E10F9C"
+			rewards: [
+				{
+					count: 2
+					id: "3F121E084985B734"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "2247AD80F5F83E83"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "Don't feed the gators. slimes prefered habitat"
+			tasks: [{
+				id: "7EE52B9E9693839E"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:swamp_farm"
+					tag: {
+						CustomModelData: 2
+						TierLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "This is my swamp"
+			x: -12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["13CB4183AC2A6193"]
+			id: "5711246187120CFA"
+			rewards: [
+				{
+					count: 2
+					id: "4919DC2E43E37350"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "6F97A8E215BA6019"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "Saves you from swinging on vines. jungle mobs will love there new home."
+			tasks: [{
+				id: "43FBB3517E9AFB99"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:jungle_farm"
+					tag: {
+						CustomModelData: 2
+						TierLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "Finally a jungle"
+			x: -13.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["13CB4183AC2A6193"]
+			id: "06A2435FB4E85123"
+			rewards: [
+				{
+					count: 2
+					id: "73979EE8D25A3FC5"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "1EF02C3B976752BA"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "Water mobs will love this space"
+			tasks: [{
+				id: "05CE6115CE076166"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:ocean_farm"
+					tag: {
+						CustomModelData: 2
+						TierLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "A sea"
+			x: -12.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["13CB4183AC2A6193"]
+			id: "1357E68289A66BC3"
+			rewards: [
+				{
+					count: 2
+					id: "70B117154AB54D07"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "0E602ED4981A6FC3"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "Enhances chance of lucky drops."
+			tasks: [{
+				id: "4FDBC3DE816B012A"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:lucky_drop_farm"
+					tag: {
+						CustomModelData: 2
+						TierLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "3 Leaf clover"
+			x: -12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["13CB4183AC2A6193"]
+			id: "7514914F2DCC70D5"
+			rewards: [
+				{
+					count: 2
+					id: "551088200572C319"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "59FA8FA8CCE82C61"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "A space for overworld hostile mobs"
+			tasks: [{
+				id: "4684CE3B2671EBDA"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:monster_plains_cave_farm"
+					tag: {
+						CustomModelData: 2
+						TierLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "A cave"
+			x: -12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["13CB4183AC2A6193"]
+			id: "1AC3E0C12BEFB61D"
+			rewards: [
+				{
+					count: 2
+					id: "4083C0C25A696158"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "067B1E3853E55484"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "A home for nether mobs"
+			tasks: [{
+				id: "5E0FD91DE101C23C"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:nether_fortress_farm"
+					tag: {
+						CustomModelData: 2
+						TierLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "A whole nether pie"
+			x: -12.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3E8D5022CD9D3AD9"]
+			id: "253DBED61DBCC0AD"
+			rewards: [
+				{
+					id: "1511B59A00A1567B"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "766D42A2241E3B57"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "Does exactly what it says on the tin Place your farm mobs in and wait."
+			tasks: [{
+				id: "56D7092D8816B507"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:animal_plains_farm"
+					tag: {
+						CustomModelData: 3
+						TierLevel: 3
+					}
+				}
+				type: "item"
+			}]
+			title: "1000 acres"
+			x: -16.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3E8D5022CD9D3AD9"]
+			id: "72F379FC00C69D9D"
+			rewards: [
+				{
+					id: "1A0B05ABF70B38D7"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "6DA6035C6F8C92DA"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "It's hot in there. Your own compact desert paradise."
+			tasks: [{
+				id: "75224A62915E67EA"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:desert_farm"
+					tag: {
+						CustomModelData: 3
+						TierLevel: 3
+					}
+				}
+				type: "item"
+			}]
+			title: "The Sahara"
+			x: -15.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3E8D5022CD9D3AD9"]
+			id: "328414BDBE1D0767"
+			rewards: [
+				{
+					id: "69936844F54AEE35"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "71DD3DAB2B7DD2C5"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "Leave that poor village alone! Much easier than your standard golem farm."
+			tasks: [{
+				id: "3BA68DAF7EDA13C7"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:iron_golem_farm"
+					tag: {
+						CustomModelData: 3
+						TierLevel: 3
+					}
+				}
+				type: "item"
+			}]
+			title: "City slayer"
+			x: -16.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3E8D5022CD9D3AD9"]
+			id: "68A82F0CC02ACC50"
+			rewards: [
+				{
+					id: "16DDAA3D0656CCBD"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "38CE20D2798FC881"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "Grows your bees."
+			tasks: [{
+				id: "6059E470A4F303F5"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:bee_hive_farm"
+					tag: {
+						CustomModelData: 3
+						TierLevel: 3
+					}
+				}
+				type: "item"
+			}]
+			title: "An Apiary"
+			x: -17.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3E8D5022CD9D3AD9"]
+			id: "076264726A73CF82"
+			rewards: [
+				{
+					id: "4A6A27844C3DC2CB"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "048D423E87861E76"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "Saves you from swinging on vines. jungle mobs will love there new home. * does not offer next day delivery *"
+			tasks: [{
+				id: "4992BBBC24E1D203"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:jungle_farm"
+					tag: {
+						CustomModelData: 3
+						TierLevel: 3
+					}
+				}
+				type: "item"
+			}]
+			title: "The Amazon"
+			x: -17.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3E8D5022CD9D3AD9"]
+			id: "2FEBB3F56A47E9DF"
+			rewards: [
+				{
+					id: "77E8FD244F15ACDB"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "0395809406CA8389"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "Don't feed the gators. slimes prefered habitat"
+			tasks: [{
+				id: "307F19854BD0D52E"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:swamp_farm"
+					tag: {
+						CustomModelData: 3
+						TierLevel: 3
+					}
+				}
+				type: "item"
+			}]
+			title: "The everglades"
+			x: -16.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3E8D5022CD9D3AD9"]
+			id: "560074751C0903D4"
+			rewards: [
+				{
+					id: "0693726D73047E5E"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "13D92F0BD86D21F6"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "Water mobs will love this space"
+			tasks: [{
+				id: "1FD45C1873BDABDF"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:ocean_farm"
+					tag: {
+						CustomModelData: 3
+						TierLevel: 3
+					}
+				}
+				type: "item"
+			}]
+			title: "A ocean"
+			x: -16.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3E8D5022CD9D3AD9"]
+			id: "1EE476CFCAFE0E75"
+			rewards: [
+				{
+					id: "4B657D7255C8AC37"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "488601C720E81108"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "Enhances chance of lucky drops."
+			tasks: [{
+				id: "1DE769A074727529"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:lucky_drop_farm"
+					tag: {
+						CustomModelData: 3
+						TierLevel: 3
+					}
+				}
+				type: "item"
+			}]
+			title: "4 Leaf clover"
+			x: -16.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3E8D5022CD9D3AD9"]
+			id: "2109BCBDF8B6AF6D"
+			rewards: [
+				{
+					id: "2A53578A7BF46740"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "4C1E27123B2F9D69"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "A space for overworld hostile mobs"
+			tasks: [{
+				id: "0334B05E322345B2"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:monster_plains_cave_farm"
+					tag: {
+						CustomModelData: 3
+						TierLevel: 3
+					}
+				}
+				type: "item"
+			}]
+			title: "A cavern"
+			x: -16.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3E8D5022CD9D3AD9"]
+			id: "158E7D73D65BEBF1"
+			rewards: [
+				{
+					id: "1BED21CF6365A6C6"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "65DA9D738D7A167F"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "A home for nether mobs"
+			tasks: [{
+				id: "3F2BAD7FA837F7C6"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:nether_fortress_farm"
+					tag: {
+						CustomModelData: 3
+						TierLevel: 3
+					}
+				}
+				type: "item"
+			}]
+			title: "The whole infernal bakery"
+			x: -16.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["689D6761EABA245C"]
+			id: "12EE16ED0DBBC3FB"
+			subtitle: "In order to gather material from your captured mobs you'll need to input certain modules into your mobfarm."
+			tasks: [{
+				id: "04629307823DC6FC"
+				title: "Mob modules"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["12EE16ED0DBBC3FB"]
+			id: "2EDD665D883AFCF7"
+			rewards: [{
+				id: "40EBE650272FD87A"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "Placing inside simulates killing the mob"
+			tasks: [{
+				id: "402AFE562F0D7C77"
+				item: "easy_mob_farm:sword_enhancement"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["12EE16ED0DBBC3FB"]
+			id: "2091C05D1F50928E"
+			rewards: [{
+				id: "06FA980C67487131"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "Placing inside increases amount of loot drops"
+			tasks: [{
+				id: "7318DD2575155FBE"
+				item: "easy_mob_farm:loot_enhancement"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["12EE16ED0DBBC3FB"]
+			id: "74ABFE60FD3B67AE"
+			rewards: [{
+				id: "76BBC04084619974"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "Place inside to collect xp bottles"
+			tasks: [{
+				id: "2C9F7078A253B673"
+				item: "easy_mob_farm:experience_enhancement"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["12EE16ED0DBBC3FB"]
+			id: "5827240C16BAB30D"
+			rewards: [{
+				id: "705B7A49A1D86EA5"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "Placing inside increases loot quality"
+			tasks: [{
+				id: "57987FFD9C7A4135"
+				item: "easy_mob_farm:luck_enhancement"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["12EE16ED0DBBC3FB"]
+			id: "1BC7D16388442E6E"
+			rewards: [{
+				id: "57B7D41C13A01FAC"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "Place inside to increase operation speed"
+			tasks: [{
+				id: "21F32FBC6D28D520"
+				item: "easy_mob_farm:speed_enhancement"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["12EE16ED0DBBC3FB"]
+			id: "59D9EC448B1343CF"
+			rewards: [{
+				id: "3433C34642513D58"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "Place inside to shear sheep"
+			tasks: [{
+				id: "7820DAD578A47A20"
+				item: "easy_mob_farm:sheep_enhancement"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["12EE16ED0DBBC3FB"]
+			id: "13EB0EAAD50AD97A"
+			rewards: [{
+				id: "740CB19DB6347DF9"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "Place inside to collect pollen"
+			tasks: [{
+				id: "30F31973CD14F066"
+				item: "easy_mob_farm:pollen_trap_enhancement"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["12EE16ED0DBBC3FB"]
+			id: "17E98C747021FD10"
+			rewards: [{
+				id: "4955C7C4A8BA5AF6"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "Place inside to collect honey bottles"
+			tasks: [{
+				id: "3679BA969B836DFB"
+				item: "easy_mob_farm:honey_extractor_enhancement"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["12EE16ED0DBBC3FB"]
+			id: "569B896CC1008457"
+			rewards: [{
+				id: "2CAD4971779F6C14"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "Place inside to collect Honey comb"
+			tasks: [{
+				id: "241D76278EC2528E"
+				item: "easy_mob_farm:honey_harvester_frame_enhancement"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["12EE16ED0DBBC3FB"]
+			id: "11F40E21A0EADDF8"
+			rewards: [{
+				id: "6A17501CAF45257D"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "Place inside to collect your eggs"
+			tasks: [{
+				id: "5976522D70BD4219"
+				item: "easy_mob_farm:egg_collector_enhancement"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["12EE16ED0DBBC3FB"]
+			id: "0A0C23B100BDE3E9"
+			rewards: [{
+				id: "63C4A04FBA650489"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "Place inside to collect milk"
+			tasks: [{
+				id: "797F61F96B0480D7"
+				item: "easy_mob_farm:milk_extractor_enhancement"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["12EE16ED0DBBC3FB"]
+			id: "3BA6254002627190"
+			rewards: [{
+				id: "5E678608728FAD9D"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "Place inside for Icy froglights"
+			tasks: [{
+				id: "55DC70579443D73D"
+				item: "easy_mob_farm:frog_catalyst_cold_enhancement"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["12EE16ED0DBBC3FB"]
+			id: "446858DB37C9EE6F"
+			rewards: [{
+				id: "5A905F549CF98F5E"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "Place inside for pale Froglights"
+			tasks: [{
+				id: "050B6576AE75C5BE"
+				item: "easy_mob_farm:frog_catalyst_temperate_enhancement"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["12EE16ED0DBBC3FB"]
+			id: "1EB31CE00D3C90AA"
+			rewards: [{
+				id: "03A6FADC807F9803"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "Place inside for warm Froglights"
+			tasks: [{
+				id: "1DEE21DAB6127849"
+				item: "easy_mob_farm:frog_catalyst_warm_enhancement"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["12EE16ED0DBBC3FB"]
+			id: "5E1E53940745F6B7"
+			rewards: [{
+				id: "1C241243EEBD8F93"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "Placing inside removes flower drops"
+			tasks: [{
+				id: "2DB8F6326DD5E7FA"
+				item: "easy_mob_farm:no_flowers_filter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["12EE16ED0DBBC3FB"]
+			id: "190232612C77ADC2"
+			rewards: [{
+				id: "2C814DF3BE682F4B"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "Placing inside removes meat drops"
+			tasks: [{
+				id: "7269BB3FA9C0EDEB"
+				item: "easy_mob_farm:no_meat_filter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["12EE16ED0DBBC3FB"]
+			id: "7BE225A7DFA98F53"
+			rewards: [{
+				id: "6A5B3D0EF6D64357"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "Placing increases storage capacity by 3 stacks"
+			tasks: [{
+				id: "469BACF096418DB7"
+				item: "easy_mob_farm:small_slot_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["12EE16ED0DBBC3FB"]
+			id: "68B80FA6822BFF4F"
+			rewards: [{
+				id: "340ABA7211A4B7AE"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "Placing insidde increases storage capacity by 7 stacks"
+			tasks: [{
+				id: "76842E01908C992E"
+				item: "easy_mob_farm:big_slot_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["689D6761EABA245C"]
+			id: "60F6229915C0CF36"
+			subtitle: "Time to start kidnap... taking mobs with you. Each item has its own amount of uses and is limited by mob size *must weaken mobs before you catch em all"
+			tasks: [{
+				id: "480BF05DB153AFEC"
+				title: "YOINK!"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["60F6229915C0CF36"]
+			id: "53793A50B188EE09"
+			rewards: [{
+				id: "6B90F95427220E6B"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "The smallest mobs shall not escape"
+			tasks: [{
+				id: "3542545C31DC747B"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:enduring_capture_net"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["60F6229915C0CF36"]
+			id: "49A59C30B2009F47"
+			rewards: [{
+				id: "39399F5EC8A3F138"
+				type: "xp"
+				xp: 300
+			}]
+			subtitle: "Come here little piggy"
+			tasks: [{
+				id: "50D05FC26E82CDEC"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:ironbound_containment_cage"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["60F6229915C0CF36"]
+			id: "7116009F88EA61CB"
+			rewards: [{
+				id: "35BD85828EA8F888"
+				type: "xp"
+				xp: 400
+			}]
+			subtitle: "It could eat a horse"
+			tasks: [{
+				id: "293D98514FCFBE0E"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:mystic_binding_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["60F6229915C0CF36"]
+			id: "60E1E15998365983"
+			rewards: [{
+				id: "7496EB309CA66DE5"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Large mobs can't escape the void"
+			tasks: [{
+				id: "185DE38AC9FCBFFF"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:void_binding_chain"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["689D6761EABA245C"]
+			id: "3B76E68CEE86AFF4"
+			subtitle: "Drink to remove negative effects"
+			tasks: [{
+				id: "7E39942AF3C87D9A"
+				item: "easy_mob_farm:milk_bottle"
+				type: "item"
+			}]
+			title: "Same great taste half the calories"
+			x: -1.0d
+			y: -1.0d
+		}
+	]
+	title: "Easy mob farms"
+}

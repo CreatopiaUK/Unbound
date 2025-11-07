@@ -1,0 +1,374 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_andersite_age"
+	group: "2BE1A27F73200C54"
+	hide_quest_until_deps_complete: true
+	id: "508C3FA62952AF00"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0856FAFFEE6443F1"]
+			id: "7BC96E83CB3E11DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1367624D6DF8C98F"
+				table_id: 7263988897538398281L
+				type: "random"
+			}]
+			size: 2.0d
+			subtitle: "You're going to need alot of this"
+			tasks: [{
+				count: 10L
+				id: "5D456A0A11501E08"
+				item: { Count: 10, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			title: "Andesite age"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"22F6DC682FB8BDE2"
+				"3AC53089058AF008"
+			]
+			id: "4D229858567DDD01"
+			size: 2.0d
+			tasks: [{
+				id: "32479AFBE72ED338"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			title: "Brass age"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7BC96E83CB3E11DC"]
+			id: "79B24313A2E46E24"
+			subtitle: "Just temporary"
+			tasks: [{
+				id: "3094E814A58FC1DA"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5C5CDE9F809D8396"]
+			id: "6F8DD8B0CD78A8D9"
+			tasks: [{
+				count: 4L
+				id: "3A2ECDCB1DBCD9BE"
+				item: { Count: 4, id: "create:cogwheel" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5C5CDE9F809D8396"]
+			id: "6D8B77FBCDBEE7CB"
+			tasks: [{
+				count: 4L
+				id: "4EFE4413F129A496"
+				item: { Count: 4, id: "create:large_cogwheel" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["16AC9D515C2491CC"]
+			id: "5442F4B76FF75A30"
+			tasks: [{
+				id: "391091BBABBA6FD0"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7BC96E83CB3E11DC"]
+			id: "210862F9C9DE7C89"
+			tasks: [{
+				id: "71C7A88C20102B46"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7BC96E83CB3E11DC"]
+			id: "5C5CDE9F809D8396"
+			tasks: [{
+				count: 16L
+				id: "1A2BAA65F9E8727A"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5C5CDE9F809D8396"
+				"16AC9D515C2491CC"
+			]
+			id: "7770F3469893F39C"
+			tasks: [{
+				id: "21A527B4989EF362"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7BC96E83CB3E11DC"]
+			id: "16AC9D515C2491CC"
+			tasks: [{
+				id: "03599748CC81A4D7"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7770F3469893F39C"]
+			id: "22F6DC682FB8BDE2"
+			tasks: [
+				{
+					id: "6112D59507C3223D"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "7E18F0BCBA58B698"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7770F3469893F39C"]
+			id: "3AC53089058AF008"
+			tasks: [{
+				id: "512AB772FD44F700"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7770F3469893F39C"]
+			id: "06D07787B01A5768"
+			tasks: [{
+				id: "45A810F6F8A66913"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7BC96E83CB3E11DC"]
+			id: "5C19CA50F7060AEF"
+			tasks: [{
+				count: 2L
+				id: "73467ABCC38E1988"
+				item: { Count: 2, id: "create:water_wheel" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5C19CA50F7060AEF"]
+			id: "253734F27624BE1D"
+			tasks: [{
+				count: 2L
+				id: "3D36115AF973B725"
+				item: { Count: 2, id: "create:large_water_wheel" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7BC96E83CB3E11DC"]
+			id: "013D6DACADEC53A7"
+			tasks: [
+				{
+					id: "5722D99D87F8D897"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0CD0D1F82C99060E"
+					item: { Count: 4, id: "create:white_sail" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7770F3469893F39C"]
+			id: "27A85AA79632B68B"
+			tasks: [{
+				id: "7827BEC12175D7E5"
+				item: "create:chute"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7BC96E83CB3E11DC"]
+			id: "2AD2B509F5D7A982"
+			tasks: [{
+				id: "5E50EFD19454C649"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7BC96E83CB3E11DC"]
+			id: "4CA266BA9156F723"
+			tasks: [{
+				id: "02A0B3824345CAE6"
+				item: "create:andesite_tunnel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7770F3469893F39C"]
+			id: "57944DC2BBAE9AED"
+			tasks: [{
+				id: "6B4D5BB1F7AF0494"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7770F3469893F39C"]
+			id: "4BC295BC648BD3F6"
+			tasks: [{
+				id: "061F59B55CB5FBCB"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7BC96E83CB3E11DC"]
+			id: "4EC032711D6F33E5"
+			tasks: [{
+				id: "5D89D262C9354BD4"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7770F3469893F39C"]
+			id: "2D71FDDD9E05800B"
+			tasks: [{
+				id: "315A6812EBA46403"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["06D07787B01A5768"]
+			id: "795E3C831D71D965"
+			tasks: [{
+				id: "45140160294BCF8F"
+				item: "create:package_frogport"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"795E3C831D71D965"
+				"25CCD3EB0355BE0B"
+			]
+			id: "7DD57C9A57D69891"
+			tasks: [{
+				id: "6BE24DA749FD5A46"
+				item: "create:packager"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["16AC9D515C2491CC"]
+			id: "33563858E79EE5A8"
+			tasks: [{
+				id: "1429D0C03586FA4A"
+				item: "create:chain_conveyor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7DD57C9A57D69891"]
+			id: "32D797D107C6814A"
+			tasks: [{
+				id: "4AA75E1E587CAA00"
+				item: "create:repackager"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["22F6DC682FB8BDE2"]
+			id: "25CCD3EB0355BE0B"
+			tasks: [{
+				id: "6B18F10CDCE52331"
+				item: "create:pulp"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["795E3C831D71D965"]
+			id: "0B4E4AE1E1FE6C8A"
+			tasks: [{
+				id: "4788887A6A2F283D"
+				item: "create:stock_link"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+	]
+	title: "Age 2: Andersite"
+}

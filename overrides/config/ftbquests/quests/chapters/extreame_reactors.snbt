@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "extreame_reactors"
+	group: "45B7C661A941E9E5"
+	id: "3DCDC2FB2B2F737C"
+	order_index: 3
+	quest_links: [ ]
+	quests: [ ]
+	title: "Extreme Reactors"
+}

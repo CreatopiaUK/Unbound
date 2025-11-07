@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "upgrade_aquatic"
+	group: "5C2274C8D239132D"
+	id: "78CFCF050DDA9ED1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Mammals"
+}

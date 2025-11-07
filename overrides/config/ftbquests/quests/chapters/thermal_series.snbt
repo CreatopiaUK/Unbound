@@ -1,0 +1,1600 @@
+{
+	autofocus_id: "6FA8B9C4669B0D8F"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "thermal_series"
+	group: "2BE1A27F73200C54"
+	hide_quest_until_deps_visible: true
+	id: "140B1D1ACA496D07"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["23CAD0756871A767"]
+			description: ["Does exactly what the tool tip says supply it with power."]
+			id: "638411081F7C0AE2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21AD1F0D1137F57B"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "56EDB01A2AAB7E61"
+				item: "thermal:tinker_bench"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["23CAD0756871A767"]
+			description: ["The machine frame is a base crafting component for making most machines from &lThermal series"]
+			id: "3A6F46EFA7270F6D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57943DD1AACF025F"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "566E7E52A1C1E316"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0F07BDA6C2C0E745"]
+			description: [
+				"&lWelcome to thermal series &r"
+				""
+				"Thermal series adds a variety of blocks for gathering and processing items and blocks."
+				""
+				"Any of you who played thermal expansion will recognise alot of these blocks for those of you who haven't we'll walk you through."
+			]
+			id: "6FA8B9C4669B0D8F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6540A8C008EA3883"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6B58B8A043DEA77D"
+				title: "It's a universal law"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3A6F46EFA7270F6D"]
+			description: [
+				"It smelts your items using power."
+				""
+				"Dont forget to configure your sides!"
+			]
+			id: "22F529AEBCA9D73E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0686D8AE874D2AC7"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "46B4CC188C1DA905"
+				item: "thermal:machine_furnace"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3A6F46EFA7270F6D"]
+			description: [
+				"Saws your logs into extra planks."
+				""
+				"Dont forget to configure your sides!"
+			]
+			id: "3ABB48432F622F2A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E5C8CDF34D78FB6"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "342D76F4A46E58D3"
+				item: "thermal:machine_sawmill"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3A6F46EFA7270F6D"]
+			description: [
+				"It crushes your items, certain items will produce a secondary output item."
+				""
+				"Dont forget to configure your sides!"
+			]
+			id: "408253D92B2D25EB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CF690FBA6F8F9D4"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1B6D24AF58BA43C8"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["41780993A3F4D2DA"]
+			description: [
+				"Thermals powered alloy smelter."
+				""
+				"Stop using fire charges already!"
+				"{@pagebreak}"
+				""
+				"Ah good you clicked the next page"
+				""
+				"&lDont forget to configure your sides!"
+			]
+			id: "0CDF934E4035BF5E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "443AEF96CCB63C74"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0C048249E88B5275"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3CB569221000C197"]
+			description: [
+				"Another way to grow plants without the hassle of right clicking every once in a while. compost always helps, as does water."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"You're so close almost there!!"
+			]
+			id: "3B0D8BEEAE4F76DD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48931B6A13C4A056"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1F878362B300480A"
+				item: "thermal:machine_insolator"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["362D57027847444B"]
+			description: [
+				"Seperates certain items theres a long list but mostly things like returning the wool and dye from colored wool or removing the blaze powder from blaze cream or turning crushed ore to nuggets and gunpowder."
+				""
+				""
+				"{@pagebreak}"
+				"shouldn't be looking here second pages on this tab are &lRARELY&r usefull"
+			]
+			id: "494A07CA42F87A61"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18620DF37B01CDE4"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7759CB1677C101AE"
+				item: "thermal:machine_centrifuge"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["362D57027847444B"]
+			description: [
+				"Used to compress/decompress blocks e.g coal to block of coal and back."
+				""
+				""
+				"{@pagebreak}"
+				"Just keep checking the second pages you need to."
+			]
+			id: "53DDD6A56BF20A6C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E44A28E46F62DBE"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3B9A232486D97789"
+				item: "thermal:machine_press"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["41780993A3F4D2DA"]
+			description: [
+				"Melts your blocks to there gooey liquid form."
+				""
+				"&lI'M MELTINNNGGGGG&r"
+				""
+				""
+				"{@pagebreak}"
+				"HAHA faked you out not mentioning sides or configuration here nope not me."
+			]
+			id: "08D4D5CD89DB8BD7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78A7A11ACCD792AC"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7CD77FA1B4F9226D"
+				item: "thermal:machine_crucible"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["41780993A3F4D2DA"]
+			description: [
+				"Mostly for making ice and snow but it can also be used to cool molten metal into ingots."
+				""
+				"heat them up, cool them down, heat them up, cool them down."
+				""
+				" "
+				"{@pagebreak}"
+				"Whoops wrong second page again better luck next try"
+			]
+			id: "5436FE80F139F62F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5BF030C78C78A781"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4BB08A4CFA73B900"
+				item: "thermal:machine_chiller"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["41780993A3F4D2DA"]
+			description: [
+				"Uses liquids and solids to make other liquids like fuel."
+				""
+				"&lFeel like an oil tycoon.&r"
+				""
+				"{@pagebreak}"
+				"What? this isn't the right second page try adifferent one."
+			]
+			id: "752557B37A4EBD4F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "050F26DA6129D505"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "19535A46E8CD1BC1"
+				item: "thermal:machine_refinery"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["362D57027847444B"]
+			description: [
+				"Convertz one solid fuel into another solid fuel and a little bit of liquid fuel"
+				""
+				""
+				"{@pagebreak}"
+				"So did you find it yet? or did you skip to the end ?"
+			]
+			id: "5C8F09F771384126"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C32B83CFB32696B"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "62690C23E62A3BA6"
+				item: "thermal:machine_pyrolyzer"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3A6F46EFA7270F6D"]
+			description: [
+				"Applies fluids to blocks or fills bottles/buckets."
+				""
+				"Dont forget to configure your sides!"
+			]
+			id: "3B23A8B0B824D392"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F00A00FB23628DA"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6F49E7F1D5B3B89F"
+				item: "thermal:machine_bottler"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["362D57027847444B"]
+			description: [
+				"Used to brew potions automatically"
+				"{@pagebreak}"
+				""
+				"You found it yay !!!!!"
+				""
+				"scroll the tab to the right"
+			]
+			id: "7BD35808B9FAE813"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E6EF9D8CEAF0DA6"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "75C55CBE4E885DAC"
+				item: "thermal:machine_brewer"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["34A0FE3B2E83E016"]
+			description: [
+				"Returns your powdered crystals back to there original glorious state."
+				""
+				"{@pagebreak}"
+				""
+				"I'm never sure if people actually read these pages or if they'll notice hidden messages."
+			]
+			id: "2A97B8289973AC51"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73C01BA6257753DF"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7CFB579EDADCE676"
+				item: "thermal:machine_crystallizer"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["3A6F46EFA7270F6D"]
+			description: [
+				"Powered auto crafting simply set your recipe and feed it resources."
+				""
+				"Dont forget to configure your sides!"
+			]
+			id: "14BA796F31496F39"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "445EC4E202893593"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0C03424F2489ECE5"
+				item: "thermal:machine_crafter"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7FE72865E55E5358"]
+			description: [
+				"Solid fuel = power"
+				""
+				"It's a coal gene.... Dynamo"
+			]
+			id: "09810B19D52DE7AD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04B8BFA0CA5009D5"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "42EA178B1B460DC4"
+				item: "thermal:dynamo_stirling"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["09810B19D52DE7AD"]
+			description: [
+				"Liquid fuel + coolant = energy"
+				""
+				"(better coolant = more power)"
+			]
+			id: "1220AC2FB3277464"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "316869B11620C00F"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5A134F047D86D1EE"
+				item: "thermal:dynamo_compression"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["09810B19D52DE7AD"]
+			description: [
+				"Hot fluids + time = energy"
+				""
+				"Have a lavally time"
+			]
+			id: "223FA0F4578989EC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A9FEFE93AAE4350"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "54553BBAA07CA148"
+				item: "thermal:dynamo_magmatic"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["09810B19D52DE7AD"]
+			description: [
+				"Money = power"
+				""
+				"no seriously Thermal series coins act as this dynamos fuel."
+			]
+			id: "5D5147F1654A10AD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42AE76C7007C1FCC"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6F0864A8DDFC357B"
+				item: "thermal:dynamo_numismatic"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["09810B19D52DE7AD"]
+			description: [
+				"Gems = power"
+				""
+				"Is .... is it a gold digger?"
+			]
+			id: "523AE6AA6F86A297"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30BDE8AA6BAD0572"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4E4D5FB028AA9E26"
+				item: "thermal:dynamo_lapidary"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["09810B19D52DE7AD"]
+			description: [
+				"Xp = energy"
+				""
+				"Why do you have excess bottles of enchanting anyway?"
+			]
+			id: "278EADAF2D703A10"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A1B29848E3E8ED7"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "27DF0D5972283098"
+				item: "thermal:dynamo_disenchantment"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["09810B19D52DE7AD"]
+			description: [
+				"Food = power"
+				""
+				"Is... is it a living thing."
+			]
+			id: "7711BBE61C7AC159"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "205A5832EABBC67D"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "24D16D1956E1B452"
+				item: "thermal:dynamo_gourmand"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["23CAD0756871A767"]
+			description: ["The redstone flux frame is used to create Redstone flux cells."]
+			id: "5EEB8B013025488F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5404C7779D500C06"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6CCA4708434303D1"
+				item: "thermal:energy_cell_frame"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["149B764AE961EBF3"]
+			description: ["The fluid cell frame is a crafting component use to create Fluid cells"]
+			id: "1146ADCCA1073B0F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25EF5CB5FB48D38E"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "18C9571B3ADAD224"
+				item: "thermal:fluid_cell_frame"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["57607085F6DBA107"]
+			description: ["Fluxducts are cables capable of transfering &lRF"]
+			id: "7261E5BA7E403411"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20616F736B43424F"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6240D5483C056F7A"
+				item: "thermal:energy_duct"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["26FF300882993E14"]
+			description: ["Fluiducts transfer liquids between machines"]
+			id: "7E920DF32D84C4DF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E705C437BE95173"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7BCA54CEE6120CD8"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "thermal:fluid_duct"
+							}
+							{
+								Count: 1b
+								id: "thermal:fluid_duct_windowed"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Fluiduct"
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5EEB8B013025488F"]
+			description: [
+				"Flux cells store power make sure you configure your sides!"
+				""
+				"Integral components increase capacity."
+			]
+			id: "57607085F6DBA107"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D614DDAFAAA9A82"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4D7AE968A6734B40"
+				item: {
+					Count: 1
+					id: "thermal:energy_cell"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 1000000
+							EnergyRecv: 1000
+							EnergySend: 1000
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1146ADCCA1073B0F"]
+			description: [
+				"Fluid cells store liquids hot or cold, dont forget to configure sides."
+				""
+				"Integral components increase capacity."
+			]
+			id: "26FF300882993E14"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1302F6456BB682A7"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3EC8143EEBB8E6F1"
+				item: {
+					Count: 1
+					id: "thermal:fluid_cell"
+					tag: {
+						BlockEntityTag: {
+							TankInv: [{
+								Amount: 0
+								Capacity: 32000
+								FluidName: "minecraft:empty"
+								Tank: 0b
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["64F52FFC6D76791E"]
+			description: ["A base crafting component in thermal series machinery"]
+			id: "23CAD0756871A767"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AA5FA8D44851A9F"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "06D0EEDD074B7E5A"
+				item: "thermal:rf_coil"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["64F52FFC6D76791E"]
+			description: ["A base crafting component in dynamos and certain machines"]
+			id: "149B764AE961EBF3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D95B0945BCFA9A0"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3D8BCA719964534D"
+				item: "thermal:redstone_servo"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0CDF934E4035BF5E"]
+			description: ["Another amazing alloy glass made with this would probably glow"]
+			id: "3CB569221000C197"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44FE185C3004C862"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "50CF0642D6F0EC71"
+				item: "thermal:lumium_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"408253D92B2D25EB"
+				"22F529AEBCA9D73E"
+			]
+			description: [
+				"You'll need fire charges (or another mod) to make your first invar"
+				""
+				"used to make some of the more advanced machines."
+			]
+			id: "41780993A3F4D2DA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "783594768A776862"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "77754B270DA1D1A1"
+				item: "thermal:invar_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0CDF934E4035BF5E"]
+			description: ["A multi purpose alloy and it looks pretty."]
+			id: "34A0FE3B2E83E016"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1342B9A065A238F6"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6ACBCDDC5DD1DD16"
+				item: "thermal:signalum_ingot"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["0CDF934E4035BF5E"]
+			description: ["Another fantastic alloy for all your thermal needs."]
+			id: "362D57027847444B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A938DCF108BD6F2"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7AC75A16C7705302"
+				item: "thermal:constantan_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["149B764AE961EBF3"]
+			description: [
+				"The arboreal extractor is used to pull fluids out of the natural tree it's touching, the tree its next to determines the output (sap,resin or latex)."
+				""
+				"Integral components increase internal tank size."
+			]
+			id: "03FFD73C1441A9E5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63ADDFE52C4CC8B3"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0FA230223CB61D58"
+				item: "thermal:device_tree_extractor"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["149B764AE961EBF3"]
+			description: [
+				"The entangler is used to automate catching fish and other items differing dependant on the bait used."
+				""
+				"Integral components increase catch speed."
+			]
+			id: "1C19DFD5C83263D7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59C0A5D7AF6C7B0E"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1DB791695972064A"
+				item: "thermal:device_fisher"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["149B764AE961EBF3"]
+			description: ["Composting made easy"]
+			id: "315973212E803F66"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77FDB7DBDBBEB8C8"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0F960783824B505B"
+				item: "thermal:device_composter"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["149B764AE961EBF3"]
+			description: [
+				"When placed between 2 water source blocks the accumulator will generate water that can be piped out of any none water source side. "
+				""
+				"Integral components will increase internal water storage."
+			]
+			id: "735F2086D25726BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28DA056E3639E4FB"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5463AF81C9D69465"
+				item: "thermal:device_water_gen"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["149B764AE961EBF3"]
+			description: [
+				"The igneous extruder generates stone blocks based on blocks surrounding it (lava,coolant and if needed an optional block)."
+				""
+				"Integral components increase production speed."
+			]
+			id: "7CECC37977177364"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34DBBDDE5589F158"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "049D6B8F74AEC5D4"
+				item: "thermal:device_rock_gen"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["149B764AE961EBF3"]
+			description: ["Picks up items and xp in a 9x9x9 area (increased by integral components)"]
+			id: "2A663AE20859937E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54BA4E77FFC5A95C"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "39535872523CE0EC"
+				item: "thermal:device_collector"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["149B764AE961EBF3"]
+			id: "4F45B3487011132E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5759B71FAD02F1A4"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "42035404F6C15641"
+				item: "thermal:device_xp_condenser"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["149B764AE961EBF3"]
+			description: [
+				"The nullifier is the item/fluid destroyer from thermal."
+				""
+				"No integral component use but filters will fit."
+			]
+			id: "13BE7529D8AB1399"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77A954763A214FC4"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "539256517C640C06"
+				item: "thermal:device_nullifier"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["149B764AE961EBF3"]
+			description: [
+				"The diffuser is used to spread potion effects onto mobs within a 9x9x9 area automatically but the effects dont last as long as normal."
+				""
+				"Integral components increase effective range."
+			]
+			id: "573E0B3C32CE6A1F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0948DC5D791D54AD"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4C35E453635DD127"
+				item: "thermal:device_potion_diffuser"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6FA8B9C4669B0D8F"]
+			description: [
+				"Thermal series has alot of different types of machines some generate resources some store them and other convert them to different resources all together."
+				""
+				"Most machines require RF power and can be augmented to change there behaviour."
+			]
+			id: "64F52FFC6D76791E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D1147C3C657F203"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "39468C9A64F8BD3E"
+				title: "Thermal machinery"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64F52FFC6D76791E"]
+			description: ["Dynamos are the thermal series power generators, They lose fuel efficiency when they're full but they don't stop running. "]
+			id: "7FE72865E55E5358"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75F071D2818C59D3"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "70CFE2A7F57653AA"
+				title: "Dynamos"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6FA8B9C4669B0D8F"]
+			description: [
+				"Integral components increase the stats of machines making them faster and more efficient (at the cost of energy)"
+				""
+				"&lOnly 1 works per machine (highest tier)&r"
+				""
+				"This first component doubles machine stats and doubles consumption)"
+			]
+			id: "25DBE26044B344FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C821C4C1EC76A31"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7537C51F796FA544"
+				item: "thermal:upgrade_augment_1"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["25DBE26044B344FF"]
+			description: ["This second tier triples output and energy consumption"]
+			id: "55AF4A9BD81220A5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "685460E7D76E915D"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "00D2F5F3027688ED"
+				item: "thermal:upgrade_augment_2"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["55AF4A9BD81220A5"]
+			description: ["This final tier quadruples output and energy output"]
+			id: "4014760902CAE804"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25D8A1A9B61A933D"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "649AB5AB75406282"
+				item: "thermal:upgrade_augment_3"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6FA8B9C4669B0D8F"]
+			description: ["Will not be consumed, will not catch fish although you may pull up a treasure or 2 if you're patient."]
+			id: "3E10A3F1A01961A7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BEE518EB5DB9406"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2F5DB09E80D5763A"
+				item: "thermal:junk_net"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3E10A3F1A01961A7"]
+			description: ["Increases the catch rate of fish but is consumable and will need to be replaced."]
+			id: "134E8819483E6B4E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D904F5C7909FD87"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3B39A2F5AD7D1522"
+				item: "thermal:aquachow"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["134E8819483E6B4E"]
+			description: ["Functions like the aqua chow but works better in the oceans"]
+			id: "5313A5C8EB5E9535"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78C81DF54F29BEA5"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "498A8356364B8FD1"
+				item: "thermal:deep_aquachow"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["10C203C405954AC3"]
+			description: ["Dont waste your XP (not accepted in all machines)"]
+			id: "76E03C8A907A0253"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CA54B835B56E646"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2FEC86D8AF2FF9ED"
+				item: "thermal:xp_storage_augment"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["10C203C405954AC3"]
+			description: ["Store more power and move it around faster (not accepted in all machines)"]
+			id: "0513F32BF75BBB1E"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C84E6DA0B4CE90B"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "095B4CAB3884CFF9"
+				item: "thermal:rf_coil_augment"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["10C203C405954AC3"]
+			description: ["Store alot more power and move it around a bit faster (not accepted in all machines)"]
+			id: "2B19206A41557147"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "557FE38F7E264E20"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0F00AFAC6D71ACB2"
+				item: "thermal:rf_coil_storage_augment"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["10C203C405954AC3"]
+			description: ["Move power really fast and store a bit more (not accepted in all machines)"]
+			id: "479150C7FDE0F2FB"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "008B852F71EACC73"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "34B7CFC648B94EBD"
+				item: "thermal:rf_coil_xfer_augment"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["10C203C405954AC3"]
+			description: ["Stores more fluids (not accepted in all machines)"]
+			id: "2963D5A256CF0E64"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D3C749E929357DF"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7B2A428CC7398FAF"
+				item: "thermal:fluid_tank_augment"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["10C203C405954AC3"]
+			description: ["Changes what items are allowed in the machine in the first place (not accepted in all machines)"]
+			id: "75C24E80237D568B"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DA1174E03BE122D"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4F0A6FBBD84BB272"
+				item: "thermal:item_filter_augment"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["10C203C405954AC3"]
+			description: ["Changes what fluids are allowed in the machine in the first place. (not accepted in all machines)"]
+			id: "543375AE355F11E7"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C05AE2474AEA9CA"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "123DBA4B461F2364"
+				item: "thermal:fluid_filter_augment"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["10C203C405954AC3"]
+			description: ["Makes the machine faster but it needs a bit more power (not accepted in all machines)"]
+			id: "342AE50B507CC97E"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DA0B29A30BD600C"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "77DBECB606627FC0"
+				item: "thermal:machine_speed_augment"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["10C203C405954AC3"]
+			description: ["Makes the machine a bit slower but it uses less power (not accepted in all machines)"]
+			id: "0EBB702093285290"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E2375E0DFF8C8B6"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5C35D5788D275120"
+				item: "thermal:machine_efficiency_augment"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["10C203C405954AC3"]
+			description: ["Uses more power but you might get more items (not accepted in all machines)"]
+			id: "4F6E2189911D3F39"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C44F246086BF611"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0E21092061B0E30C"
+				item: "thermal:machine_output_augment"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["10C203C405954AC3"]
+			description: ["Uses less catalyst in applicable machines but uses more power (not accepted in all machines)"]
+			id: "58AB46DF752BEDDB"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4076931DDAD5F04C"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "318ED10DE23020C1"
+				item: "thermal:machine_catalyst_augment"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["10C203C405954AC3"]
+			description: ["Great for autocrafters transfers completed items back to the input where applicable (not accepted in all machines)"]
+			id: "7633B560E3E46BB8"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "167AF10A5458A1C3"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3C56768672C1D7F3"
+				item: "thermal:machine_cycle_augment"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["10C203C405954AC3"]
+			description: ["Destroy those pesky unwanted secondary outputs"]
+			id: "1EEA47E69C6AD9EF"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41154F556C6EB114"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5A566E6E05CDDEC0"
+				item: "thermal:machine_null_augment"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["10C203C405954AC3"]
+			description: ["Generate more power but your fuel wont be as efficient"]
+			id: "287A76BAFA1C04BC"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CA81053384B46F5"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "05151C335EA0AAC3"
+				item: "thermal:dynamo_output_augment"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["10C203C405954AC3"]
+			description: ["Increase fuel efficiency"]
+			id: "0906E53FD8BC673B"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C481A5E57768590"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "18DA4D9164D85543"
+				item: "thermal:dynamo_fuel_augment"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["10C203C405954AC3"]
+			description: ["When a dynamo is full and has nowhere to send excess energy it still keeps processing but loses fuel efficency, well not anymore!"]
+			id: "2DF0792FFEEF3CDE"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6294D9348910A8BC"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "529E2B56DEBD04ED"
+				item: "thermal:dynamo_throttle_augment"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["10C203C405954AC3"]
+			description: ["Increases operating radius."]
+			id: "595E4A0EB428A7DA"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45DCAB571937DF6B"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "02F78EDB11820731"
+				item: "thermal:area_radius_augment"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6FA8B9C4669B0D8F"]
+			description: ["The machines in thermal series can accept a variety of different augments, providing bonuses to production or energy use/storage."]
+			id: "10C203C405954AC3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FE79B9A9206AB96"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6A4FAA4EC6E70ABC"
+				title: "Augments and upgrades"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3B0D8BEEAE4F76DD"]
+			description: [
+				"Used in the phytogenic insolator to increase crop yield."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"OK if you found it I genuinly don't get why your'e reading here like I appreciate the dedication but still, If you just went to the end of the quest tree thinking the answer would be here shame on you."
+			]
+			id: "3A011B097730B816"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "039D0788407A4593"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6503E72D1354C731"
+				item: "thermal:phytogro"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["64F52FFC6D76791E"]
+			description: ["The classic mod wrench spins your block or picks them up."]
+			id: "5FD4B9DA36D1218C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "155283D71CF35C21"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "236F46EE42A7A6A0"
+				item: "thermal:wrench"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["64F52FFC6D76791E"]
+			description: ["Copy and paste the configs of your blocks, saves time in larger builds."]
+			id: "1C2B504933DDC9EF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E2AC4AE0D97BF01"
+				table_id: 8783250599885628647L
+				type: "random"
+			}]
+			tasks: [{
+				id: "330EE1FA9BCF837C"
+				item: "thermal:redprint"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+	]
+	title: "Age 9: Thermal"
+}

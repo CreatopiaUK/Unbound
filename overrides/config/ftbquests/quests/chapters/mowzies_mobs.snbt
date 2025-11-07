@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mowzies_mobs"
+	group: "5C2274C8D239132D"
+	id: "604FF65ECA60E86B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Insects"
+}

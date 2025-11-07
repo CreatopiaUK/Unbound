@@ -1,0 +1,708 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether"
+	group: "7B22D4A0939AEFDE"
+	id: "1605B831985834EF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1CFC092C08EEA8A8"
+			rewards: [{
+				id: "6CFB4DC96D1907C6"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			subtitle: "Welcome to a beutifull yet deadly place"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "supplementaries:textures/map_marker/nether_portal.png"
+					}
+				}
+				id: "5EBD4B6433D6FA4A"
+				title: "Welcome To The Nether"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CFC092C08EEA8A8"]
+			id: "35B0F6517DC5BBD9"
+			rewards: [
+				{
+					id: "36615D1DCE1E8170"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13B679354D345B9C"
+					table_id: 2211296696797056619L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Visit a Nether Fortress for loot and to start gathering blaze rods"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "supplementaries:textures/map_marker/nether_fortress.png"
+					}
+				}
+				id: "741E465A7B21C67A"
+				structure: "minecraft:mineshaft"
+				title: "Ur First Main Structure"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["35B0F6517DC5BBD9"]
+			icon: "easy_piglins:piglin"
+			id: "0E282A6B2C7BC800"
+			rewards: [
+				{
+					id: "62EF4FB52516F2B7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36FF1E819486BAD8"
+					table_id: 2211296696797056619L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Find a Bastion for a chance of smithing tablets and Netherite"
+			tasks: [{
+				id: "546344D7C5983335"
+				structure: "minecraft:bastion_remnant"
+				type: "structure"
+			}]
+			title: "Easy Netherite????"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0E282A6B2C7BC800"]
+			id: "2AF68332A1CB69C2"
+			rewards: [
+				{
+					id: "63B1EC5D26A45BB0"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20A952490A02993D"
+					table_id: 2211296696797056619L
+					type: "random"
+				}
+			]
+			shape: "square"
+			subtitle: "Find An Underground Bastion"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "supplementaries:block/ashen_basalt"
+					}
+				}
+				id: "1ED3785D9987C33A"
+				structure: "repurposed_structures:bastion_underground"
+				title: "More Bastion Types"
+				type: "structure"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["35B0F6517DC5BBD9"]
+			id: "57284E6EB069DFB4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "452F601F2C64A929"
+				table_id: 2211296696797056619L
+				type: "random"
+			}]
+			subtitle: "Dont forget to get some blaze rods for the end"
+			tasks: [{
+				count: 6L
+				id: "4598FD7FDEC16C88"
+				item: { Count: 6, id: "minecraft:blaze_rod" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["57284E6EB069DFB4"]
+			id: "62C6FC9457EEB427"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "08CD7C4B8D35BC2E"
+					table_id: 4381086907456634712L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43640823D52DFDF6"
+					table_id: 2211296696797056619L
+					type: "random"
+				}
+				{
+					id: "0704022E42D79670"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "U can find endermans for the eyes easily in warped forests"
+			tasks: [
+				{
+					count: 16L
+					id: "457AAB84629789C1"
+					item: { Count: 16, id: "minecraft:ender_eye" }
+					type: "item"
+				}
+				{
+					biome: "minecraft:warped_forest"
+					icon: "minecraft:warped_fungus"
+					id: "26A6C76330DB6D7D"
+					type: "biome"
+				}
+			]
+			title: "Better to Have more than the need to turn back later on"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["62C6FC9457EEB427"]
+			id: "168BD1787A16FB75"
+			rewards: [
+				{
+					id: "495A05E7D47A3EDD"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59D5A7CA4834054B"
+					table_id: 2211296696797056619L
+					type: "random"
+				}
+			]
+			subtitle: "Find a Stronghold to Get urself to the end"
+			tasks: [{
+				icon: "allthetweaks:mini_end"
+				id: "31CBC15CE1EADD9B"
+				structure: "minecraft:stronghold"
+				title: "To THE END!!"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "62306F546B64A1E0"
+			rewards: [
+				{
+					id: "187ACD1AC4F1C30F"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "183352340FF76AEC"
+					table_id: 2211296696797056619L
+					type: "random"
+				}
+			]
+			subtitle: "Complete the hot tourist advancment"
+			tasks: [{
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ba_bt:block/spawner/nether_spawner"
+					}
+				}
+				id: "63C2578E36EF2398"
+				title: "Why Not u might get a reward for it"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			description: ["{image:stalwart_dungeons:block/awful_ghast_altar width:100 height:100 align:center}"]
+			icon: {
+				Count: 1
+				id: "stalwart_dungeons:awful_gun"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5CE99622378A379F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "316DCF43F6CD00C1"
+					table_id: 2211296696797056619L
+					type: "random"
+				}
+				{
+					id: "55B98D81BAF5EB81"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "7BF9B4B723816ABF"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "octagon"
+			subtitle: "Find an awful dungeon and slay the awful ghast beware of the dungeons hostility and dangers lurking "
+			tasks: [{
+				entity: "stalwart_dungeons:awful_ghast"
+				icon: {
+					Count: 1
+					id: "reliquary:mob_charm"
+					tag: {
+						Damage: 0
+						entity: "stalwart_dungeons:awful_ghast"
+					}
+				}
+				id: "4E70E28653583763"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Find an awful dungeon"
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			id: "70A7D0D404D53C48"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5BADAB99762952C9"
+					table_id: 2211296696797056619L
+					type: "random"
+				}
+				{
+					count: 10
+					id: "05C854115F11EE08"
+					item: "stalwart_dungeons:raw_tungsten"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "09602F1BC3C0F481"
+				item: "stalwart_dungeons:raw_tungsten"
+				type: "item"
+			}]
+			title: "New Ore ?"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "stalwart_dungeons:tungsten_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "08D9EEA1B0D7ADA2"
+			rewards: [{
+				count: 16
+				id: "0A5159B54D75CE08"
+				item: "stalwart_dungeons:tungsten_ingot"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Make Any of the tungsten tools"
+			tasks: [
+				{
+					id: "12885EE04B35E7D7"
+					item: {
+						Count: 1
+						id: "stalwart_dungeons:tungsten_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DC740486EF2DFE4"
+					item: {
+						Count: 1
+						id: "stalwart_dungeons:tungsten_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1EEFD915E26096A1"
+					item: {
+						Count: 1
+						id: "stalwart_dungeons:tungsten_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1FD31703DB1B6D7E"
+					item: {
+						Count: 1
+						id: "stalwart_dungeons:tungsten_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47E12BCA3C6784CA"
+					item: {
+						Count: 1
+						id: "stalwart_dungeons:tungsten_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E6BBE3288B57D96"
+					item: {
+						Count: 1
+						id: "stalwart_dungeons:tungsten_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Greeny Tools For Ur Greeny Wants"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			id: "3AFD27A66C3E8B9A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "78CDFA7B92CF3ABE"
+					table_id: 2211296696797056619L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77F56B4A5A455BAF"
+					table_id: 4381086907456634712L
+					type: "choice"
+				}
+				{
+					id: "6E8623125319ED55"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "658938A0607515A9"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Defeat the nether keeper"
+			tasks: [{
+				entity: "stalwart_dungeons:nether_keeper"
+				icon: "stalwart_dungeons:keeping_castle_spawner"
+				id: "5A799CF9C6CDFDC3"
+				title: "Keeping Castle"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			icon: "minecraft:nether_star"
+			id: "4302906BAEA3465A"
+			rewards: [{
+				id: "7BFB728CB6307928"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "2B8B635CF0C8FC62"
+				title: "A little tip u need a nether star for both of the bosses to be able to fight them"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3AFD27A66C3E8B9A"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "stalwart_dungeons:ancient_fire"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0CBD85E677B2AB20"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36F039AA9441A783"
+				table_id: 2211296696797056619L
+				type: "random"
+			}]
+			shape: "square"
+			subtitle: "Boss drop from the nether keeper it can smelt items in ur offhand"
+			tasks: [{
+				id: "5AD84D287662166B"
+				item: {
+					Count: 1
+					id: "stalwart_dungeons:ancient_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "U might find it usefull"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3AFD27A66C3E8B9A"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "4C57894DF4E8DBB9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4E2C2FC22B810F29"
+					table_id: 2211296696797056619L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "633733F28C88BF36"
+					table_id: 4381086907456634712L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "6EBD18EF7312EB89"
+				item: {
+					Count: 1
+					id: "stalwart_dungeons:nether_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Smelts Items as u mine them"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			id: "3BE497D69CE5AA51"
+			rewards: [{
+				id: "53F2631C2580720B"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			subtitle: "Repeatable quest for xp "
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "08B10B176CBF6938"
+				item: { Count: 128, id: "minecraft:quartz" }
+				type: "item"
+			}]
+			title: "XP GOES BRRRR"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			id: "5F5D83E4B38B8C2D"
+			rewards: [
+				{
+					id: "6727FAB7703C2F5E"
+					item: "sophisticatedbackpacks:gold_backpack"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6569C976D04F2A84"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "51D9E68D19C5311F"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 528L
+				id: "71ADB417986C7F28"
+				item: { Count: 528, id: "minecraft:gold_block" }
+				title: "A gold farm might be usefull"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			id: "03C43856DBCAAFC1"
+			rewards: [
+				{
+					id: "2FC79945DD01488E"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "50D0B018E655C395"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "7EFE6E359B1CD80F"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			size: 1.0d
+			subtitle: "Defeat the netherite monstrosity"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "cataclysm:item/netherite_effigy"
+					}
+				}
+				id: "0C6DFE2922AA783C"
+				title: "Netherite monstrosity"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["03C43856DBCAAFC1"]
+			id: "2185B8948392614A"
+			rewards: [{
+				id: "21FB01D4880F1906"
+				type: "xp"
+				xp: 10000
+			}]
+			subtitle: "If u tame it succsefully u get a cool tame and usefull one aswell"
+			tasks: [
+				{
+					id: "1B1B750711AD4750"
+					type: "checkmark"
+				}
+				{
+					id: "41D4834CA4379D3D"
+					item: "cataclysm:lava_power_cell"
+					type: "item"
+				}
+			]
+			title: "U can tame the ministrosity with a lava cell"
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			id: "6E412AC5C82C492E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "08DC6A38AEC4F0DA"
+					table_id: 2211296696797056619L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35ED010E845C602E"
+					table_id: 181974124547911387L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2CE80D5C8BBB9DC2"
+					table_id: 4381086907456634712L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "451EEB66A96941A7"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					id: "0DAC94BCDFF2A461"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: "cataclysm:ignis_spawn_egg"
+				id: "6409DB2B4B836F31"
+				title: "Defeat Ignis"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			id: "369EBA7416ECFF0B"
+			tasks: [{
+				entity: "cataclysm:ignited_revenant"
+				icon: "cataclysm:ignited_revenant_spawn_egg"
+				id: "5EF4AFEE4C49DEBD"
+				title: "Ignited Revenant"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+	]
+	title: "Nether"
+}

@@ -1,0 +1,713 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "integrated_dynamics"
+	group: "3FEDCCADD53AC5E8"
+	icon: "integrateddynamics:crystalized_menril_chunk"
+	id: "550C45BD900FE631"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2151A64F2311E3F1"
+			tasks: [{
+				id: "5AEF74042A60AA4C"
+				item: "integrateddynamics:menril_sapling"
+				type: "item"
+			}]
+			title: "Menril, my beloved!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2151A64F2311E3F1"]
+			id: "556BDBE6CFCE4A42"
+			tasks: [{
+				count: 16L
+				id: "3B60E8F40A3D7F99"
+				item: "integrateddynamics:crystalized_menril_chunk"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "04B7CC208DEB2037"
+			tasks: [{
+				id: "15CD016C56F9FAF7"
+				item: "integrateddynamics:squeezer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "17AA7A1FDC593E0D"
+			tasks: [{
+				id: "27DBBE12287E4A5E"
+				item: "integrateddynamics:drying_basin"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["04B7CC208DEB2037"]
+			id: "53F59815F27D9E74"
+			tasks: [{
+				id: "1E09F24D0AD9CDD5"
+				item: "integrateddynamics:mechanical_squeezer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["17AA7A1FDC593E0D"]
+			id: "3F71F6905C5C7557"
+			tasks: [{
+				id: "67580DF8C3B96C40"
+				item: "integrateddynamics:mechanical_drying_basin"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["556BDBE6CFCE4A42"]
+			id: "25D52491C8997985"
+			tasks: [{
+				id: "2D2871198A4AF185"
+				item: "integrateddynamics:cable"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "3F3A4E804294E16F"
+			subtitle: "Microphone"
+			tasks: [{
+				id: "2FA243D525B1BA2B"
+				item: "integrateddynamics:part_audio_reader"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			id: "0F542A1BA7A78535"
+			subtitle: "What am I looking at?"
+			tasks: [{
+				id: "18E3AA30846C5228"
+				item: "integrateddynamics:part_block_reader"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			id: "0462D25E882031F9"
+			subtitle: "New creature who this?"
+			tasks: [{
+				id: "21F4D210C2AFF241"
+				item: "integrateddynamics:part_entity_reader"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "6D76CEEE949AB864"
+			subtitle: "Save reader"
+			tasks: [{
+				id: "2CA62D98D8CFC9AA"
+				item: "integrateddynamics:part_extradimensional_reader"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			id: "60F3E63DBCEECB6D"
+			subtitle: "What am I drinking?"
+			tasks: [{
+				id: "31388CF34176484C"
+				item: "integrateddynamics:part_fluid_reader"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			id: "1B1C152D85EE704B"
+			subtitle: "Machine automation to the max!"
+			tasks: [{
+				id: "035D2F6318F8ECBA"
+				item: "integrateddynamics:part_machine_reader"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			id: "56A852528F0E0D95"
+			subtitle: "Who uses redstone this day and age?"
+			tasks: [{
+				id: "4D649C57343AA898"
+				item: "integrateddynamics:part_redstone_reader"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			id: "15BA9C4ED43C9E44"
+			subtitle: "So this is whats going on here!"
+			tasks: [{
+				id: "694267B73A218C8E"
+				item: "integrateddynamics:part_world_reader"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			id: "515FDC85F27B15ED"
+			subtitle: "Programmable speaker"
+			tasks: [{
+				id: "218126D15D42855A"
+				item: "integrateddynamics:part_audio_writer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			id: "3A4868F78AD3E3E9"
+			subtitle: "Hehehe particles"
+			tasks: [{
+				id: "7D1CF822E5259020"
+				item: "integrateddynamics:part_effect_writer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "6CA0E45177433527"
+			tasks: [{
+				id: "4F07552522362840"
+				item: "integrateddynamics:part_inventory_writer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			id: "64902B3D924F17A1"
+			subtitle: "Who needs redstone dust?"
+			tasks: [{
+				id: "31791A03A0B321E5"
+				item: "integrateddynamics:part_redstone_writer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			id: "34F8B29577B0C8AE"
+			subtitle: "Its an optical connection!"
+			tasks: [{
+				count: 2L
+				id: "51BF8F35F92195EA"
+				item: { Count: 2, id: "integrateddynamics:part_connector_mono_directional" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["34F8B29577B0C8AE"]
+			id: "3AD6BD4D2917573F"
+			subtitle: "Truely wireless!"
+			tasks: [{
+				id: "2CEF5E98EFF9AF11"
+				item: "integrateddynamics:part_connector_omni_directional"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3AD6BD4D2917573F"]
+			id: "26745A0E49A2CE50"
+			subtitle: "Just make sure to chunkload your system!"
+			tasks: [{
+				id: "72A767637BAEDD6C"
+				item: "integratedterminals:terminal_storage_portable"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			id: "2126AD2AD8A7EABC"
+			tasks: [{
+				id: "5ACC1EF81BEE86D8"
+				item: "integratedcrafting:part_crafting_writer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			id: "1E6F1A30C7295FCD"
+			tasks: [{
+				id: "4A26482C21B4EDD0"
+				item: "integratedcrafting:part_interface_crafting"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2151A64F2311E3F1"]
+			id: "5715ADEDE5346CCE"
+			subtitle: "Berry easy food source"
+			tasks: [{
+				id: "576024C845EBEB4B"
+				item: "integrateddynamics:menril_berries"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"&fThe &aLogic Programmer&f is the brain of your Integrated Dynamics setup."
+				""
+				"It lets you create &eVariable Cards&f that store all kinds of data: numbers, items, booleans, text, and more."
+				""
+				"{@pagebreak}"
+				""
+				"&6How to use the Logic Programmer:&r"
+				""
+				"&7Step 1:&r Right-click to open its interface."
+				""
+				"&7Step 2:&r On the left, select a type like &aInteger&r or &bItem&r."
+				""
+				"&7Step 3:&r Enter the required value (e.g. a number or an item)."
+				""
+				"&7Step 4:&r Put a &eVariable Card&r in the output slot to store the result."
+				""
+				"&8➡&r This card now contains data you can use in your system"
+				""
+				"{@pagebreak}"
+				""
+				"&dExample:&r"
+				""
+				"Let’s say you want to tell your system what kind of fuel to use in a Furnace."
+				""
+				"Here’s how you can do that:"
+				""
+				"- Use the &aLogic Programmer&r to select &bItem&r."
+				"- Place a piece of &0Coal&r (or any fuel) in the input slot."
+				"- Insert a &eVariable Card&r in the output slot."
+				""
+				"✅ You now have a card that says “This is Coal.”"
+				""
+				"You can use this card in an &bExporter&r to send Coal into a Furnace for automatic fueling."
+				""
+				"{@pagebreak}"
+				""
+				"&9Pro Tip:&r"
+				""
+				"&7Variable Cards are &nread-only&7 — their value is fixed once created."
+				""
+				"To make &odynamically changing cards&7, use Readers like the &aInventory Reader&7 or &bEntity Reader&7."
+				""
+				"Keep your variables tidy and name them well!"
+			]
+			id: "674CB52181BA20B8"
+			subtitle: "&lUnderstanding the Logic Programmer"
+			tasks: [{
+				id: "43288D44C876F499"
+				item: "integrateddynamics:portable_logic_programmer"
+				type: "item"
+			}]
+			title: "Logic Programmer"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "3F28890B7CA05692"
+			subtitle: "A very interesting read!"
+			tasks: [{
+				id: "75D7CB2DA338E53B"
+				item: "integrateddynamics:on_the_dynamics_of_integration"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "50A067FBAB66A022"
+			subtitle: "For if you're really short on power!"
+			tasks: [{
+				id: "71369503869D48D7"
+				item: "integrateddynamics:coal_generator"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 6.0d
+		}
+		{
+			id: "5086EBE0F66D9165"
+			tasks: [{
+				id: "37D95673A213160F"
+				item: "integrateddynamics:variablestore"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			id: "6B3ED0998957669B"
+			tasks: [{
+				id: "32FD607B73F958FA"
+				item: {
+					Count: 1
+					id: "integrateddynamics:energy_battery"
+					tag: {
+						energy: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			id: "3CBB81ED3206FCE1"
+			tasks: [{
+				id: "29F930AD5B069C05"
+				item: "integrateddynamics:variable"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "751F292EDECFAF35"
+			tasks: [{
+				id: "5BA867BA7F17108E"
+				item: "integratedtunnels:part_interface_energy"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			id: "2DA52985DE9C8D83"
+			tasks: [{
+				id: "4A1FE90A83A57250"
+				item: "integratedtunnels:part_interface_filter_energy"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			id: "06E0EC0D963E17A4"
+			tasks: [{
+				id: "5E67D57C4B58B263"
+				item: "integratedtunnels:part_importer_energy"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			id: "5ED43BE68654FC89"
+			tasks: [{
+				id: "52FEC00F97F4A479"
+				item: "integratedtunnels:part_exporter_energy"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			id: "73948571B4ADA363"
+			tasks: [{
+				id: "675D94A705F5A274"
+				item: "integratedtunnels:part_importer_world_energy"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			id: "029B28AAB67D1219"
+			tasks: [{
+				id: "644DECE252F3431A"
+				item: "integratedtunnels:part_exporter_world_energy"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			id: "5C9F8759A05120D4"
+			tasks: [{
+				id: "0F805B49C049BDE9"
+				item: "integratedtunnels:part_interface_item"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			id: "1E9941F091FB5AB4"
+			tasks: [{
+				id: "052FF7095CEE33DD"
+				item: "integratedtunnels:part_interface_filter_item"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			id: "3D8470DE4B1786D0"
+			tasks: [{
+				id: "4E509B85AD48081A"
+				item: "integratedtunnels:part_importer_item"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			id: "5B8DD824E9F778EE"
+			tasks: [{
+				id: "1D765AFC0AD14879"
+				item: "integratedtunnels:part_exporter_item"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			id: "1F4188AC3E20B448"
+			tasks: [{
+				id: "3C07805A7F622018"
+				item: "integratedtunnels:part_importer_world_item"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			id: "4A93102F3E0E0B5D"
+			tasks: [{
+				id: "16B43ABCD560A22E"
+				item: "integratedtunnels:part_exporter_world_item"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			id: "52B391CBADDA4AFD"
+			tasks: [{
+				id: "4EF151DBA74DE480"
+				item: "integratedtunnels:part_interface_fluid"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			id: "532DBED034BCAAFB"
+			tasks: [{
+				id: "68F8E9BC358A6AC6"
+				item: "integratedtunnels:part_interface_filter_fluid"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			id: "4E738B6D46872566"
+			tasks: [{
+				id: "271F04556E3E6B2B"
+				item: "integratedtunnels:part_importer_fluid"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			id: "006AE3CC0BD0D978"
+			tasks: [{
+				id: "3566E915B4AAF190"
+				item: "integratedtunnels:part_exporter_fluid"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			id: "093F834CCF6DEF6B"
+			tasks: [{
+				id: "1F03E6D73773F921"
+				item: "integratedtunnels:part_importer_world_fluid"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			id: "47CF79926E0F1C4B"
+			tasks: [{
+				id: "4E06EA05A80E29F7"
+				item: "integratedtunnels:part_exporter_world_fluid"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			id: "62E38B6F343F3884"
+			tasks: [{
+				id: "58AF59A8C2B18730"
+				item: "integratedtunnels:part_importer_world_block"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			id: "0BE25DFF6D916BB7"
+			tasks: [{
+				id: "63D04D2ED443C353"
+				item: "integratedtunnels:part_exporter_world_block"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			id: "7803D1CA33A07904"
+			tasks: [{
+				id: "5DACCDFC2D7BD21C"
+				item: "integratedtunnels:part_player_simulator"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "58CB2257E4CDB5FF"
+			tasks: [{
+				id: "171A5C5EC07FC32B"
+				item: "integrateddynamics:part_display_panel"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			id: "6AA58BFF0B80A942"
+			tasks: [{
+				id: "1CFBA5CF4472054D"
+				item: "integratedterminals:part_terminal_storage"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			id: "107FF04754A86656"
+			tasks: [{
+				id: "214B44EBCD691E4C"
+				item: "integratedterminals:part_terminal_crafting_job"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			id: "5AD552F8C871A98C"
+			tasks: [{
+				id: "75BB8EA3F29127D9"
+				item: "integrateddynamics:materializer"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 4.0d
+		}
+		{
+			id: "6155F1D93E24C800"
+			tasks: [{
+				id: "3DBF6AF80FAF50CA"
+				item: "integrateddynamics:proxy"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 5.0d
+		}
+		{
+			id: "65347A18E09FF95F"
+			tasks: [{
+				id: "1D19FBEC014C63A3"
+				item: "integrateddynamics:delay"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Integrated Dynamics uses the terms &aImporter&r and &bExporter&r in a way that can feel a bit backwards when you're first starting out."
+				""
+				"{@pagebreak}"
+				"&6Here’s the trick:&r The names are written from the &osystem’s&r perspective."
+				""
+				"&nThink of the network as the center.&r"
+				""
+				"{@pagebreak}"
+				"&aImporter&r – This moves items &nfrom&r the attached block &ninto&r your Integrated Dynamics system."
+				""
+				"📌 Example: Attaching an Importer to a Furnace will pull items &nfrom the Furnace&r and place them into the system."
+				""
+				"{@pagebreak}"
+				"&bExporter&r – This moves items &nfrom&r your system &ninto&r the attached block."
+				""
+				"📌 Example: Attaching an Exporter to a Furnace can push fuel &ninto the Furnace&r from your system."
+				""
+				"{@pagebreak}"
+				"&dQuick Tip:&r"
+				""
+				"Use this to remember it easily:"
+				""
+				"- &aImporter&r = From Block ➜ To System  "
+				"- &bExporter&r = From System ➜ To Block"
+				""
+				"Once you understand this logic, setting up automation becomes much easier!"
+			]
+			id: "06513BA9D3DCDA9D"
+			size: 2.0d
+			subtitle: "&lImporters and Exporters – What's Going On?"
+			tasks: [{
+				id: "582FFB3FD3EFBF8E"
+				title: "Importing and exporting"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+	]
+	title: "Integrated Dynamics"
+}

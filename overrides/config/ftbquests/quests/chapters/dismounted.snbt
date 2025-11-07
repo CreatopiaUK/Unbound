@@ -1,0 +1,251 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dismounted"
+	group: "58B80097DBF7B618"
+	id: "123D5A6DB1106143"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["To clarify you can mount / tame these mobs given the correct items but you can't tame them all right?"]
+			id: "4FF8A812E80F184E"
+			tasks: [{
+				id: "697B608667E35AAE"
+				title: "If you cant ride em kill em"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1975427145E6B46B"]
+			id: "30328AF42B253C82"
+			tasks: [{
+				entity: "minecraft:horse"
+				id: "792481ED4A93F709"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Horse slayer"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7145FDE59D517523"]
+			id: "2240C21F9D7BDCE8"
+			tasks: [{
+				entity: "iceandfire:hippogryph"
+				id: "1FBC50010244C159"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Hippogryph slayer"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["42159DC00DFEBE02"]
+			id: "25E0E9845AD1A37E"
+			tasks: [{
+				entity: "iceandfire:hippocampus"
+				id: "7D36415246D1F2E5"
+				type: "kill"
+				value: 5L
+			}]
+			title: "hippocampus slayer"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1975427145E6B46B"]
+			id: "093FC806079AAF4F"
+			tasks: [{
+				entity: "minecraft:pig"
+				id: "5FCA48D3EFC0E753"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Pig slayer"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1975427145E6B46B"]
+			id: "3AE9C1760F8E65ED"
+			tasks: [{
+				entity: "unicorns__legends:unicorn"
+				id: "02CD8D36C0ED80DE"
+				type: "kill"
+				value: 5L
+			}]
+			title: "White unicorn slayer"
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1975427145E6B46B"]
+			id: "55C7F48EEA51D6C3"
+			tasks: [{
+				entity: "unicorns__legends:unicorn_blue"
+				id: "76EFB1369FB21DA8"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Blue unicorn slayer"
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1975427145E6B46B"]
+			id: "20267E5A12802DF2"
+			tasks: [{
+				entity: "unicorns__legends:unicorn_pink"
+				id: "5DAE65F943BDC234"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Pink unicorn slayer"
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1975427145E6B46B"]
+			id: "68312BCABB9F6E84"
+			tasks: [{
+				entity: "unicorns__legends:unicorn_red"
+				id: "752B6CBB0ECDDA45"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Red unicorn slayer"
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1975427145E6B46B"]
+			id: "2DE07C1EE4AE858A"
+			tasks: [{
+				entity: "unicorns__legends:lava_horse_domesticated"
+				id: "675B98ECC88471AC"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Lava horse slayer"
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1975427145E6B46B"]
+			id: "0E3930401852E362"
+			tasks: [{
+				entity: "unicorns__legends:diamond_galaxy"
+				id: "51CE52C165A73705"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Galaxy horse slayer"
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7145FDE59D517523"]
+			id: "4CA1DD43DAA0A01D"
+			tasks: [{
+				entity: "unicorns__legends:pegasus_blue"
+				id: "399336F9FCF82639"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Blue pegasus slayer"
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7145FDE59D517523"]
+			id: "230BE27BFED1FE18"
+			tasks: [{
+				entity: "unicorns__legends:pegasus_pink"
+				id: "7820034B19B917C3"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Pink pegasus slayer"
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7145FDE59D517523"]
+			id: "05F781A8A72A3AF8"
+			tasks: [{
+				entity: "unicorns__legends:pegasus_purple"
+				id: "39B4C50A9C4B7CDD"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Purple pegasus slayer"
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7145FDE59D517523"]
+			id: "0473991F6EEB70C9"
+			tasks: [{
+				entity: "unicorns__legends:pegasus_red"
+				id: "361A8CFBBFCFBDFA"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Red pegasus slayer"
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["42159DC00DFEBE02"]
+			id: "671BBCD8F0245A81"
+			tasks: [{
+				entity: "minecraft:strider"
+				id: "0D4B1D9F811E9B13"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Strider slayer"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4FF8A812E80F184E"]
+			id: "42159DC00DFEBE02"
+			tasks: [{
+				id: "7708C95DCFF14B1C"
+				title: "Aquatic? mounts"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4FF8A812E80F184E"]
+			id: "1975427145E6B46B"
+			tasks: [{
+				id: "56445A961C7D4AAE"
+				title: "Ground mounts"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4FF8A812E80F184E"]
+			id: "7145FDE59D517523"
+			tasks: [{
+				id: "033D67EF5AF210F5"
+				title: "Sky mounts"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	title: "Dismounted"
+}

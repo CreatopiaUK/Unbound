@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "xycraft"
+	group: "4FA6C94C55E25BA1"
+	id: "485F2E634B21D4D9"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		id: "2623015364339201"
+		tasks: [{
+			count: 24L
+			id: "26E9B109CAB54DD0"
+			item: { Count: 24, id: "xycraft_world:kivi" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "XyCraft"
+}

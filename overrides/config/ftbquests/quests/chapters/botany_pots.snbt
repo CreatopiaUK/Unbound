@@ -1,0 +1,108 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botany_pots"
+	group: "4FA6C94C55E25BA1"
+	id: "3A1E2C92F99089F4"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "08A3740AC3D8838B"
+			tasks: [{
+				id: "59244E55B5B7EA4F"
+				item: "botanypots:terracotta_botany_pot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08A3740AC3D8838B"]
+			id: "16F6520BA2F6C299"
+			tasks: [{
+				id: "440219400069CB8D"
+				item: "botanypots:terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["08A3740AC3D8838B"]
+			id: "5F4A07CE7B34EDB6"
+			tasks: [{
+				id: "67A6F09C39745014"
+				item: "botanypotstiers:elite_terracotta_botany_pot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5F4A07CE7B34EDB6"
+				"16F6520BA2F6C299"
+			]
+			id: "1A065B2D7F7583A1"
+			tasks: [{
+				id: "397542F24E54C0C4"
+				item: "botanypotstiers:elite_terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F4A07CE7B34EDB6"]
+			id: "7E966FC6026F482A"
+			tasks: [{
+				id: "0DBA92001BA5DE1C"
+				item: "botanypotstiers:ultra_terracotta_botany_pot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1A065B2D7F7583A1"
+				"7E966FC6026F482A"
+			]
+			id: "03BF0EEF090BC682"
+			tasks: [{
+				id: "65273C924B7F9A21"
+				item: "botanypotstiers:ultra_terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7E966FC6026F482A"]
+			id: "1D5C78EBC1A80CE4"
+			tasks: [{
+				id: "2DCAD1C5EB3A8C5F"
+				item: "botanypotstiers:creative_terracotta_botany_pot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1D5C78EBC1A80CE4"
+				"03BF0EEF090BC682"
+			]
+			id: "1F46914961700EBF"
+			tasks: [{
+				id: "006C0CDDAB8ED0E1"
+				item: "botanypotstiers:creative_terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+	]
+	title: "Botany pots"
+}

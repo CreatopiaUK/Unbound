@@ -1,0 +1,2225 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "powah"
+	group: "45B7C661A941E9E5"
+	icon: "powah:energizing_orb"
+	id: "2B10B6D99614D5DF"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1D7B3ED36B1BC136"
+			subtitle: "welcome to powah a mod entirely focused around generating all of your power needs"
+			tasks: [{
+				id: "25B9EBD2DD340092"
+				title: "UNLIMITED COSMIC POWAH!!!"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1D7B3ED36B1BC136"]
+			description: ["The big book of &lPowah&r useful for learning the mod"]
+			id: "1EEE69248CC8BE40"
+			optional: true
+			rewards: [{
+				id: "28C45D892BC35EBC"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "1CCEDF67B2343688"
+				item: "powah:book"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1D7B3ED36B1BC136"]
+			description: ["Dielectric paste is used in all tiers of &lPowah&r machines the first tier requires them for capacitors aswell"]
+			id: "7AD3CA74A673BC8F"
+			rewards: [{
+				count: 16
+				id: "6D30EFB38D0D9DB2"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "13727A7146D4E101"
+				item: { Count: 16, id: "powah:dielectric_paste" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["60CCAE1A0F22B898"]
+			description: ["The basic capacitor is used to craft alot of items in &lPowah&r you're going to need alot"]
+			id: "696D6187CB75C608"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "153C50EE3CE2FF45"
+				table_id: 4229589882643913358L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0A782D28C9587742"
+				item: "powah:capacitor_basic"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1D7B3ED36B1BC136"]
+			description: ["Dielectric rods are used i &lA LOT&r of power machines via dielectric casing get ready to make alot of them"]
+			id: "114F674C4E18EAC7"
+			rewards: [
+				{
+					count: 10
+					id: "6270D166869D5B27"
+					item: "powah:dielectric_rod"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "4FEE0EB27D146D16"
+					item: "powah:dielectric_rod_horizontal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 20L
+				id: "0F9023289208390F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "powah:dielectric_rod"
+							}
+							{
+								Count: 1b
+								id: "powah:dielectric_rod_horizontal"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Dielectric rods"
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["114F674C4E18EAC7"]
+			description: ["Dielectric casing is the \"machine frame\" of &lPowah&r used in making machines"]
+			id: "12687DF6D6F639BE"
+			rewards: [{
+				count: 5
+				id: "43D5A08089FB1E6A"
+				item: "powah:dielectric_casing"
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "7E0E03D5C836EF32"
+				item: { Count: 5, id: "powah:dielectric_casing" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7AD3CA74A673BC8F"]
+			description: ["2 can be crafted from a basic capacitor. Used to craft all starter tier machines"]
+			id: "0C8777D5BE79B2AF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2496C9C35C66CA63"
+				table_id: 8804719193895329267L
+				type: "random"
+			}]
+			tasks: [{
+				id: "023FF8017A5C64A0"
+				item: "powah:capacitor_basic_tiny"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1D7B3ED36B1BC136"]
+			description: ["Crafted from 2 basic capacitors and used as the base of all tier 3 and above capacitors"]
+			id: "37F4144C8BA64EA3"
+			rewards: [{
+				count: 5
+				id: "1683BFCD81EDBC61"
+				item: "powah:capacitor_basic_large"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BC9542625DD46F7"
+				item: "powah:capacitor_basic_large"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["004CE63E8A25D2B6"]
+			description: ["Crafted from a large capacitor and 2 energized steel"]
+			id: "0D2FCA7E6C5EC705"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09382714972FB081"
+				table_id: 2901457933794280299L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2B5CD67B91F5A2ED"
+				item: "powah:capacitor_hardened"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7B61C0877E66041D"]
+			description: ["Crafted from a large capacitor and 2 blazing crystal"]
+			id: "70D8CBD02382D901"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13B4727D180ED9F8"
+				table_id: 2950257185696474180L
+				type: "random"
+			}]
+			tasks: [{
+				id: "50102E46E91680B5"
+				item: "powah:capacitor_blazing"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["075DFE5C7B837D0F"]
+			description: ["Crafted from a large capacitor and 2 niotic crystal"]
+			id: "5AA6E4CAFB4C473D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41EB06C9BAFA3598"
+				table_id: 388383550141744235L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5E4422448D0C53B3"
+				item: "powah:capacitor_niotic"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1910244CC0E54DAE"]
+			description: ["Crafted from a large capacitor and 2 spirited crystal"]
+			id: "34619DC00A165030"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F446A98F6B9EB4A"
+				table_id: 534477733010055643L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6850C1A238791122"
+				item: "powah:capacitor_spirited"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2B22F21B011BCDE9"]
+			description: ["Crafted from a large capacitor and 2 nitro crystal"]
+			id: "6B001FC8346D6C04"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5BB111CAB465FB3B"
+				table_id: 9109040657015107646L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0374D9C032E32AB6"
+				item: "powah:capacitor_nitro"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["60CCAE1A0F22B898"]
+			description: ["Energized steel is used to create the 3rd tier of &lPowah&r machines create them in the energizing orb"]
+			id: "004CE63E8A25D2B6"
+			rewards: [
+				{
+					count: 4
+					id: "7BB2AD444B47199D"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "44D89CD9AD0BAAD0"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6CFE2CF3B138FB97"
+				item: "powah:steel_energized"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["004CE63E8A25D2B6"]
+			description: ["Blazing crystals are used to create the 4th tier of &lPowah&r machines create them in the energizing orb"]
+			id: "7B61C0877E66041D"
+			rewards: [{
+				count: 16
+				id: "6CD892049F256478"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CE17FC0B975A603"
+				item: "powah:crystal_blazing"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7B61C0877E66041D"]
+			description: ["Niotic crystals are used to create the 5th tier of &lPowah&r machines create them in the energizing orb"]
+			id: "075DFE5C7B837D0F"
+			rewards: [{
+				count: 4
+				id: "71EA8EB0D1371318"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C248F96A7B39A09"
+				item: "powah:crystal_niotic"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["075DFE5C7B837D0F"]
+			description: ["Spirited crystals are used to create the 6th tier of &lPowah&r machines create them in the energizing orb"]
+			id: "1910244CC0E54DAE"
+			rewards: [{
+				count: 4
+				id: "4804AA047B4836D0"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "252880051EC4E7AF"
+				item: "powah:crystal_spirited"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1910244CC0E54DAE"]
+			description: ["Nitro crystals are used to create the 7th tier of &lPowah&r machines create them in the energizing orb"]
+			id: "2B22F21B011BCDE9"
+			rewards: [
+				{
+					count: 2
+					id: "1BCFB91DD747F156"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "380E2781F3087712"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "434ABA8655A4C23D"
+					item: "powah:blazing_crystal_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7F4EDEC74C1E689C"
+				item: "powah:crystal_nitro"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7AD3CA74A673BC8F"]
+			description: ["A standard power storage block "]
+			id: "37E6A4FF6CFF3FB3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D82B3C9A8F4B293"
+				table_id: 8804719193895329267L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1B7AC249197D2CE9"
+				item: "powah:energy_cell_starter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["60CCAE1A0F22B898"]
+			description: ["A standard power storage block "]
+			id: "7CAD3BFF66178459"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "409120AD2D578E23"
+				table_id: 4229589882643913358L
+				type: "random"
+			}]
+			tasks: [{
+				id: "59B4DF92CF6BD8B6"
+				item: "powah:energy_cell_basic"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7AD3CA74A673BC8F"]
+			description: ["Dielectric paste is used in all tiers of &lPowah&r machines the second tier requires them for capacitors aswell"]
+			id: "60CCAE1A0F22B898"
+			rewards: [{
+				count: 4
+				id: "3ADA2A0CBDBADBFD"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "4FECA991F518E47E"
+				item: { Count: 32, id: "powah:dielectric_paste" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["004CE63E8A25D2B6"]
+			description: ["A standard power storage block "]
+			id: "26DF1518840A1F24"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66B8CE050D1DD49F"
+				table_id: 2901457933794280299L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4C619FD4AC28BDCC"
+				item: "powah:energy_cell_hardened"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7B61C0877E66041D"]
+			description: ["A standard power storage block "]
+			id: "432019E6EC80882E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "492E9AF027CFD400"
+				table_id: 2950257185696474180L
+				type: "random"
+			}]
+			tasks: [{
+				id: "73A1506211409870"
+				item: "powah:energy_cell_blazing"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["075DFE5C7B837D0F"]
+			description: ["A standard power storage block "]
+			id: "36DD44EF8E08463C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26C88FE876C89F98"
+				table_id: 388383550141744235L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2E880ADE48FBD9EB"
+				item: "powah:energy_cell_niotic"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1910244CC0E54DAE"]
+			description: ["A standard power storage block "]
+			id: "62A81F0D0A938007"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45CA98716908BB65"
+				table_id: 534477733010055643L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "666F3BD6B2A1124D"
+				item: "powah:energy_cell_spirited"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2B22F21B011BCDE9"]
+			description: ["A standard power storage block "]
+			id: "19CA5F7D0C53974D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "065E9B9A2AAE459E"
+				table_id: 9109040657015107646L
+				type: "random"
+			}]
+			tasks: [{
+				id: "73C0F1DFDCEABA63"
+				item: "powah:energy_cell_nitro"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7AD3CA74A673BC8F"]
+			description: ["Wireless power just add batteries"]
+			id: "0A055FF2B0BA8F93"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66150BD37C997B9A"
+				table_id: 8804719193895329267L
+				type: "random"
+			}]
+			tasks: [{
+				id: "076D31EE0ED1F73E"
+				item: "powah:ender_cell_starter"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["60CCAE1A0F22B898"]
+			description: ["Wireless power just add batteries"]
+			id: "7AACAA1674BB70F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3872D8D213A0E2CD"
+				table_id: 4229589882643913358L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3A7A1D77A51423D1"
+				item: "powah:ender_cell_basic"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["004CE63E8A25D2B6"]
+			description: ["Wireless power just add batteries"]
+			id: "0FA4842DAE542B34"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "175014BE7C63FCAA"
+				table_id: 2901457933794280299L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0E64BC2DC3293729"
+				item: "powah:ender_cell_hardened"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7B61C0877E66041D"]
+			description: ["Wireless power just add batteries"]
+			id: "60B386346AE80B4B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FA845328655881D"
+				table_id: 2950257185696474180L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7BF53458F9E0D26A"
+				item: "powah:ender_cell_blazing"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["075DFE5C7B837D0F"]
+			description: ["Wireless power just add batteries"]
+			id: "474ECB2BAF82DAB5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D526DE96F5328AE"
+				table_id: 388383550141744235L
+				type: "random"
+			}]
+			tasks: [{
+				id: "16D69E102B50B28D"
+				item: "powah:ender_cell_niotic"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1910244CC0E54DAE"]
+			description: ["Wireless power just add batteries"]
+			id: "47C0AEC176AF4027"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EA4A9993988C46C"
+				table_id: 534477733010055643L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "01995D201A2F01DB"
+				item: "powah:ender_cell_spirited"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2B22F21B011BCDE9"]
+			description: ["Wireless power just add batteries"]
+			id: "748994D03759D1A0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F75AEA750EC68BC"
+				table_id: 9109040657015107646L
+				type: "random"
+			}]
+			tasks: [{
+				id: "29C9ADB9185EC528"
+				item: "powah:ender_cell_nitro"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7AD3CA74A673BC8F"]
+			description: ["Standard power cable connect them to run your machines"]
+			id: "4D58899EEF965483"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0585708785933D2C"
+				table_id: 8804719193895329267L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3ACD30279AE39F30"
+				item: "powah:energy_cable_starter"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["60CCAE1A0F22B898"]
+			description: ["Standard power cable connect them to run your machines"]
+			id: "36633CBFBAC40A64"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CDF1E18BDDB2F4E"
+				table_id: 4229589882643913358L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3B01FD77F29BF173"
+				item: "powah:energy_cable_basic"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["004CE63E8A25D2B6"]
+			description: ["Standard power cable connect them to run your machines"]
+			id: "4A254EE27A8891E3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01B99D6BF38E0A25"
+				table_id: 2901457933794280299L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5C031777ECCAF46F"
+				item: "powah:energy_cable_hardened"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7B61C0877E66041D"]
+			description: ["Standard power cable connect them to run your machines"]
+			id: "53F09E36BE02D94E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "588D0AEA74544803"
+				table_id: 2950257185696474180L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0F63B54A23027C22"
+				item: "powah:energy_cable_blazing"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["075DFE5C7B837D0F"]
+			description: ["Standard power cable connect them to run your machines"]
+			id: "6170987F0104341A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "192A134862745D27"
+				table_id: 388383550141744235L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2BF7FC9EF3711424"
+				item: "powah:energy_cable_niotic"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1910244CC0E54DAE"]
+			description: ["Standard power cable connect them to run your machines"]
+			id: "6D25EB02BEF7D899"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1EDE85771608BEDC"
+				table_id: 534477733010055643L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "44479C57E7C5F7A6"
+				item: "powah:energy_cable_spirited"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2B22F21B011BCDE9"]
+			description: ["Standard power cable connect them to run your machines"]
+			id: "1B4BF0172AD6E6E8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52352CD9E1590AEF"
+				table_id: 9109040657015107646L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4E60B71CB34C9C4A"
+				item: "powah:energy_cable_nitro"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7AD3CA74A673BC8F"]
+			description: ["Wireless wires? placing on a machine will draw power from endercells of the same tier makesure to check the channels"]
+			id: "79F0BAA9874AEDFD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65AE315719BECB2A"
+				table_id: 8804719193895329267L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2247527592F0BFAD"
+				item: "powah:ender_gate_starter"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["60CCAE1A0F22B898"]
+			description: ["Wireless wires? placing on a machine will draw power from endercells of the same tier makesure to check the channels"]
+			id: "367524BC053119CC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1557F4D5083FFE26"
+				table_id: 4229589882643913358L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1A6CD4B6B5C41996"
+				item: "powah:ender_gate_basic"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["004CE63E8A25D2B6"]
+			description: ["Wireless wires? placing on a machine will draw power from endercells of the same tier makesure to check the channels"]
+			id: "60552F0D9A7E5BCC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A7D38317CB4767A"
+				table_id: 2901457933794280299L
+				type: "random"
+			}]
+			tasks: [{
+				id: "70C739A3C5E5649F"
+				item: "powah:ender_gate_hardened"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7B61C0877E66041D"]
+			description: ["Wireless wires? placing on a machine will draw power from endercells of the same tier makesure to check the channels"]
+			id: "5850C4A8821047AA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "083EAA298F6D6A15"
+				table_id: 2950257185696474180L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4ED6337C3AF5F06B"
+				item: "powah:ender_gate_blazing"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["075DFE5C7B837D0F"]
+			description: ["Wireless wires? placing on a machine will draw power from endercells of the same tier makesure to check the channels"]
+			id: "32BA812D5F87B0B0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DC04D856AB98893"
+				table_id: 388383550141744235L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5DBBF07277ADF8DF"
+				item: "powah:ender_gate_niotic"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1910244CC0E54DAE"]
+			description: ["Wireless wires? placing on a machine will draw power from endercells of the same tier makesure to check the channels"]
+			id: "684F44A44BE7691B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E594E3F33893458"
+				table_id: 534477733010055643L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "34C2405C7BA91FC4"
+				item: "powah:ender_gate_spirited"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2B22F21B011BCDE9"]
+			description: ["Wireless wires? placing on a machine will draw power from endercells of the same tier makesure to check the channels"]
+			id: "774961BAEB99BE2C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33CA1606EBF8BE97"
+				table_id: 9109040657015107646L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6C2A370E1CE3A393"
+				item: "powah:ender_gate_nitro"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7AD3CA74A673BC8F"]
+			description: ["Energizing rods are used to convert items in the energizing orb"]
+			id: "1F915CB67BB0FE0A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C5A9826BEE0B0ED"
+				table_id: 8804719193895329267L
+				type: "random"
+			}]
+			tasks: [{
+				id: "641873C27E73804D"
+				item: "powah:energizing_rod_starter"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["60CCAE1A0F22B898"]
+			description: ["Energizing rods are used to convert items in the energizing orb"]
+			id: "4938DA5C5BF0081A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05188ED45942658F"
+				table_id: 4229589882643913358L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2FBCB1A731C74D94"
+				item: "powah:energizing_rod_basic"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["004CE63E8A25D2B6"]
+			description: ["Energizing rods are used to convert items in the energizing orb"]
+			id: "566841D435D7DA60"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "748706235950D136"
+				table_id: 2901457933794280299L
+				type: "random"
+			}]
+			tasks: [{
+				id: "24FD69940D1033ED"
+				item: "powah:energizing_rod_hardened"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7B61C0877E66041D"]
+			description: ["Energizing rods are used to convert items in the energizing orb"]
+			id: "21AA98874B6B1428"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18C4ABB160E328FF"
+				table_id: 2950257185696474180L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7BAE36F58138A485"
+				item: "powah:energizing_rod_blazing"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["075DFE5C7B837D0F"]
+			description: ["Energizing rods are used to convert items in the energizing orb"]
+			id: "0A152919ADD4E518"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09F885E92CC7AAC1"
+				table_id: 388383550141744235L
+				type: "random"
+			}]
+			tasks: [{
+				id: "56F84F4BCFEA8C87"
+				item: "powah:energizing_rod_niotic"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1910244CC0E54DAE"]
+			description: ["Energizing rods are used to convert items in the energizing orb"]
+			id: "4CF760CAB7EEC39F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52E803818FF1C581"
+				table_id: 534477733010055643L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4A14976DF16D7E23"
+				item: "powah:energizing_rod_spirited"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2B22F21B011BCDE9"]
+			description: ["Energizing rods are used to convert items in the energizing orb"]
+			id: "780608B6C95F222C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E5CC274BB9FAB12"
+				table_id: 9109040657015107646L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6EFECA6152EFFB58"
+				item: "powah:energizing_rod_nitro"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7AD3CA74A673BC8F"]
+			description: ["The furnator Generates power by burning any items that can be used as fuel in a furnace"]
+			id: "597D55C95C4C325E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37AFC2D6D44FE72D"
+				table_id: 8804719193895329267L
+				type: "random"
+			}]
+			tasks: [{
+				id: "25F126CA547ADF0C"
+				item: "powah:furnator_starter"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["60CCAE1A0F22B898"]
+			description: ["The furnator Generates power by burning any items that can be used as fuel in a furnace"]
+			id: "496C6EB1DA7874CA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "689DA520200208E3"
+				table_id: 4229589882643913358L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3C4F2EB5FAA5ADF4"
+				item: "powah:furnator_basic"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["004CE63E8A25D2B6"]
+			description: ["The furnator Generates power by burning any items that can be used as fuel in a furnace"]
+			id: "2E5F07B9838356DE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "681CCD22C159AEC6"
+				table_id: 2901457933794280299L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2E91FEE3CBBAF694"
+				item: "powah:furnator_hardened"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7B61C0877E66041D"]
+			description: ["The furnator Generates power by burning any items that can be used as fuel in a furnace"]
+			id: "58816F4817985278"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DA0D7F141000776"
+				table_id: 2950257185696474180L
+				type: "random"
+			}]
+			tasks: [{
+				id: "46EA9C781AA104F3"
+				item: "powah:furnator_blazing"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["075DFE5C7B837D0F"]
+			description: ["The furnator Generates power by burning any items that can be used as fuel in a furnace"]
+			id: "5442A8D0E36514BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B3E86A6D93FCC23"
+				table_id: 388383550141744235L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7413BA41310E9CBF"
+				item: "powah:furnator_niotic"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1910244CC0E54DAE"]
+			description: ["The furnator Generates power by burning any items that can be used as fuel in a furnace"]
+			id: "076666BE18E7A5DB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B3B22BB3EE371AF"
+				table_id: 534477733010055643L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5945DBDDD41B65AD"
+				item: "powah:furnator_spirited"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2B22F21B011BCDE9"]
+			description: ["The furnator Generates power by burning any items that can be used as fuel in a furnace"]
+			id: "1F0D9E7A6D582B6A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B841DF7FA1CEC8C"
+				table_id: 9109040657015107646L
+				type: "random"
+			}]
+			tasks: [{
+				id: "721609EE732DD210"
+				item: "powah:furnator_nitro"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7AD3CA74A673BC8F"]
+			description: ["The magmator generates power from lava piped into it"]
+			id: "5FA96EE89737D633"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08E2A38E6ECF5998"
+				table_id: 8804719193895329267L
+				type: "random"
+			}]
+			tasks: [{
+				id: "53ADEC8A764B07D2"
+				item: "powah:magmator_starter"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["60CCAE1A0F22B898"]
+			description: ["The magmator generates power from lava piped into it"]
+			id: "020831990F02DDD2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "633C250FB23F5E0E"
+				table_id: 4229589882643913358L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7270AFDCC5887137"
+				item: "powah:magmator_basic"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["004CE63E8A25D2B6"]
+			description: ["The magmator generates power from lava piped into it"]
+			id: "1D2CFB57F2FCC125"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54859C8A01C85C4F"
+				table_id: 2901457933794280299L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1910AE1DA44752F7"
+				item: "powah:magmator_hardened"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["075DFE5C7B837D0F"]
+			description: ["The magmator generates power from lava piped into it"]
+			id: "50C6B2B7357382BA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B93B9AC43B617B6"
+				table_id: 388383550141744235L
+				type: "random"
+			}]
+			tasks: [{
+				id: "070919C463DA7E67"
+				item: "powah:magmator_niotic"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7B61C0877E66041D"]
+			description: ["The magmator generates power from lava piped into it"]
+			id: "2E0D229A78CAE934"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5311831DDAAB4AE4"
+				table_id: 2950257185696474180L
+				type: "random"
+			}]
+			tasks: [{
+				id: "34D1FC55E71349D2"
+				item: "powah:magmator_blazing"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1910244CC0E54DAE"]
+			description: ["The magmator generates power from lava piped into it"]
+			id: "532942EA90150876"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12C419923BF86BA3"
+				table_id: 534477733010055643L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2C9DB81E013654DD"
+				item: "powah:magmator_spirited"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2B22F21B011BCDE9"]
+			description: ["The magmator generates power from lava piped into it"]
+			id: "3AE1EC9AAD36C818"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0639ED655EA8F6E8"
+				table_id: 9109040657015107646L
+				type: "random"
+			}]
+			tasks: [{
+				id: "32378D1CA26F85A3"
+				item: "powah:magmator_nitro"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7AD3CA74A673BC8F"]
+			description: ["The thermo generator generates power by being fed water and requires a &lhot&r block directly underneath (magma block, lava or blazing crystal block)"]
+			id: "32525923698150D2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1879D9FA31AFF8B1"
+				table_id: 8804719193895329267L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5BE316C6B634E68F"
+				item: "powah:thermo_generator_starter"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["60CCAE1A0F22B898"]
+			description: ["The thermo generator generates power by being fed water and requires a &lhot&r block directly underneath (magma block, lava or blazing crystal block)"]
+			id: "055066B5C67F488F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D3D7B07BC13317E"
+				table_id: 4229589882643913358L
+				type: "random"
+			}]
+			tasks: [{
+				id: "66FB5DED0CF6CA68"
+				item: "powah:thermo_generator_basic"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["004CE63E8A25D2B6"]
+			description: ["The thermo generator generates power by being fed water and requires a &lhot&r block directly underneath (magma block, lava or blazing crystal block)"]
+			id: "15C4EF0963801AC4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72BEA0903A384904"
+				table_id: 2901457933794280299L
+				type: "random"
+			}]
+			tasks: [{
+				id: "42FDC3B1CCEE5382"
+				item: "powah:thermo_generator_hardened"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7B61C0877E66041D"]
+			description: ["The thermo generator generates power by being fed water and requires a &lhot&r block directly underneath (magma block, lava or blazing crystal block)"]
+			id: "1D702382C5AC7BA2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A8032EE283EB0EF"
+				table_id: 2950257185696474180L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2AD9A4D40CF676AD"
+				item: "powah:thermo_generator_blazing"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["075DFE5C7B837D0F"]
+			description: ["The thermo generator generates power by being fed water and requires a &lhot&r block directly underneath (magma block, lava or blazing crystal block)"]
+			id: "4233F6DF246BD64B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62C7FB6F0953821B"
+				table_id: 388383550141744235L
+				type: "random"
+			}]
+			tasks: [{
+				id: "287C721FF2C71B3C"
+				item: "powah:thermo_generator_niotic"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1910244CC0E54DAE"]
+			description: ["The thermo generator generates power by being fed water and requires a &lhot&r block directly underneath (magma block, lava or blazing crystal block)"]
+			id: "6B9DC62011397AEE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CD0434A5E26B1F1"
+				table_id: 534477733010055643L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "38AEF7137481A888"
+				item: "powah:thermo_generator_spirited"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2B22F21B011BCDE9"]
+			description: ["The thermo generator generates power by being fed water and requires a &lhot&r block directly underneath (magma block, lava or blazing crystal block)"]
+			id: "79E2198674C70560"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BF95B192B7FA501"
+				table_id: 9109040657015107646L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4884277A98293AA1"
+				item: "powah:thermo_generator_nitro"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7AD3CA74A673BC8F"]
+			description: ["The reactor Requires 36 power blocks arranged in a 3x3x4 (verticle) setup and generates power from uraninite &l&nWill shutdown if not provided with enough water"]
+			id: "2421BF09705D3547"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02ECE2666CB0994F"
+				table_id: 8804719193895329267L
+				type: "random"
+			}]
+			tasks: [{
+				id: "06762AEDF43E7A32"
+				item: "powah:reactor_starter"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["60CCAE1A0F22B898"]
+			description: ["The reactor Requires 36 power blocks arranged in a 3x3x4 (verticle) setup and generates power from uraninite &l&nWill shutdown if not provided with enough water"]
+			id: "5B2022A888005C5D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2884B6B7AF3C1AB6"
+				table_id: 4229589882643913358L
+				type: "random"
+			}]
+			tasks: [{
+				id: "06BBA80C6F9CB5B7"
+				item: "powah:reactor_basic"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["004CE63E8A25D2B6"]
+			description: ["The reactor Requires 36 power blocks arranged in a 3x3x4 (verticle) setup and generates power from uraninite &l&nWill shutdown if not provided with enough water"]
+			id: "52A240CD197499A2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68C476E949699CB8"
+				table_id: 2901457933794280299L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1E7441A21BB2C453"
+				item: "powah:reactor_hardened"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7B61C0877E66041D"]
+			description: ["The reactor Requires 36 power blocks arranged in a 3x3x4 (verticle) setup and generates power from uraninite &l&nWill shutdown if not provided with enough water"]
+			id: "1E768DAE5E93547F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3468F3B750410A21"
+				table_id: 2950257185696474180L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5B3E41F254D57611"
+				item: "powah:reactor_blazing"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["075DFE5C7B837D0F"]
+			description: ["The reactor Requires 36 power blocks arranged in a 3x3x4 (verticle) setup and generates power from uraninite &l&nWill shutdown if not provided with enough water"]
+			id: "74B86A648F039D6A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54952B82599E78D1"
+				table_id: 388383550141744235L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3C7EDC7DBD8ED299"
+				item: "powah:reactor_niotic"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1910244CC0E54DAE"]
+			description: ["The reactor Requires 36 power blocks arranged in a 3x3x4 (verticle) setup and generates power from uraninite &l&nWill shutdown if not provided with enough water"]
+			id: "4F39E3AA5C9D671C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "290F3F54CDA517EC"
+				table_id: 534477733010055643L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "46376D3032449A9E"
+				item: "powah:reactor_spirited"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2B22F21B011BCDE9"]
+			description: ["The reactor Requires 36 power blocks arranged in a 3x3x4 (verticle) setup and generates power from uraninite &l&nWill shutdown if not provided with enough water"]
+			id: "4C4EBDF28D58B43C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "294ADCACC75595B5"
+				table_id: 9109040657015107646L
+				type: "random"
+			}]
+			tasks: [{
+				id: "246BA924C6DFEEAE"
+				item: "powah:reactor_nitro"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7AD3CA74A673BC8F"]
+			description: ["Generates power from the sun (can't have blocks above and only works during the day)"]
+			id: "55B6EA2A5FEB0003"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72103BC0EBE39DC4"
+				table_id: 8804719193895329267L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6072013E878E19D6"
+				item: "powah:solar_panel_starter"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["60CCAE1A0F22B898"]
+			description: ["Generates power from the sun (can't have blocks above and only works during the day)"]
+			id: "726F119EDC400D22"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EFA01633BBAD073"
+				table_id: 4229589882643913358L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5F8B6EC5E81DAADE"
+				item: "powah:solar_panel_basic"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["004CE63E8A25D2B6"]
+			description: ["Generates power from the sun (can't have blocks above and only works during the day)"]
+			id: "6C9692C17489C11E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C6C9B280D03D6B0"
+				table_id: 2901457933794280299L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1B296C00C251BF64"
+				item: "powah:solar_panel_hardened"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7B61C0877E66041D"]
+			description: ["Generates power from the sun (can't have blocks above and only works during the day)"]
+			id: "135FA3F99D1B1F73"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5184F2A41672559B"
+				table_id: 2950257185696474180L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2A2D26C1CDEF72CC"
+				item: "powah:solar_panel_blazing"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["075DFE5C7B837D0F"]
+			description: ["Generates power from the sun (can't have blocks above and only works during the day)"]
+			id: "72E8934D8ACB00F4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "054E8F93EB3163CD"
+				table_id: 388383550141744235L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3A8D582EFC43B538"
+				item: "powah:solar_panel_niotic"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1910244CC0E54DAE"]
+			description: ["Generates power from the sun (can't have blocks above and only works during the day)"]
+			id: "3076CEB791FBB8D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06C6AECF34FA0284"
+				table_id: 534477733010055643L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0EFA7BC062EA9CA5"
+				item: "powah:solar_panel_spirited"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2B22F21B011BCDE9"]
+			description: ["Generates power from the sun (can't have blocks above and only works during the day)"]
+			id: "50C7A1852630D80A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4040CC686A5AC3D3"
+				table_id: 9109040657015107646L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5CB4F3D500188805"
+				item: "powah:solar_panel_nitro"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7AD3CA74A673BC8F"]
+			description: ["The player transmitter wirelessly charges items in the inventory of the player whos binding card is placed inside (dimensional cards required for cross dimension transfer"]
+			id: "6E1CC0BB50BD4AA6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F004EF61B4D1AF7"
+				table_id: 8804719193895329267L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6914A81A0CB22BC6"
+				item: "powah:player_transmitter_starter"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["60CCAE1A0F22B898"]
+			description: ["The player transmitter wirelessly charges items in the inventory of the player whos binding card is placed inside (dimensional cards required for cross dimension transfer"]
+			id: "21EDBEB4DA617245"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20F3D33882E9263D"
+				table_id: 4229589882643913358L
+				type: "random"
+			}]
+			tasks: [{
+				id: "284486D0A93D3BC2"
+				item: "powah:player_transmitter_basic"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["004CE63E8A25D2B6"]
+			description: ["The player transmitter wirelessly charges items in the inventory of the player whos binding card is placed inside (dimensional cards required for cross dimension transfer"]
+			id: "65E196F9DFCC2258"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CC98826D01F15BD"
+				table_id: 2901457933794280299L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5CF6501627B653C4"
+				item: "powah:player_transmitter_hardened"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7B61C0877E66041D"]
+			description: ["The player transmitter wirelessly charges items in the inventory of the player whos binding card is placed inside (dimensional cards required for cross dimension transfer"]
+			id: "51FD96F8A962BB28"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0AEC8E3D46446D1C"
+				table_id: 2950257185696474180L
+				type: "random"
+			}]
+			tasks: [{
+				id: "48E80864EDFC4F09"
+				item: "powah:player_transmitter_blazing"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["075DFE5C7B837D0F"]
+			description: ["The player transmitter wirelessly charges items in the inventory of the player whos binding card is placed inside (dimensional cards required for cross dimension transfer"]
+			id: "78B760C542EFCD8E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75C7387EA8BAFB3E"
+				table_id: 388383550141744235L
+				type: "random"
+			}]
+			tasks: [{
+				id: "63BFEA6F5E79953C"
+				item: "powah:player_transmitter_niotic"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1910244CC0E54DAE"]
+			description: ["The player transmitter wirelessly charges items in the inventory of the player whos binding card is placed inside (dimensional cards required for cross dimension transfer"]
+			id: "3E79271E0AE3671A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E689575DF0EA6CD"
+				table_id: 534477733010055643L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "082BF2D8257C7F3E"
+				item: "powah:player_transmitter_spirited"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2B22F21B011BCDE9"]
+			description: ["The player transmitter wirelessly charges items in the inventory of the player whos binding card is placed inside (dimensional cards required for cross dimension transfer"]
+			id: "5F38C9BBD34C7D4C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FD28E4FDDCECCDF"
+				table_id: 9109040657015107646L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1F9076754C4F2FBB"
+				item: "powah:player_transmitter_nitro"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7AD3CA74A673BC8F"]
+			description: ["The energy hopper charges items in the attached chest (may not work with sophisticated storage chests)"]
+			id: "2AD306E07992A84B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F85A8C7914FA6B7"
+				table_id: 8804719193895329267L
+				type: "random"
+			}]
+			tasks: [{
+				id: "64B924192647D0E5"
+				item: "powah:energy_hopper_starter"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["60CCAE1A0F22B898"]
+			description: ["The energy hopper charges items in the attached chest (may not work with sophisticated storage chests)"]
+			id: "62A3E6FA696B322F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16B0567DF27A48F9"
+				table_id: 4229589882643913358L
+				type: "random"
+			}]
+			tasks: [{
+				id: "28DDCD9950952DAE"
+				item: "powah:energy_hopper_basic"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["004CE63E8A25D2B6"]
+			description: ["The energy hopper charges items in the attached chest (may not work with sophisticated storage chests)"]
+			id: "737D1ED4D9CAFED6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14B13DFFBD516A9B"
+				table_id: 2901457933794280299L
+				type: "random"
+			}]
+			tasks: [{
+				id: "110A8AE595899946"
+				item: "powah:energy_hopper_hardened"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7B61C0877E66041D"]
+			description: ["The energy hopper charges items in the attached chest (may not work with sophisticated storage chests)"]
+			id: "35734334ADEA9130"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72C17FC290D8212D"
+				table_id: 2950257185696474180L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5D8185A308D1B51F"
+				item: "powah:energy_hopper_blazing"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["075DFE5C7B837D0F"]
+			description: ["The energy hopper charges items in the attached chest (may not work with sophisticated storage chests)"]
+			id: "42AD8C797EFD520D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "553059AC928C59CA"
+				table_id: 388383550141744235L
+				type: "random"
+			}]
+			tasks: [{
+				id: "273A4DA30C35CE43"
+				item: "powah:energy_hopper_niotic"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1910244CC0E54DAE"]
+			description: ["The energy hopper charges items in the attached chest (may not work with sophisticated storage chests)"]
+			id: "1B44138DF15B5546"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F7E16AC80A44288"
+				table_id: 534477733010055643L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0F88381A68338563"
+				item: "powah:energy_hopper_spirited"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2B22F21B011BCDE9"]
+			description: ["The energy hopper charges items in the attached chest (may not work with sophisticated storage chests)"]
+			id: "42AA7AC135A2E333"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26C486632AC9ED4A"
+				table_id: 9109040657015107646L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4F510FB04373962C"
+				item: "powah:energy_hopper_nitro"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7AD3CA74A673BC8F"]
+			description: ["The energy discharger draws energy from items and puts it back into the &lpowah&r system"]
+			id: "389FA994AC7D9C26"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "775C2CCFB18C8AB9"
+				table_id: 8804719193895329267L
+				type: "random"
+			}]
+			tasks: [{
+				id: "552DB97B71B8A206"
+				item: "powah:energy_discharger_starter"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["60CCAE1A0F22B898"]
+			description: ["The energy discharger draws energy from items and puts it back into the &lpowah&r system"]
+			id: "72E8FA36B69DA710"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B46D3CBE3985F26"
+				table_id: 4229589882643913358L
+				type: "random"
+			}]
+			tasks: [{
+				id: "25C84F5B1DF64E88"
+				item: "powah:energy_discharger_basic"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B61C0877E66041D"]
+			description: ["The energy discharger draws energy from items and puts it back into the &lpowah&r system"]
+			id: "0699AD7D21AB71B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F7891A2B9F5C3A1"
+				table_id: 2950257185696474180L
+				type: "random"
+			}]
+			tasks: [{
+				id: "18E1410081133F1D"
+				item: "powah:energy_discharger_blazing"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["004CE63E8A25D2B6"]
+			description: ["The energy discharger draws energy from items and puts it back into the &lpowah&r system"]
+			id: "1117014EEB31E8CE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3706552713EA3A1A"
+				table_id: 2901457933794280299L
+				type: "random"
+			}]
+			tasks: [{
+				id: "561BC5EBF19045F7"
+				item: "powah:energy_discharger_hardened"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["075DFE5C7B837D0F"]
+			description: ["The energy discharger draws energy from items and puts it back into the &lpowah&r system"]
+			id: "035A04BEA166ED8E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E6F795B4881A871"
+				table_id: 388383550141744235L
+				type: "random"
+			}]
+			tasks: [{
+				id: "119B828559F6FE2D"
+				item: "powah:energy_discharger_niotic"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1910244CC0E54DAE"]
+			description: ["The energy discharger draws energy from items and puts it back into the &lpowah&r system"]
+			id: "5081A0FC7607084F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C56A9E153E76B7B"
+				table_id: 534477733010055643L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "364D366D2ACC9E4E"
+				item: "powah:energy_discharger_spirited"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2B22F21B011BCDE9"]
+			description: ["The energy discharger draws energy from items and puts it back into the &lpowah&r system"]
+			id: "299DCF7EE068C7EB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E3DC4449409E658"
+				table_id: 9109040657015107646L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7FF45495F2BF38F6"
+				item: "powah:energy_discharger_nitro"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7AD3CA74A673BC8F"]
+			description: ["Batteries are used to charge other items in your inventory (can also be used to up the storage capacity of ender cells)"]
+			id: "476C113E2AB7CD8C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48C866E7AEF10025"
+				table_id: 8804719193895329267L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2E6CB42F48E08137"
+				item: "powah:battery_starter"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["60CCAE1A0F22B898"]
+			description: ["Batteries are used to charge other items in your inventory (can also be used to up the storage capacity of ender cells)"]
+			id: "759149D2F68E2275"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33A51E3042C7C5DF"
+				table_id: 4229589882643913358L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5A8D2AB3A8E54CD0"
+				item: "powah:battery_basic"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["004CE63E8A25D2B6"]
+			description: ["Batteries are used to charge other items in your inventory (can also be used to up the storage capacity of ender cells)"]
+			id: "48D106A0C9F4D020"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CD99CB8580073CA"
+				table_id: 2901457933794280299L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0A9D3471D7DD46B9"
+				item: "powah:battery_hardened"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7B61C0877E66041D"]
+			description: ["Batteries are used to charge other items in your inventory (can also be used to up the storage capacity of ender cells)"]
+			id: "576D7D167EB3BECA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0316D0217DFA388C"
+				table_id: 2950257185696474180L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0FE1186C39050AA7"
+				item: "powah:battery_blazing"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["075DFE5C7B837D0F"]
+			description: ["Batteries are used to charge other items in your inventory (can also be used to up the storage capacity of ender cells)"]
+			id: "65E937BB15BC4EBC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7131F78C6187D2CE"
+				table_id: 388383550141744235L
+				type: "random"
+			}]
+			tasks: [{
+				id: "64CA16A1A4EBCFB2"
+				item: "powah:battery_niotic"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1910244CC0E54DAE"]
+			description: ["Batteries are used to charge other items in your inventory (can also be used to up the storage capacity of ender cells)"]
+			id: "73DE690608C688DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "713378802D13DC15"
+				table_id: 534477733010055643L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "36D19AE5991EF4B9"
+				item: "powah:battery_spirited"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2B22F21B011BCDE9"]
+			description: ["Batteries are used to charge other items in your inventory (can also be used to up the storage capacity of ender cells)"]
+			id: "78ED12AFC0E576B1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "444D8C6F4666F84A"
+				table_id: 9109040657015107646L
+				type: "random"
+			}]
+			tasks: [{
+				id: "01FFBB4E16F5768E"
+				item: "powah:battery_nitro"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1D7B3ED36B1BC136"]
+			description: ["The energizing orb is used as a crafting platfor to create materials for tier 3 and above (requires energizing rods to work)"]
+			id: "02008876A51471F2"
+			rewards: [{
+				id: "4FACA83827EC3A53"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "1EE8274D59EDA73E"
+				item: "powah:energizing_orb"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1D7B3ED36B1BC136"]
+			description: ["The player aerial pearl is made by capturing a zombie/husk with an aerial pearl (right click) used to make player transmitters"]
+			id: "53EEDBAD8541BE83"
+			tasks: [{
+				id: "4D8236521162FB80"
+				item: "powah:player_aerial_pearl"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1D7B3ED36B1BC136"]
+			description: ["Right clicking with a binding card in your hand will bind it to you as a player, Used in player transmitters to wirelessly charge items in your inventory."]
+			id: "72E54FB8574EE659"
+			rewards: [{
+				id: "13437DA5BF947F68"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "1178EB401535A59A"
+				item: "powah:binding_card"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["72E54FB8574EE659"]
+			description: ["Right clicking a bound/unbound binding card on an enderman will capture it, using its magical powers and allow it to transfer power across dimensions."]
+			id: "05471E7F2C129BEC"
+			rewards: [{
+				id: "7FE0CC916B6F4911"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "2572FB214A387B3B"
+				item: "powah:binding_card_dim"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+	]
+	title: "POWAH!!"
+}

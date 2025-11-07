@@ -1,0 +1,57 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overworld"
+	group: "7B22D4A0939AEFDE"
+	id: "052E9A2724FF4794"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:grass_block"
+			id: "21DC771A384AB931"
+			rewards: [{
+				id: "2912AEEAC1ABE868"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Explore This Wonderfull world"
+			tasks: [{
+				id: "212EB7E81A379B0D"
+				title: "The Start Of The Adventure"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["212EB7E81A379B0D"]
+			dependency_requirement: "one_started"
+			description: ["Visit a \"plains\" biome in the Overworld"]
+			id: "4325FC3055B53A2C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4848E014863175B0"
+					table_id: 1678933771948855992L
+					type: "loot"
+				}
+				{
+					id: "6581FB001451EDBF"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				biome: "minecraft:plains"
+				icon: "minecraft:map"
+				id: "1C8C359D1C41D66D"
+				title: "Kinda Plain"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+	]
+	title: "Overworld"
+}

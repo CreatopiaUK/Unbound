@@ -1,0 +1,894 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "basic_tools"
+	group: "71A5A283143C7D9F"
+	id: "52E9910F3146937F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["173AB73F71259764"]
+			description: ["Obtain your first set of basic tools for some starter rewards!"]
+			id: "7D2788C944ADBCA1"
+			rewards: [
+				{
+					id: "1F8619FD7F5CBF2B"
+					item: "waystones:waystone"
+					type: "item"
+				}
+				{
+					id: "2692F75CBA666851"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "5303AE2DBAB0027C"
+					item: "naturescompass:naturescompass"
+					type: "item"
+				}
+				{
+					id: "40047B2BF35DB71A"
+					item: {
+						Count: 1
+						id: "waystones:warp_stone"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50E1E9BE16BCA5F7"
+					table_id: 1678933771948855992L
+					title: "Basic Adventure Crate"
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "4C8ACDA23F8DC740"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:wooden_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:wooden_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:wooden_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:wooden_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:wooden_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Basic Tools"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7D2788C944ADBCA1"]
+			description: ["Kill 5 Zombies."]
+			id: "5B102C32177680F8"
+			rewards: [
+				{
+					id: "32CB97F625EB8682"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6E70D3A5EAAECDF3"
+					item: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30B0D0860D9D2FCE"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "61E2894D8860F618"
+					table_id: 1678933771948855992L
+					title: "Basic Adventure Crate"
+					type: "loot"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "statues:zombie_statue"
+				id: "3F0548209AFCE2AE"
+				title: "zombie"
+				type: "kill"
+				value: 5L
+			}]
+			title: "A Taste Of Combat"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B102C32177680F8"]
+			description: ["Kill 5 Skeletons"]
+			id: "244FAAEF2F89A648"
+			rewards: [
+				{
+					id: "4A2D21C070A338EB"
+					item: {
+						Count: 1
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2867955D375C7F6F"
+					type: "xp"
+					xp: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "153F2D5BB5FDC403"
+					table_id: 1678933771948855992L
+					title: "Basic Adventure Crate"
+					type: "loot"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: "minecraft:skeleton_skull"
+				id: "33B1AE010A8C1455"
+				title: "skeleton"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Wish i had a shield"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			description: ["Punch some trees like they owe you money."]
+			id: "173AB73F71259764"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "3C5BE8DEE5018106"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "271D1DD988F8F1A7"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "412394645AF2B908"
+					table_id: 1678933771948855992L
+					title: "Basic Adventure Crate"
+					type: "loot"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "2CA593D1005BA9B7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "OUCH MY HAND!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["173AB73F71259764"]
+			description: ["Find and open your first instance based loot chest."]
+			id: "630C99A436FC3023"
+			rewards: [
+				{
+					id: "314F141865985FC6"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08EA9BADDB64C4FB"
+					table_id: 1678933771948855992L
+					type: "loot"
+				}
+				{
+					id: "6B8CF1C3759B15A9"
+					item: "sophisticatedbackpacks:backpack"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "lootr:1chest"
+				criterion: ""
+				id: "6D70EE2CCE81030E"
+				type: "advancement"
+			}]
+			title: "Where am i going to put all this?"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5B102C32177680F8"]
+			description: ["Kill 5 spiders"]
+			id: "5CB767FB065B864A"
+			rewards: [
+				{
+					id: "3CFD7E1DDEE6B68D"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D51B5604988535D"
+					table_id: 1678933771948855992L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: "spartanweaponry:spider_head"
+				id: "768D21EFCC165EFE"
+				title: "Tell Bex she can come out now"
+				type: "kill"
+				value: 5L
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["173AB73F71259764"]
+			description: ["Find your first village."]
+			id: "76816B031C12A3F9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "121887B9924031BD"
+					table_id: 1678933771948855992L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5634688DDDA429AF"
+					table_id: 1678933771948855992L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C1BFB8FD73EC67E"
+					table_id: 1678933771948855992L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				advancement: "morevillagers:first_village"
+				criterion: ""
+				id: "34C3651EB6B25DC5"
+				title: "Friendly Noses... I mean Faces"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["173AB73F71259764"]
+			description: ["The first step on a journey of mining and crafting"]
+			id: "1D5524F9EBC2E5E0"
+			rewards: [
+				{
+					id: "24B07BE8C13A99E5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C251136C7EB2EB6"
+					table_id: 1678933771948855992L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "68E1B85395AEF023"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "Getting crafty"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7D2788C944ADBCA1"]
+			id: "14147F7D6FB9FE69"
+			rewards: [
+				{
+					count: 5
+					id: "11FD172910F218C5"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					id: "19770674807B3D34"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "\"these are great\""
+			tasks: [{
+				count: 10L
+				id: "3C32A9EF450A8A9D"
+				item: { Count: 10, id: "minecraft:dirt" }
+				type: "item"
+			}]
+			title: "the dirtier the better"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7D2788C944ADBCA1"]
+			description: ["better durability same great taste"]
+			hide_until_deps_complete: false
+			id: "71882969C03C13FB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A536B1029E76A96"
+					table_id: 1678933771948855992L
+					type: "loot"
+				}
+				{
+					id: "20EEBE28A5199CCB"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "18FEF0059F63816F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:stone_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:stone_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:stone_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:stone_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:stone_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "less basic tools"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["71882969C03C13FB"]
+			description: ["now we're starting to get somewhere, lets get those diamonds!"]
+			id: "1D22BAB9D6D93D83"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "25E7A583AA446033"
+					table_id: 1678933771948855992L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7421FF84BF10BCDD"
+					table_id: 1678933771948855992L
+					type: "loot"
+				}
+				{
+					id: "571E7A7719B1FACB"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 2
+					id: "55210D44B796141F"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "38E5B311A6E9AB2C"
+					item: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73EBEA3A8B280F57"
+					item: {
+						Count: 1
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "middle tools"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1D22BAB9D6D93D83"]
+			description: ["Finally, you need to make sure you have the levels to use them, and then it's obsidian gathering time"]
+			id: "542E482C8B8D93B3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4FFA5429114F3FDE"
+					table_id: 4381086907456634712L
+					type: "random"
+				}
+				{
+					id: "7A16B102BA81A5E2"
+					type: "xp"
+					xp: 750
+				}
+				{
+					id: "6ABF21ECBEF6B124"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4380BC6E70E54682"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "230FD58EE762F743"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Even better tools"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7D2788C944ADBCA1"]
+			description: ["But we can now"]
+			id: "1864C2AC25D3C022"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "26095896833397B0"
+					table_id: 1678933771948855992L
+					type: "loot"
+				}
+				{
+					id: "717AE2BEB168212B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "0E445B2E688C713F"
+				item: {
+					Count: 1
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "We didn't start the fire"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1864C2AC25D3C022"
+				"542E482C8B8D93B3"
+			]
+			description: ["The next stage requires a certain portal to a warmer place. DO NOT TRY TO SWIM"]
+			icon: "allthetweaks:mini_nether"
+			id: "5EADE2E6E8710132"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "75C449B29172F0BA"
+					table_id: 4381086907456634712L
+					type: "random"
+				}
+				{
+					id: "3BB5CA06924E35B0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				count: 10L
+				id: "5727E37AC9010120"
+				item: { Count: 10, id: "minecraft:obsidian" }
+				type: "item"
+			}]
+			title: "See you in hell!"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"542E482C8B8D93B3"
+				"5EADE2E6E8710132"
+			]
+			description: ["... or atleast for the base game. Maybe some of the mods will provide more options?"]
+			id: "3CB99B3FB9922B43"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5B4A380F1F75E33B"
+					table_id: 4381086907456634712L
+					type: "random"
+				}
+				{
+					id: "62690431A63CC7CB"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 5
+					id: "21E02A94CAFDA5FD"
+					item: "minecraft:netherite_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4CCC3B92C92E9957"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48D0169EE38FBE3F"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The best tools?..."
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1D5524F9EBC2E5E0"]
+			description: ["Tired of your equipment and pets lacking a personality? well do i have a solution for you."]
+			id: "1D0AED90E425F1DD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "70725103C9EB6C90"
+					table_id: 1678933771948855992L
+					type: "random"
+				}
+				{
+					id: "4F427379E0AFCA3E"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [
+				{
+					id: "708FBB1970510CF1"
+					item: "minecraft:anvil"
+					type: "item"
+				}
+				{
+					id: "32073AE2B4951A57"
+					item: "minecraft:name_tag"
+					type: "item"
+				}
+			]
+			title: "Taking names"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1D5524F9EBC2E5E0"]
+			id: "375C8FECB6595873"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "64E5F7DB5018C2DE"
+					table_id: 181974124547911387L
+					type: "random"
+				}
+				{
+					id: "349EA0A1B7F5DF45"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "You need a trim"
+			tasks: [{
+				id: "439AAFFC8E3A8DAB"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1D5524F9EBC2E5E0"]
+			description: ["Remember kids your oven should always be set hot enough to melt iron"]
+			id: "7CBD6BD49C7619C3"
+			rewards: [
+				{
+					count: 10
+					id: "635C660F2A1676BC"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "6F1EF13CDC13923D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "2AEC8FB6AC08755D"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "little cook"
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7CBD6BD49C7619C3"]
+			description: ["Want to be able to walk away for longer try setting up a 3x3x3 furnace cube, *disclaimer* Ovens should be turned off before leaving your home."]
+			icon: "jumbofurnace:jumbo_furnace"
+			id: "5025549F210344B8"
+			rewards: [
+				{
+					count: 10
+					id: "7B20AB217F88E5DE"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DA679A703464F96"
+					table_id: 1678933771948855992L
+					type: "random"
+				}
+				{
+					id: "1702278E897DF87B"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				count: 27L
+				id: "04CD283A5BE4D6BA"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "Big cook"
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			id: "30CF050103D26D1C"
+			rewards: [
+				{
+					count: 20
+					id: "256AA50F88B10AC9"
+					item: "minecraft:apple"
+					type: "item"
+				}
+				{
+					id: "01222BEA0C5F8D0D"
+					type: "xp"
+					xp: 250
+				}
+			]
+			subtitle: "There are plenty of different horse variants in this try taming one"
+			tasks: [{
+				id: "3D5185C977F025D5"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:saddle"
+							}
+							{
+								Count: 1b
+								id: "minecraft:leather_horse_armor"
+							}
+							{
+								Count: 1b
+								id: "minecraft:iron_horse_armor"
+							}
+							{
+								Count: 1b
+								id: "minecraft:golden_horse_armor"
+							}
+							{
+								Count: 1b
+								id: "minecraft:diamond_horse_armor"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Horsing around"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B102C32177680F8"]
+			id: "479F0ECFA496EE86"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "567D6F7F69111AE8"
+					table_id: 1678933771948855992L
+					type: "random"
+				}
+				{
+					id: "537E64FCD76A3CBC"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 5
+					id: "35E381AA0D306B85"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 5 enderman"
+			tasks: [{
+				entity: "minecraft:enderman"
+				icon: "ftb_ph:enderman"
+				id: "5A1AE368E82F2B84"
+				type: "kill"
+				value: 5L
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"479F0ECFA496EE86"
+				"244FAAEF2F89A648"
+				"5CB767FB065B864A"
+			]
+			id: "3C5FED320AA09FB0"
+			subtitle: "You've shown a basic competency for murder head over to the slayer tab and take on a bigger challenge"
+			tasks: [{
+				id: "4C8DED8571738CE4"
+				title: "A freshly sharpened sword"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+	]
+	title: "First Steps"
+}

@@ -1,0 +1,803 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_from_a_to_b"
+	group: "71A5A283143C7D9F"
+	id: "5BFD53F9B374EF9E"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["At lower levels moving can be slow and annoying we have a solution for this or several"]
+			id: "75E8659281837EAE"
+			tasks: [{
+				id: "7E22A84AAEB0291C"
+				title: "I'm so slow"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["75E8659281837EAE"]
+			id: "3A13B64ACCD71A6B"
+			subtitle: "Welcome to immersive aircraft. It's time to conquer the skies"
+			tasks: [{
+				id: "0D93B0177DC10E54"
+				title: "The wright brothers would be proud"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["75E8659281837EAE"]
+			description: ["Welcome to Small ships , It's time to conquer the seas"]
+			id: "78371B902B23F6F0"
+			tasks: [{
+				id: "1C3646399CCECE0A"
+				title: "Christopher columbus would be proud"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["75E8659281837EAE"]
+			description: ["Welcome to horsing around, It's time to conquer the lands"]
+			id: "45F3A2644DD16928"
+			tasks: [{
+				id: "50BD99D09D06BEC8"
+				title: "Ghengis khan would be proud"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["78371B902B23F6F0"]
+			description: ["The basic minecraft boat still works but we can do better"]
+			id: "4C7A29F6305EF717"
+			rewards: [
+				{
+					count: 10
+					id: "14CC559E38A052D4"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					id: "3C7D981A06C9F87A"
+					item: "minecraft:map"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "54A1BA973074E559"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:boats"
+					}
+				}
+				type: "item"
+			}]
+			title: "Boats Boats Boats"
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3A13B64ACCD71A6B"]
+			id: "0027FA7686354393"
+			rewards: [{
+				id: "60D6DC5C7A08EC4D"
+				type: "xp"
+				xp: 400
+			}]
+			subtitle: "Sails are used to make Gyrodynes and airships"
+			tasks: [{
+				id: "11DE4132F499A481"
+				item: "immersive_aircraft:sail"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3A13B64ACCD71A6B"]
+			description: ["Hulls are used to create all aircraft except the Quadrocopter"]
+			id: "1CE61F97AC1838CA"
+			rewards: [{
+				id: "7AD7837F47EC90C9"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "325AB93834772607"
+				item: "immersive_aircraft:hull"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["770BD48274B435FB"]
+			description: ["The biplane is a fast moving one seat aircraft for skilled pilots requiring a long runway for takeoff and landing."]
+			id: "70E2906F73D598BF"
+			rewards: [{
+				id: "67E3DB3ABA5D5FF4"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "6C2F875607BA2038"
+				item: "immersive_aircraft:biplane"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["64BF1B298C588FD9"]
+			description: ["The airship has 2 seats and is easy to maneuver but isn't very fast."]
+			id: "0B458EF687FE0E31"
+			rewards: [{
+				id: "325220EC62727C33"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "508093A5F016382F"
+				item: "immersive_aircraft:airship"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0B458EF687FE0E31"]
+			description: ["The cargo airship shares the traits of its ordinary counter part with a large internal storage."]
+			id: "6496ECD3D62AEEDF"
+			rewards: [{
+				id: "1D540A4836826BB3"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "5C8F7876717181F0"
+				item: "immersive_aircraft:cargo_airship"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6496ECD3D62AEEDF"]
+			description: [
+				"The warship is a behemoth with 4 seats a moving turret mounted up front"
+				"6 weapon mounts on the sides and a large internal storage"
+				""
+				"It will allow you to conquer the heavens."
+			]
+			id: "1691D89C1C9E845B"
+			rewards: [{
+				id: "591E7F10A00D69A1"
+				type: "xp"
+				xp: 400
+			}]
+			subtitle: "Its not a Drill but it'll do"
+			tasks: [{
+				id: "0627134A19AB3660"
+				item: "immersive_aircraft:warship"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64BF1B298C588FD9"]
+			description: ["The Gyrodyne is a small 2 seat human powered airship (needs a small runway for takeoff only) consumes hunger as a fuel source"]
+			id: "770BD48274B435FB"
+			rewards: [{
+				id: "4334CC954B164A67"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "67ED799C29743A14"
+				item: "immersive_aircraft:gyrodyne"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2BF5BAFF6C0BB80F"]
+			description: ["All powered flight vehicles will require an engine to craft"]
+			id: "64BF1B298C588FD9"
+			rewards: [{
+				id: "4AE09B6DB413DCBB"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "6FD92EF8533D1587"
+				item: "immersive_aircraft:engine"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["018FA79AF21F4915"]
+			description: ["Increase your fuel efficiency at the cost of speed"]
+			id: "493E8DBB0471EEC4"
+			optional: true
+			rewards: [{
+				id: "4AD9C63F20CE657E"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "096E08B1213C0DD0"
+				item: "immersive_aircraft:eco_engine"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["018FA79AF21F4915"]
+			description: ["Increase your speed at the cost of fuel efficiency "]
+			id: "143C9A0C9E7B5A0C"
+			optional: true
+			rewards: [{
+				id: "0A3A4DDA344BF15A"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "5DF1423956E4A191"
+				item: "immersive_aircraft:nether_engine"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"0027FA7686354393"
+				"1CE61F97AC1838CA"
+			]
+			description: ["Propellor propulsion probably perseveres"]
+			id: "394E210A39178E64"
+			rewards: [{
+				id: "406C07BBD3BCB3AE"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "58F0DA125E236599"
+				item: "immersive_aircraft:propeller"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["018FA79AF21F4915"]
+			description: ["Increases propellor speed significantly"]
+			id: "7666EA761A22B1FC"
+			optional: true
+			rewards: [{
+				id: "2044826A965A1119"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "3B9859D48A4C0BA8"
+				item: "immersive_aircraft:enhanced_propeller"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["018FA79AF21F4915"]
+			description: ["Stops your airships from getting blown away so easily"]
+			id: "22D7861CBD20CF7D"
+			optional: true
+			rewards: [{
+				id: "39AC99F06B4B4028"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "1F49AACE976F8F80"
+				item: "immersive_aircraft:gyroscope"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["018FA79AF21F4915"]
+			description: ["A nice big bow to attach to your aircraft, don't forget to put arrows in your ships inventory"]
+			id: "52E80418B79EAB8D"
+			optional: true
+			rewards: [{
+				id: "5FBABFCE58B01A49"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "339728F6BFD14DA3"
+				item: "immersive_aircraft:heavy_crossbow"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["018FA79AF21F4915"]
+			description: [
+				"A nice big .... gatling gun to add to your aircraft."
+				""
+				"Don't forget to put gunpowder in your Aircrafts inventory."
+			]
+			id: "248CA7D4EB4E953C"
+			optional: true
+			rewards: [{
+				id: "7F1E6C48A1E3814A"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "7E3F0BB8A823308C"
+				item: "immersive_aircraft:rotary_cannon"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["018FA79AF21F4915"]
+			description: ["Increases you aircrafts health"]
+			id: "306F714755E09F7F"
+			optional: true
+			rewards: [{
+				id: "241AE3D3049463A7"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "212EF5FA4EDC15DC"
+				item: "immersive_aircraft:hull_reinforcement"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["018FA79AF21F4915"]
+			description: ["Allows you to make a shorter runway"]
+			id: "08EE0E50C2DBEFBB"
+			optional: true
+			rewards: [{
+				id: "39575B815DE893BC"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "543FD8B962CF4EDE"
+				item: "immersive_aircraft:improved_landing_gear"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["018FA79AF21F4915"]
+			description: ["Increases fuel efficiency"]
+			id: "4DA9FA97EAA2DBF9"
+			optional: true
+			rewards: [{
+				id: "70FBE21B0A280FEE"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "5D3E9C707ACA55D5"
+				item: "immersive_aircraft:industrial_gears"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["70E2906F73D598BF"]
+			description: ["The quadrocopter is a handy building platform that you can move!"]
+			id: "622D43A8DC3DE521"
+			rewards: [{
+				id: "6F8EED822A6353A1"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "79B4D8C7A094957C"
+				item: "immersive_aircraft:quadrocopter"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["394E210A39178E64"]
+			description: ["Time to build an engine the first thing you'll need is a boiler"]
+			id: "2BF5BAFF6C0BB80F"
+			rewards: [{
+				id: "3C6F1767F1134F21"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "605CCBDF3AD5CF2D"
+				item: "immersive_aircraft:boiler"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["018FA79AF21F4915"]
+			description: ["Increase your speed at the cost of fuel efficiency  ... Deja vu"]
+			id: "1B9AEBBFB052BE11"
+			optional: true
+			rewards: [{
+				id: "4482F352565010AD"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "7FF35ABF2842A2F7"
+				item: "immersive_aircraft:steel_boiler"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["018FA79AF21F4915"]
+			description: ["Increases engine power at the .... oh wait just increases engine power"]
+			id: "2EAB7835416EBABA"
+			optional: true
+			rewards: [{
+				id: "009E6C9C15F72CD8"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "23EF746149C1DF4B"
+				item: "immersive_aircraft:sturdy_pipes"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["018FA79AF21F4915"]
+			description: ["A mounted spyglass increases you view distance"]
+			id: "11705BF9892058BE"
+			optional: true
+			rewards: [{
+				id: "2906B97D7D564AB0"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "0A4E869E33489F69"
+				item: "immersive_aircraft:telescope"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["64BF1B298C588FD9"]
+			description: ["The aircraft you make can be upgraded and some can even be armed!"]
+			id: "018FA79AF21F4915"
+			rewards: [{
+				id: "23F70196B86DCFFC"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "58EB150A70D538CD"
+				title: "Aircraft upgrades"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["45F3A2644DD16928"]
+			description: [
+				"This pack adds horsing around a mod that allows you to feed your tamed horse to your side if you link them by feeding them a golden apple."
+				"{@pagebreak}"
+				"I'm not sure how to showcase taming animals in quests so instead we'll be killing them im sure gengis khan must've killled a horse or 2 right?"
+				"and we'll kill a few other mounts while we're at it too."
+				""
+				"Check Dismounted in the slayer tab for a list of rideable mobs."
+			]
+			id: "5D2E0F79F0284129"
+			tasks: [{
+				id: "2C066AE39CF6D880"
+				title: "Find horses?"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["70E2906F73D598BF"]
+			description: [
+				"Water landings made easy"
+				""
+				"holds 3 people and cand land &lSAFELY&r on water"
+			]
+			id: "1FACFFB92566C353"
+			rewards: [{
+				id: "0D00A1D6800F3E51"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "6873F50026CB10D9"
+				item: "immersive_aircraft:bamboo_hopper"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4C7A29F6305EF717"]
+			description: [
+				"Alekis Nifty ships is made for those who wish to brave the high seas in style providing customizable ships for your journey"
+				""
+				"The ships in this mod are affected by the wind so remember your anchors!!!"
+			]
+			id: "52A77192744BBBF7"
+			tasks: [{
+				id: "5765C5784AC40387"
+				title: "Aleki's nifty ships"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"52A77192744BBBF7"
+				"05527FF895D238BB"
+			]
+			description: ["Used in creating sloops must be filled with vanilla planks to function"]
+			id: "64CFD20742AA5231"
+			rewards: [{
+				id: "260DFE476D7F8B05"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "3B4771142ED81385"
+				item: "alekiships:watercraft_frame_flat"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"52A77192744BBBF7"
+				"05527FF895D238BB"
+			]
+			description: ["Used in creating sloops and row boats must be filled with vanilla planks to work"]
+			id: "32EB6490485888F1"
+			rewards: [{
+				id: "3C11FC5D3E79CEC6"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "0BA7977E64B54DDF"
+				item: "alekiships:watercraft_frame_angled"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3C6D2AC4AECD04D6"]
+			description: ["I mean its the easiest way to go merrily down the stream."]
+			id: "43991E8C9CC0B259"
+			rewards: [{
+				id: "32CDEE6502A60C6B"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "2AE32405CE4540BC"
+				item: "alekiships:oar"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["32EB6490485888F1"]
+			description: ["Used in creating Row boats 2 per boat please"]
+			id: "3C6D2AC4AECD04D6"
+			rewards: [{
+				id: "3CDD668D04C0EC40"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "787F5E9EDBF54B10"
+				item: "alekiships:oarlock"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["64CFD20742AA5231"]
+			description: ["Used to create a sloop, each sloop requires 4."]
+			id: "4F4DBF8FE49E5BC7"
+			rewards: [{
+				id: "2420AF18819D04BB"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "24B3EA4276767897"
+				item: "alekiships:cleat"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4F4DBF8FE49E5BC7"]
+			description: ["Anchor down and wait."]
+			id: "7735D60C4C93BF19"
+			rewards: [{
+				id: "3B8C953DCD83BB57"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "24501C0647A1272C"
+				item: "alekiships:anchor"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["05527FF895D238BB"]
+			description: [
+				"Cannons can be mounted on a sloop (up to 6) "
+				"or placed on the ground (faces the direction placed in)"
+				""
+				"right clicking a cannon with an empty hand will change the firing angle"
+			]
+			id: "719FC5E009324F07"
+			rewards: [{
+				id: "0D8094EA9F8B8A6F"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "3A2ABBA77CF26967"
+				item: "alekiships:cannon"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["719FC5E009324F07"]
+			description: ["Ammo for your cannon don't forget your flint and steel"]
+			id: "4579EFD6C9A43171"
+			rewards: [
+				{
+					count: 64
+					id: "56C873DECDFFAC00"
+					item: "alekiships:cannonball"
+					type: "item"
+				}
+				{
+					id: "6A1B1A58C5955866"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				id: "63468F6C44C836BE"
+				item: "alekiships:cannonball"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.5d
+		}
+		{
+			description: [
+				"There are 2 sizes of boat available currently the rowboat and the sloop oth require a certain amount of shipwrites scaffoldings and other pieces to function . "
+				""
+				"&lSHIPS CAN BE BROKEN&r Repair damaged ships with planks to prevent sinking and loss of resources. "
+				""
+				"A lot of interactable parts of your ships will be indicated by a change in your cursor symbol while hovering over various parts of the ship."
+				"{@pagebreak}"
+				""
+				"Rowboat:"
+				""
+				"The Row boat is the simpler of the 2 boat requiring "
+				""
+				"6 Sloped shipwrights scaffolding"
+				"2 Oar locks"
+				""
+				"To create the row boat place the 6 scaffolding in a 2x3 rectangle facing inwards fill them with planks and place the oar locks on the center 2 scaffoldings."
+				""
+				"The row boat can hold yourself and a mix of 4 freinds/mobs/or compartment pieces."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"Sloop:"
+				""
+				"The sloop is a larger seafairing vessel requiring"
+				""
+				"8 Flat shipwrights scaffolding"
+				"20 sloped shipwrights scaffolding"
+				"4 cleats"
+				"1 anchor"
+				""
+				"Arranged as a 4x2 made of the flat scaffolding surrounded by the sloped scaffolding, with a 2x2 of sloped scaffolding to make the nose, at the front once filled with planks place the cleats at the corners of the larger section running parralel to the hull. The sloop requires additional materials after this section which will be indicated by a blue hammer hovering above the placement point on the hull."
+				""
+				"sloops can also be tethered to fences at the rear of the ship."
+				"{@pagebreak}"
+				""
+				"Additional sloop materials:"
+				""
+				"34 stripped logs"
+				"24 white wool"
+				"20 planks"
+				"16 fences"
+				"8 leads"
+				"the anchor"
+				""
+				""
+				"{@pagebreak}"
+				"Compartments on ships only accept vanilla items (or cannons on sloops) suchas chests furnaces crafting tables and the like."
+				""
+				"ships hulls and sails can be dyed and banners can be added to the masts to function as flags"
+				""
+				"Nametags can be also be applied to ships."
+			]
+			id: "05527FF895D238BB"
+			rewards: [{
+				id: "6D8BE9E34FE3DD7B"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "2C6F20DFC8EC9C5D"
+				type: "checkmark"
+			}]
+			title: "Aleki's information"
+			x: 0.5d
+			y: 7.5d
+		}
+	]
+	title: "Getting from A to B"
+}

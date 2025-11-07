@@ -1,0 +1,583 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "shipments"
+	group: "63765EECDAA7B99C"
+	icon: "quark:crate"
+	id: "006F3B11A765EE2E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0665C05574CDC19D"
+			subtitle: "send of some of your excess resources to the less fortunate, we'll send you some xp"
+			tasks: [{
+				id: "702B2E9558014157"
+				title: "Shipments"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0665C05574CDC19D"]
+			id: "3A9919F645808CAC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "012CD296BDE34507"
+				table_id: 7263988897538398281L
+				type: "loot"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "5415DFD22701FE51"
+				item: "minecraft:cooked_porkchop"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0665C05574CDC19D"]
+			id: "2C530E38CD5DAB96"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DF54C74F11F8887"
+				table_id: 7263988897538398281L
+				type: "loot"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "253F02D2BE7854A0"
+				item: { Count: 10, id: "minecraft:cooked_mutton" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0665C05574CDC19D"]
+			id: "72E35E58A4F47BF1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7249691D0362E2CD"
+				table_id: 7263988897538398281L
+				type: "loot"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "03AA5305D5B2C307"
+				item: "minecraft:cooked_chicken"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0665C05574CDC19D"]
+			id: "2E4A6E0F71F85ACE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05B464F250768AB8"
+				table_id: 7263988897538398281L
+				type: "loot"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "5FEA6FA7C214470B"
+				item: "minecraft:cooked_rabbit"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0665C05574CDC19D"]
+			id: "0B19EF517ED13453"
+			rewards: [
+				{
+					id: "560D7426A4D53198"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30D4D087DE4F2F61"
+					table_id: 7263988897538398281L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 30L
+				id: "2DE6134B651E75BC"
+				item: { Count: 30, id: "minecraft:carrot" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0665C05574CDC19D"]
+			id: "0CF6338C18738700"
+			rewards: [
+				{
+					id: "17F7D29E2D74776E"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E4D38C97DF8514A"
+					table_id: 7263988897538398281L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 30L
+				id: "677A6DC48E0151C7"
+				item: { Count: 30, id: "minecraft:potato" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0665C05574CDC19D"]
+			id: "2E1E87DC04101094"
+			rewards: [
+				{
+					id: "3BF33BBED4DB1F65"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "067B0DC14C764C82"
+					table_id: 7263988897538398281L
+					type: "random"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 30L
+				id: "034D9953A71F13A8"
+				item: { Count: 30, id: "minecraft:beetroot" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0665C05574CDC19D"]
+			id: "26836D0C84E646BB"
+			rewards: [
+				{
+					id: "50D464887B989C01"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19E7D2DA7F4B44AF"
+					table_id: 7263988897538398281L
+					type: "random"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 30L
+				id: "3A2F2201B905730E"
+				item: { Count: 30, id: "minecraft:wheat" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0665C05574CDC19D"]
+			id: "35AFE4664A5F3F2B"
+			rewards: [
+				{
+					id: "3BA25A9A8AE474B6"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02C57AB4E19D0E6B"
+					table_id: 9149950702319285178L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C42BE967A33697D"
+					table_id: 9149950702319285178L
+					type: "random"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "46B15A3CBB3E69B2"
+				item: { Count: 32, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			title: "Diamond dozen"
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0665C05574CDC19D"]
+			id: "16DB98EA1501B08B"
+			rewards: [
+				{
+					id: "486DAD6A9B526671"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FA3757BA8FEF009"
+					table_id: 9149950702319285178L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "6858466DE23BF0A5"
+				item: { Count: 16, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			title: "Diamond low ball"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0665C05574CDC19D"]
+			id: "2D3190C8002D3834"
+			rewards: [
+				{
+					id: "2B0EA81EB8F17A6A"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27FF18AEEE9548D0"
+					table_id: 7263988897538398281L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6071CBA97FD2A4B2"
+					table_id: 9149950702319285178L
+					type: "random"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "79E4C6A65D3983E0"
+				item: { Count: 64, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			title: "Diamond high roller"
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0665C05574CDC19D"]
+			id: "50CA8A2179A7CF3C"
+			rewards: [
+				{
+					id: "02F345B7DCFBD0C7"
+					type: "xp"
+					xp: 5000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DE76FD7CBFDB63C"
+					table_id: 9149950702319285178L
+					type: "random"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "3B57F91F7F9EEDEC"
+				item: { Count: 16, id: "minecraft:diamond_block" }
+				type: "item"
+			}]
+			title: "Diamond blocks? really?"
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0665C05574CDC19D"]
+			id: "31B2FBEAA58B828F"
+			rewards: [
+				{
+					id: "0B96C24CC5ABA186"
+					type: "xp"
+					xp: 5000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "611D0613798453AB"
+					table_id: 6441023722997972990L
+					type: "random"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "5108D086C880758F"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
+			title: "Wow ok even more blocks?"
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0665C05574CDC19D"]
+			id: "572AC9D3BAFCF22F"
+			rewards: [
+				{
+					id: "4535E51E7E0186BE"
+					type: "xp"
+					xp: 10000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "539120642BA535BA"
+					table_id: 6441023722997972990L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10A3FF5864D16ECF"
+					table_id: 9149950702319285178L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "08E3C8ADCCAF2072"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
+			title: "YOUR MAKING TO MANY DIAMONDS"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0665C05574CDC19D"]
+			id: "1D206BC253EF5813"
+			rewards: [
+				{
+					id: "6BE9DB236D36855B"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45D73FED328BEFA0"
+					table_id: 9149950702319285178L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "573E790C926A22F8"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "Villager low ball"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0665C05574CDC19D"]
+			id: "457DB257946B7874"
+			rewards: [
+				{
+					id: "307D43131091F58B"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35CC3BE7AA1266A6"
+					table_id: 9149950702319285178L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "322C3365BD17891A"
+					table_id: 9149950702319285178L
+					type: "random"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "034EA9B6FD22C384"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "Mid tier villager"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0665C05574CDC19D"]
+			id: "78B7661586E0AE6D"
+			rewards: [
+				{
+					id: "0E71B9AE019D689F"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "127538B0A1668337"
+					table_id: 7263988897538398281L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "514C8551F77D519F"
+					table_id: 9149950702319285178L
+					type: "random"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "004BC30B6B20D379"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "This guys the mayor"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0665C05574CDC19D"]
+			id: "1DBD22979EE53376"
+			rewards: [
+				{
+					id: "72B30D4CA9B8EF55"
+					type: "xp"
+					xp: 5000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B0CC393E209FACE"
+					table_id: 9149950702319285178L
+					type: "random"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "426CECF1B8615464"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			title: "Art thou a lord?"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0665C05574CDC19D"]
+			id: "68785D90DEC7BFBC"
+			rewards: [
+				{
+					id: "250AFCEBC9543A57"
+					type: "xp"
+					xp: 5000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39FEBFE1AD605A2D"
+					table_id: 6441023722997972990L
+					type: "random"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "517429EE98D2ED17"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			title: "Art thou the king?"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0665C05574CDC19D"]
+			id: "52AF6BD66C967CC5"
+			rewards: [
+				{
+					id: "1B6091828614423B"
+					type: "xp"
+					xp: 10000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "790906A81E728B5A"
+					table_id: 6441023722997972990L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7BE5ECFAE6A5197A"
+					table_id: 9149950702319285178L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "1A8A3BE9D34E4ED4"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			title: "ART THOU THE EMPEROR?"
+			x: 1.0d
+			y: 3.5d
+		}
+	]
+	title: "Shipments"
+}

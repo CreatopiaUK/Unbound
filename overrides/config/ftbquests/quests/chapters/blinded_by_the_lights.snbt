@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blinded_by_the_lights"
+	group: "0EBA6016CA41D88E"
+	id: "70706092EE00492F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Blinded By The Lights"
+}

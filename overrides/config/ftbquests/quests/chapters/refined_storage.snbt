@@ -1,0 +1,954 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "refined_storage"
+	group: "3FEDCCADD53AC5E8"
+	id: "0464462324A69102"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"19B4E46B6C16D6D2"
+				"443CA65DC96937C9"
+			]
+			id: "3A712B5324AECC8E"
+			tasks: [{
+				id: "4D4FB69F7D659EFC"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:controller)"
+					}
+				}
+				title: "Any #refinedstorage:controller"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3A712B5324AECC8E"]
+			id: "65D6AC161B895BFC"
+			tasks: [{
+				id: "2DDFF3335211E2EC"
+				item: "refinedstorage:disk_drive"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			id: "041B5D795844940E"
+			tasks: [{
+				id: "5AA06654D40E4EC6"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["041B5D795844940E"]
+			id: "24C965E21BE0BF75"
+			tasks: [{
+				id: "23215824F9DE0199"
+				item: "refinedstorage:quartz_enriched_iron"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"24C965E21BE0BF75"
+				"194C369985AE64C3"
+				"19B4E46B6C16D6D2"
+			]
+			id: "620808FD38C3291F"
+			tasks: [{
+				id: "2E6A47993B610DB5"
+				item: "refinedstorage:basic_processor"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["620808FD38C3291F"]
+			id: "3F33209DBB01CB9C"
+			tasks: [{
+				id: "6028B348DCB8EB8F"
+				item: "refinedstorage:improved_processor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3F33209DBB01CB9C"]
+			id: "28F19228F1FF3C70"
+			tasks: [{
+				id: "551D65C8CFA0ECFC"
+				item: "refinedstorage:advanced_processor"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["28F19228F1FF3C70"]
+			id: "310C72D908B5F1E9"
+			tasks: [{
+				id: "79B2384D9B528C01"
+				item: "extradisks:withering_processor"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["65D6AC161B895BFC"]
+			id: "7D2BA55D985DDA80"
+			tasks: [{
+				id: "3E4010271A0069CB"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:grid)"
+					}
+				}
+				title: "Any #refinedstorage:grid"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7D2BA55D985DDA80"]
+			id: "1F2584A8A867A903"
+			tasks: [{
+				id: "7DE4A08B814B7999"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:crafting_grid)"
+					}
+				}
+				title: "Any #refinedstorage:crafting_grid"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7D2BA55D985DDA80"]
+			id: "604EF08E32641352"
+			tasks: [{
+				id: "09ECA7D13FAFF77E"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:fluid_grid)"
+					}
+				}
+				title: "Any #refinedstorage:fluid_grid"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7D2BA55D985DDA80"]
+			id: "63CC579D994E2B22"
+			tasks: [{
+				id: "03F43218D571AF1F"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:pattern_grid)"
+					}
+				}
+				title: "Any #refinedstorage:pattern_grid"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1F2584A8A867A903"]
+			id: "6AA55D08A8E2A75A"
+			tasks: [{
+				id: "1BCA16496915E95D"
+				item: "refinedstorageaddons:wireless_crafting_grid"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["604EF08E32641352"]
+			id: "5B95E8D611723C67"
+			tasks: [{
+				id: "1A3081302994DC9B"
+				item: "refinedstorage:wireless_fluid_grid"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7D2BA55D985DDA80"]
+			id: "1DAEC80CD9333252"
+			tasks: [{
+				id: "141100D0266484BE"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:crafting_monitor)"
+					}
+				}
+				title: "Any #refinedstorage:crafting_monitor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1DAEC80CD9333252"]
+			id: "57E6252D192D90C5"
+			tasks: [{
+				id: "0E7D6E0A8B8A1B31"
+				item: "refinedstorage:wireless_crafting_monitor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["65D6AC161B895BFC"]
+			id: "503E32BFECC687C5"
+			tasks: [{
+				id: "19C6DDCDE758E673"
+				item: "refinedstorage:1k_storage_part"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["503E32BFECC687C5"]
+			id: "28161299F1220207"
+			tasks: [{
+				id: "25BEEE57068C818D"
+				item: "refinedstorage:4k_storage_part"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["28161299F1220207"]
+			id: "7A5B1A84A7E43ACD"
+			tasks: [{
+				id: "69F7A1BBCAEE1100"
+				item: "refinedstorage:16k_storage_part"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7A5B1A84A7E43ACD"]
+			id: "6C3DA5D922C6290B"
+			tasks: [{
+				id: "714B5E28073A6EB6"
+				item: "refinedstorage:64k_storage_part"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C3DA5D922C6290B"]
+			id: "7D6D94E04F0FD039"
+			tasks: [{
+				id: "7AFB7E318295E006"
+				item: "extradisks:256k_storage_part"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7D6D94E04F0FD039"]
+			id: "5385B4FD92841C9F"
+			tasks: [{
+				id: "255064922DB993AF"
+				item: "extradisks:1024k_storage_part"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5385B4FD92841C9F"]
+			id: "7F523EFEEE51CBC8"
+			tasks: [{
+				id: "0BEEB789C46277AD"
+				item: "extradisks:4096k_storage_part"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7F523EFEEE51CBC8"]
+			id: "1B397D4378175A9A"
+			tasks: [{
+				id: "44689B3480D9AA49"
+				item: "extradisks:16384k_storage_part"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B397D4378175A9A"]
+			id: "2A14CCFE44C3E2E1"
+			tasks: [{
+				id: "146007ECEABB6984"
+				item: "extradisks:65536k_storage_part"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2A14CCFE44C3E2E1"]
+			id: "0E8F0A7F1FA7E2AC"
+			tasks: [{
+				id: "567C0CB8348D6D4C"
+				item: "extradisks:262144k_storage_part"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0E8F0A7F1FA7E2AC"]
+			id: "0BAF327CD40E3845"
+			tasks: [{
+				id: "1AD0A39011BB9E22"
+				item: "extradisks:1048576k_storage_part"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0BAF327CD40E3845"]
+			id: "0603A0FA5913BE27"
+			tasks: [{
+				id: "708A4C413442B060"
+				item: "extradisks:infinite_storage_part"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["65D6AC161B895BFC"]
+			id: "5093CA0DA99549E2"
+			tasks: [{
+				id: "4399299DFCBD143D"
+				item: "refinedstorage:64k_fluid_storage_part"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5093CA0DA99549E2"]
+			id: "7214B18AA9004AEB"
+			tasks: [{
+				id: "602D9AA9FF06C9E7"
+				item: "refinedstorage:256k_fluid_storage_part"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7214B18AA9004AEB"]
+			id: "42D411DE4F465143"
+			tasks: [{
+				id: "3AEAB8BA71D13BCF"
+				item: "refinedstorage:1024k_fluid_storage_part"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["42D411DE4F465143"]
+			id: "0115231019FE3E42"
+			tasks: [{
+				id: "22F158D484B6B216"
+				item: "refinedstorage:4096k_fluid_storage_part"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0115231019FE3E42"]
+			id: "6E8D339B09B74D49"
+			tasks: [{
+				id: "4452F9167467738B"
+				item: "extradisks:16384k_fluid_storage_part"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6E8D339B09B74D49"]
+			id: "02BBB7A11F7182B0"
+			tasks: [{
+				id: "512F862D8A6F0AF0"
+				item: "extradisks:65536k_fluid_storage_part"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["02BBB7A11F7182B0"]
+			id: "48B0A802C0DAD2A4"
+			tasks: [{
+				id: "1F07D6A123D8DEAE"
+				item: "extradisks:262144k_fluid_storage_part"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["48B0A802C0DAD2A4"]
+			id: "4402E8297B5BAE0D"
+			tasks: [{
+				id: "28F33D4E44CDFBD0"
+				item: "extradisks:1048576k_fluid_storage_part"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4402E8297B5BAE0D"]
+			id: "08F6E61D572D0DCD"
+			tasks: [{
+				id: "0CF31BB09964854F"
+				item: "extradisks:infinite_fluid_storage_part"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["041B5D795844940E"]
+			id: "194C369985AE64C3"
+			tasks: [{
+				id: "4DBC2F07ADEE2109"
+				item: "refinedstorage:processor_binding"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["24C965E21BE0BF75"]
+			id: "00413B02B93C5346"
+			tasks: [{
+				id: "13DCCDD8B86386A5"
+				item: "refinedstorage:wrench"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["65D6AC161B895BFC"]
+			id: "6BAADF3FBDB299C4"
+			tasks: [{
+				id: "5A6A4A4617BCCBA2"
+				item: "refinedstorage:cable"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["041B5D795844940E"]
+			id: "19B4E46B6C16D6D2"
+			tasks: [{
+				id: "3D83B7F438C2EAB7"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:silicon)"
+					}
+				}
+				title: "Any #forge:silicon"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["24C965E21BE0BF75"]
+			id: "443CA65DC96937C9"
+			tasks: [{
+				id: "07A57AFB7C8226E5"
+				item: "refinedstorage:machine_casing"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6BAADF3FBDB299C4"]
+			id: "7AE3EE878942DBD8"
+			tasks: [{
+				id: "49A3BD652F433D42"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:disk_manipulator)"
+					}
+				}
+				title: "Any #refinedstorage:disk_manipulator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6BAADF3FBDB299C4"]
+			id: "6ACE620D1548F957"
+			tasks: [{
+				id: "3E8E9AA20DFA77C4"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:network_transmitter)"
+					}
+				}
+				title: "Any #refinedstorage:network_transmitter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6ACE620D1548F957"]
+			id: "4F0167AFFACE8104"
+			tasks: [{
+				id: "0501809BFD48069D"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:network_receiver)"
+					}
+				}
+				title: "Any #refinedstorage:network_receiver"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F0167AFFACE8104"]
+			id: "4C25360747699C0C"
+			tasks: [{
+				id: "14AB2E7777AB5CCA"
+				item: "refinedstorage:network_card"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6BAADF3FBDB299C4"]
+			id: "03FE1B383E77A23A"
+			tasks: [{
+				id: "0101FB5CC46B8E59"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:wireless_transmitter)"
+					}
+				}
+				title: "Any #refinedstorage:wireless_transmitter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["03FE1B383E77A23A"]
+			id: "67DA901CEF9997E8"
+			tasks: [{
+				id: "131A046DDE279853"
+				item: "refinedstorage:range_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6BAADF3FBDB299C4"]
+			id: "792D91BCE77936E1"
+			tasks: [{
+				id: "2C983D64A1025896"
+				item: "refinedstorage:importer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6BAADF3FBDB299C4"]
+			id: "5123598165D13D69"
+			tasks: [{
+				id: "391BA785848E49DF"
+				item: "refinedstorage:exporter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6BAADF3FBDB299C4"]
+			id: "52DC7C228911AB3A"
+			tasks: [{
+				id: "726553514CE2D529"
+				item: "refinedstorage:external_storage"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6BAADF3FBDB299C4"]
+			id: "752E4B4B1487D9FF"
+			tasks: [{
+				id: "78FA5295A98B5A7E"
+				item: "refinedstorage:constructor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6BAADF3FBDB299C4"]
+			id: "4D1476FEE19DD6DA"
+			tasks: [{
+				id: "30FEC742FA450819"
+				item: "refinedstorage:destructor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6BAADF3FBDB299C4"]
+			id: "74C0BD5C37F99040"
+			tasks: [{
+				id: "5E3FB61EBB1FC645"
+				item: "refinedstorage:portable_grid"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6BAADF3FBDB299C4"]
+			id: "02F85720F01BEA47"
+			tasks: [{
+				id: "701672301665BEDB"
+				item: "refinedstorage:upgrade"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["02F85720F01BEA47"]
+			id: "51B19DF695B8FFAC"
+			tasks: [{
+				id: "466A7919B513424B"
+				item: "refinedstorage:speed_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["02F85720F01BEA47"]
+			id: "52C0A40C6AE346E5"
+			tasks: [{
+				id: "179A7D597737D917"
+				item: "refinedstorage:crafting_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["02F85720F01BEA47"]
+			id: "16E850F79D6BE59F"
+			tasks: [{
+				id: "18FCBBDD89DF7F33"
+				item: "refinedstorage:stack_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["02F85720F01BEA47"]
+			id: "7E95F4DCC299E364"
+			tasks: [{
+				id: "22AFDE54C61FB0BB"
+				item: "refinedstorage:silk_touch_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["02F85720F01BEA47"]
+			id: "00F3C501F1A7881E"
+			tasks: [{
+				id: "7FC1BA48DF56868F"
+				item: "refinedstorage:fortune_1_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["00F3C501F1A7881E"]
+			id: "2C35070FC1278F21"
+			tasks: [{
+				id: "20E4BBB644B1C11C"
+				item: "refinedstorage:fortune_2_upgrade"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2C35070FC1278F21"]
+			id: "5632A6E104115C9B"
+			tasks: [{
+				id: "3CCE44A2BC0575D0"
+				item: "refinedstorage:fortune_3_upgrade"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["02F85720F01BEA47"]
+			id: "2AD1439816257528"
+			tasks: [{
+				id: "0F533A4A7DA1076F"
+				item: "refinedstorage:regulator_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["63CC579D994E2B22"]
+			id: "76FA742E1B32625C"
+			tasks: [{
+				id: "6345C4BCD0D35279"
+				item: "refinedstorage:pattern"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6BAADF3FBDB299C4"]
+			id: "0554FCE37B0577D3"
+			tasks: [{
+				id: "382E9EEC79188AAA"
+				item: "refinedstorage:filter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1DAEC80CD9333252"]
+			id: "5792DB56651F40D9"
+			tasks: [{
+				id: "33AF49F6F4C17D47"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:crafter_manager)"
+					}
+				}
+				title: "Any #refinedstorage:crafter_manager"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"76FA742E1B32625C"
+				"5792DB56651F40D9"
+			]
+			id: "68925076E4475306"
+			tasks: [{
+				id: "45EA701C99C617A9"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:crafter)"
+					}
+				}
+				title: "Any #refinedstorage:crafter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7AE3EE878942DBD8"]
+			id: "23C7363D7BB4262A"
+			tasks: [{
+				id: "29B881FB44E2CE89"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:relay)"
+					}
+				}
+				title: "Any #refinedstorage:relay"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7AE3EE878942DBD8"]
+			id: "6D0F7B35A3CB592C"
+			tasks: [{
+				id: "66791E64A35A9F3D"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:detector)"
+					}
+				}
+				title: "Any #refinedstorage:detector"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7AE3EE878942DBD8"]
+			id: "34F1C54565AF60B5"
+			tasks: [{
+				id: "1178AB3116D83DA1"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:security_manager)"
+					}
+				}
+				title: "Any #refinedstorage:security_manager"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34F1C54565AF60B5"]
+			id: "2FE485E30799F8C1"
+			tasks: [{
+				id: "5340C37B15642013"
+				item: "refinedstorage:security_card"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6BAADF3FBDB299C4"]
+			id: "45A9FAE246D8EF63"
+			tasks: [{
+				id: "046E34A67FBE4351"
+				item: {
+					Count: 1
+					id: "refinedstorage:cover"
+					tag: {
+						Item: {
+							Count: 1b
+							id: "minecraft:stone_bricks"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["45A9FAE246D8EF63"]
+			id: "7A6DE25C9FEACC81"
+			tasks: [{
+				id: "5C9EC75BCD363408"
+				item: {
+					Count: 1
+					id: "refinedstorage:hollow_cover"
+					tag: {
+						Item: {
+							Count: 1b
+							id: "minecraft:stone_bricks"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+	]
+	title: "Refined Storage"
+}

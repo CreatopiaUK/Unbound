@@ -1,0 +1,6291 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "advanced_magic"
+	group: "6B05E91E7584D695"
+	id: "408763C953EE0315"
+	images: [
+		{
+			height: 0.6d
+			image: "minecraft:item/iron_axe"
+			rotation: 0.0d
+			width: 0.6d
+			x: -4.540816326530617d
+			y: 8.173469387755105d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:item/iron_shovel"
+			rotation: 0.0d
+			width: 0.6d
+			x: -5.255102040816325d
+			y: 7.744897959183675d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:item/iron_pickaxe"
+			rotation: 0.0d
+			width: 0.6d
+			x: -5.2959183673469425d
+			y: 6.948979591836739d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:item/iron_sword"
+			rotation: 0.0d
+			width: 0.6d
+			x: -4.826530612244909d
+			y: 6.214285714285708d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:item/book"
+			rotation: 0.0d
+			width: 0.6d
+			x: -3.6224489795918373d
+			y: 8.214285714285715d
+		}
+		{
+			height: 0.6d
+			image: "cyclic:block/anvil/obsidian"
+			rotation: 0.0d
+			width: 0.6d
+			x: -3.423469387755098d
+			y: -4.3707482993197d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:block/quartz_block_top"
+			rotation: 0.0d
+			width: 0.6d
+			x: -3.423469387755098d
+			y: -6.63265306122446d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:block/quartz_block_top"
+			rotation: 0.0d
+			width: 0.6d
+			x: -2.8044217687074777d
+			y: -6.13265306122446d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:item/diamond"
+			rotation: 0.0d
+			width: 0.6d
+			x: -4.632653061224502d
+			y: -6.705782312925173d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:item/blaze_rod"
+			rotation: 0.0d
+			width: 0.6d
+			x: -4.656462585034021d
+			y: -4.39625850340137d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:item/diamond"
+			rotation: 0.0d
+			width: 0.6d
+			x: -5.156462585034021d
+			y: -6.2772108843537495d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:item/diamond"
+			rotation: 0.0d
+			width: 0.6d
+			x: -5.299319727891167d
+			y: -5.586734693877553d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:item/blaze_rod"
+			rotation: 0.0d
+			width: 0.6d
+			x: -5.085034013605451d
+			y: -4.848639455782319d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:item/nether_star"
+			rotation: 0.0d
+			width: 0.6d
+			x: -4.006462585034015d
+			y: -18.789115646258523d
+		}
+		{
+			height: 0.6d
+			image: "ars_nouveau:item/wilden_tribute"
+			rotation: 0.0d
+			width: 0.6d
+			x: -3.158163265306122d
+			y: -18.49489795918366d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:item/emerald"
+			rotation: 0.0d
+			width: 0.6d
+			x: -2.958843537414971d
+			y: -16.81292517006805d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:item/ender_pearl"
+			rotation: 0.0d
+			width: 0.6d
+			x: -4.477551020408157d
+			y: -16.357142857142847d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:item/totem_of_undying"
+			rotation: 0.0d
+			width: 0.6d
+			x: -4.696938775510205d
+			y: -18.455782312925187d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:item/emerald"
+			rotation: 0.0d
+			width: 0.6d
+			x: -3.5302721088435334d
+			y: -16.31292517006805d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:item/ender_pearl"
+			rotation: 0.0d
+			width: 0.6d
+			x: -5.0897959183673365d
+			y: -16.867346938775505d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:item/ender_pearl"
+			rotation: 0.0d
+			width: 0.6d
+			x: -5.31428571428571d
+			y: -17.66326530612244d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:item/wheat"
+			rotation: 0.0d
+			width: 0.6d
+			x: -0.25714285714283847d
+			y: 11.182312925170038d
+		}
+		{
+			height: 0.6d
+			hover: ["hehehe"]
+			image: "minecraft:item/wheat"
+			rotation: 0.0d
+			width: 0.6d
+			x: -1.1714285714285495d
+			y: 10.753741496598614d
+		}
+		{
+			height: 0.6d
+			image: "ars_nouveau:item/source_berry"
+			rotation: 0.0d
+			width: 0.6d
+			x: -1.8214285714285694d
+			y: 10.232142857142854d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:item/cooked_beef"
+			rotation: 0.0d
+			width: 0.6d
+			x: -2.2857142857142776d
+			y: 9.607142857142854d
+		}
+		{
+			height: 0.6d
+			image: "ars_nouveau:block/red_archwood_log_1"
+			rotation: 0.0d
+			width: 0.6d
+			x: 0.5d
+			y: 11.5d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:item/coal"
+			rotation: 0.0d
+			width: 0.6d
+			x: 1.5d
+			y: 11.5d
+		}
+		{
+			height: 0.6d
+			image: "enderio:item/zombie_electrode"
+			rotation: 0.0d
+			width: 0.6d
+			x: 4.285714285714292d
+			y: 9.48809523809524d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:item/iron_sword"
+			rotation: 0.0d
+			width: 0.6d
+			x: 3.69047619047619d
+			y: 10.154761904761905d
+		}
+		{
+			height: 0.6d
+			image: "irons_spellbooks:item/greater_healing_potion"
+			rotation: 0.0d
+			width: 0.6d
+			x: 3.095238095238095d
+			y: 10.916666666666664d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:item/splash_potion"
+			rotation: 0.0d
+			width: 0.6d
+			x: 2.499999999999993d
+			y: 11.202380952380956d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Before you start with &lArs Nouveau&r, you're going to need a spellbook! This will be used to craft spells and to store them!"
+				""
+				"The standard hotkey is '&dC&r' to open the spellbook!"
+				""
+				"The standard hotkey is '&dV&r' to select a prepared spell!"
+				"{@pagebreak}"
+				"The left tabs will allow you to open the information booklet provided by Ars and to edit your spells cosmetically!"
+				""
+				"The right tabs will allow you to prepare multiple spells, so you don't have to build a spell mid-battle ;)."
+				"{@pagebreak}"
+				"Now you still need to build your spells, you start out knowing 3 forms and 2 effects."
+				""
+				"The more you add to a spell, the more it will cost in &5mana&r!"
+				"{@pagebreak}"
+				"This might be a good place to talk a bout &5mana&r."
+				""
+				"&5Mana&r auto regenerates, some items influence your &5mana&r positively but that is something for advanced wizards!"
+				""
+				"You can see how much &5mana&r a spell uses by the pink bar at the bottm of the book's UI."
+				""
+				"The more glyphs you know, the more mana you have!"
+			]
+			id: "5CAF1EF30AB277C7"
+			rewards: [{
+				count: 5
+				id: "253944704FD3EEA2"
+				item: "ars_additions:codex_entry"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "Wingardium levio-claim"
+			tasks: [{
+				id: "55278C6767DEA112"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			title: "Your first spellbook!"
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "1354ED25E9F35B50"
+			optional: true
+			rewards: [{
+				id: "6EA558931CAD6C79"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "45C561FB43C9C1FF"
+				item: "ars_elemental:glyph_arc_projectile"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "7B616283624EC24B"
+			optional: true
+			rewards: [{
+				id: "06CE5FA3DBCD2895"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "72CEF66B75F4B1CB"
+				item: "ars_nouveau:glyph_projectile"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "3526092FCCE787CA"
+			optional: true
+			rewards: [{
+				id: "2198563CFA6731CC"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "459B46CEB1A7A793"
+				item: "ars_nouveau:glyph_self"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "65F64F3DEABDDEF8"
+			optional: true
+			rewards: [{
+				id: "2E7EB0B7B9E61FDD"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "33C288E141EFF837"
+				item: "ars_nouveau:glyph_touch"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "18DF5E88D8BCAB97"
+			optional: true
+			rewards: [{
+				id: "48B600EE6BEBE3E7"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "1E851F8B3A430A6A"
+				item: "ars_nouveau:glyph_underfoot"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "018ACF0374914127"
+			optional: true
+			rewards: [{
+				id: "3F93204FEEF3C409"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "3B7706B26B4F009F"
+				item: "ars_nouveau:glyph_aoe"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "327CFCEB0910164C"
+			optional: true
+			rewards: [{
+				id: "2502EA585774C92F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "40F02AD6C3CEA781"
+				item: "ars_nouveau:glyph_accelerate"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			description: ["Additively increases the power of most spell effects. Can increase the harvest level of Break and increases the damage of spells."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "433972E59E8EB1AF"
+			optional: true
+			rewards: [{
+				id: "09FBE752446D3D5E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "7CEDC99F8CD17571"
+				item: "ars_nouveau:glyph_amplify"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "6B2D8DB4BD5D1F2A"
+			optional: true
+			rewards: [{
+				id: "55C5A73896602B0A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "18E5104C7B4F21C9"
+				item: "ars_nouveau:glyph_dampen"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "736D3A365DA66BF5"
+			optional: true
+			rewards: [{
+				id: "4FCB8113D87D78AE"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "6C326B7F0D00CD37"
+				item: "ars_nouveau:glyph_decelerate"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "088E9AD89718DC18"
+			optional: true
+			rewards: [{
+				id: "37229CFCDC70A9F9"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "2158FA970F9284D7"
+				item: "ars_nouveau:glyph_duration_down"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "506DC0A849D1A070"
+			optional: true
+			rewards: [{
+				id: "020931E2B1BB1CD0"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "0D1E9BF4E16E0CFD"
+				item: "ars_nouveau:glyph_extend_time"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "2F3EB050C9C72999"
+			optional: true
+			rewards: [{
+				id: "1E1AD0DA253BF926"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "0366AF46A41C4560"
+				item: "ars_nouveau:glyph_extract"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "7A8631B760F05EC6"
+			optional: true
+			rewards: [{
+				id: "41327F27C6561460"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "02C89BD203EF9457"
+				item: "ars_nouveau:glyph_fortune"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "106F1A71950C45F8"
+			optional: true
+			rewards: [{
+				id: "7629B9832DFDCF54"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "4B3DF76A69C76173"
+				item: "ars_nouveau:glyph_pierce"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "3DA3137F6695E0BB"
+			optional: true
+			rewards: [{
+				id: "2E70EC41A50AD69B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "28508C46443EB893"
+				item: "ars_nouveau:glyph_randomize"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "6EF37CB9A7B840DD"
+			optional: true
+			rewards: [{
+				id: "160792267AE09AA4"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "2EF257005DF660AA"
+				item: "ars_nouveau:glyph_sensitive"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "13062454F9CA1A34"
+			optional: true
+			rewards: [{
+				id: "67F27B83596751E3"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "3FA24A22CD0D5E9A"
+				item: "ars_elemental:glyph_propagator_arc"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "7CA14E555ED08692"
+			optional: true
+			rewards: [{
+				id: "4FE01D676B8A8738"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "6A4FF3A19CB2E551"
+				item: "ars_nouveau:glyph_ender_inventory"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "39A33FF6F8D4C517"
+			optional: true
+			rewards: [{
+				id: "25AD541980AE6DF3"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "515D800E1452BCDF"
+				item: "ars_nouveau:glyph_animate_block"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			description: ["Additively increases the power of most spell effects. Can increase the harvest level of Break and increases the damage of spells."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "2FEFD195E4DEF5A1"
+			optional: true
+			rewards: [{
+				id: "002FE140A2AEB5C9"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "55EF93672E81A50B"
+				item: "ars_nouveau:glyph_bounce"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			description: ["A spell you start with. Breaks blocks of an average hardness. Can be amplified to increase the harvest level. Sensitive will simulate breaking blocks with Shears instead of a pickaxe."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "74657E36203833D1"
+			optional: true
+			rewards: [{
+				id: "0937C8F5DFBEFFD1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "2F1EB3C2EAB0EF4D"
+				item: "ars_nouveau:glyph_break"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "1C25338B49FA80E3"
+			optional: true
+			rewards: [{
+				id: "192EF35F49B3C584"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "013A40FA1F14968E"
+				item: "ars_technica:glyph_carve"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "6FFB7E882C099805"
+			optional: true
+			rewards: [{
+				id: "6786DA054AEE4346"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "0A029C071792D97E"
+				item: "ars_elemental:glyph_charm"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "48A21B5FE8E64B8C"
+			optional: true
+			rewards: [{
+				id: "355F57D82464E1CE"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "25AAD19F69A2399F"
+				item: "ars_nouveau:glyph_cold_snap"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "2AA29FCCEEA8C44D"
+			optional: true
+			rewards: [{
+				id: "4DF751743CA5C140"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "59B03F6E30B97B21"
+				item: "ars_nouveau:glyph_phantom_block"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "0C781D43A8BD06CE"
+			optional: true
+			rewards: [{
+				id: "574CFBC1BC23E020"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "4290AB799D385514"
+				item: "ars_nouveau:glyph_light"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "1C20C5F5D4572CD3"
+			optional: true
+			rewards: [{
+				id: "2E559C4231A2B79E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "2BE6F4570082C6F8"
+				item: "ars_elemental:glyph_conjure_terrain"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "3284F495D94755E7"
+			optional: true
+			rewards: [{
+				id: "4B203CDF4C5418BE"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "7C6B6E1B30A7824C"
+				item: "ars_nouveau:glyph_conjure_water"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			description: ["Opens the crafting menu."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "0FB79406FC1FE52A"
+			optional: true
+			rewards: [{
+				id: "04BFEC2C3744DB21"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "33C8DEB503A6F734"
+				item: "ars_nouveau:glyph_craft"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "49616E1D3B626453"
+			optional: true
+			rewards: [{
+				id: "03B586EBB1B4A3C1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "569143039C58C664"
+				item: "ars_nouveau:glyph_crush"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			description: ["Simulates using shears on entities and blocks, or damages non-shearable entities for a small amount. Amplify will simulate using an Axe instead of Shears. For simulating breaking with shears, see Break and Sensitive. Costs nothing."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "544195D4C0A9FF20"
+			optional: true
+			rewards: [{
+				id: "7F32533558964F2B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "74E6994A9DF5619F"
+				item: "ars_nouveau:glyph_cut"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			description: ["Delays the resolution of effects placed to the right of this spell for a few moments. The delay may be increased with the Extend Time augment, or decreased with Duration Down."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "2F291771AB4B123F"
+			optional: true
+			rewards: [{
+				id: "6BDACD46C779653A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "4D0D25A903C20E11"
+				item: "ars_nouveau:glyph_delay"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "1DA527D394EB0C6F"
+			optional: true
+			rewards: [{
+				id: "4AEFF4339DBF13B7"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "65413284BC255A17"
+				item: "ars_elemental:glyph_discharge"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "0A297D8CE539D5F4"
+			optional: true
+			rewards: [{
+				id: "3DAD6464192946BC"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "0431BB017122A0D5"
+				item: "ars_nouveau:glyph_dispel"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "72AED88677C61472"
+			optional: true
+			rewards: [{
+				id: "1A03A5F1B13287A4"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "3EE30CC77E74543D"
+				item: "ars_elemental:glyph_envenom"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "20CD1BF470AD48A6"
+			optional: true
+			rewards: [{
+				id: "7C65F2F926601749"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "35B0B019731086DC"
+				item: "ars_nouveau:glyph_evaporate"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "60FC4AC319240DB2"
+			optional: true
+			rewards: [{
+				id: "43EAC28D94BB7000"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "2D1B3F22EB323C8E"
+				item: "ars_nouveau:glyph_exchange"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "3D7C494C7368CFDB"
+			optional: true
+			rewards: [{
+				id: "69CAA1E72360E48E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "7414B69267AFC51C"
+				item: "ars_nouveau:glyph_explosion"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "19709B2195980598"
+			optional: true
+			rewards: [{
+				id: "2C0D3D3564C81BB0"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "7485682C447BBB4B"
+				item: "ars_nouveau:glyph_fell"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "65A611DB3A3E1F11"
+			optional: true
+			rewards: [{
+				id: "6B5EEDADBC9DCC35"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "47A24B842497BFA2"
+				item: "ars_nouveau:glyph_firework"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "6971733D9149D74C"
+			optional: true
+			rewards: [{
+				id: "2FC393BBB4478A29"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "4F4D1D04795E369B"
+				item: "ars_nouveau:glyph_flare"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "718299AFCDE35D65"
+			optional: true
+			rewards: [{
+				id: "01B34487C6E793B2"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "655400E297597B78"
+				item: "ars_nouveau:glyph_freeze"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "347D039FDAEFB9F3"
+			optional: true
+			rewards: [{
+				id: "71DC2878F7B475CA"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "6F56170654CA2DCE"
+				item: "ars_technica:glyph_fuse"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "40DC7C1F2CA1660E"
+			optional: true
+			rewards: [{
+				id: "46E00C2CCCFC9928"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "5BC347F237DA5A5D"
+				item: "ars_nouveau:glyph_gravity"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "169E2CF70F0D9249"
+			optional: true
+			rewards: [{
+				id: "3EB84C7EB0F4AF7D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "33C7267EACE0D263"
+				item: "ars_nouveau:glyph_grow"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "79626AAA09277D63"
+			optional: true
+			rewards: [{
+				id: "46BF86A22021C55F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "0D5C10EA223409DD"
+				item: "ars_nouveau:glyph_harm"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "709D72A970488A10"
+			optional: true
+			rewards: [{
+				id: "1530D5588FB4F339"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "329EBF3C4533E593"
+				item: "ars_nouveau:glyph_harvest"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "621CF9F23C150340"
+			optional: true
+			rewards: [{
+				id: "2BBF06A249EC38DA"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "30F23778C93427D6"
+				item: "ars_nouveau:glyph_heal"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "035448248438AAE2"
+			optional: true
+			rewards: [{
+				id: "27548C9C8723D23B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "730A5FC3C926359F"
+				item: "ars_nouveau:glyph_ignite"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "1C723B4018A89C54"
+			optional: true
+			rewards: [{
+				id: "62755B688BEB0CA0"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "6654F095094C1D13"
+				item: "ars_nouveau:glyph_infuse"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "707C04D7A45C636B"
+			optional: true
+			rewards: [{
+				id: "7EC61AA333B33EAE"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "567A9380BBF8B606"
+				item: "ars_technica:glyph_insert"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "0C04682D3A5E2C67"
+			optional: true
+			rewards: [{
+				id: "7B6B485799DCE32C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "7E4384A1C5D9CE40"
+				item: "ars_nouveau:glyph_interact"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "573CCEC6CE7F8F02"
+			optional: true
+			rewards: [{
+				id: "31A2BFA8FDEE3D74"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "1E6BD4A1894CAE7D"
+				item: "ars_nouveau:glyph_invisibility"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "2B3E66F8A34DBA75"
+			optional: true
+			rewards: [{
+				id: "70A3A5EE3355E79A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "730A54DE60602863"
+				item: "ars_nouveau:glyph_pickup"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "46B8FAD01735092B"
+			optional: true
+			rewards: [{
+				id: "20F985CD16BDEA2D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "2E415CEA2B263815"
+				item: "ars_nouveau:glyph_gust"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "483C75F5F912F2AE"
+			optional: true
+			rewards: [{
+				id: "7C52C0E263590EEA"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "0F11E137205F8489"
+				item: "ars_nouveau:glyph_launch"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "2CEC954D94D00CAA"
+			optional: true
+			rewards: [{
+				id: "0AE5E687AA349925"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "37E90256D0AFC707"
+				item: "ars_nouveau:glyph_leap"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "65C9144A6998787E"
+			optional: true
+			rewards: [{
+				id: "1A87EAE4CEBA9D6B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "037C0FA4F4526177"
+				item: "ars_elemental:glyph_bubble_shield"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "10D27C174FC8DDA0"
+			optional: true
+			rewards: [{
+				id: "2F39CBA7C118F744"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "34DB588BC62271F8"
+				item: "ars_additions:glyph_mark"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "0F27BA75D7B7733E"
+			optional: true
+			rewards: [{
+				id: "6F9E2BE6422FE4B6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "15E3BA08EB73AC4A"
+				item: "ars_nouveau:glyph_name"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "44B05223B27651AB"
+			optional: true
+			rewards: [{
+				id: "464D5004E3A8236E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "568183F628A87AC9"
+				item: "ars_technica:glyph_pack"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "755B8A9FC2C6CF15"
+			optional: true
+			rewards: [{
+				id: "3462405E15744445"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "4D46081ED2D9FC80"
+				item: "ars_elemental:glyph_phantom_grasp"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "2BFF51F55B340B66"
+			optional: true
+			rewards: [{
+				id: "6500F836768E4FE1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "5EC7F065910F53A2"
+				item: "ars_nouveau:glyph_place_block"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "4EFCD4F7198D3D74"
+			optional: true
+			rewards: [{
+				id: "72717F5CEE56B163"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "76CEEE0FE69729D7"
+				item: "ars_elemental:glyph_poison_spores"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "286F24900F79A1C1"
+			optional: true
+			rewards: [{
+				id: "683BDC6FF128E1D3"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "031CC275B3187567"
+				item: "ars_technica:glyph_polish"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "5BF71A845B0B142B"
+			optional: true
+			rewards: [{
+				id: "652E0820E967FEA1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "7072E310755BB474"
+				item: "ars_technica:glyph_press"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "7EB1F792B5802636"
+			optional: true
+			rewards: [{
+				id: "203B6E89983DC44D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "1D340099AAC5701F"
+				item: "ars_nouveau:glyph_pull"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "725E0EA988CCC440"
+			optional: true
+			rewards: [{
+				id: "1765275D9DE277BC"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "690205DA5706897F"
+				item: "ars_nouveau:glyph_redstone_signal"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 10.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "0159DF5799139BD3"
+			optional: true
+			rewards: [{
+				id: "249C040587157CF5"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "3C406E253C970896"
+				item: "ars_nouveau:reset"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "7C47A78B7F4724C3"
+			optional: true
+			rewards: [{
+				id: "37676AB3F8132C9C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "4EE0AB23C579BD85"
+				item: "ars_nouveau:glyph_rotate"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "26A097D6236D5F58"
+			optional: true
+			rewards: [{
+				id: "3F3D20ED89BA2B84"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "6FA61F181412D4C8"
+				item: "ars_nouveau:glyph_rune"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "4B3FDB880A3703AC"
+			optional: true
+			rewards: [{
+				id: "42A192483A81472F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "718646085C932CB0"
+				item: "ars_nouveau:glyph_sense_magic"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "031C34DC6BF1170D"
+			optional: true
+			rewards: [{
+				id: "1F41C18E83389753"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "0B9F912253B1E5B6"
+				item: "ars_nouveau:glyph_smelt"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "34F4737079ADFA10"
+			optional: true
+			rewards: [{
+				id: "51C76241C46BF5C3"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "598B06F64C1F93CD"
+				item: "ars_nouveau:glyph_snare"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "136B2CD14D15B0AD"
+			optional: true
+			rewards: [{
+				id: "00A454C7651D6ACE"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "103CB9075599A05A"
+				item: "ars_elemental:glyph_spark"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "03243C8E6B0C3D17"
+			optional: true
+			rewards: [{
+				id: "489528C49F866C72"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "4773728944027B64"
+				item: "ars_elemental:glyph_spike"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "1314DB8B471585F4"
+			optional: true
+			rewards: [{
+				id: "2AFA636D10568977"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "2E8F0C60E1DB9E9B"
+				item: "ars_nouveau:glyph_summon_steed"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "138661CD77BCE7E0"
+			optional: true
+			rewards: [{
+				id: "26A04B1C6CA666AC"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "25925D1F14D7A511"
+				item: "ars_nouveau:glyph_summon_wolves"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "23D4FBA6242A0CFC"
+			optional: true
+			require_sequential_tasks: false
+			rewards: [{
+				id: "730424273F50CF53"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "18D944D700981B70"
+				item: "ars_technica:glyph_telefeast"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "54BBEB766B18523E"
+			optional: true
+			rewards: [{
+				id: "72CF43A45C331571"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "2B5FB19E09833BB9"
+				item: "ars_nouveau:glyph_toss"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "3535CEDE8B7C944B"
+			optional: true
+			rewards: [{
+				id: "2DF003E919652089"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "28DDF7B3AA738D03"
+				item: "ars_elemental:glyph_watery_grave"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "7D41373D34749231"
+			optional: true
+			rewards: [{
+				id: "0267B4A858DB0FDB"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "69D22D5B1BE04ACD"
+				item: "ars_technica:glyph_whirl"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["04C439F9535F1E2E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "0BBD09B2C9D542D0"
+			optional: true
+			rewards: [{
+				id: "10DBB4E89B940009"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "35EF01B7D1724F0A"
+				item: "ars_nouveau:glyph_wind_shear"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "3603664AD24ADEFC"
+			optional: true
+			rewards: [{
+				id: "0D08D457DE43312C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "285B4500D38AB625"
+				item: "ars_nouveau:wololo"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "6897CAB3EF852152"
+			optional: true
+			rewards: [{
+				id: "369D063C3630B998"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "3D339C93041B4068"
+				item: "ars_elemental:glyph_aerial_filter"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "14CE101312689446"
+			optional: true
+			rewards: [{
+				id: "22922AF81A1E5D2F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "5C7CBA62048F2617"
+				item: "ars_elemental:glyph_aquatic_filter"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "32D5BF9062759AD3"
+			optional: true
+			require_sequential_tasks: false
+			rewards: [{
+				id: "2CDE696C4A3C72D9"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "4C16A755614AFBD9"
+				item: "ars_elemental:glyph_fiery_filter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "51E4A00285F52720"
+			optional: true
+			rewards: [{
+				id: "673D8EC8316B8939"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "03DC59670BC794C8"
+				item: "ars_elemental:glyph_not_fiery_filter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "526D8FD89E5A1FF6"
+			optional: true
+			rewards: [{
+				id: "65F484F8A89AFAE0"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "6EC18876C50368EA"
+				item: "ars_elemental:glyph_insect_filter"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "03F5172A1F0A5FA9"
+			optional: true
+			rewards: [{
+				id: "62D069468E6A0AA5"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "667C72866E85EE42"
+				item: "ars_elemental:glyph_not_aerial_filter"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "041B61FE7AA1DD89"
+			optional: true
+			rewards: [{
+				id: "54D692F04E1DBBC6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "32C211EA63D6FFEE"
+				item: "ars_elemental:glyph_not_aquatic_filter"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "3E606E18E9AB461E"
+			optional: true
+			rewards: [{
+				id: "371DFF96D2BAEFCF"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "2DBBF5C3D4B6F975"
+				item: "ars_elemental:glyph_not_insect_filter"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "3ED9FC4FB11864EE"
+			optional: true
+			rewards: [{
+				id: "379CD357B408F637"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "61B5087BE127B715"
+				item: "ars_elemental:glyph_not_summon_filter"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "63EBB2A0D7F9BABB"
+			optional: true
+			rewards: [{
+				id: "374A638E7499079D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "2ABA0B8A986F6FDC"
+				item: "ars_elemental:glyph_not_undead_filter"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "7FC70FE8EB3E8E26"
+			optional: true
+			rewards: [{
+				id: "46B5092DBE2631A6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "7BA219C3DA0968E7"
+				item: "ars_elemental:glyph_summon_filter"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "781F0960058148CD"
+			optional: true
+			require_sequential_tasks: false
+			rewards: [{
+				id: "00B0805DF8D999EC"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "3A42147820D58D26"
+				item: "ars_elemental:glyph_undead_filter"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			id: "04C439F9535F1E2E"
+			rewards: [{
+				count: 5
+				id: "693D5F0AE936F719"
+				item: "ars_additions:lost_codex_entry"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "Getting powerful"
+			tasks: [{
+				id: "47B9C5F1838700C3"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			title: "Your Second Spellbook!"
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"04C439F9535F1E2E"
+				"5555294226E025FC"
+			]
+			description: ["Perhaps after becoming the most powefull Ars wizard, you might want to unlock your full spell potential!"]
+			id: "1DE96B480F99DF9F"
+			rewards: [
+				{
+					count: 2
+					id: "21C0B00036DF0D30"
+					item: "ars_additions:ancient_codex_entry"
+					type: "item"
+				}
+				{
+					id: "02DAFDF3D8F0E379"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:iron_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 6
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "Unlimited power!"
+			tasks: [{
+				id: "0389AD7411CC8B76"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			title: "Your Third Spellbook"
+			x: -4.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["08EC303FD70D0B61"]
+			description: ["&lTip:&r Next to crafting items in the Enchanting Apparatus, you can also enchant items! See the guidebook for recipes."]
+			hide_dependency_lines: false
+			id: "354C2F107CD59D5F"
+			require_sequential_tasks: true
+			rewards: [{
+				id: "4DED6495FFE18267"
+				item: "ars_technica:pocket_factory_disc"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "75E59BAD6F6CD738"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2FEC731F1BFC86CF"
+					item: { Count: 8, id: "ars_nouveau:arcane_pedestal" }
+					type: "item"
+				}
+				{
+					id: "60D2DC11015C8E66"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			id: "029D893FBD23F222"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "694D2ECFB3CF9206"
+				table_id: 5638016769086981046L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 4L
+				id: "55E83AF0FC420CFD"
+				item: { Count: 4, id: "ars_nouveau:blue_archwood_sapling" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "2E17BCEC9CCE47A9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78F12B08F2FF6450"
+				table_id: 5638016769086981046L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 4L
+				id: "2689E820851CAF32"
+				item: "ars_nouveau:red_archwood_sapling"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "351E7951CE1F742A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C4821F5DEE3F545"
+				table_id: 5638016769086981046L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 4L
+				id: "694355D3819A29C2"
+				item: "ars_nouveau:purple_archwood_sapling"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			id: "2C42BB095955A678"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EAFDCCBD68FAAA4"
+				table_id: 5638016769086981046L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 4L
+				id: "7956FFF7E2659ABB"
+				item: "ars_nouveau:green_archwood_sapling"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			id: "35659ACE850A9B0A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BFCB5D84D32D6B8"
+				table_id: 5638016769086981046L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 4L
+				id: "038C2FA10588AA37"
+				item: "ars_elemental:yellow_archwood_sapling"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			id: "27DBE5CC662E8F67"
+			tasks: [{
+				id: "0B583033799F2335"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			title: "Mana in a bottle"
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["27DBE5CC662E8F67"]
+			id: "1F6B9FF331909EE2"
+			rewards: [{
+				id: "25F66310FBFE3682"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C28B4A419BD668D"
+				item: "ars_nouveau:agronomic_sourcelink"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["27DBE5CC662E8F67"]
+			id: "5435B11C65C4C0F4"
+			rewards: [{
+				id: "5A000ECC73E63BDA"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A4E4110CFBB0DEE"
+				item: "ars_nouveau:volcanic_sourcelink"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["27DBE5CC662E8F67"]
+			id: "4F554080786F9FDC"
+			rewards: [{
+				id: "6BB72C669F47B9BA"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3605961AB26E3F41"
+				item: "ars_nouveau:alchemical_sourcelink"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["27DBE5CC662E8F67"]
+			id: "28CEE6ADC0D2E385"
+			rewards: [{
+				id: "3661F396221E38A1"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			tasks: [{
+				id: "039ACD0FB065FDC6"
+				item: "ars_nouveau:vitalic_sourcelink"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["27DBE5CC662E8F67"]
+			id: "065639E1516388D4"
+			rewards: [{
+				id: "536B6FBE3CA17D5B"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DEB0146E274CFFC"
+				item: "ars_nouveau:mycelial_sourcelink"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			description: ["After collecting archwood, you should be able to create &lSource Gems&r by putting &lAmethyst&r or &lLapis&r in the &lImbuement Chamber&r"]
+			id: "0EE331E0913E1023"
+			rewards: [{
+				count: 4
+				id: "6DAF51469A0EB3DB"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			tasks: [{
+				id: "554B438C0B713A2E"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			title: "Making your gems"
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1DE96B480F99DF9F"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "0E150546714C9A35"
+			optional: true
+			tasks: [{
+				id: "107BAD6C1CE11534"
+				item: "ars_elemental:glyph_homing_projectile"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["1DE96B480F99DF9F"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "746F04045B7ED727"
+			optional: true
+			tasks: [{
+				id: "70612369818388B1"
+				item: "ars_additions:glyph_recall"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["1DE96B480F99DF9F"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "196968BB155C4CF9"
+			optional: true
+			tasks: [{
+				id: "40813337547146E2"
+				item: "ars_additions:glyph_retaliate"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["1DE96B480F99DF9F"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "4F1C63834FB6BF9E"
+			optional: true
+			tasks: [{
+				id: "5F97562C5337BC9B"
+				item: "ars_elemental:glyph_propagator_homing"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["1DE96B480F99DF9F"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "6797357EB81ABB7C"
+			optional: true
+			tasks: [{
+				id: "3E4989389F55CBA6"
+				item: "ars_nouveau:glyph_split"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["1DE96B480F99DF9F"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "573D8AEFFE48D55A"
+			optional: true
+			tasks: [{
+				id: "56069C749EAE0683"
+				item: "ars_nouveau:glyph_blink"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["1DE96B480F99DF9F"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "16334E2E1AC471C4"
+			optional: true
+			tasks: [{
+				id: "0412BC0D0C3AA3D8"
+				item: "ars_nouveau:burst"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["1DE96B480F99DF9F"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "4142F5555B603F51"
+			optional: true
+			tasks: [{
+				id: "5506175D5FEF7094"
+				item: "ars_nouveau:glyph_fangs"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["1DE96B480F99DF9F"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "7963C762F6224682"
+			optional: true
+			tasks: [{
+				id: "34FD951F2DB43A5B"
+				item: "ars_nouveau:glyph_hex"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["1DE96B480F99DF9F"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "4B734E68F5448DFB"
+			optional: true
+			tasks: [{
+				id: "65D430BE6FB3D0DD"
+				item: "ars_nouveau:glyph_glide"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["1DE96B480F99DF9F"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "3A71FCCD1152D113"
+			optional: true
+			tasks: [{
+				id: "7FA16057C6EC40F5"
+				item: "ars_nouveau:glyph_intangible"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["1DE96B480F99DF9F"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "57567E30FFC932AB"
+			optional: true
+			tasks: [{
+				id: "00F3B06A887DDA7F"
+				item: "ars_elemental:glyph_life_link"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["1DE96B480F99DF9F"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "50044196E25CB8D7"
+			optional: true
+			tasks: [{
+				id: "0AB47B2B3F1AAA04"
+				item: "ars_nouveau:glyph_orbit"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["1DE96B480F99DF9F"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "01967AF09854A6D0"
+			optional: true
+			tasks: [{
+				id: "30ECF92BEE9D9AFC"
+				item: "ars_technica:glyph_obliterate"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["1DE96B480F99DF9F"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "6AE8F9B61632B9E1"
+			optional: true
+			tasks: [{
+				id: "42107A1637FAA004"
+				item: "ars_additions:glyph_mark"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["1DE96B480F99DF9F"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "51891BCC6AFF5DFA"
+			optional: true
+			tasks: [{
+				id: "41773167765D8456"
+				item: "ars_nouveau:glyph_linger"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["1DE96B480F99DF9F"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "1636BBF3B806CF93"
+			optional: true
+			tasks: [{
+				id: "3CFA81DA21E912F2"
+				item: "ars_nouveau:glyph_lightning"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["1DE96B480F99DF9F"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "5C929C3444833AA0"
+			optional: true
+			tasks: [{
+				id: "11F645C4CBFE70C1"
+				item: "ars_nouveau:rewind"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["1DE96B480F99DF9F"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "064830E6B8ED1823"
+			optional: true
+			tasks: [{
+				id: "70B2BA712C6BD255"
+				item: "ars_nouveau:glyph_summon_decoy"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["1DE96B480F99DF9F"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "10ADCEB9BD3C5DF9"
+			optional: true
+			tasks: [{
+				id: "2E1C4D4226B7EA4E"
+				item: "ars_nouveau:glyph_summon_undead"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["1DE96B480F99DF9F"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "456E6EECDE3F4E6D"
+			optional: true
+			tasks: [{
+				id: "2625D6653163B057"
+				item: "ars_nouveau:glyph_summon_vex"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["1DE96B480F99DF9F"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "3355B2FCDC20FEF2"
+			optional: true
+			tasks: [{
+				id: "1B594D267D612DC4"
+				item: "ars_technica:glyph_superheat"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["1DE96B480F99DF9F"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "0FD84194B61D86FA"
+			optional: true
+			tasks: [{
+				id: "6D9A8CABC947250A"
+				item: "ars_nouveau:glyph_wall"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["1DE96B480F99DF9F"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "6C1E899E06E470A1"
+			optional: true
+			tasks: [{
+				id: "4ABC8ED28F7DC994"
+				item: "ars_nouveau:glyph_wither"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -21.5d
+		}
+		{
+			dependencies: ["0EE331E0913E1023"]
+			id: "08EC303FD70D0B61"
+			rewards: [{
+				count: 16
+				id: "3BAEE3110A338C53"
+				item: "ars_nouveau:sourcestone"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "6DB1A4451A493716"
+				item: { Count: 8, id: "ars_nouveau:sourcestone" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5CAF1EF30AB277C7"]
+			description: ["Try adding a touch form and a break effect to slot one and call it Paxel~"]
+			id: "7E7BFE10B2FAECBB"
+			optional: true
+			tasks: [{
+				id: "4121EC638CB45181"
+				title: "Making a mana paxel"
+				type: "checkmark"
+			}]
+			title: "Making a mana paxel"
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			description: ["You only need to know the glyph once in order to use it infinitely in your spellbook!"]
+			id: "733D7503D49DAC9D"
+			subtitle: "Where glyphs are made!"
+			tasks: [{
+				id: "462DE44AA1A2DFC5"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0EE331E0913E1023"]
+			description: ["Making essence is not all to hard once you've done it once, during crafting only the Source Gem gets consumed."]
+			id: "7359C21A26BC271A"
+			subtitle: "Ars crafting"
+			tasks: [
+				{
+					id: "4174970820B7C910"
+					item: "ars_nouveau:abjuration_essence"
+					type: "item"
+				}
+				{
+					id: "5DF635A94DE3B4D2"
+					item: "ars_nouveau:conjuration_essence"
+					type: "item"
+				}
+				{
+					id: "008D7C4DCC09A565"
+					item: "ars_nouveau:air_essence"
+					type: "item"
+				}
+				{
+					id: "64CAA2A2E647B122"
+					item: "ars_nouveau:earth_essence"
+					type: "item"
+				}
+				{
+					id: "13DD940631A23D94"
+					item: "ars_nouveau:fire_essence"
+					type: "item"
+				}
+				{
+					id: "30E9D5509B9E44C1"
+					item: "ars_nouveau:manipulation_essence"
+					type: "item"
+				}
+				{
+					id: "4621EDE697DE4CA4"
+					item: "ars_nouveau:water_essence"
+					type: "item"
+				}
+				{
+					id: "660C22046F82AA1F"
+					item: "ars_elemental:anima_essence"
+					type: "item"
+				}
+			]
+			title: "Essence it up!"
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["354C2F107CD59D5F"]
+			id: "0977F179CF74C087"
+			rewards: [{
+				count: 2
+				id: "46F526C2778434ED"
+				item: "ars_nouveau:magebloom"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F0DEA74D88DE38B"
+				item: "ars_nouveau:magebloom_crop"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0977F179CF74C087"]
+			id: "02DF26EDDAC53194"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E63296E2A3283E1"
+				table_id: 5638016769086981046L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "4E2846BF0B64713B"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ars_nouveau:legs"
+						}
+					}
+					title: "Any #ars_nouveau:legs"
+					type: "item"
+				}
+				{
+					id: "33C0B5BD63D50DEB"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ars_nouveau:boot"
+						}
+					}
+					title: "Any #ars_nouveau:boot"
+					type: "item"
+				}
+				{
+					id: "696527B3322F504D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ars_nouveau:robe"
+						}
+					}
+					title: "Any #ars_nouveau:robe"
+					type: "item"
+				}
+				{
+					id: "645D72257613973F"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ars_nouveau:hood"
+						}
+					}
+					title: "Any #ars_nouveau:hood"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["71D4250062E53787"]
+			id: "020E77CD63FF953D"
+			rewards: [{
+				count: 4
+				id: "3E9C033214D9A7AF"
+				item: "ars_nouveau:blank_thread"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E3723529837EF19"
+				item: "ars_nouveau:blank_thread"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["020E77CD63FF953D"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "5C26AA908330C50E"
+			optional: true
+			rewards: [{
+				id: "6EB3DB5E4C8A5326"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7EAA1B1FEDFED3C0"
+				item: "ars_nouveau:thread_depths"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["020E77CD63FF953D"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "4CE4696916D580CD"
+			optional: true
+			rewards: [{
+				id: "13E726B40F0EA9E0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0161B6BF822195CA"
+				item: "ars_elemental:thread_spore"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["020E77CD63FF953D"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "466218A13E1B002A"
+			optional: true
+			rewards: [{
+				id: "753F920F0B0F0454"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2C6617EFE1986C80"
+				item: "ars_elemental:thread_shock"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["020E77CD63FF953D"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "4B5806DFD62F3C3D"
+			optional: true
+			rewards: [{
+				id: "42F6ECE12F1EC489"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4DF8F1DEA17C615F"
+				item: "ars_nouveau:thread_drygmy"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["020E77CD63FF953D"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "4FBB22401A109DAD"
+			optional: true
+			rewards: [{
+				id: "31CAF0898A3C530E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "128B0242CB42F29A"
+				item: "ars_nouveau:thread_high_step"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["020E77CD63FF953D"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "79BE4BBF3E20C463"
+			optional: true
+			rewards: [{
+				id: "53FE67B0C2B4333D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "599CBB19367FD291"
+				item: "ars_nouveau:thread_spellpower"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["020E77CD63FF953D"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "7E1C96FEF7375B3C"
+			optional: true
+			rewards: [{
+				id: "5674E10A85A10B45"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "65E25B899B2500A0"
+				item: "ars_nouveau:thread_life_drain"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["020E77CD63FF953D"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "5AF615A8DF8496DD"
+			optional: true
+			rewards: [{
+				id: "678810AA72A40A39"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "65A9806B96E81C1C"
+				item: "ars_nouveau:thread_starbuncle"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["020E77CD63FF953D"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "24540DD67024B7BE"
+			optional: true
+			rewards: [{
+				id: "3351B4ABC25D7677"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7232125123AB8565"
+				item: "ars_nouveau:thread_feather"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["020E77CD63FF953D"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "1D30C5D6ADEBD82D"
+			optional: true
+			rewards: [{
+				id: "188DA357352731CC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4C9DEA14804F20BE"
+				item: "ars_nouveau:thread_gliding"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["020E77CD63FF953D"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "571D96C8B649C8E4"
+			optional: true
+			rewards: [{
+				id: "2C334DF0E891308C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0BC1D3B642E9DB8B"
+				item: "ars_nouveau:thread_immolation"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["020E77CD63FF953D"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "2D7479BB160E9D4A"
+			optional: true
+			rewards: [{
+				id: "385215A255578CB8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "38F91BC6A84507B9"
+				item: "ars_nouveau:thread_amethyst_golem"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["020E77CD63FF953D"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "5EA43256659A7CED"
+			optional: true
+			rewards: [{
+				id: "4EB73D879E71EB82"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "68B1F7017352EAE6"
+				item: "ars_technica:thread_pressure"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["020E77CD63FF953D"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "6250918A0EE6415D"
+			optional: true
+			rewards: [{
+				id: "4A08D163FB7CF4DF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "53CB98EE3050A50A"
+				item: "ars_nouveau:thread_magic_capacity"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["020E77CD63FF953D"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "38EEB31637BA0D8D"
+			optional: true
+			rewards: [{
+				id: "03B68DB64E85B112"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "16CC0EBE604F0417"
+				item: "ars_nouveau:thread_kindling"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["020E77CD63FF953D"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "2D7401A80D24AE19"
+			optional: true
+			rewards: [{
+				id: "40CB9929D3583E2A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3F22FBC2C3B0FF1A"
+				item: "ars_elemental:thread_summon"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["020E77CD63FF953D"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "0576F9F6BED5C1F0"
+			optional: true
+			rewards: [{
+				id: "1D5AE881C4EDA733"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "165D42FFB16D2212"
+				item: "ars_nouveau:thread_wixie"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["020E77CD63FF953D"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "220C43BBC71A277C"
+			optional: true
+			rewards: [{
+				id: "6795891A4E75D93B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "685E00537C5022FA"
+				item: "ars_nouveau:thread_heights"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["020E77CD63FF953D"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "7FDA7AFE2253644A"
+			optional: true
+			rewards: [{
+				id: "7F625A9FDC18491A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "393E25E737918A5C"
+				item: "ars_nouveau:thread_whirlisprig"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["020E77CD63FF953D"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "1BB4A7F9789E426B"
+			optional: true
+			rewards: [{
+				id: "6D895C1775D4137D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4C17C13A509105F2"
+				item: "ars_nouveau:thread_chilling"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["020E77CD63FF953D"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "0FED143894A017B5"
+			optional: true
+			rewards: [{
+				id: "275AFEFC5CE543FA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4D4CE839BC246826"
+				item: "ars_nouveau:thread_undying"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["020E77CD63FF953D"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "3B0A842E65B3B7F0"
+			optional: true
+			rewards: [{
+				id: "6327B09E7E648416"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "6A93B216A38F850C"
+				item: "ars_nouveau:thread_warding"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["020E77CD63FF953D"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "5A2C22695DD3839F"
+			optional: true
+			rewards: [{
+				id: "2239BBB3EAC481CC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4F11F6972128D71C"
+				item: "ars_nouveau:thread_repairing"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["02DF26EDDAC53194"]
+			id: "0C8D08355F602BB1"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05FF54DB46C84038"
+				table_id: 2593141473994657819L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "57EFA1ED9A068AE0"
+					item: {
+						Count: 1
+						id: "ars_elemental:fire_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A59CDE43B116345"
+					item: {
+						Count: 1
+						id: "ars_elemental:fire_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75CBE06131D3ADED"
+					item: {
+						Count: 1
+						id: "ars_elemental:fire_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E5C8FB95B178DCE"
+					item: {
+						Count: 1
+						id: "ars_elemental:fire_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["02DF26EDDAC53194"]
+			id: "6BC91AD1A6EB366E"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38F7ADB924D08B94"
+				table_id: 2593141473994657819L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "49CB07FC548D5E6B"
+					item: {
+						Count: 1
+						id: "ars_elemental:air_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B90140E9E9ECE9B"
+					item: {
+						Count: 1
+						id: "ars_elemental:air_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "556D7BE07922B011"
+					item: {
+						Count: 1
+						id: "ars_elemental:air_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7EE23B381A3C69D8"
+					item: {
+						Count: 1
+						id: "ars_elemental:air_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["02DF26EDDAC53194"]
+			id: "19961CC79B056A68"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F6BF370972CEF0D"
+				table_id: 2593141473994657819L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "1A43387589FA0C0D"
+					item: {
+						Count: 1
+						id: "ars_elemental:earth_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48FCBBFB5E0A66D5"
+					item: {
+						Count: 1
+						id: "ars_elemental:earth_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "308E3E96CA6E6896"
+					item: {
+						Count: 1
+						id: "ars_elemental:earth_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26915945D964E689"
+					item: {
+						Count: 1
+						id: "ars_elemental:earth_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["02DF26EDDAC53194"]
+			id: "6E0F9EBDA9201561"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14B045079FECD8C2"
+				table_id: 2593141473994657819L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "1824CC11D6F7F559"
+					item: {
+						Count: 1
+						id: "ars_elemental:aqua_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D52AC3119BB4B06"
+					item: {
+						Count: 1
+						id: "ars_elemental:aqua_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6091CD631F5E93C3"
+					item: {
+						Count: 1
+						id: "ars_elemental:aqua_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6FE118E31096396B"
+					item: {
+						Count: 1
+						id: "ars_elemental:aqua_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["02DF26EDDAC53194"]
+			id: "6071CE22EF74FAE4"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "748287ECDAA6C872"
+				table_id: 2593141473994657819L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "56C4B1570760DAF0"
+					item: {
+						Count: 1
+						id: "ars_technica:technomancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76DE6F68CDC29DDD"
+					item: {
+						Count: 1
+						id: "ars_technica:technomancer_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "653AC045F63F2BC8"
+					item: {
+						Count: 1
+						id: "ars_technica:technomancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48DC4E6C94B57712"
+					item: {
+						Count: 1
+						id: "ars_technica:technomancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0977F179CF74C087"]
+			id: "71D4250062E53787"
+			rewards: [{
+				count: 4
+				id: "1790C192AD0185A5"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			tasks: [{
+				id: "198D9DBA7DDE6713"
+				item: "ars_nouveau:alteration_table"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6F689ABE0723B365"]
+			id: "057E1FC457907365"
+			optional: true
+			rewards: [{
+				id: "0088263E32274B69"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0CB88DBD7774DF36"
+				item: "ars_nouveau:ritual_burrowing"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6F689ABE0723B365"]
+			id: "6ED1F0A356433FF2"
+			optional: true
+			rewards: [{
+				id: "55A481FCEE7E2D9E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "60BA60790FFB4B44"
+				item: "ars_nouveau:ritual_challenge"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6F689ABE0723B365"]
+			id: "49B10DC61BF43DF9"
+			rewards: [{
+				id: "01A0EB489A26F674"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "60916B6EF1899B2E"
+				item: "ars_nouveau:ritual_binding"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6F689ABE0723B365"]
+			id: "13B873E4C1F98315"
+			optional: true
+			rewards: [{
+				id: "51481245A52B3D07"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "72B5CA5E5E24C57E"
+				item: "ars_nouveau:ritual_awakening"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6F689ABE0723B365"]
+			id: "6DD114A27F05A419"
+			optional: true
+			rewards: [{
+				id: "54A7341BE3F3EEDE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "491793FCCFBEF3A5"
+				item: "ars_nouveau:ritual_disintegration"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6F689ABE0723B365"]
+			id: "14BB309A03F06CE8"
+			optional: true
+			rewards: [{
+				id: "42E31368CCABFA9D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "65B0D2BE56DB46BA"
+				item: "ars_nouveau:ritual_sunrise"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6F689ABE0723B365"]
+			id: "6C982D15C33477F3"
+			optional: true
+			rewards: [{
+				id: "0C02D8F1F55C1664"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "6E733CE3637AABCC"
+				item: "ars_elemental:ritual_tesla_coil"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6F689ABE0723B365"]
+			id: "26BF7830352EA064"
+			optional: true
+			rewards: [{
+				id: "57B96989B81DD941"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "45125EFBBD8F1680"
+				item: "ars_elemental:ritual_squirrels"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6F689ABE0723B365"]
+			id: "4B98EDD41902BC77"
+			optional: true
+			rewards: [{
+				id: "64F4BCF33EFFC486"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "046684DFEF367046"
+				item: "ars_elemental:ritual_attraction"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6F689ABE0723B365"]
+			id: "7E0B5A1C30BA739B"
+			optional: true
+			rewards: [{
+				id: "4BCE0AB5FCE93331"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5C9A6144F14DF212"
+				item: "ars_nouveau:ritual_conjure_island_plains"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6F689ABE0723B365"]
+			id: "54ED38ECA192D8CA"
+			optional: true
+			rewards: [{
+				id: "069EA6EF7CDBF807"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "66BE8E89ABB6B765"
+				item: "ars_nouveau:ritual_flight"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6F689ABE0723B365"]
+			id: "43DD269E152548C1"
+			optional: true
+			rewards: [{
+				id: "5BE7BD7702035F10"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "37116DC2DAF83D20"
+				item: "ars_nouveau:ritual_cloudshaping"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6F689ABE0723B365"]
+			id: "638457F26A04832C"
+			optional: true
+			rewards: [{
+				id: "66E4D4D4B5D190FD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4BA05E329BBB9360"
+				item: "ars_elemental:ritual_repulsion"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6F689ABE0723B365"]
+			id: "3906521141D8EE1B"
+			optional: true
+			rewards: [{
+				id: "0FA86CF649913D58"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "04EEB20D360CDAB8"
+				item: "ars_nouveau:ritual_restoration"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6F689ABE0723B365"]
+			id: "34B88CDCE0D2803E"
+			optional: true
+			rewards: [{
+				id: "7BDDC341DE233FDE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4F5DFEBAA3D11334"
+				item: "ars_nouveau:ritual_animal_summon"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6F689ABE0723B365"]
+			id: "60C80EC50D02F496"
+			optional: true
+			rewards: [{
+				id: "351DA0110997B382"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "37313FE1EA0F8EA6"
+				item: "ars_additions:ritual_chunk_loading"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6F689ABE0723B365"]
+			id: "40DF044B7E08920E"
+			optional: true
+			rewards: [{
+				id: "7478AEFEF10BF7EF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "415F2B016CCEBF7E"
+				item: "ars_nouveau:ritual_forestation"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6F689ABE0723B365"]
+			id: "38D0F1DA3795E7CA"
+			optional: true
+			rewards: [{
+				id: "7B9537F8B1166017"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0E23646EE070F0CF"
+				item: "ars_nouveau:ritual_warping"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6F689ABE0723B365"]
+			id: "1C0A941556524826"
+			optional: true
+			rewards: [{
+				id: "11617E042D8E052F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3DD09AFB477ABF12"
+				item: "ars_nouveau:ritual_moonfall"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6F689ABE0723B365"]
+			id: "2C230799B26260E7"
+			optional: true
+			rewards: [{
+				id: "30AAB05B2666302F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7B744591C8F3B269"
+				item: "ars_nouveau:ritual_containment"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6F689ABE0723B365"]
+			id: "702907BB7A2C613C"
+			optional: true
+			rewards: [{
+				id: "7DF02CFA1A0277F2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3B462C661F1DF498"
+				item: "ars_nouveau:ritual_scrying"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6F689ABE0723B365"]
+			id: "7DD2BB3B6CA14085"
+			optional: true
+			rewards: [{
+				id: "0F2B9A7D4E199EA0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "73255B62E0CCC5B3"
+				item: "ars_nouveau:ritual_gravity"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6F689ABE0723B365"]
+			id: "531C20AFE9EBE803"
+			optional: true
+			rewards: [{
+				id: "51B6C155B57B8713"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "70A72098B882F521"
+				item: "ars_nouveau:ritual_flowering"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6F689ABE0723B365"]
+			id: "5F3C70F18FF3F8CB"
+			optional: true
+			rewards: [{
+				id: "213A0F050C432451"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "47FB04D9CE53ACC4"
+				item: "ars_nouveau:ritual_sanctuary"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6F689ABE0723B365"]
+			id: "461C5E772FC02B57"
+			optional: true
+			rewards: [{
+				id: "37387220A7EFC4E6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "34CA127755D12DDA"
+				item: "ars_elemental:ritual_detection"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6F689ABE0723B365"]
+			id: "09C53E770D1E0AEE"
+			optional: true
+			rewards: [{
+				id: "2B8B40CAABCFF166"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "17A16C4D0783E222"
+				item: "ars_nouveau:ritual_fertility"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6F689ABE0723B365"]
+			id: "34B66BB61B0F88E7"
+			optional: true
+			rewards: [{
+				id: "5470B97B4C2FA8DE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "454F2DF4BEFA1D25"
+				item: "ars_nouveau:ritual_overgrowth"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6F689ABE0723B365"]
+			id: "1FF059E336CF6A1C"
+			optional: true
+			rewards: [{
+				id: "12BB9E2461FB6AF3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5ACD8B9C1C0F4303"
+				item: "ars_nouveau:ritual_conjure_island_desert"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6F689ABE0723B365"]
+			id: "580920F23A21CB80"
+			optional: true
+			rewards: [{
+				id: "6F2C28ADD6B5F867"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4A6774A7D3FA1B72"
+				item: "ars_nouveau:ritual_harvest"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6F689ABE0723B365"]
+			id: "548E8DC4A12D2DAC"
+			rewards: [{
+				id: "5ABBE0D06904173E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "544A3D822308F57D"
+				item: "ars_nouveau:ritual_wilden_summon"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6F689ABE0723B365"]
+			id: "439315DFDA729F7C"
+			optional: true
+			rewards: [{
+				id: "023A51055FBE7634"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "39C7833202E7024A"
+				item: "ars_additions:ritual_locate_structure"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["08EC303FD70D0B61"]
+			id: "6F689ABE0723B365"
+			rewards: [{
+				count: 3
+				id: "20C543436AFC0447"
+				item: "ars_nouveau:wilden_wing"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39F48C5E99B91769"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			id: "4C2F378DAF0BBA85"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E407089415AFC3E"
+				table_id: 5638016769086981046L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3765F1C078409F23"
+				item: "ars_nouveau:bookwyrm_charm"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -12.0d
+		}
+		{
+			id: "6897B4F7A81008A5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A2C858E745B331A"
+				table_id: 5638016769086981046L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "53AA43AC91E499AE"
+				item: "ars_nouveau:starbuncle_charm"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -11.0d
+		}
+		{
+			id: "6833C29EF4AEE738"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74EF390AB6CB48AC"
+				table_id: 5638016769086981046L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "274AF710DF6CF1A6"
+				item: "ars_nouveau:whirlisprig_charm"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -12.5d
+		}
+		{
+			id: "3E0177EACF3FA8E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28C47DD1F9D94EE4"
+				table_id: 5638016769086981046L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0430C9AF5A4309CD"
+				item: "ars_nouveau:drygmy_charm"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -11.0d
+		}
+		{
+			description: [
+				"Use the charm on a cauldron to summon the Wixie."
+				""
+				"The Wixie can potions"
+			]
+			id: "200BB2F90E4266F3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D388A2D110E2703"
+				table_id: 5638016769086981046L
+				type: "loot"
+			}]
+			subtitle: "Your personal witch!"
+			tasks: [{
+				id: "134877735C959535"
+				item: "ars_nouveau:wixie_charm"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -12.0d
+		}
+		{
+			id: "5128852130A7F507"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3064F7F6AD5F11C9"
+				table_id: 5638016769086981046L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3496F3F4D9A93000"
+				item: "ars_nouveau:amethyst_golem_charm"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["548E8DC4A12D2DAC"]
+			id: "5555294226E025FC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02CDD4CE779C0B3D"
+				table_id: 2593141473994657819L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3AAE96FD9C2BA9E9"
+				item: "ars_nouveau:wilden_tribute"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -11.0d
+		}
+		{
+			id: "38776A6DE7114F70"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5EBAEA6589DD0C9A"
+				table_id: 2593141473994657819L
+				type: "random"
+			}]
+			size: 2.0d
+			subtitle: "is this considered flying?"
+			tasks: [{
+				id: "7AD958421B45B3DE"
+				item: "ars_nouveau:jump_ring"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Have you ever felt like the ovepowered equipment the other mods have provided just aren't strong enough? well this is the mod for you."]
+			id: "18840D5102426AB9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4CC789949D68514A"
+					table_id: 5638016769086981046L
+					type: "random"
+				}
+				{
+					id: "6D0054A427C4515A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "7B8ED886F2BEEC76"
+				title: "Welcome to apotheosis"
+				type: "checkmark"
+			}]
+			x: 22.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["18840D5102426AB9"]
+			id: "48C8D805F66165CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05B728455BA09D92"
+				table_id: 5638016769086981046L
+				type: "random"
+			}]
+			subtitle: "One of the ways you'll be able to make your armour stronger is with the power of affixes. Lets learn how."
+			tasks: [{
+				id: "0C86F51EF4CB1E50"
+				title: "Affixes"
+				type: "checkmark"
+			}]
+			x: 24.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["18840D5102426AB9"]
+			description: ["Apotheosis overhauls enchanting to a different level I hope you're ready."]
+			id: "21E84DDBB505CDFF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "635EE81B9A17535B"
+				table_id: 5638016769086981046L
+				type: "random"
+			}]
+			tasks: [{
+				id: "57E8DAE8CB2ED65E"
+				title: "Apothic enchanting"
+				type: "checkmark"
+			}]
+			x: 20.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["48C8D805F66165CB"]
+			id: "3F55A7A6E4A5713D"
+			rewards: [
+				{
+					count: 4
+					id: "5E1A98DEA45757D4"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+				{
+					id: "1413131517CB0270"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56EE63BB0311C6A7"
+					table_id: 5638016769086981046L
+					type: "random"
+				}
+			]
+			subtitle: "To get your first gem dust you'll need to throw a gem on the ground and crush it by dropping an anvil on it"
+			tasks: [{
+				count: 2L
+				id: "17D205EDE218E0FB"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			title: "A different type of crushing"
+			x: 26.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["3F55A7A6E4A5713D"]
+			id: "2A18472E799C31A3"
+			rewards: [
+				{
+					id: "787A0CE4C14F4C90"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23AD1322234B5A61"
+					table_id: 5638016769086981046L
+					type: "random"
+				}
+			]
+			subtitle: "While looting chests and slaying mobs you may have come across affixed items already using this table will allow you to break them into resources for upgrading, you can also break gems to dust here."
+			tasks: [{
+				id: "7B442E5342E840D7"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			title: "Salvage them"
+			x: 26.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["3F55A7A6E4A5713D"]
+			id: "6AA02FD9CC0A2AC5"
+			rewards: [
+				{
+					count: 2
+					id: "185C7D4F82168E98"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E1814BCADD56D69"
+					table_id: 5638016769086981046L
+					type: "random"
+				}
+			]
+			subtitle: "The simple reforging table allows you to add affixes to items that lack them (tools, armour and weaponry) unfortunatly this tables limited to the rare rarity. But we can change that ."
+			tasks: [{
+				id: "3259C3F0596BADCE"
+				item: "apotheosis:simple_reforging_table"
+				type: "item"
+			}]
+			title: "Reforging for beginners"
+			x: 28.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["6AA02FD9CC0A2AC5"]
+			id: "6DA0BC64D17891D5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4BCCDC4856985021"
+					table_id: 5638016769086981046L
+					type: "random"
+				}
+				{
+					id: "0447A939FF77272B"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "The second tier of reforging table requires the first as a material but allows affixes up to mythic. "
+			tasks: [{
+				id: "1BE04EEAC40AAA3C"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			title: "Reforging for Journeymen"
+			x: 31.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["3F55A7A6E4A5713D"]
+			id: "30FDD2F74143C7E3"
+			rewards: [
+				{
+					count: 6
+					id: "78F734996C52A102"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "729D0F37F3E48FF3"
+					table_id: 5638016769086981046L
+					type: "random"
+				}
+				{
+					id: "4F1A2F258826B2DD"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "Got to many gems but theyre not up to scratch? Upgrade them at the gem table for the low low cost of another of the same gem gem dust and resources from breaking you affixed items .... ok the price isnt so low."
+			tasks: [{
+				id: "62361E52BE15BAE6"
+				item: "apotheosis:gem_cutting_table"
+				type: "item"
+			}]
+			title: "Gem upgrades"
+			x: 26.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["6DA0BC64D17891D5"]
+			id: "1A0677F35CD2EB06"
+			rewards: [
+				{
+					count: 4
+					id: "0A999F596E67BD12"
+					item: "apotheosis:sigil_of_enhancement"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11B46614F746CFC6"
+					table_id: 2593141473994657819L
+					type: "random"
+				}
+			]
+			subtitle: "The augmenting table allows for a more specific reroll of your affixed item taking some of the luck out of it *requires a previously affixed item*."
+			tasks: [{
+				id: "7763E08937FC253D"
+				item: "apotheosis:augmenting_table"
+				type: "item"
+			}]
+			title: "Reforging for Pros"
+			x: 33.5d
+			y: -14.5d
+		}
+		{
+			id: "510982008237E0E4"
+			rewards: [
+				{
+					id: "1949AD0DD12CEF41"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FF2AD9AB217FB12"
+					table_id: 5638016769086981046L
+					type: "random"
+				}
+			]
+			subtitle: "These slates are the base material for making sigil handy little tools for ugrading/affixing your items"
+			tasks: [{
+				count: 4L
+				id: "3714FC911D2F8EC0"
+				item: { Count: 4, id: "apotheosis:gem_fused_slate" }
+				type: "item"
+			}]
+			title: "A blank slate"
+			x: 31.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["510982008237E0E4"]
+			id: "39F998321C035847"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6A6E5D9A9FBFB224"
+					table_id: 5638016769086981046L
+					type: "random"
+				}
+				{
+					id: "07B8D04A7A38DA4E"
+					type: "xp"
+					xp: 250
+				}
+			]
+			subtitle: "Rebirth is used as fuel for reforging Unaffixed items in either reforging table *not used for augmenting*"
+			tasks: [{
+				id: "14401A7F24AE062B"
+				item: "apotheosis:sigil_of_rebirth"
+				type: "item"
+			}]
+			x: 28.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["510982008237E0E4"]
+			id: "76EE9A1BF41D7F51"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4C68C647AFCA53C7"
+					table_id: 5638016769086981046L
+					type: "random"
+				}
+				{
+					id: "32FB58F5AA6C70EC"
+					type: "xp"
+					xp: 250
+				}
+			]
+			subtitle: "Enhancement is used as fuel in the reforging table make sure you have an affixed item."
+			tasks: [{
+				id: "1CEB2FCEF047ED5E"
+				item: "apotheosis:sigil_of_enhancement"
+				type: "item"
+			}]
+			x: 33.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["510982008237E0E4"]
+			id: "761373DE5C388613"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "20D7256795113E7B"
+					table_id: 5638016769086981046L
+					type: "random"
+				}
+				{
+					id: "172C49D664CCC6F6"
+					type: "xp"
+					xp: 250
+				}
+			]
+			subtitle: "Adds 1 socket to an item use these with the chosen item in the smithing table."
+			tasks: [{
+				id: "73A62A9FF3FA9F64"
+				item: "apotheosis:sigil_of_socketing"
+				type: "item"
+			}]
+			x: 29.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["510982008237E0E4"]
+			id: "21451D57E2E0214F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "32C5F255F2DC2EA9"
+					table_id: 5638016769086981046L
+					type: "random"
+				}
+				{
+					id: "7D28150D507C447B"
+					type: "xp"
+					xp: 250
+				}
+			]
+			subtitle: "Removes the gems from an item returning both the gems and items intact, used in the smithing table."
+			tasks: [{
+				id: "61B8D3C5983DF2D9"
+				item: "apotheosis:sigil_of_withdrawal"
+				type: "item"
+			}]
+			x: 31.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["510982008237E0E4"]
+			id: "4E79941C1FDE561B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0C521443EE3B6F9F"
+					table_id: 5638016769086981046L
+					type: "random"
+				}
+				{
+					id: "19DE0B6C887F6C5C"
+					type: "xp"
+					xp: 250
+				}
+			]
+			subtitle: "Removes the name from an affixed item used in the smithing table"
+			tasks: [{
+				id: "6362BFCF29E547C3"
+				item: "apotheosis:sigil_of_unnaming"
+				type: "item"
+			}]
+			x: 33.0d
+			y: -19.0d
+		}
+		{
+			dependencies: [
+				"2A18472E799C31A3"
+				"2C121D9C8CA6FA6A"
+			]
+			id: "787C31A3A3E13442"
+			rewards: [
+				{
+					id: "1B82B6A593EE6565"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 5
+					id: "1A0766E584E151EA"
+					item: "apotheosis:common_material"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36B48647409BBF81"
+					table_id: 5638016769086981046L
+					type: "random"
+				}
+			]
+			subtitle: "Gained from breaking down common affixes can be used to upgrade gems from \"common\" to \"rare\" tier"
+			tasks: [{
+				id: "49CF7F0A00C4EFE9"
+				item: "apotheosis:common_material"
+				type: "item"
+			}]
+			x: 28.0d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"2A18472E799C31A3"
+				"2C121D9C8CA6FA6A"
+			]
+			id: "729B05ABD8923FB9"
+			rewards: [
+				{
+					id: "46EA97F8082D6489"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 5
+					id: "036F7E755CA47DF4"
+					item: "apotheosis:uncommon_material"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E8101AC0592C725"
+					table_id: 5638016769086981046L
+					type: "random"
+				}
+			]
+			subtitle: "Gained from breaking uncommon affixes con be used to upgrade from \"uncommon\" to \"epic\" tier."
+			tasks: [{
+				id: "60C0359579127A75"
+				item: "apotheosis:uncommon_material"
+				type: "item"
+			}]
+			x: 29.5d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"2A18472E799C31A3"
+				"2C121D9C8CA6FA6A"
+			]
+			id: "1D9B55976257CA9D"
+			rewards: [
+				{
+					id: "70DF1D3C300DF5DF"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 5
+					id: "779F1B02D54A6D78"
+					item: "apotheosis:rare_material"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09A06000DA052226"
+					table_id: 5638016769086981046L
+					type: "random"
+				}
+			]
+			subtitle: "Gained from breaking rare affixed items used to upgrade gems from \"rare\" to \"mythic\" tier"
+			tasks: [{
+				id: "3704ACBDCA6097C7"
+				item: "apotheosis:rare_material"
+				type: "item"
+			}]
+			x: 31.0d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"2A18472E799C31A3"
+				"2C121D9C8CA6FA6A"
+			]
+			id: "6EFF905F8490D710"
+			rewards: [
+				{
+					id: "672DCC14B532464D"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 5
+					id: "164B3001D5DEC06F"
+					item: "apotheosis:epic_material"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "779C5B4E0A553D54"
+					table_id: 5638016769086981046L
+					type: "random"
+				}
+			]
+			subtitle: "Gained from breaking epic affixes used to upgrade gems from \"epic\" to \"perfect\" tier"
+			tasks: [{
+				id: "60BE3C03E29DDC8C"
+				item: "apotheosis:epic_material"
+				type: "item"
+			}]
+			x: 32.5d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"2A18472E799C31A3"
+				"2C121D9C8CA6FA6A"
+			]
+			id: "724A404A6DE768A5"
+			rewards: [
+				{
+					id: "3FD87F6E9CC8A7EC"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 2
+					id: "2455F43976C81593"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A4E415B4292D279"
+					table_id: 2593141473994657819L
+					type: "random"
+				}
+			]
+			subtitle: "Gained from breaking mythic affixes used to upgrade gems from \"mythic\" to \"perfect\" tier"
+			tasks: [{
+				id: "06BE68822321AA05"
+				item: "apotheosis:mythic_material"
+				type: "item"
+			}]
+			x: 34.0d
+			y: -13.0d
+		}
+		{
+			id: "2C121D9C8CA6FA6A"
+			subtitle: "These are your affix materials they're used to upgrade gems, and also to add the same tier of affix to items *amounts vary as you are given a choice of 3*"
+			tasks: [{
+				id: "5E961AD5E2829D80"
+				title: "Affix materials"
+				type: "checkmark"
+			}]
+			x: 31.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["21E84DDBB505CDFF"]
+			description: ["Just like in vanilla you're going to need an enchanting table and alot of xp *certain items with require different levels of Quanta,Arcana and eterna check jei for amounts*"]
+			id: "55B879A78191A54B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "77DB53FBE5861749"
+					table_id: 7263988897538398281L
+					type: "random"
+				}
+				{
+					id: "2F6F4D33F2900B56"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "3DB35EFDEDE76422"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["55B879A78191A54B"]
+			id: "43213D4C71ECD542"
+			rewards: [{
+				id: "0F17BFBB9FF1D913"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "It's getting hot in here be carefull the hell shelves add alot of Quanta"
+			tasks: [{
+				id: "3BA94C1C585204C7"
+				item: "apotheosis:hellshelf"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["55B879A78191A54B"]
+			description: ["It's cool in the water. Sea Shelves add alot of arcana"]
+			id: "2FCA22E8A4EB765D"
+			rewards: [{
+				id: "7427A92E0AD7230E"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "52CE08032059EE7F"
+				item: "apotheosis:seashelf"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -16.0d
+		}
+		{
+			id: "1B1B8213FB55AB9A"
+			subtitle: "Eterna determins the max level of the table *max level= Eterna x 2*"
+			tasks: [{
+				id: "26FD9DDF45C4B893"
+				title: "Eterna"
+				type: "checkmark"
+			}]
+			x: 15.5d
+			y: -14.5d
+		}
+		{
+			id: "7E6C2A6D0DD4A98E"
+			subtitle: "Quanta is Flux and relies on luck. The higher your quanta the higher the change on a max level table with full Quanta you could get an enchantment worth 200 levels ... if your lucky"
+			tasks: [{
+				id: "1EFA627C1F6EB523"
+				title: "Quanta"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: -14.5d
+		}
+		{
+			id: "685659D2C9797D2E"
+			subtitle: "Arcana effects the rarity of your enchantments, without it the standard rules apply. The higher your Arcana the higher your chances of rare/very rare enchantments while lowering the chances of common enchants"
+			tasks: [{
+				id: "18FCE0F4D1C17A5D"
+				title: "Arcana"
+				type: "checkmark"
+			}]
+			x: 13.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["2FCA22E8A4EB765D"]
+			id: "333D852274E11505"
+			rewards: [{
+				id: "23F1BA536C3FA0EE"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "Infusing your seashelf provides a higher max eterna at the cost of a little arcana"
+			tasks: [{
+				id: "079AF05BD10DCBA2"
+				item: "apotheosis:infused_seashelf"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["333D852274E11505"]
+			id: "4C33413AC924BED8"
+			rewards: [{
+				id: "1F92B19722D446D3"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "Further increase to the max eterna Trust me you'll need to make certain combos of shelves for certain items"
+			tasks: [{
+				id: "6DD1E3C9650D4012"
+				item: "apotheosis:crystal_seashelf"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["333D852274E11505"]
+			id: "31124B7ED8A1FB7D"
+			rewards: [{
+				id: "6955E0BCC68B50B8"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "Further increase to the max eterna with added rectification"
+			tasks: [{
+				id: "043487B0B7B387C7"
+				item: "apotheosis:heart_seashelf"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["333D852274E11505"]
+			id: "649F9C23BA662788"
+			rewards: [{
+				id: "2D0CFBCD3C566560"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "The seashelf of aquatic filtration works like a chiseled bookshelf, except enchanted books placed inside will have there enchantments removed from the enchanting pool"
+			tasks: [{
+				id: "31606BD5F8AFBF7F"
+				item: "apotheosis:filtering_shelf"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -18.5d
+		}
+		{
+			id: "4688A072B4187112"
+			subtitle: "Rectification removes the negative effects of Quanta raising your chances of higher level enchantments"
+			tasks: [{
+				id: "552F1531509C8387"
+				title: "Rectification"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["333D852274E11505"]
+			id: "7EF3D512868690B9"
+			rewards: [{
+				id: "6CE9CC6FC7429060"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "Pure rectification and nothing else"
+			tasks: [{
+				id: "55625338F1C10ECD"
+				item: "apotheosis:rectifier"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["43213D4C71ECD542"]
+			id: "690D494ADA690439"
+			rewards: [{
+				id: "6CC5AA969764A35A"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "increase your max Eterna today!"
+			tasks: [{
+				id: "339DEF63A3ED6752"
+				item: "apotheosis:infused_hellshelf"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["690D494ADA690439"]
+			id: "2C9296644576B862"
+			rewards: [{
+				id: "53409580DC6F146F"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "Adds Arcanca and a higher max Eterna than its infused counterpart"
+			tasks: [{
+				id: "207268BD7CE09B9D"
+				item: "apotheosis:glowing_hellshelf"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["690D494ADA690439"]
+			id: "4C34E6D66231255C"
+			rewards: [{
+				id: "44258FB1230441C8"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "A higher max Eterna but makes it harder to tell what enchantment you will recieve"
+			tasks: [{
+				id: "4D2E845FB9209B70"
+				item: "apotheosis:blazing_hellshelf"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["690D494ADA690439"]
+			id: "2D5E8C02CB4D4A79"
+			rewards: [{
+				id: "73F04DB4B649DEDD"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "Thou shalt seek REDEMT.... RECTIFICATION!"
+			tasks: [{
+				id: "67758E26C4542EDC"
+				item: "apotheosis:rectifier_t2"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["690D494ADA690439"]
+			id: "6DCC848CC47D1CAF"
+			rewards: [{
+				id: "5C765BD701E82A79"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "It increases how many viable enchantments you can see"
+			tasks: [{
+				id: "136BED53B0539E90"
+				item: "apotheosis:sightshelf"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6DCC848CC47D1CAF"]
+			id: "5FA344CE8F26605F"
+			rewards: [{
+				id: "4DB90F69D6114B68"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Increase your sight further"
+			tasks: [{
+				id: "2458020D6435297E"
+				item: "apotheosis:sightshelf_t2"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"31124B7ED8A1FB7D"
+				"2C9296644576B862"
+			]
+			dependency_requirement: "one_completed"
+			id: "020CE58448ADC3C9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "361636C8A01C00C0"
+					table_id: 9149950702319285178L
+					type: "random"
+				}
+				{
+					id: "68967CFD938E9419"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "This is getting deep. Adormant deepshelf isn't very good on its own maybe you should infuse it"
+			tasks: [{
+				id: "6ED7112364BD3757"
+				item: "apotheosis:dormant_deepshelf"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["020CE58448ADC3C9"]
+			id: "7A3DCCAD3ACD5AE5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "384553DADA750244"
+					table_id: 9149950702319285178L
+					type: "random"
+				}
+				{
+					id: "2725E21D2FB52548"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "The void stirs. "
+			tasks: [{
+				id: "2CAC6E72D3087D92"
+				item: "apotheosis:deepshelf"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["7A3DCCAD3ACD5AE5"]
+			id: "296DCC926F2F34C3"
+			rewards: [{
+				id: "437A265DFEBB7AA1"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "High Arcana isn't everything you know."
+			tasks: [{
+				id: "7AF290266246CBEA"
+				item: "apotheosis:echoing_deepshelf"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["7A3DCCAD3ACD5AE5"]
+			id: "710FDBA9B0B7DEE2"
+			rewards: [{
+				id: "04D2B1DA7511F323"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "High Quanta but a Higher Eterna payout."
+			tasks: [{
+				id: "59DCA232F34E7782"
+				item: "apotheosis:soul_touched_deepshelf"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["296DCC926F2F34C3"]
+			id: "64802BD79354E250"
+			rewards: [{
+				id: "6A645910ED51848D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "You're getting there and getting clues"
+			tasks: [{
+				id: "2888E1F0AFCF7FF9"
+				item: "apotheosis:echoing_sculkshelf"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["710FDBA9B0B7DEE2"]
+			id: "5FA8916C1A018AE8"
+			rewards: [{
+				id: "2C8CCCE92654CD12"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "You're getting there with extra rectification"
+			tasks: [{
+				id: "54C48376B57D1367"
+				item: "apotheosis:soul_touched_sculkshelf"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"64802BD79354E250"
+				"5FA8916C1A018AE8"
+			]
+			dependency_requirement: "one_completed"
+			id: "755B6BD0DFB2DA28"
+			rewards: [
+				{
+					id: "6B3F85808C42E379"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "0BA0027784429FEF"
+					item: "minecraft:cookie"
+					type: "item"
+				}
+			]
+			subtitle: "Almost at the end now, well done you've overcome adversity worked and reworked your setup and you're into the final tier. Have a cookie"
+			tasks: [{
+				id: "6688B5651A4ADAE2"
+				item: "apotheosis:endshelf"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["755B6BD0DFB2DA28"]
+			id: "5EFA2A046CBDF133"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "38D335B36C746A77"
+					table_id: 6441023722997972990L
+					type: "loot"
+				}
+				{
+					id: "3B7194C7ED1EBC04"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "The main purpose of this shelf is to allow you to use less shelves for Eterna so you can change other attributes"
+			tasks: [{
+				id: "480356D0EC73374B"
+				item: "apotheosis:pearl_endshelf"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["755B6BD0DFB2DA28"]
+			id: "54F1631C14E71DDE"
+			subtitle: "Finally the only shelf capable of giving you the maxiumum Eterna"
+			tasks: [{
+				id: "7514D30EDFBB9E8A"
+				item: "apotheosis:draconic_endshelf"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -13.0d
+		}
+		{
+			id: "7BF0A35BDC02D4CD"
+			rewards: [
+				{
+					count: 5
+					id: "61EDE88997DEA4D4"
+					item: "minecraft:honey_bottle"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "098AD660579A6B3A"
+					table_id: 9149950702319285178L
+					type: "random"
+				}
+				{
+					id: "494414797FDA6384"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Do you Wanta the Quanta"
+			tasks: [{
+				id: "26B93F4B1C1055D9"
+				item: "apotheosis:beeshelf"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -11.5d
+		}
+		{
+			id: "6C90D2E0AE4A874A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6B1D17940264412D"
+					table_id: 7263988897538398281L
+					type: "random"
+				}
+				{
+					id: "2F8AD71CFE3BF170"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "Reductions are needed sometimes"
+			tasks: [{
+				id: "1B158B69EB9196EF"
+				item: "apotheosis:stoneshelf"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -10.5d
+		}
+		{
+			id: "62BE3E047C3EF55F"
+			rewards: [{
+				id: "3A1D3CCFF69C1971"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "getting rid of that pesky quanta"
+			tasks: [{
+				id: "0C64FDEBA8D8BEF1"
+				item: "apotheosis:melonshelf"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7A3DCCAD3ACD5AE5"]
+			id: "351DF6E5F5BBC739"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2C48D06A4DB08AE1"
+					table_id: 6441023722997972990L
+					type: "random"
+				}
+				{
+					id: "71014503FDE58250"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "This block will add Treasure enchanments into the enchantment pool."
+			tasks: [{
+				id: "7061D4791275AD1C"
+				item: "apotheosis:treasure_shelf"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -14.5d
+		}
+		{
+			id: "793B209D44EA3ABE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0D5C3C591FBF2A50"
+					table_id: 9149950702319285178L
+					type: "random"
+				}
+				{
+					id: "4DDF049B3DCD7561"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Putting enchanted books into the library will allow you to pull out custom books using the levels you've stored within  up to level 16 *you must store a level 16 enchantment to withdraw at level 16*"
+			tasks: [{
+				id: "3EAFFD31011E8C85"
+				item: "apotheosis:library"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["793B209D44EA3ABE"]
+			id: "2CD04ABDD1DC1A30"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "714C62C0EAB0D0CB"
+					table_id: 6441023722997972990L
+					type: "random"
+				}
+				{
+					id: "5BB4DA793485995C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "A higher capacity and the ability to pull out enchanments up to level 31 if you can create them"
+			tasks: [{
+				id: "47D1B3748BD01876"
+				item: "apotheosis:ender_library"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -11.0d
+		}
+		{
+			id: "2FC1800DB955D4C7"
+			subtitle: "Apotheosis adds it's own tomes books that can be enchanted as if they were a different item entirely"
+			tasks: [{
+				id: "0DA1BA0235C23707"
+				title: "Apothic tomes"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["2FC1800DB955D4C7"]
+			id: "51F3E034AEB246A5"
+			rewards: [
+				{
+					id: "29D253594D1E8E39"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 5
+					id: "6C5A98F4CAAC629D"
+					item: "apotheosis:boots_tome"
+					type: "item"
+				}
+			]
+			subtitle: "This tome will pretend to be a pair of boots when enchanting"
+			tasks: [{
+				id: "546F28CA7B238B8A"
+				item: "apotheosis:boots_tome"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["2FC1800DB955D4C7"]
+			id: "1433A077CB42221A"
+			rewards: [
+				{
+					id: "0CC6E81B11FBA55D"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 5
+					id: "01A12398CF498E09"
+					item: "apotheosis:leggings_tome"
+					type: "item"
+				}
+			]
+			subtitle: "This tome will pretend to be legwear when enchanting"
+			tasks: [{
+				id: "54B5CC3CDCD39854"
+				item: "apotheosis:leggings_tome"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["2FC1800DB955D4C7"]
+			id: "3EB76C179B8D75DF"
+			rewards: [
+				{
+					id: "0BFD8ADF914AF104"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 5
+					id: "663A1C9254E061CC"
+					item: "apotheosis:chestplate_tome"
+					type: "item"
+				}
+			]
+			subtitle: "This tome will pretend to be a chestplate when enchanting"
+			tasks: [{
+				id: "440C3F21F8DBD02A"
+				item: "apotheosis:chestplate_tome"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["2FC1800DB955D4C7"]
+			id: "3F2EFD61273E05E7"
+			rewards: [
+				{
+					id: "170D431C5CB46AA9"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 5
+					id: "4AAF7D9A99AE7C8B"
+					item: "apotheosis:helmet_tome"
+					type: "item"
+				}
+			]
+			subtitle: "This tome will pretend to be a helmet when enchanting"
+			tasks: [{
+				id: "3F3C24349B475516"
+				item: "apotheosis:helmet_tome"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["2FC1800DB955D4C7"]
+			id: "434470732EEDB568"
+			rewards: [
+				{
+					id: "07726C86CEDCC3EC"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 5
+					id: "7ED4AA02A088ED71"
+					item: "apotheosis:weapon_tome"
+					type: "item"
+				}
+			]
+			subtitle: "This tome will pretend to be a melee weapon when enchanting"
+			tasks: [{
+				id: "1E0AB63CCAEBCE3A"
+				item: "apotheosis:weapon_tome"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["2FC1800DB955D4C7"]
+			id: "75B0D63DD19654A1"
+			rewards: [
+				{
+					id: "4B86056FEE4E6253"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 5
+					id: "3DA7554233FB7BE2"
+					item: "apotheosis:bow_tome"
+					type: "item"
+				}
+			]
+			subtitle: "This tome will pretend to be a ranged weapon when enchanting"
+			tasks: [{
+				id: "7C28C272738D90A9"
+				item: "apotheosis:bow_tome"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["2FC1800DB955D4C7"]
+			id: "24F2F36BDE7A78F7"
+			rewards: [
+				{
+					id: "3714C606ED173A10"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 5
+					id: "4D7511D308BE9EF1"
+					item: "apotheosis:pickaxe_tome"
+					type: "item"
+				}
+			]
+			subtitle: "This tome will pretend to be a pickaxe when enchanting"
+			tasks: [{
+				id: "157D4A79C8558FB8"
+				item: "apotheosis:pickaxe_tome"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["2FC1800DB955D4C7"]
+			id: "19DC01872770A46B"
+			rewards: [
+				{
+					id: "4AB0432979A04C29"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 5
+					id: "6354D982ED3545E0"
+					item: "apotheosis:fishing_tome"
+					type: "item"
+				}
+			]
+			subtitle: "This tome will pretend to be a fishing rod when enchanting"
+			tasks: [{
+				id: "5596A21274E2F486"
+				item: "apotheosis:fishing_tome"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["2FC1800DB955D4C7"]
+			id: "7F497A2CF4CAAD5E"
+			rewards: [
+				{
+					id: "3B3035DBD89ACF36"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 5
+					id: "5A7BE44D0F112BD1"
+					item: "apotheosis:boots_tome"
+					type: "item"
+				}
+			]
+			subtitle: "This tome will pretend to be a miscellanous tool that doesnt fit the other catagories suchas shears or anvils when enchanting"
+			tasks: [{
+				id: "0F06993516A6FA65"
+				item: "apotheosis:other_tome"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["2FC1800DB955D4C7"]
+			id: "7DEBE04B392B56ED"
+			rewards: [
+				{
+					id: "7F1C8464AA387308"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 5
+					id: "110AF1F08E31FCA5"
+					item: "apotheosis:scrap_tome"
+					type: "item"
+				}
+			]
+			subtitle: "Use this in an anvil with an enchanted item to create a book with half the enchantments. *destroys the item in the process*"
+			tasks: [{
+				id: "42074114877C49B0"
+				item: "apotheosis:scrap_tome"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["7DEBE04B392B56ED"]
+			id: "46FCC9B0A0FD3FD9"
+			rewards: [
+				{
+					count: 5
+					id: "70191D303477E626"
+					item: "apotheosis:improved_scrap_tome"
+					type: "item"
+				}
+				{
+					id: "430E4F8985618629"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "used in an anvil with an item creates an enchanted book with all of the enchanments of the original item. *destroys the item in the process*"
+			tasks: [{
+				id: "1081AE7FB995E976"
+				item: "apotheosis:improved_scrap_tome"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["46FCC9B0A0FD3FD9"]
+			id: "03345FF4AE8A5C73"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "20EB10A4F1E6E5E9"
+					table_id: 6441023722997972990L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "4A49E9E51457523E"
+					item: "apotheosis:extraction_tome"
+					type: "item"
+				}
+			]
+			subtitle: "Use this in an anvil with an enchanted item to remove all its enchantments although this one wont destroy the item"
+			tasks: [{
+				id: "6E3DCF7DC2C163AF"
+				item: "apotheosis:extraction_tome"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["18840D5102426AB9"]
+			id: "75E3DF8F37CF7450"
+			subtitle: "Apotheosis allows spawners broken with silk touch to be placed elsewhere and edited slightly above is a list of ingredients that can be used on spawners to change certain properties"
+			tasks: [{
+				id: "1F81D4B32ACA6081"
+				title: "Apothic spawners"
+				type: "checkmark"
+			}]
+			x: 22.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["75E3DF8F37CF7450"]
+			id: "51CA832EC88F0FE6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "14BADB759CBC2EBA"
+					table_id: 4381086907456634712L
+					type: "random"
+				}
+				{
+					id: "39F0DC93D2900AF3"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "Adding wool to a spawner with a right click will make entities silent after they spawn."
+			tasks: [{
+				id: "03B0B592909CE1F1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:wool"
+					}
+				}
+				type: "item"
+			}]
+			title: "Getting wooly"
+			x: 22.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["75E3DF8F37CF7450"]
+			id: "2EB34CE9D3AC1F24"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3407A5B301E5A408"
+					table_id: 4381086907456634712L
+					type: "random"
+				}
+				{
+					id: "586678C677126F5F"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "Adding ghast tears to a spawner with a right click will make 2 more entities to the maximum spawned at a time."
+			tasks: [{
+				id: "18531630D40EEC80"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			title: "dont cry"
+			x: 21.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["75E3DF8F37CF7450"]
+			id: "64BC53755A71B730"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "33421B3487FB3D7D"
+					table_id: 4381086907456634712L
+					type: "random"
+				}
+				{
+					id: "29BF784C678660E0"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "Adding a soul lantern to a spawner with a right click will make the spawner ignor light levels when spawning."
+			tasks: [{
+				id: "24605B2C4E01696D"
+				item: "minecraft:soul_lantern"
+				type: "item"
+			}]
+			title: "Theres a light within us all"
+			x: 23.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["75E3DF8F37CF7450"]
+			id: "1CCE015A9428E534"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4A9F448603E50CF3"
+					table_id: 4381086907456634712L
+					type: "random"
+				}
+				{
+					id: "0FCAA9D0099399D8"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "Adding spider eyes to a spawner with a right click will increase the spawn count by 1 per cycle."
+			tasks: [{
+				id: "2BE6DBDDBB694C47"
+				item: "minecraft:spider_eye"
+				type: "item"
+			}]
+			title: "Creepy crawlies"
+			x: 21.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["75E3DF8F37CF7450"]
+			id: "0894BAB8C74EDF32"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "25EF1AF127E27C42"
+					table_id: 4381086907456634712L
+					type: "random"
+				}
+				{
+					id: "27B1255F7A55BFAB"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "Adding chorus fruit to a spawner with a right click will remove the entities ai so they wont move or attack."
+			tasks: [{
+				id: "02F6D9189BB937BF"
+				item: "minecraft:chorus_fruit"
+				type: "item"
+			}]
+			title: "Ai wont take over"
+			x: 22.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["75E3DF8F37CF7450"]
+			id: "5C554FEC9FA95DCE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "02343AAB8FB755EA"
+					table_id: 4381086907456634712L
+					type: "random"
+				}
+				{
+					id: "1C15AD80F2980253"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "Adding sugar to a spawner with a right click will reduce the minimum spawn delay."
+			tasks: [{
+				id: "5B376F4FBD3157A2"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			title: "Pour some on me"
+			x: 23.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["75E3DF8F37CF7450"]
+			id: "7AF9D93B79C94E9C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7BB33DCD99A30B18"
+					table_id: 4381086907456634712L
+					type: "random"
+				}
+				{
+					id: "2E50DD492BF347F9"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "Adding a turtle egg to a spawner with a right click will make baby variant entities spawn where possible."
+			tasks: [{
+				id: "4A5171252507F079"
+				item: "minecraft:turtle_egg"
+				type: "item"
+			}]
+			title: "Oh baby"
+			x: 24.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["75E3DF8F37CF7450"]
+			id: "1A86ED3260B3484F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "41283E9709AE52BE"
+					table_id: 4381086907456634712L
+					type: "random"
+				}
+				{
+					id: "0E5D270B4FF44A5A"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "Adding Blaze rods to a spawner with a right click increases how far away from the spawner mobs spawn."
+			tasks: [{
+				id: "7D587F1CE14AC4F6"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			title: "Getting wooly"
+			x: 21.5d
+			y: -20.5d
+		}
+		{
+			dependencies: ["75E3DF8F37CF7450"]
+			id: "0D5F6BB6421C6310"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5F4C3805F0889AFB"
+					table_id: 4381086907456634712L
+					type: "random"
+				}
+				{
+					id: "7A64EED9A2C8CEDD"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "Adding clocks to a spawner with a right click reduces the max spawn delay."
+			tasks: [{
+				id: "2A67DA028B8F2FD4"
+				item: "minecraft:clock"
+				type: "item"
+			}]
+			title: "Tick tock"
+			x: 22.5d
+			y: -20.5d
+		}
+		{
+			dependencies: ["75E3DF8F37CF7450"]
+			id: "4F9C5D57AF2D07CF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "43A3D705C43604F7"
+					table_id: 4381086907456634712L
+					type: "random"
+				}
+				{
+					id: "22759470B4D24A58"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "Adding a redstone comparator to a spawner with a right click will make it possible to controll the spawner with redstone."
+			tasks: [{
+				id: "407DCAA9D2C34295"
+				item: "minecraft:comparator"
+				type: "item"
+			}]
+			title: "So controlling"
+			x: 23.5d
+			y: -20.5d
+		}
+		{
+			dependencies: ["75E3DF8F37CF7450"]
+			id: "05A22C5A7DDDE015"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "266CB58CB8BFB919"
+					table_id: 4381086907456634712L
+					type: "random"
+				}
+				{
+					id: "71514CADB635C53D"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "Adding a dragon egg to a spawner will make the spawner ignore spawn conditions."
+			tasks: [{
+				id: "565722D97A83F23B"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			title: "Sacrifice the child"
+			x: 22.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["75E3DF8F37CF7450"]
+			id: "4D9EAA8308292C11"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4AED9C84218E41C6"
+					table_id: 4381086907456634712L
+					type: "random"
+				}
+				{
+					id: "2697DEF4C90E06B0"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "Adding Prismarine crystals to a spawner with a right click will make entities spawn when the player is further away."
+			tasks: [{
+				id: "3D404E87C93F11E6"
+				item: "minecraft:prismarine_crystals"
+				type: "item"
+			}]
+			title: "Jewel of the sea"
+			x: 23.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["75E3DF8F37CF7450"]
+			id: "60DB38BB12B7E1B4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2D25B777A1DAB962"
+					table_id: 4381086907456634712L
+					type: "random"
+				}
+				{
+					id: "1D8FF89565A7C34F"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4905FE71105F82EC"
+					table_id: 6441023722997972990L
+					type: "random"
+				}
+			]
+			subtitle: "Adding a nether star (you're really going this far?) to a spawner with a right click will make entities spawn regardless of how far away the player is."
+			tasks: [{
+				id: "501B793BD5A271FB"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "You're a star"
+			x: 22.5d
+			y: -22.5d
+		}
+		{
+			dependencies: ["75E3DF8F37CF7450"]
+			id: "73B1B219D5F1B714"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "49E09FA5331D77E8"
+					table_id: 4381086907456634712L
+					type: "random"
+				}
+				{
+					id: "39ED7E477A2B50B6"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "Holding a nether quartz in the off hand will invert the effects of other spawner altering ingredients/remove them for single use ingredients"
+			tasks: [{
+				id: "6CCE8B20A6209ECE"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			title: "The great reverser"
+			x: 21.0d
+			y: -16.5d
+		}
+	]
+	title: "Advanced Magic"
+}

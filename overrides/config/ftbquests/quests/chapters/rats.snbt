@@ -1,0 +1,168 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rats"
+	group: "4FA6C94C55E25BA1"
+	id: "72AC4241CBF75EA8"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "41208D450BA3C91E"
+			subtitle: "Craft a trash can from a caulron, some iron ingots and an iron nugget. Use it to create garbage piles!"
+			tasks: [{
+				advancement: "rats:trash_can"
+				criterion: ""
+				id: "4F33A8CCE3FBC435"
+				title: "This mod is trash!"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["41208D450BA3C91E"]
+			id: "2C409BFE96D38652"
+			subtitle: "Obtain a garbage pile from putting blocks in a trash can, they can be used to make rat specific mob farms."
+			tasks: [{
+				advancement: "rats:garbage_pile"
+				criterion: ""
+				id: "1C75BF020AA6F163"
+				title: "Garbage dump"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2C409BFE96D38652"]
+			id: "47A16000DB1CC819"
+			subtitle: "Craft a block of compressed garbage by filling a crafting table with garbage piles. These are 2x more effective than garbage piles at spawning rats. "
+			tasks: [{
+				id: "1424120928F5291D"
+				item: "rats:compressed_garbage"
+				type: "item"
+			}]
+			title: "WALL-E"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["47A16000DB1CC819"]
+			id: "4DDD370AF77D58D8"
+			subtitle: "craft some filth by filling a crafting table with compressed garbage."
+			tasks: [{
+				id: "2D7280FA419CCFC9"
+				item: "rats:filth"
+				type: "item"
+			}]
+			title: "Cradle of filth"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4DDD370AF77D58D8"]
+			id: "36CA0946B8E7A929"
+			subtitle: "Craft a ball of flith by filling a crafting table with filth"
+			tasks: [{
+				advancement: "rats:ball_of_filth"
+				criterion: ""
+				id: "4EE127090E463A3E"
+				title: "Cleanliness is close to godliness!"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "1178C5B3793BECE0"
+			subtitle: "Catch the plague from a plague rat"
+			tasks: [{
+				advancement: "rats:plague"
+				criterion: ""
+				id: "635484658A5231AE"
+				title: "Down with the sickness!"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			id: "30FE63BA0AC373E8"
+			subtitle: "Find a plague doctor, these a wandering trader variants for all your rat related items"
+			tasks: [{
+				advancement: "rats:plague_doctor"
+				criterion: ""
+				id: "0192E25D633703FB"
+				title: "I AM THE CURE!"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			id: "51CE99B9B817151A"
+			subtitle: "obtain a bucket of milk"
+			tasks: [{
+				id: "0C0A0A6DCBE4D469"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			title: "Got milk?"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			id: "034AC05148E60EBC"
+			subtitle: "Pour milk into a cauldron and wait for it to turn to cheese"
+			tasks: [{
+				advancement: "rats:milk_cauldron"
+				criterion: ""
+				id: "5FEE626D9B79A06E"
+				title: "A stomach churning experiance"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			id: "55D2FCE6B75F8A42"
+			subtitle: "obtain a block of cheese from your cauldron"
+			tasks: [{
+				id: "0652446A32E03946"
+				item: "rats:block_of_cheese"
+				type: "item"
+			}]
+			title: "Say cheese!"
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			id: "5405561EF16D107B"
+			subtitle: "turn a block of cheese into four cheese using the crafting table"
+			tasks: [{
+				advancement: "rats:cheese"
+				criterion: ""
+				id: "50F8DB02CB41F56E"
+				title: "We've forgotten the crackers!"
+				type: "advancement"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			id: "4EE07FFA73C6993F"
+			subtitle: "Tame a rat by repeatedly dropping cheese near it until it is full"
+			tasks: [{
+				advancement: "rats:tame_rat"
+				criterion: ""
+				id: "35B17961F5134817"
+				title: "Ratatouille"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+	]
+	title: "Rats"
+}

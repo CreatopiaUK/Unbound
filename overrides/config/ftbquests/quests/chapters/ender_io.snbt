@@ -1,0 +1,25 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ender_io"
+	group: "2BE1A27F73200C54"
+	id: "0F790FFC0664F3A1"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		dependencies: [
+			"1F638D509244726A"
+			"42FAB33FCEBCADA7"
+		]
+		hide_until_deps_visible: true
+		id: "57023E2378D3509C"
+		tasks: [{
+			id: "1860DA1B0F81B558"
+			item: "enderio:primitive_alloy_smelter"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Age 6: Ender IO"
+}

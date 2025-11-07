@@ -1,0 +1,2513 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "applied_energistics_2"
+	group: "3FEDCCADD53AC5E8"
+	id: "6134B964A39F7A24"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Ae2 is one of your options for massive condensed digital storage of your digital items in this digital game lets take a look"]
+			id: "6640672DD6944E18"
+			subtitle: "Welcome to AE2"
+			tasks: [{
+				id: "6B9299F980D6A111"
+				title: "A certain scientific storage system"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6640672DD6944E18"]
+			description: [
+				"Haven't been lucky enough to find a meteorit on your journeys this'll help"
+				""
+				"Meteorites are necessary for starting AE2 as they will provide you with certus quarts and presses"
+			]
+			id: "0E16D7F1E4B27084"
+			optional: true
+			rewards: [{
+				count: 5
+				id: "42DCA3C25DE6FEB1"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			subtitle: "Star gazer"
+			tasks: [{
+				id: "26B85FD85153C4B9"
+				item: "ae2:meteorite_compass"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6640672DD6944E18"]
+			description: ["Onced linked to a power supply the charger can turn certus quarts to charged certus needed for crafting , or yo know .... charge items."]
+			id: "660EC42E7CC6BE38"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E8D70098F976519"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5E2161B7255EA4C7"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6640672DD6944E18"]
+			description: ["Crack your way into a meteor and destroy the strange cube to aquire your first presses."]
+			id: "70A8F0300A3BAF6F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30046B25F7953457"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "612B4E040CA8D9B0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:inscriber_presses"
+					}
+				}
+				type: "item"
+			}]
+			title: "Pressing on"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"660EC42E7CC6BE38"
+				"70A8F0300A3BAF6F"
+			]
+			id: "7F6189DD814334DD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "719EA060C55EFA3A"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1DE91D7D9F75F6E8"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7F6189DD814334DD"]
+			description: ["The energy acceptor can be used to power a network using power generation from other mods."]
+			id: "269D94D1075132FB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39FC76CE621ADD8E"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4DB1468D0DAD5243"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["269D94D1075132FB"]
+			description: [
+				"The heart of your network it can be made into a multi block with each side providing 32 channels to your network."
+				""
+				"Only 1 per network."
+			]
+			id: "4AB31B1286AB9E1A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DDB69B88F3D45FF"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5FC22062408F4AFD"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["70A8F0300A3BAF6F"]
+			description: ["The base pieces used to make the proccessors you'll need to build your entire system."]
+			id: "478D26FE792C2610"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5850CFC1BB9F960D"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3214201543EDAFDF"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:printed_engineering_processor"
+							}
+							{
+								Count: 1b
+								id: "ae2:printed_logic_processor"
+							}
+							{
+								Count: 1b
+								id: "ae2:printed_calculation_processor"
+							}
+							{
+								Count: 1b
+								id: "ae2:printed_silicon"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Printed circuits"
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["478D26FE792C2610"]
+			description: ["Mostly used for storage components."]
+			id: "294A0B53353B33E1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "097CFE8FB974725E"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2669052DF29CD024"
+				item: "ae2:logic_processor"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["478D26FE792C2610"]
+			description: ["Mostly used in tools, cards and terminals."]
+			id: "1DF9ADFBED630349"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "471AF802417A757C"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5396D04A86E2E659"
+				item: "ae2:calculation_processor"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["478D26FE792C2610"]
+			description: ["Mostly used in cells and storage components."]
+			id: "07220608D00FBC19"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "004950A2C7AEEC7A"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "21129978B1FB7B1D"
+				item: "ae2:engineering_processor"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["269D94D1075132FB"]
+			description: ["The crystal resonance generator passivly generates a small amount of power for the network without fuel !!! Only 1 per network."]
+			id: "3E6FB893E9956EE8"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3377E0B9E7752C6F"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "45A69A5BEBB85964"
+				item: "ae2:crystal_resonance_generator"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["269D94D1075132FB"]
+			description: ["The vibration chamber generates energy for the network using fuel (can be upgraded with cards) it will lower its input when the energy storage is full to conserve fuel."]
+			id: "4CF5C68026CA4E5E"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55E0103E2117E4C1"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1A793C6D54EFC32D"
+				item: "ae2:vibration_chamber"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6640672DD6944E18"]
+			description: ["Certus quartz can be mined from the mature budding quartz found in meteors. If only there was a way to move them ?"]
+			hide_dependency_lines: true
+			id: "0F60B4D9BAB3A783"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "663B2C7F3E4D95C9"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "614AA72CB96BD0C1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:all_certus_quartz"
+					}
+				}
+				type: "item"
+			}]
+			title: "Certus crystals"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6640672DD6944E18"]
+			description: ["Fluix crystals are created by throwing charged certus quartz quartz and redstone into water and waiting. (used in crafting)"]
+			hide_dependency_lines: true
+			id: "705AE2F6C6E2B359"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B72523CCBC1B8C0"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "242C8B13E3AD6E07"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:all_fluix"
+					}
+				}
+				type: "item"
+			}]
+			title: "Fluix crystals"
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4AB31B1286AB9E1A"]
+			description: ["The ME drive is used to hold your various Ae storage disks each one takes up a channel."]
+			id: "4767B832C390751D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43748FBA342B1ACE"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "79F2967A1C0A0339"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4767B832C390751D"]
+			description: [
+				"The smallest storage component when added to a cell housing it creates a storage cell of that type for use in a drive or ME chest."
+				""
+				"Holds up to 4160 of 63 different items!!! (8128 if only 1 item is stored)"
+			]
+			id: "6BBF97DEABA15D3D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57CC1BAC654C98E8"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "27AD1A624E91C396"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6BBF97DEABA15D3D"]
+			description: [
+				"When added to a cell housing it creates a storage cell of that type for use in a drive or ME chest."
+				""
+				"Holds up to 16,640 of 63 different items!!! (32,512 if only 1 item is stored)"
+			]
+			id: "2A29FEEADFA62F7B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "210F2C6EF9439837"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "597D094690176A90"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2A29FEEADFA62F7B"]
+			description: [
+				"When added to a cell housing it creates a storage cell of that type for use in a drive or ME chest."
+				""
+				"Holds up to 66,560 of 63 different items!!! (130,048 if only 1 item is stored)"
+			]
+			id: "5B4DA503D1A788DF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B4018F29DCF07D9"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3D443F55BF85798B"
+				item: "ae2:cell_component_16k"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5B4DA503D1A788DF"]
+			description: [
+				"When added to a cell housing it creates a storage cell of that type for use in a drive or ME chest."
+				""
+				"Holds up to 266,240 of 63 different items!!! (520,192 if only 1 item is stored)"
+			]
+			id: "2930D1927F613E3A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60A32D560932AE6A"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5587233984656823"
+				item: "ae2:cell_component_64k"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2930D1927F613E3A"]
+			description: [
+				"When added to a cell housing it creates a storage cell of that type for use in a drive or ME chest."
+				""
+				"Holds up to 1,064,960 of 63 different items!!! (2,080,768 if only 1 item is stored)"
+			]
+			id: "5493D2FE17D2A371"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D1F5855EC94C1E9"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "65C2FE9CA8F9A823"
+				item: "ae2:cell_component_256k"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4767B832C390751D"]
+			id: "15C9F746A8BC2929"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03ED4B42D74CC695"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "48D7E6DD2A577228"
+				item: "ae2:item_cell_housing"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4767B832C390751D"]
+			id: "2976A0C38DF34682"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "423BD1F048B09385"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "265BFCFF453E3888"
+				item: "ae2:fluid_cell_housing"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4767B832C390751D"]
+			id: "6F28ECE9D710094A"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D135FDB0F96B446"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4BCE38E2FF38E46F"
+				item: "appbot:mana_cell_housing"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["269D94D1075132FB"]
+			description: ["A little battery for your network. Store some power."]
+			id: "0F7AEEBC6E5F802C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DCA91AAA9073A39"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "74B1CC472A4CBEB5"
+				item: "ae2:energy_cell"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0F7AEEBC6E5F802C"]
+			description: ["A medium battery for your network. Store some more power."]
+			id: "501F773BADC37FCC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B39BF8BA05F037F"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "71E1A5B342703A69"
+				item: "ae2:dense_energy_cell"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4AB31B1286AB9E1A"]
+			description: ["Quartz fiber can be used to transfer power between networks without needing multiple energy acceptor and is also used to craft cables."]
+			id: "1907816C01B50D80"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23DD5005D9EE0A36"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0D587503C38C3120"
+				item: "ae2:quartz_fiber"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1907816C01B50D80"]
+			description: ["The most basic cable , transfers power holds 8 channels and can be dyed to help you sort your network."]
+			id: "572B74090F35E7CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09F02CD2BE10103E"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7A1BDC187FC22053"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["572B74090F35E7CF"]
+			description: ["Functions the same as the glass cable but looks nicer , transfers power holds 8 channels and can be dyed to help you sort your network."]
+			id: "19B320A04C499FAB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0AAC84E0638558BB"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1E2FBB94A79EC3E1"
+				item: "ae2:fluix_covered_cable"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["19B320A04C499FAB"]
+			description: ["A bigger basic cable , transfers power holds 32 channels and can be dyed to help you sort your network, Although it won't directly connect to buses."]
+			id: "5BBD888DBBE08D6D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "168A39EAFDED8361"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3D36593165AB6F8B"
+				item: "ae2:fluix_covered_dense_cable"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["19B320A04C499FAB"]
+			description: ["A utility upgrade on your basic cables showing how many channels are in use via the cable, transfers power holds 8 channels and can be dyed to help you sort your network."]
+			id: "6C1EF76056660E94"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "611104B3B157880D"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "082935A139111AC5"
+				item: "ae2:fluix_smart_cable"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"5BBD888DBBE08D6D"
+				"6C1EF76056660E94"
+			]
+			dependency_requirement: "one_completed"
+			description: ["A more advance large cable which shows the amount of channels in use , transfers power holds 32 channels and can be dyed to help you sort your network, Although it won't directly connect to buses."]
+			id: "3D0A22EE8AAD513D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "627DD8141F6626F5"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "45DF80EBF9ED4A1E"
+				item: "ae2:fluix_smart_dense_cable"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["669948F25BCF0368"]
+			description: ["Illuminated panels are basically fancy light sources on there own but they can be used to craft access terminals for accessing your system."]
+			id: "0AD01100888EA662"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CBFDE68B0004496"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2FB92D5751A0540F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:illuminated_panel"
+					}
+				}
+				type: "item"
+			}]
+			title: "Panelling"
+			x: -6.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["0AD01100888EA662"]
+			description: ["This basic terminal allows access to the network as well as access to any attached autocrafting setups."]
+			id: "12692BBE9D2E3BD2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B4575F178DF05D3"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1562698B56C73454"
+				item: "ae2:terminal"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4AB31B1286AB9E1A"]
+			description: ["Used in buildy things (crafting component)."]
+			id: "45B3B0DAAE02F9F4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05327D31D5D2ECB2"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "376CF77C52571759"
+				item: "ae2:formation_core"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4AB31B1286AB9E1A"]
+			description: ["Used in breaky things (crafting component)"]
+			id: "019598828F1BFEC5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B51BF5F2198D071"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5B7B5FD52C50A643"
+				item: "ae2:annihilation_core"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"45B3B0DAAE02F9F4"
+				"019598828F1BFEC5"
+			]
+			description: ["The ME interface is a placable block used to place items into a network or pull items out, Interfaces can also be used to hold a specific number of each item great for filling sub networks."]
+			id: "669948F25BCF0368"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B70D25803D3D1CF"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "44A018597B15E5B0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:interface"
+					}
+				}
+				type: "item"
+			}]
+			title: "Network access"
+			x: -2.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["12692BBE9D2E3BD2"]
+			description: ["The more advanced terminal comes with a built in crafting grid that will automatically access the storage system to refill."]
+			id: "5B7B77EC997E8B7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73ED08EC2B6F3E30"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6672BC2B1409DDAF"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["019598828F1BFEC5"]
+			description: ["The breaky thing! Annihilation planes will destroy blocks placed infront of them indiscrimintly (unless it has nowhere to place that item upon its destruction)."]
+			id: "04AEDC88B1DDB069"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18716B9189760C51"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7A4AE18625B1FCC8"
+				item: "ae2:annihilation_plane"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["019598828F1BFEC5"]
+			description: ["The import bus takes items out of the connected inventory and places them into the ME system."]
+			id: "1804EE5847D9EB30"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F0CD850432FA57F"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0F1A93C86F4B18DD"
+				item: "ae2:import_bus"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["45B3B0DAAE02F9F4"]
+			description: ["The buildy thing! Formation planes can be used to place blocks into the world directly from your ME system. (can be filtered)"]
+			id: "6E66BC455E111995"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "293F19E0BEA90748"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "649DBC25FB1A68F1"
+				item: "ae2:formation_plane"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["45B3B0DAAE02F9F4"]
+			description: ["The export bus takes items out off the network and places them into the connected inventory."]
+			id: "09A61B8D7CE890C5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7085D57B6E4F567F"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6B834AB571C86260"
+				item: "ae2:export_bus"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"019598828F1BFEC5"
+				"45B3B0DAAE02F9F4"
+			]
+			description: ["The pattern provider is required for auto crafting items from your network."]
+			id: "1BC3359966F2A9CC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5CD5B0867272105B"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "51E00E689E70BC97"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:pattern_provider"
+					}
+				}
+				type: "item"
+			}]
+			title: "Auto crafting"
+			x: 1.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1BC3359966F2A9CC"]
+			description: ["The base piece of a crafting multiblock can be used to fill space but will provide nothing else to the network on its own."]
+			id: "000D2D1DFFE155BE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C03A01A4B181A7D"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "143F0329E14678ED"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["000D2D1DFFE155BE"]
+			description: ["The Co-processor allows pattern providers to push items into the connected machine much faster than a provider normally can."]
+			id: "0510F98E9F25AF7F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "102D6EC44D4624E6"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1CC9AEF6E54EC83E"
+				item: "ae2:crafting_accelerator"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["000D2D1DFFE155BE"]
+			description: [
+				"Crafting storage is used to hold ingredients while crafting so the bigger the better."
+				""
+				"Crafting unit + 1k storage component"
+			]
+			id: "58D2AC623F278FBF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D8040E7EE9D144E"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "590554CEAB685F96"
+				item: "ae2:1k_crafting_storage"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["000D2D1DFFE155BE"]
+			description: [
+				"Crafting storage is used to hold ingredients while crafting so the bigger the better."
+				""
+				"Crafting unit + 4k storage component"
+			]
+			id: "6DA6CF3DBB0AF159"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C7187D9D57977FF"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4874F7A0DB445FB4"
+				item: "ae2:4k_crafting_storage"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["000D2D1DFFE155BE"]
+			description: [
+				"Crafting storage is used to hold ingredients while crafting so the bigger the better."
+				""
+				"Crafting unit + 16k storage component"
+			]
+			id: "2F4D5A2261085F7E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C013860FE4006D5"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "609747F3354BFA2E"
+				item: "ae2:16k_crafting_storage"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["000D2D1DFFE155BE"]
+			description: [
+				"Crafting storage is used to hold ingredients while crafting so the bigger the better."
+				""
+				"Crafting unit + 64k storage component"
+			]
+			id: "5CE54E422A945823"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05DA049F630C5637"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6E53E59A11D0E68D"
+				item: "ae2:64k_crafting_storage"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["000D2D1DFFE155BE"]
+			description: [
+				"Crafting storage is used to hold ingredients while crafting so the bigger the better."
+				""
+				"Crafting unit + 256k storage component"
+			]
+			id: "0803302F1C9E7409"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68D7410CB75DAC3F"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "080D73DCC7723FAD"
+				item: "ae2:256k_crafting_storage"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["000D2D1DFFE155BE"]
+			description: ["This terminal allows you to encode new crafting patterns to put in your pattern providers."]
+			id: "52926C4F5235FB1C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A601725CA8B63EF"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "43B26E0FCB5338B2"
+				item: "ae2:pattern_encoding_terminal"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["000D2D1DFFE155BE"]
+			description: ["This terminal allows remote access to pattern providers on the same network."]
+			id: "2376320FEB3C07A9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "333D2581220E40F0"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4EAA2AFBF11CD090"
+				item: "ae2:pattern_access_terminal"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2BA85EB5AAFD4218"]
+			description: ["The spacial anchor is a chunkloader just one on a network will chunkload the entire network (interdimensional chunkloading will require and anchor on both sides)."]
+			id: "33A6EDC503798BFF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E23FD875609672F"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "63A0BFC01E2A010C"
+				item: "ae2:spatial_anchor"
+				type: "item"
+			}]
+			title: "Modular rooms"
+			x: 1.5d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"33A6EDC503798BFF"
+				"2BA85EB5AAFD4218"
+			]
+			id: "19B91D901D356CB4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "013795891CBDAFC8"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2EFFC3703E7284E3"
+				item: "ae2:spatial_io_port"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["19B91D901D356CB4"]
+			description: ["Holds an area of 2x2x2 blocks"]
+			id: "067731B86726F9F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70D0EC0ED0211B20"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "00D599632998AE56"
+				item: "ae2:spatial_cell_component_2"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["067731B86726F9F2"]
+			description: ["Holds an area of 16x16x16 blocks"]
+			id: "6440FFD351DCC62B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F702028670E9563"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3E2DEC625CABCF2B"
+				item: "ae2:spatial_cell_component_16"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["6440FFD351DCC62B"]
+			description: ["Holds an area of 128x128x128 blocks"]
+			id: "5BD6C5693BD5A652"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FC1810908A260DF"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7FD6C1B3227F1BC4"
+				item: "ae2:spatial_cell_component_128"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["067731B86726F9F2"]
+			description: ["Whoops now it holds a 2x2x2 area."]
+			id: "300D0E4FEE90240A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E4A6B8EB0A93C21"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5ECAB0FD85C021FC"
+				item: "ae2:spatial_storage_cell_2"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["6440FFD351DCC62B"]
+			description: ["stop looking at me like that don't you want the extra rewards?"]
+			id: "159C2A237DBD77FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67318378DFB04CCE"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "179434ACE297EA9B"
+				item: "ae2:spatial_storage_cell_16"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["5BD6C5693BD5A652"]
+			description: ["Oh ok now it holds a 128x128x128 area."]
+			id: "222B61F352AB5464"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "628C1706D6F5567E"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4A87087652169D6F"
+				item: "ae2:spatial_storage_cell_128"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["33A6EDC503798BFF"]
+			description: ["Defines the area in which the spatial cells will pick up/place down on use."]
+			id: "3555A97D77A56892"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42C58A579B50CE9B"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1FA0BD233BF8D8D6"
+				item: "ae2:spatial_pylon"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["33A6EDC503798BFF"]
+			description: ["Holds spatial cells for use much like a disk drive."]
+			id: "7AA29221780BE8CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35A08EB4CB30B472"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6FE6CEE3EAC045C7"
+				item: "ae2:spatial_io_port"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["173A8C9CBF2F42EA"]
+			description: ["Surround a quantum link chamber with 8 of these to create a bridge."]
+			id: "55168FFF181459AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "797CC45BDB92FD3F"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1ABE4F80BB7BFA8D"
+				item: "ae2:quantum_ring"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"224B625D74EC9ED7"
+				"55168FFF181459AE"
+			]
+			description: ["The core unit of a quantum bridge used to transfer channels over an infinite distance from this dimension to the next!! &lOnly transfers 32 channels."]
+			id: "792466592BE852A4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30157A243D108806"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7FDFDFF5D6A58B75"
+				item: "ae2:quantum_link"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["10384E7D42465162"]
+			description: ["These are used to link the quantum rings used to connect networks over large distances. It night be for the best if you name them."]
+			id: "173A8C9CBF2F42EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D0E9C25A62110A7"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "267F415E26B3ED23"
+				item: "ae2:quantum_entangled_singularity"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 16.5d
+		}
+		{
+			description: ["Trash can++. When a storage cell is placed inside and items fed into the condenser will be converted into either matterballs or singularities."]
+			id: "224B625D74EC9ED7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C806F392B9AFEF9"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "39881F28BC84B7AF"
+				item: "ae2:condenser"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["224B625D74EC9ED7"]
+			description: ["Used to create paint balls and mega cells. What's a matterball? are you ok?"]
+			id: "0B2D951D35D47711"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "131967985489F859"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0D9B940C000A3C3E"
+				item: "ae2:matter_ball"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["224B625D74EC9ED7"]
+			description: ["Singularities are used in crafting and will not devour your entire world :'( ."]
+			id: "10384E7D42465162"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C90075B6AEC2031"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "23915523906DC380"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["4AB31B1286AB9E1A"]
+			description: ["The ME p2p tunnel transfers network channels over a connected distance . Maybe there's a use for this?"]
+			id: "0E1C9D904367E8A0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1271DB4977BAAA76"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "312D06DEA51C1E38"
+				item: "ae2:me_p2p_tunnel"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0E1C9D904367E8A0"]
+			description: ["The Redstone p2p tunnel transfers Redstone signals over a connected distance . Wireless but you know wired."]
+			id: "6DF938353C7A28B1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16282400A2F3BDB4"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "590FAD607E4448EC"
+				item: "ae2:redstone_p2p_tunnel"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0E1C9D904367E8A0"]
+			description: ["The Item p2p tunnel transfers items over a connected distance . Imma just put this here."]
+			id: "584CE8CC2EEB2152"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A109331825C628E"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "466EE7BB63008522"
+				item: "ae2:item_p2p_tunnel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0E1C9D904367E8A0"]
+			description: ["The Fluid p2p tunnel transfers Fluids over a connected distance . it... it's a pipe isn't it?"]
+			id: "1E41DD8F8223DA33"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70599FEEEDA3DB37"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "598109BCB4CCB03F"
+				item: "ae2:fluid_p2p_tunnel"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0E1C9D904367E8A0"]
+			description: ["The Energy p2p tunnel transfers Power over a connected distance . so its basically a fancy wire."]
+			id: "2D6ED6D009D48677"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CCB4B5C45011743"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "061CA66FBD901ED9"
+				item: "ae2:fe_p2p_tunnel"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0E1C9D904367E8A0"]
+			description: ["The light p2p tunnel transfers light signals over a connected distance . It's so shiny!"]
+			id: "0B14C245CFE3ED35"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "249534B8EA1DCA18"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "323ED65249C51309"
+				item: "ae2:light_p2p_tunnel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0E1C9D904367E8A0"]
+			description: ["The mana p2p tunnel transfers Botania mana over a connected distance . A digital man mover."]
+			id: "25BE1AD8821081C0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "354E5B66DB0624D0"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "153C69D96753480E"
+				item: "appbot:mana_p2p_tunnel"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["501F773BADC37FCC"]
+			description: ["A big battery for your network. Store Alot power."]
+			id: "235FC3435444CF62"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42740F1318422957"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5228C43DEA0AFFE5"
+				item: "megacells:mega_energy_cell"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5493D2FE17D2A371"]
+			description: [
+				"A mighty mega cell when added to a cell housing it creates a storage cell of that type for use in a drive or ME chest."
+				""
+				"Holds up to 4,259,840 of 63 different items!!! (8,323,072 if only 1 item is stored)"
+			]
+			id: "2DFCC2F8E27DD1DA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1824B16151F5A891"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "627CE5A2C4533829"
+				item: "megacells:cell_component_1m"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2DFCC2F8E27DD1DA"]
+			description: [
+				"A mighty mega cell when added to a cell housing it creates a storage cell of that type for use in a drive or ME chest."
+				""
+				"Holds up to 17,039,360 of 63 different items!!! (33,393,388 if only 1 item is stored)"
+			]
+			id: "3B3CFB9FD73A6E17"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "134A0BD996AEA1E8"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "02E99A47819788A4"
+				item: "megacells:cell_component_4m"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3B3CFB9FD73A6E17"]
+			description: [
+				"A mighty mega cell when added to a cell housing it creates a storage cell of that type for use in a drive or ME chest."
+				""
+				"Holds up to 68,157,440 of 63 different items!!! (133,573,552 if only 1 item is stored)"
+			]
+			id: "10900B7A8F15FD9E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4903AC2668141FD1"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "738F61E56438C81D"
+				item: "megacells:cell_component_16m"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["10900B7A8F15FD9E"]
+			description: [
+				"A mighty mega cell when added to a cell housing it creates a storage cell of that type for use in a drive or ME chest."
+				""
+				"Holds up to 272,629,760 of 63 different items!!! (534,294,208 if only 1 item is stored)"
+			]
+			id: "261623AA965D6085"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F4C150138B080FD"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7EC253751E319BD2"
+				item: "megacells:cell_component_64m"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["261623AA965D6085"]
+			description: [
+				"The mightiest mega cell when added to a cell housing it creates a storage cell of that type for use in a drive or ME chest."
+				""
+				"Holds up to 1,090,519,040 of 63 different items!!! (2,181,038,080 if only 1 item is stored)"
+			]
+			id: "7B708D783263F815"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DC495FCB405CD91"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "14BB75546EF667D4"
+				item: "megacells:cell_component_256m"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.0d
+		}
+		{
+			description: ["Massive amounts of storage for a single type of item"]
+			id: "5259BB6E9BEE2493"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65AB2F97828C6C8B"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2C61A78AE00CBA10"
+				item: "megacells:bulk_cell_component"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			description: ["&lRadiation be gone!!!!&r or atleast stored.."]
+			id: "0A84A210E7FF2A3F"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E049EDC4708C73A"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3FD6E651982A4183"
+				item: "megacells:radioactive_cell_component"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"019598828F1BFEC5"
+				"45B3B0DAAE02F9F4"
+			]
+			description: ["The storage bus will allow the network to access the connected inventory pulling or placing items as needed."]
+			id: "5A0B5F02CD63B70C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FCE2335017BE193"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "23656E206D006050"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1BC3359966F2A9CC"]
+			description: ["These are used for auto crafting operations that require a stonecutter, smithing table or crafting table. "]
+			id: "1E37BB27D91AA091"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DD49645E8670D68"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "63F71BA6208089D2"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["10384E7D42465162"]
+			description: ["The only press you wont find ind the strange cube theone needs to be built by ... by crushing a singularity. That doesn't sound safe."]
+			id: "076B3409453E7180"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "538347B1B94C4F34"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "60D7F0822D40851E"
+				item: "megacells:accumulation_processor_press"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["076B3409453E7180"]
+			description: ["Accumulation proccessors are used to create mega cells."]
+			id: "66D337E446428573"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3AB681A2D1F2E4D6"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "055663A540D50A10"
+				item: "megacells:accumulation_processor"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["2DFCC2F8E27DD1DA"]
+			description: ["A requirement for mega item cells"]
+			id: "630AE1E54592861D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "316CFDCF63A4E188"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2640FBBFF6980856"
+				item: "megacells:mega_item_cell_housing"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2DFCC2F8E27DD1DA"]
+			description: ["A requirement for mega fluid cells."]
+			id: "3D6D4930AC5E6BC2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55137021A39A7EC1"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0EC0D73F05CA54E2"
+				item: "megacells:mega_fluid_cell_housing"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1BC3359966F2A9CC"]
+			description: ["AE2 spatial storage is the answer to that classic minecraft question ,what if I want to pick up and move entire structures in survival mode??"]
+			id: "2BA85EB5AAFD4218"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E3F95281566A54C"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "03CA86B56C4E7B00"
+				title: "More room for rooms"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["660EC42E7CC6BE38"]
+			description: ["The base component of basic cards for upgrading your network components."]
+			id: "6E3D8744408D908C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "542CD51893F52C93"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "03E87127DBFB941D"
+				item: "ae2:basic_card"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6E3D8744408D908C"]
+			description: ["Adds redstone controll to a system component."]
+			id: "0A1BE1954954F52E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74C78A162940C7CD"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1379D0FCFF59015D"
+				item: "ae2:redstone_card"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6E3D8744408D908C"]
+			description: ["Increases the amount of slots available in a components filter."]
+			id: "2CD7ABEC39A620D3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D392246E26B31B5"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1FDAEB8423F1B7AA"
+				item: "ae2:capacity_card"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6E3D8744408D908C"]
+			description: ["Destroys excess items in a partition cell preventing them from filling extra slots. &lIn partitoned cells!"]
+			id: "5B477439B2287856"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6812C500DCB88905"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "44A45559FAD020D9"
+				item: "ae2:void_card"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6E3D8744408D908C"]
+			description: ["Allows the component to make requests from the autocrafting setups."]
+			id: "1D734FDCCE77EB7A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02B4A6D3C18CEED8"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "11B94619648CF54F"
+				item: "ae2:crafting_card"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6E3D8744408D908C"]
+			description: ["The basic component of advanced cards"]
+			id: "218D2321AF4C1EEA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71AE5F92D1C4E98D"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "29B3183420F16057"
+				item: "ae2:advanced_card"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["218D2321AF4C1EEA"]
+			description: ["Allows a more control over Nbt data items in a component like damaged armour and tools."]
+			id: "7579F8D59C3DC673"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A3C59B6CF2CCEEA"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "563681DDD29E550A"
+				item: "ae2:fuzzy_card"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["218D2321AF4C1EEA"]
+			description: ["Increases the throughput speed of a component."]
+			id: "25D1A79095D5BDCE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C774083369CE4DC"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "17C5F6E64E14EF90"
+				item: "ae2:speed_card"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["218D2321AF4C1EEA"]
+			description: ["Swaps a components filter from blacklist to whitelist."]
+			id: "227370B3E816AF9D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50579ED3FF777289"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5121E17AAAEEC6BE"
+				item: "ae2:inverter_card"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["218D2321AF4C1EEA"]
+			description: ["Stops one item from completely filling a cell (&lIn partitioned cells)."]
+			id: "2BAC6B995559FF36"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C131D7B2131E906"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "05005F3FB12FD11A"
+				item: "ae2:equal_distribution_card"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["218D2321AF4C1EEA"]
+			description: ["Reduces the amount of energy a component needs to run."]
+			id: "29D85312568DA1BE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EC6A467E35E01A8"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3205842EBCFAB573"
+				item: "ae2:energy_card"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6BBF97DEABA15D3D"]
+			description: ["The cell workbench is used to partition cells and install upgrade cards."]
+			id: "7C1C720BA618EAE0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4603E90006CD5769"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "698DBEF947ED0D9F"
+				item: "ae2:cell_workbench"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7C1C720BA618EAE0"]
+			description: ["The ME chest holds a single storage cell that can be accessed, usefull for clearing unwanted items and reorganising cells."]
+			id: "64B9D9E828117B68"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30F309459FFABC55"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5F1E157AD259A869"
+				item: "ae2:chest"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["585CD913D0642DC7"]
+			description: ["Oh thats why we were doing this, we're going to store energy in a system that runs of energy?"]
+			id: "01121CDB86A60406"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1449BEA38BBDDDF4"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3981C7374DE7F582"
+				item: "appflux:core_1k"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["425098FBBEA99334"]
+			description: ["A redstone block + fluix dust + skystone dust thrown into a poolof water like a fluix crystal will create this little ball of redstone goodness."]
+			id: "13D09F62D80AC142"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C17A6F7B7A4E3E9"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5B403EEA84028807"
+				item: "appflux:redstone_crystal"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["01121CDB86A60406"]
+			description: ["&lMORE"]
+			id: "6E8B59AA221E6AEF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3580C436B2EB69E3"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "40AE6CAC82AB2153"
+				item: "appflux:core_4k"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6E8B59AA221E6AEF"]
+			description: ["&lMOOORE"]
+			id: "2C475E18A8D940CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BD2314ED3B82D91"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "459A1BC21ADAE317"
+				item: "appflux:core_16k"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2C475E18A8D940CF"]
+			description: ["&lMOOOOORE"]
+			id: "49AA50A551A1E917"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09891A312EE1A7AB"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "64CE7547C52E282C"
+				item: "appflux:core_64k"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["49AA50A551A1E917"]
+			description: ["&lMOOOOOOORE"]
+			id: "3054D12353920F37"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AEFF23DBE0C324F"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1003665AD2E6C7AE"
+				item: "appflux:core_256k"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3054D12353920F37"]
+			description: ["*GASPS FOR AIR*"]
+			id: "17D8FAB22345CAA9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "480DB13B31E3BD59"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "01C01C508E359ACA"
+				item: "appflux:core_1m"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["17D8FAB22345CAA9"]
+			description: ["&lMOOOOOOOOOORE"]
+			id: "3889577AEB50E69D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E691B6C26CC69F8"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4D85E2684F914D6D"
+				item: "appflux:core_4m"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3889577AEB50E69D"]
+			description: ["&lMOOOOOOOOOOOOOORE"]
+			id: "21A09B4D4F9ACD43"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FCC854458FA2237"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1A5052C790F2ED23"
+				item: "appflux:core_16m"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["21A09B4D4F9ACD43"]
+			description: ["&lMOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORE"]
+			id: "71E25CDEC4F6DEA4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3AC3FBC9220715E3"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0C1D3DB82D7BB1DE"
+				item: "appflux:core_64m"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["71E25CDEC4F6DEA4"]
+			description: ["MOST. Some say over 200 trillion fe."]
+			id: "343E459227D96763"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "190363D28C533260"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2D69413519E5B3B3"
+				item: "appflux:core_256m"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["3E055B7B9872DFF5"]
+			description: ["Take the poor smushed orb and add your silicon."]
+			id: "585CD913D0642DC7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05CD869E8EF4766A"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1EFD0FC663C2B150"
+				item: "appflux:energy_processor"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5E13FC7F538FE658"]
+			description: ["Smush the orb.. wait no my orb."]
+			id: "3E055B7B9872DFF5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62BDFD940EE46582"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "08D5B32E82B41ECE"
+				item: "appflux:printed_energy_processor"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 8.0d
+		}
+		{
+			description: ["Charge a block of iron to get your hands on this unique press."]
+			id: "425098FBBEA99334"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0054C097F0414217"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "22E065C69AA22621"
+				item: "appflux:energy_processor_press"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["13D09F62D80AC142"]
+			description: ["Charge the redstone orb and ponder it while you do."]
+			id: "5E13FC7F538FE658"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6512FAFEEEA992DE"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4E3F5E34F47F57F6"
+				item: "appflux:charged_redstone"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["585CD913D0642DC7"]
+			description: ["Allows the input of Fe to and from the storage (an none AE cable pulls energy from the cells)."]
+			id: "2E737C9C531FEDF3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41F7DA8D7C2141E1"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "11BB39595220DAD4"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "appflux:part_flux_accessor"
+							}
+							{
+								Count: 1b
+								id: "appflux:flux_accessor"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Flux accessor"
+			x: -10.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6E3D8744408D908C"]
+			description: ["Allows components to import/export energy."]
+			id: "1B6535A238F675B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F860D9AA3C86500"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "62776A60946A5730"
+				item: "appflux:induction_card"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["218D2321AF4C1EEA"]
+			description: ["Allows wireless terminals to auto pick up items and place them directly in the system."]
+			id: "79DC30439EF6F746"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "130541DA56BC7F17"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "55CD5C8AF4C8B1F4"
+				item: "ae2wtlib:magnet_card"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["218D2321AF4C1EEA"]
+			description: ["Saves you even more energy!!"]
+			id: "1477DE1AC87F1F00"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36E2049060DD2530"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5994BE9DE8EE52A5"
+				item: "megacells:greater_energy_card"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["218D2321AF4C1EEA"]
+			description: ["When placed into a bulk cell it allows the cell to auto compress its buffered item."]
+			id: "63357EB5C6559154"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D730251397DAF9D"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "143A67DFF8A7BBBE"
+				item: "megacells:compression_card"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["218D2321AF4C1EEA"]
+			description: ["When added into your wireless terminals it allows them to access your system from anywhere."]
+			id: "561B092547091186"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2113CCE827ACE267"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "51363FA900440D58"
+				item: "ae2wtlib:quantum_bridge_card"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 2.5d
+		}
+		{
+			id: "2CB012101B47C36F"
+			tasks: [{
+				id: "24AD049155A2A410"
+				item: "ae2:wireless_receiver"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 26.5d
+		}
+		{
+			dependencies: ["32EE13CDE52D02EA"]
+			description: ["Increases wireless access range at the cost of extra power use."]
+			id: "551179EED04B0826"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5CF0150722BE24FC"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3BC4219B2BFF509F"
+				item: "ae2:wireless_booster"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 10.5d
+		}
+		{
+			description: ["Allows access and binding to a wireless network"]
+			id: "32EE13CDE52D02EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D0E7D3850C332D0"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0754EB38D584A444"
+				item: "ae2:wireless_access_point"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["32EE13CDE52D02EA"]
+			description: ["The most basic wireless terminal functions like a ME terminal but on the go."]
+			id: "2B2D41A93FE0373E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26A23B6ED16434FD"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7A268BB2CFAB506E"
+				item: "ae2:wireless_terminal"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2B2D41A93FE0373E"]
+			description: ["A slightly more advanced wirelss terminal , functions the same as a ME crafting terminal but on the move."]
+			id: "76D460B994B46ED7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CF84ECA5CF69DB9"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0CAE33B8A7994163"
+				item: "ae2:wireless_crafting_terminal"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["76D460B994B46ED7"]
+			description: ["The ultimate wireless terminal capable of having each other wireless terminal type installed and used from the comfort of your own ... wherever you are when u choose to use it."]
+			id: "31D6EDEE45043601"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "105113FB3C36808F"
+				table_id: 81036473264138574L
+				type: "random"
+			}]
+			tasks: [{
+				id: "32B65B8A9BEAFAE1"
+				item: "ae2wtlib:wireless_universal_terminal"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 12.0d
+		}
+	]
+	title: "Applied Energistics 2"
+}

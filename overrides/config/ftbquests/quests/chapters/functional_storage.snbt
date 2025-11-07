@@ -1,0 +1,5114 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "functional_storage"
+	group: "3FEDCCADD53AC5E8"
+	id: "5FA3CDA7D13AC20E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "50056D86008B9189"
+			size: 3.0d
+			subtitle: "This pack adds plenty of different solutions for basic storage this chapter will highlight a few of the simple starter solutions"
+			tasks: [{
+				id: "130935F1EA9ADA98"
+				title: "Storage solutions"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["50056D86008B9189"]
+			id: "4D1B16D6F958345D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37E07368DBC31957"
+				table_id: 4518140833795684881L
+				type: "all_table"
+			}]
+			subtitle: "Functional storage runs on drawers and plays well with other storage mods"
+			tasks: [{
+				id: "6DBA0679D64F6EA0"
+				title: "functional storage"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50056D86008B9189"]
+			id: "7A89CFA337AECC91"
+			tasks: [{
+				id: "7DF14917B0A53827"
+				title: "Sophisticated storage"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["50056D86008B9189"]
+			description: ["&lTom's simple storage&r is a great early game alternaitive to &lrefined storage&r and &lApplied energistics 2&r but can be a bit slow at larger sizes"]
+			id: "060DEEEC2134FEC4"
+			tasks: [{
+				id: "52C6EF180805CCB5"
+				title: "Tom's simple storage"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["50056D86008B9189"]
+			id: "6C99BC94CD813C06"
+			tasks: [{
+				id: "1158EA56DCE27D0C"
+				title: "Simple storage network"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4D1B16D6F958345D"]
+			description: ["The main storage block in &lFunctional storage&r is the Storage drawer  "]
+			id: "54297543FD4BD859"
+			rewards: [{
+				count: 9
+				id: "42B662EF2E21BCA4"
+				item: "functionalstorage:oak_1"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31390373F8FD2FC1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "functionalstorage:drawer"
+					}
+				}
+				type: "item"
+			}]
+			title: "Functional drawers"
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["54297543FD4BD859"]
+			description: ["The &lstorage controller&r is the heart of your system connecting your drawers to the controller allows you to have a single block to pump items into your storage system."]
+			id: "50F8BC806D2B3C78"
+			rewards: [
+				{
+					count: 10
+					id: "11694D53E30DF450"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "78293FAF752492E4"
+					type: "xp"
+					xp: 500
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "5AF2E867BB18C115"
+				item: "functionalstorage:storage_controller"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50F8BC806D2B3C78"]
+			description: ["The configuration tool allows you change certain aspects of the drawers .The most usefull is locking and unlocking your drawers."]
+			id: "51C597FC549B21DF"
+			tasks: [{
+				id: "1AC3CBE58B6B26D8"
+				item: "functionalstorage:configuration_tool"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50F8BC806D2B3C78"]
+			description: ["Use the linking tool to connect drawers to your controller"]
+			id: "081651DCCEAADF8C"
+			tasks: [{
+				id: "745C925C6359A9AF"
+				item: "functionalstorage:linking_tool"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50F8BC806D2B3C78"]
+			description: ["If linked to a &lStorage controller&r you can use it as a point to remove/add to the system"]
+			id: "4CFE4939898CBFE2"
+			tasks: [{
+				id: "56F09D48236BFF85"
+				item: "functionalstorage:controller_extension"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50F8BC806D2B3C78"]
+			description: ["The first tier of drawer upgrade multiplies total storage &9&oCheck the tool tip !"]
+			id: "79B8B8D671C36A14"
+			rewards: [
+				{
+					count: 5
+					id: "4E64D457485C4C61"
+					item: "functionalstorage:copper_upgrade"
+					type: "item"
+				}
+				{
+					id: "0085343BD60E78A4"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "3284315ED9FC6094"
+				item: "functionalstorage:copper_upgrade"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["79B8B8D671C36A14"]
+			description: ["The second tier of drawer upgrade multiplies total storage &9&oCheck the tool tip !"]
+			id: "6FE54F3A30E88EA9"
+			rewards: [
+				{
+					count: 5
+					id: "06E5E038CBA31682"
+					item: "functionalstorage:gold_upgrade"
+					type: "item"
+				}
+				{
+					id: "0901EC72C6FCCD8E"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "7618E57F217A72FB"
+				item: "functionalstorage:gold_upgrade"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6FE54F3A30E88EA9"]
+			description: ["The third tier of drawer upgrade multiplies total storage &9&oCheck the tool tip !"]
+			id: "25028CCDA69041D0"
+			rewards: [
+				{
+					count: 5
+					id: "04FCB77F28CFC435"
+					item: "functionalstorage:diamond_upgrade"
+					type: "item"
+				}
+				{
+					id: "58BC889E26F9A850"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "3FAB3BE0089C1069"
+				item: "functionalstorage:diamond_upgrade"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["25028CCDA69041D0"]
+			description: ["The fourth tier of drawer upgrade multiplies total storage &9&oCheck the tool tip !"]
+			id: "26232C60B69F5CBE"
+			rewards: [
+				{
+					count: 3
+					id: "636137020DC670EB"
+					item: "functionalstorage:netherite_upgrade"
+					type: "item"
+				}
+				{
+					id: "5525455C50390A9C"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "27FF32A2298787B1"
+				item: "functionalstorage:netherite_upgrade"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["54297543FD4BD859"]
+			description: ["&lFramed drawers&r can be right clicked to mimic the texture of held blocks"]
+			id: "29B9A67B2CF6264C"
+			rewards: [{
+				id: "73775F8E7932DFEC"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "77179AC9C3C1663B"
+				item: "functionalstorage:framed_1"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["54297543FD4BD859"]
+			description: ["&lFluid drawers&r can be used to hold fluid eithe rpipe them in and out or right click witha bucket."]
+			id: "50D1D5D88F0D42B3"
+			rewards: [{
+				id: "4282A4398A8A874B"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "4EA0A3D053A193CF"
+				item: "functionalstorage:fluid_1"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54297543FD4BD859"]
+			description: ["&lThe armory cabinet&r can be used to store your loadout think of it as your own little armour stand"]
+			id: "0FF28A868333CFE0"
+			rewards: [{
+				id: "461DD18584FA54D3"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "5198937E00345523"
+				item: "functionalstorage:armory_cabinet"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6C99BC94CD813C06"]
+			description: ["Perfect for when you can't be bothered to read quest descriptions"]
+			id: "1361E761B6F6584B"
+			rewards: [
+				{
+					count: 5
+					id: "6B5D3A8BD41972B3"
+					item: "storagenetwork:kabel"
+					type: "item"
+				}
+				{
+					id: "5A9E1B370CBDA12F"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "4764F0AF652DB995"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "storagenetwork:network_book"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1361E761B6F6584B"]
+			description: ["The basic inventory cable for &lSimple storage network&r Lets get connected"]
+			id: "151F3E4E0DE4B802"
+			rewards: [
+				{
+					count: 5
+					id: "3534DAFD7BD1422F"
+					item: "storagenetwork:kabel"
+					type: "item"
+				}
+				{
+					id: "6B485D50FE6017BE"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "2DC601507707DDB0"
+				item: "storagenetwork:kabel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["151F3E4E0DE4B802"]
+			description: ["This is the basic cable for connecting &l1&r inventory to the network although it lacks controls"]
+			id: "6F0ABBDBEB315C00"
+			rewards: [
+				{
+					count: 5
+					id: "21793C22B2536A80"
+					item: "storagenetwork:kabel"
+					type: "item"
+				}
+				{
+					id: "6BC38A16A85452DC"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "3CB1B33B65BFAF47"
+				item: "storagenetwork:storage_kabel"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6F0ABBDBEB315C00"]
+			description: ["The more advanced link cable far better for your automation needs"]
+			id: "2C64D6D440E96BD2"
+			rewards: [
+				{
+					count: 5
+					id: "1F094E16B5EC73C9"
+					item: "storagenetwork:kabel"
+					type: "item"
+				}
+				{
+					id: "14EDAD82109B5EB0"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "7E35FF0981558C59"
+				item: "storagenetwork:filter_kabel"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["151F3E4E0DE4B802"]
+			description: ["Functions like a hopper, pulling items from the attached inventory into the system"]
+			id: "346389D5AE28E066"
+			rewards: [
+				{
+					count: 5
+					id: "4ED3660F5BF1694A"
+					item: "storagenetwork:kabel"
+					type: "item"
+				}
+				{
+					id: "375B3BE3485435F7"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "2048A298C2A19708"
+				item: "storagenetwork:import_kabel"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["346389D5AE28E066"]
+			description: ["The advanced version allows for filtering"]
+			id: "6477B36D6E0FFB68"
+			rewards: [
+				{
+					count: 5
+					id: "124D22F792CAE0ED"
+					item: "storagenetwork:kabel"
+					type: "item"
+				}
+				{
+					id: "7BBDB625FCA0BD5D"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "OOps didnt mean to click that!"
+			tasks: [{
+				id: "7685537454856E12"
+				item: "storagenetwork:import_filter_kabel"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["151F3E4E0DE4B802"]
+			description: ["Used to connect the system to an inventory, inputs into the selected inventory and accepts upgrades"]
+			id: "7E0E6CFD703C4CF4"
+			rewards: [
+				{
+					count: 5
+					id: "72764EDFD3834891"
+					item: "storagenetwork:kabel"
+					type: "item"
+				}
+				{
+					id: "0D07906385B045F4"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "6672E553707D81D8"
+				item: "storagenetwork:export_kabel"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["151F3E4E0DE4B802"]
+			description: ["The heart of your network &lonly use 1 per network&r"]
+			id: "232D1B6A4EDEB2C3"
+			rewards: [
+				{
+					count: 5
+					id: "39E0677980507398"
+					item: "storagenetwork:kabel"
+					type: "item"
+				}
+				{
+					id: "21D720785D877C95"
+					type: "xp"
+					xp: 200
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "7BC3C4022D5D2704"
+				item: "storagenetwork:master"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["47C652B0E81557C0"]
+			description: [
+				" A more advanced interface Crafting                    grid included"
+				"     &nUse this for smaller gui scales"
+			]
+			id: "55EE0AA816D7382A"
+			rewards: [
+				{
+					count: 5
+					id: "4DBD69399B924666"
+					item: "storagenetwork:kabel"
+					type: "item"
+				}
+				{
+					id: "0F55B5F664759576"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "082B52ED2EA22BAE"
+				item: "storagenetwork:request"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["232D1B6A4EDEB2C3"]
+			description: ["Allows you to view the content of your network &oIt could be better"]
+			id: "47C652B0E81557C0"
+			rewards: [
+				{
+					count: 5
+					id: "2071A67C3D023963"
+					item: "storagenetwork:kabel"
+					type: "item"
+				}
+				{
+					id: "4175A7F16D305C14"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "68249FDE6083EC41"
+				item: "storagenetwork:inventory"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["47C652B0E81557C0"]
+			description: [
+				" A more advanced interface Crafting                    grid included"
+				"     &nUse this for larger gui scales"
+			]
+			id: "21743DD96AE03885"
+			rewards: [
+				{
+					count: 5
+					id: "328B55B7C0B06BD1"
+					item: "storagenetwork:kabel"
+					type: "item"
+				}
+				{
+					id: "15AAC6523AE0A4E2"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "430D49C7CF19EE08"
+				item: "storagenetwork:request_expanded"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["151F3E4E0DE4B802"]
+			description: ["&lSimple storage networks&r is great for small networks but slows as the network gets larger but dont worry this block allows a network to be augmented with other mods like &lAE2"]
+			id: "1DA038F05FE611CF"
+			rewards: [
+				{
+					count: 5
+					id: "1F2E2BE5EA9FCE87"
+					item: "storagenetwork:kabel"
+					type: "item"
+				}
+				{
+					id: "7DAF9420E2762974"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Wait they connect?"
+			tasks: [{
+				id: "08208D381706BE39"
+				item: "storagenetwork:exchange"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["151F3E4E0DE4B802"]
+			description: ["Similar to the import cable except it's used to import from other storage mods into your network."]
+			id: "4F772918C7E661F8"
+			rewards: [
+				{
+					count: 5
+					id: "4449F61EA10E3BE9"
+					item: "storagenetwork:kabel"
+					type: "item"
+				}
+				{
+					id: "47A552DC08F15B2E"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "7044D1D909E8EC02"
+				item: "storagenetwork:collector"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["151F3E4E0DE4B802"]
+			id: "6076D06607873963"
+			rewards: [
+				{
+					count: 5
+					id: "5069CC70EE6AA54B"
+					item: "storagenetwork:kabel"
+					type: "item"
+				}
+				{
+					id: "694D55831EEBE044"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "2EC1D46CF7DBAD38"
+				title: "Simple storage upgrades"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6076D06607873963"]
+			description: ["Tries to ensure that the connected inventory keeps a set amount of items at all times, or tries to make sure it has less dependent on the cable it's in"]
+			id: "6247C64E7454359D"
+			rewards: [
+				{
+					count: 5
+					id: "1A601EE9AB1CC8F2"
+					item: "storagenetwork:kabel"
+					type: "item"
+				}
+				{
+					id: "5F82EA74F346A2AA"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "142B3AFC6F47FF63"
+				item: "storagenetwork:stock_upgrade"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6076D06607873963"]
+			description: ["           Import/Export faster"]
+			id: "1D92145C8A102080"
+			rewards: [
+				{
+					count: 5
+					id: "77DF288354550A07"
+					item: "storagenetwork:kabel"
+					type: "item"
+				}
+				{
+					id: "2D66C5B785BBCB7D"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "6106286CAF78B184"
+				item: "storagenetwork:speed_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6076D06607873963"]
+			description: ["           Import/Export slower"]
+			id: "11AE4C0E8F5E6374"
+			rewards: [
+				{
+					count: 5
+					id: "536BBEB114FC8C6F"
+					item: "storagenetwork:kabel"
+					type: "item"
+				}
+				{
+					id: "18934B971A9C2CC5"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "390FE6F64CB3B5C8"
+				item: "storagenetwork:slow_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6076D06607873963"]
+			description: ["Cables will Automatically push/pull &l4&r items this will increase the number to &l64&r"]
+			id: "668C2460BB2900C6"
+			rewards: [
+				{
+					count: 5
+					id: "7D7AB5B874809DBC"
+					item: "storagenetwork:kabel"
+					type: "item"
+				}
+				{
+					id: "6C47D266D457D96E"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "1E6561B190B5921B"
+				item: "storagenetwork:stack_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6076D06607873963"]
+			description: ["Cables will Automatically push/pull &l4&r items this will decrease the number to &l1&r"]
+			id: "4C1BD76288964E6B"
+			rewards: [
+				{
+					count: 5
+					id: "36D5521ED083A760"
+					item: "storagenetwork:kabel"
+					type: "item"
+				}
+				{
+					id: "2E0A294F1C201183"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "0005227E93DF335A"
+				item: "storagenetwork:single_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6076D06607873963"]
+			description: ["When used in a cable the system will try to export the exact amount set into the output inventory"]
+			id: "4BF95039F03D0E5B"
+			rewards: [
+				{
+					count: 5
+					id: "7CE188D43A494D0F"
+					item: "storagenetwork:kabel"
+					type: "item"
+				}
+				{
+					id: "49DA0F4E6881945F"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "4DE05C0025449FFB"
+				item: "storagenetwork:operation_upgrade"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["47C652B0E81557C0"]
+			description: ["Storage inventory at a distance"]
+			id: "5962B53677575FB4"
+			rewards: [
+				{
+					count: 5
+					id: "087B3CFD75A1D328"
+					item: "storagenetwork:kabel"
+					type: "item"
+				}
+				{
+					id: "2BE4CC21A59BC97D"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "2BC587F5A43C9394"
+				item: "storagenetwork:inventory_remote"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["55EE0AA816D7382A"]
+			description: ["Storage request table at a distance."]
+			id: "61EBE2D69A096810"
+			rewards: [
+				{
+					count: 5
+					id: "30BDB8CE29C9DDA7"
+					item: "storagenetwork:kabel"
+					type: "item"
+				}
+				{
+					id: "152CFB95A15D9B1A"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "2F48144176319E6B"
+				item: "storagenetwork:crafting_remote"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5962B53677575FB4"]
+			description: ["Use this to pull matching blocks from your network with a simple click on the block in world"]
+			id: "65D317F5919C3891"
+			rewards: [
+				{
+					count: 5
+					id: "6C051A52F39281AC"
+					item: "storagenetwork:kabel"
+					type: "item"
+				}
+				{
+					id: "0CF95D8E0EBF177E"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "3A1BF804FE27BB61"
+				item: "storagenetwork:picker_remote"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["5962B53677575FB4"]
+			description: ["Having this in your inventory or curios turns you into a hopper for your network if you pick it up and there's space your network will take it for you"]
+			id: "58ABA1A432E247A6"
+			rewards: [
+				{
+					count: 5
+					id: "6E95557734CDBA0B"
+					item: "storagenetwork:kabel"
+					type: "item"
+				}
+				{
+					id: "4A82FD67CDDDAD1F"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "63C40FB6FAEC8A50"
+				item: "storagenetwork:collector_remote"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5962B53677575FB4"]
+			description: ["&lThis is a crafting tool not a building tool&r using this on an item in world will tell your network to try and make the item provided it has the resources"]
+			id: "79E46DF0F8C91349"
+			rewards: [
+				{
+					count: 5
+					id: "64BBEB1755966A9F"
+					item: "storagenetwork:kabel"
+					type: "item"
+				}
+				{
+					id: "05C8DB4A42648735"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "6298E0E2530D5AF9"
+				item: "storagenetwork:builder_remote"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["21743DD96AE03885"]
+			description: ["Expanded request table at a distance"]
+			id: "5BC6C1C8114069F2"
+			rewards: [
+				{
+					count: 5
+					id: "7706718D1FFED507"
+					item: "storagenetwork:kabel"
+					type: "item"
+				}
+				{
+					id: "3D591CF542158A2E"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "68CD70F719198F25"
+				item: "storagenetwork:expanded_remote"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7A89CFA337AECC91"]
+			description: ["The base tier of chest/barrel is no larger than minecrafts but this ones upgradable"]
+			id: "789BBD0992AF4E95"
+			tasks: [{
+				id: "6EBAC924AD9D1072"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "sophisticatedstorage:base_tier_wooden_storage"
+					}
+				}
+				type: "item"
+			}]
+			title: "Base tier storage"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["50056D86008B9189"]
+			id: "4DC73F1D01986E60"
+			tasks: [{
+				id: "4A92A3BD7B48398F"
+				title: "Sophisticated backpacks"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["789BBD0992AF4E95"]
+			id: "1D4BA61F3BDF258D"
+			tasks: [{
+				id: "5F3094BB03AD6687"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_chest"
+								tag: {
+									woodType: "acacia"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_chest"
+								tag: {
+									woodType: "birch"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_chest"
+								tag: {
+									woodType: "crimson"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_chest"
+								tag: {
+									woodType: "dark_oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_chest"
+								tag: {
+									woodType: "jungle"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_chest"
+								tag: {
+									woodType: "oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_chest"
+								tag: {
+									woodType: "spruce"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_chest"
+								tag: {
+									woodType: "warped"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_chest"
+								tag: {
+									woodType: "mangrove"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_chest"
+								tag: {
+									woodType: "cherry"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_chest"
+								tag: {
+									woodType: "bamboo"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_barrel"
+								tag: {
+									woodType: "acacia"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_barrel"
+								tag: {
+									woodType: "birch"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_barrel"
+								tag: {
+									woodType: "crimson"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_barrel"
+								tag: {
+									woodType: "dark_oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_barrel"
+								tag: {
+									woodType: "jungle"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_barrel"
+								tag: {
+									woodType: "oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_barrel"
+								tag: {
+									woodType: "spruce"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_barrel"
+								tag: {
+									woodType: "warped"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_barrel"
+								tag: {
+									woodType: "mangrove"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_barrel"
+								tag: {
+									woodType: "cherry"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_barrel"
+								tag: {
+									woodType: "bamboo"
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Copper tier storage"
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1D4BA61F3BDF258D"]
+			id: "3F246E470B619F30"
+			tasks: [{
+				id: "7BD7509F51745A1B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_chest"
+								tag: {
+									woodType: "acacia"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_chest"
+								tag: {
+									woodType: "birch"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_chest"
+								tag: {
+									woodType: "crimson"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_chest"
+								tag: {
+									woodType: "dark_oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_chest"
+								tag: {
+									woodType: "jungle"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_chest"
+								tag: {
+									woodType: "oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_chest"
+								tag: {
+									woodType: "spruce"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_chest"
+								tag: {
+									woodType: "warped"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_chest"
+								tag: {
+									woodType: "mangrove"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_chest"
+								tag: {
+									woodType: "cherry"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_chest"
+								tag: {
+									woodType: "bamboo"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_barrel"
+								tag: {
+									woodType: "acacia"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_barrel"
+								tag: {
+									woodType: "birch"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_barrel"
+								tag: {
+									woodType: "crimson"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_barrel"
+								tag: {
+									woodType: "dark_oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_barrel"
+								tag: {
+									woodType: "jungle"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_barrel"
+								tag: {
+									woodType: "oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_barrel"
+								tag: {
+									woodType: "spruce"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_barrel"
+								tag: {
+									woodType: "warped"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_barrel"
+								tag: {
+									woodType: "mangrove"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_barrel"
+								tag: {
+									woodType: "cherry"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_barrel"
+								tag: {
+									woodType: "bamboo"
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Iron tier storage"
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3F246E470B619F30"]
+			id: "5416D1BAD066C8A7"
+			tasks: [{
+				id: "40A3826BF9EB1B06"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_chest"
+								tag: {
+									woodType: "acacia"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_chest"
+								tag: {
+									woodType: "birch"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_chest"
+								tag: {
+									woodType: "crimson"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_chest"
+								tag: {
+									woodType: "dark_oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_chest"
+								tag: {
+									woodType: "jungle"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_chest"
+								tag: {
+									woodType: "oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_chest"
+								tag: {
+									woodType: "spruce"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_chest"
+								tag: {
+									woodType: "warped"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_chest"
+								tag: {
+									woodType: "mangrove"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_chest"
+								tag: {
+									woodType: "cherry"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_chest"
+								tag: {
+									woodType: "bamboo"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_barrel"
+								tag: {
+									woodType: "acacia"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_barrel"
+								tag: {
+									woodType: "birch"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_barrel"
+								tag: {
+									woodType: "crimson"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_barrel"
+								tag: {
+									woodType: "dark_oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_barrel"
+								tag: {
+									woodType: "jungle"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_barrel"
+								tag: {
+									woodType: "oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_barrel"
+								tag: {
+									woodType: "spruce"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_barrel"
+								tag: {
+									woodType: "warped"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_barrel"
+								tag: {
+									woodType: "mangrove"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_barrel"
+								tag: {
+									woodType: "cherry"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_barrel"
+								tag: {
+									woodType: "bamboo"
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Gold tier storage"
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5416D1BAD066C8A7"]
+			id: "7D01BFE40702A27D"
+			tasks: [{
+				id: "60DE4BACA327E473"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_chest"
+								tag: {
+									woodType: "acacia"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_chest"
+								tag: {
+									woodType: "birch"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_chest"
+								tag: {
+									woodType: "crimson"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_chest"
+								tag: {
+									woodType: "dark_oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_chest"
+								tag: {
+									woodType: "jungle"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_chest"
+								tag: {
+									woodType: "oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_chest"
+								tag: {
+									woodType: "spruce"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_chest"
+								tag: {
+									woodType: "warped"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_chest"
+								tag: {
+									woodType: "mangrove"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_chest"
+								tag: {
+									woodType: "cherry"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_chest"
+								tag: {
+									woodType: "bamboo"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_barrel"
+								tag: {
+									woodType: "acacia"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_barrel"
+								tag: {
+									woodType: "birch"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_barrel"
+								tag: {
+									woodType: "crimson"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_barrel"
+								tag: {
+									woodType: "dark_oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_barrel"
+								tag: {
+									woodType: "jungle"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_barrel"
+								tag: {
+									woodType: "oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_barrel"
+								tag: {
+									woodType: "spruce"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_barrel"
+								tag: {
+									woodType: "warped"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_barrel"
+								tag: {
+									woodType: "mangrove"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_barrel"
+								tag: {
+									woodType: "cherry"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_barrel"
+								tag: {
+									woodType: "bamboo"
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Diamond tier storage"
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7D01BFE40702A27D"]
+			id: "654DD9E70AE6B3BC"
+			tasks: [{
+				id: "2A8DD751902E3F3F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_chest"
+								tag: {
+									woodType: "acacia"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_chest"
+								tag: {
+									woodType: "birch"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_chest"
+								tag: {
+									woodType: "crimson"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_chest"
+								tag: {
+									woodType: "dark_oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_chest"
+								tag: {
+									woodType: "jungle"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_chest"
+								tag: {
+									woodType: "oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_chest"
+								tag: {
+									woodType: "spruce"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_chest"
+								tag: {
+									woodType: "warped"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_chest"
+								tag: {
+									woodType: "mangrove"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_chest"
+								tag: {
+									woodType: "cherry"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_chest"
+								tag: {
+									woodType: "bamboo"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_barrel"
+								tag: {
+									woodType: "acacia"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_barrel"
+								tag: {
+									woodType: "birch"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_barrel"
+								tag: {
+									woodType: "crimson"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_barrel"
+								tag: {
+									woodType: "dark_oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_barrel"
+								tag: {
+									woodType: "jungle"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_barrel"
+								tag: {
+									woodType: "oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_barrel"
+								tag: {
+									woodType: "spruce"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_barrel"
+								tag: {
+									woodType: "warped"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_barrel"
+								tag: {
+									woodType: "mangrove"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_barrel"
+								tag: {
+									woodType: "cherry"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_barrel"
+								tag: {
+									woodType: "bamboo"
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Netherite tier storage"
+			x: 13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["401286196B96A38A"]
+			id: "3FE186871815E090"
+			tasks: [{
+				id: "5D16FBAD10BAF2FD"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_netherite_barrel_1"
+								tag: {
+									woodType: "acacia"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_netherite_barrel_1"
+								tag: {
+									woodType: "birch"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_netherite_barrel_1"
+								tag: {
+									woodType: "crimson"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_netherite_barrel_1"
+								tag: {
+									woodType: "dark_oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_netherite_barrel_1"
+								tag: {
+									woodType: "jungle"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_netherite_barrel_1"
+								tag: {
+									woodType: "oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_netherite_barrel_1"
+								tag: {
+									woodType: "spruce"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_netherite_barrel_1"
+								tag: {
+									woodType: "warped"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_netherite_barrel_1"
+								tag: {
+									woodType: "mangrove"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_netherite_barrel_1"
+								tag: {
+									woodType: "cherry"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_netherite_barrel_1"
+								tag: {
+									woodType: "bamboo"
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Netherite tier: Limited barrels"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7069328179D27446"]
+			id: "401286196B96A38A"
+			tasks: [{
+				id: "05158B2CA2114494"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_diamond_barrel_1"
+								tag: {
+									woodType: "acacia"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_diamond_barrel_1"
+								tag: {
+									woodType: "birch"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_diamond_barrel_1"
+								tag: {
+									woodType: "crimson"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_diamond_barrel_1"
+								tag: {
+									woodType: "dark_oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_diamond_barrel_1"
+								tag: {
+									woodType: "jungle"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_diamond_barrel_1"
+								tag: {
+									woodType: "oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_diamond_barrel_1"
+								tag: {
+									woodType: "spruce"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_diamond_barrel_1"
+								tag: {
+									woodType: "warped"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_diamond_barrel_1"
+								tag: {
+									woodType: "bamboo"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_diamond_barrel_1"
+								tag: {
+									woodType: "cherry"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_diamond_barrel_1"
+								tag: {
+									woodType: "mangrove"
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Diamond tier: Limited barrels"
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3898081F18B3A1AC"]
+			id: "7069328179D27446"
+			tasks: [{
+				id: "7605910FB2E13913"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_gold_barrel_1"
+								tag: {
+									woodType: "acacia"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_gold_barrel_1"
+								tag: {
+									woodType: "birch"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_gold_barrel_1"
+								tag: {
+									woodType: "crimson"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_gold_barrel_1"
+								tag: {
+									woodType: "dark_oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_gold_barrel_1"
+								tag: {
+									woodType: "jungle"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_gold_barrel_1"
+								tag: {
+									woodType: "oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_gold_barrel_1"
+								tag: {
+									woodType: "spruce"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_gold_barrel_1"
+								tag: {
+									woodType: "warped"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_gold_barrel_1"
+								tag: {
+									woodType: "bamboo"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_gold_barrel_1"
+								tag: {
+									woodType: "cherry"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_gold_barrel_1"
+								tag: {
+									woodType: "mangrove"
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Gold tier: Limited barrels"
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B006062C760D171"]
+			id: "3898081F18B3A1AC"
+			tasks: [{
+				id: "593CBBE1E76046AE"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_iron_barrel_1"
+								tag: {
+									woodType: "acacia"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_iron_barrel_1"
+								tag: {
+									woodType: "birch"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_iron_barrel_1"
+								tag: {
+									woodType: "crimson"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_iron_barrel_1"
+								tag: {
+									woodType: "dark_oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_iron_barrel_1"
+								tag: {
+									woodType: "jungle"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_iron_barrel_1"
+								tag: {
+									woodType: "oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_iron_barrel_1"
+								tag: {
+									woodType: "spruce"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_iron_barrel_1"
+								tag: {
+									woodType: "warped"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_iron_barrel_1"
+								tag: {
+									woodType: "bamboo"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_iron_barrel_1"
+								tag: {
+									woodType: "cherry"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_iron_barrel_1"
+								tag: {
+									woodType: "mangrove"
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Iron tier: Limited barrels"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31B42D855A877030"]
+			id: "6B006062C760D171"
+			tasks: [{
+				id: "086E87B6458808A3"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_copper_barrel_1"
+								tag: {
+									woodType: "acacia"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_copper_barrel_1"
+								tag: {
+									woodType: "birch"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_copper_barrel_1"
+								tag: {
+									woodType: "crimson"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_copper_barrel_1"
+								tag: {
+									woodType: "dark_oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_copper_barrel_1"
+								tag: {
+									woodType: "jungle"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_copper_barrel_1"
+								tag: {
+									woodType: "oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_copper_barrel_1"
+								tag: {
+									woodType: "spruce"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_copper_barrel_1"
+								tag: {
+									woodType: "warped"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_copper_barrel_1"
+								tag: {
+									woodType: "bamboo"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_copper_barrel_1"
+								tag: {
+									woodType: "cherry"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_copper_barrel_1"
+								tag: {
+									woodType: "mangrove"
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Copper tier: Limited barrels"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A89CFA337AECC91"]
+			id: "31B42D855A877030"
+			tasks: [{
+				id: "4D3407E7B989ADFC"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_barrel_1"
+								tag: {
+									woodType: "acacia"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_barrel_1"
+								tag: {
+									woodType: "birch"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_barrel_1"
+								tag: {
+									woodType: "crimson"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_barrel_1"
+								tag: {
+									woodType: "dark_oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_barrel_1"
+								tag: {
+									woodType: "jungle"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_barrel_1"
+								tag: {
+									woodType: "oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_barrel_1"
+								tag: {
+									woodType: "spruce"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_barrel_1"
+								tag: {
+									woodType: "warped"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_barrel_1"
+								tag: {
+									woodType: "bamboo"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_barrel_1"
+								tag: {
+									woodType: "cherry"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_barrel_1"
+								tag: {
+									woodType: "mangrove"
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Basic tier: Limited barrels"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A89CFA337AECC91"]
+			id: "5F05EADAD633B9F9"
+			tasks: [{
+				id: "73957555845C9146"
+				item: "sophisticatedstorage:basic_tier_upgrade"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F05EADAD633B9F9"]
+			id: "10AAA9D4A57A1859"
+			tasks: [{
+				id: "5A70C1114DB30F35"
+				item: "sophisticatedstorage:basic_to_copper_tier_upgrade"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["10AAA9D4A57A1859"]
+			id: "32850E5058A0A9FF"
+			tasks: [{
+				id: "0CFE389A2C967221"
+				item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["32850E5058A0A9FF"]
+			id: "4EC1E51226CA7D6D"
+			tasks: [{
+				id: "763937D9B0BED0FF"
+				item: "sophisticatedstorage:basic_to_gold_tier_upgrade"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4EC1E51226CA7D6D"]
+			id: "76B24235F8BA7A4A"
+			tasks: [{
+				id: "7F74C4F859F9A4A0"
+				item: "sophisticatedstorage:basic_to_diamond_tier_upgrade"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["76B24235F8BA7A4A"]
+			id: "23148EF78CE815D2"
+			tasks: [{
+				id: "061796DE8CC90720"
+				item: "sophisticatedstorage:basic_to_netherite_tier_upgrade"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["10AAA9D4A57A1859"]
+			id: "088BFCCB9CF51FB0"
+			tasks: [{
+				id: "13B17D7F2685F5F2"
+				item: "sophisticatedstorage:copper_to_iron_tier_upgrade"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["10AAA9D4A57A1859"]
+			id: "02C2BD3E5B91401E"
+			tasks: [{
+				id: "7C5341A0129DF490"
+				item: "sophisticatedstorage:copper_to_gold_tier_upgrade"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["10AAA9D4A57A1859"]
+			id: "0B706A5C90364AA9"
+			tasks: [{
+				id: "5C2BE5B869493A3F"
+				item: "sophisticatedstorage:copper_to_diamond_tier_upgrade"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["10AAA9D4A57A1859"]
+			id: "245956019C2B498D"
+			tasks: [{
+				id: "61C75F0642139CF6"
+				item: "sophisticatedstorage:copper_to_netherite_tier_upgrade"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["02C2BD3E5B91401E"]
+			id: "6B3FFE1F57409D35"
+			tasks: [{
+				id: "466D869B366C0D35"
+				item: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["02C2BD3E5B91401E"]
+			id: "4F8A8C50F9087310"
+			tasks: [{
+				id: "299ED4D6F2D1977D"
+				item: "sophisticatedstorage:iron_to_diamond_tier_upgrade"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["02C2BD3E5B91401E"]
+			id: "262E9DDAF4D2FA46"
+			tasks: [{
+				id: "7A707BE60BE25F50"
+				item: "sophisticatedstorage:iron_to_netherite_tier_upgrade"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4F8A8C50F9087310"]
+			id: "606CDC7BE5D14A0A"
+			tasks: [{
+				id: "36A1826A9AB7AF55"
+				item: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4F8A8C50F9087310"]
+			id: "5A3FE1D980DD0564"
+			tasks: [{
+				id: "0ADFC2531591AA11"
+				item: "sophisticatedstorage:gold_to_netherite_tier_upgrade"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4F8A8C50F9087310"]
+			id: "1327ACC0C49BF368"
+			tasks: [{
+				id: "4D9069ACA1A4E791"
+				item: "sophisticatedstorage:diamond_to_netherite_tier_upgrade"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4DC73F1D01986E60"]
+			id: "712530059D657DF2"
+			tasks: [{
+				id: "69F7304127AB5C34"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["712530059D657DF2"]
+			id: "29440B8866EF6C13"
+			tasks: [{
+				id: "4AEC425C40E52688"
+				item: "sophisticatedbackpacks:copper_backpack"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["29440B8866EF6C13"]
+			id: "5855719C804170B9"
+			tasks: [{
+				id: "4E36023644F36991"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5855719C804170B9"]
+			id: "77C56017ED41691B"
+			tasks: [{
+				id: "207EE08D66C8DA55"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["77C56017ED41691B"]
+			id: "42C25CC69852F4B0"
+			tasks: [{
+				id: "7B7E4D3F3AF87815"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["42C25CC69852F4B0"]
+			id: "4002FA99D3FB1210"
+			tasks: [{
+				id: "2B3AEB2682DCAD57"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "52BAB9E5A6D21A05"
+			tasks: [{
+				id: "53D794E12BA4E3F4"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "703D0C1D4B2FDEF9"
+			tasks: [{
+				id: "17EBE26508B34AB1"
+				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "023DB90AA9B86E9D"
+			tasks: [{
+				id: "64E34FA7AB170C28"
+				item: "sophisticatedbackpacks:filter_upgrade"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "1B7CB39B9AF2BB41"
+			tasks: [{
+				id: "22707657837332CB"
+				item: "sophisticatedbackpacks:advanced_filter_upgrade"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "0DB8878E640B40ED"
+			tasks: [{
+				id: "4E1EA23BCDF65C08"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "32040C7536CBCCF5"
+			tasks: [{
+				id: "78792D63689A9FCF"
+				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "60A8225194130603"
+			tasks: [{
+				id: "6639FA717974413A"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "65F96AEE789FE9E7"
+			tasks: [{
+				id: "11FAA5428B5485D3"
+				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "4348C4BA76B8EEF4"
+			tasks: [{
+				id: "5EB2D0C13632102E"
+				item: "sophisticatedbackpacks:compacting_upgrade"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "77C5567D7F053BF2"
+			tasks: [{
+				id: "00E79B0DBF4EA2E9"
+				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "7E5CB11A1BD74530"
+			tasks: [{
+				id: "7E0CFFA74EB627E6"
+				item: "sophisticatedbackpacks:void_upgrade"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "0D2C3B61DBD8CA04"
+			tasks: [{
+				id: "4F615C62EBD3AB06"
+				item: "sophisticatedbackpacks:advanced_void_upgrade"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "559EE9B9A48BF933"
+			tasks: [{
+				id: "3682640BB9C32838"
+				item: "sophisticatedbackpacks:restock_upgrade"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "0B97F112EC63687A"
+			tasks: [{
+				id: "75CEE1C12865B233"
+				item: "sophisticatedbackpacks:advanced_restock_upgrade"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "6EA71DD47C8B66B5"
+			tasks: [{
+				id: "38F28821FB5B4DFD"
+				item: "sophisticatedbackpacks:deposit_upgrade"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "7E89BFC429EE0A08"
+			tasks: [{
+				id: "18B6A36A47D91EE1"
+				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "69FDD7AC57DA460F"
+			tasks: [{
+				id: "332C487A49F26A1D"
+				item: "sophisticatedbackpacks:refill_upgrade"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "0EF99B9829A06CDF"
+			tasks: [{
+				id: "410D81BC67A50B0B"
+				item: "sophisticatedbackpacks:advanced_refill_upgrade"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "5022B91AB4BD52E1"
+			tasks: [{
+				id: "131F10BD3060706C"
+				item: "sophisticatedbackpacks:inception_upgrade"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "48F9F001130F6264"
+			tasks: [{
+				id: "086129E2E4F2BC81"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "664042C16E62AA6D"
+			tasks: [{
+				id: "127E1F507F964137"
+				item: "sophisticatedbackpacks:smelting_upgrade"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "463631A8F67DCBD8"
+			tasks: [{
+				id: "329C781062239FC9"
+				item: "sophisticatedbackpacks:auto_smelting_upgrade"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "6CB6F55A822E14C2"
+			tasks: [{
+				id: "562CE3F16A58050F"
+				item: "sophisticatedbackpacks:smoking_upgrade"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "4BA86C76F06F6E2A"
+			tasks: [{
+				id: "6DC15017D040F174"
+				item: "sophisticatedbackpacks:auto_smoking_upgrade"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "1D704F677E8D002B"
+			tasks: [{
+				id: "2CC33FCE52451A5E"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "7F5A797AA1EE518D"
+			tasks: [{
+				id: "2F1B1D28A3A804D6"
+				item: "sophisticatedbackpacks:stonecutter_upgrade"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "4D3AE25E829A2801"
+			tasks: [{
+				id: "41A7BC470325BE1B"
+				item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "7D42D2A2CE19F26B"
+			tasks: [{
+				id: "02A0E8427F04D883"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "085FE989A1AFF07B"
+			tasks: [{
+				id: "4E8D63DF5A7596C3"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "67EB72D09DDF90F0"
+			tasks: [{
+				id: "7313BEB5D65ABAD9"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "22EFCFE21967FBE9"
+			tasks: [{
+				id: "685F8B90E8626927"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "4A4F8AC898935286"
+			tasks: [{
+				id: "281368AD97CCFE76"
+				item: "sophisticatedbackpacks:stack_downgrade_tier_1"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "13D48AD72F8EEB32"
+			tasks: [{
+				id: "2AE139D21DDBC283"
+				item: "sophisticatedbackpacks:stack_downgrade_tier_2"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "6117427208B681D2"
+			tasks: [{
+				id: "7B5C905CD3E64142"
+				item: "sophisticatedbackpacks:stack_downgrade_tier_3"
+				type: "item"
+			}]
+			x: 21.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "613EEEABDE7DA9EE"
+			tasks: [{
+				id: "71F2F036A494BD4D"
+				item: "sophisticatedbackpacks:stack_upgrade_omega_tier"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "6D03986DCE338C1E"
+			tasks: [{
+				id: "25DA74E7ACF8B456"
+				item: "sophisticatedbackpacks:jukebox_upgrade"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "05A1EA4987590380"
+			tasks: [{
+				id: "50FE8E96D41FDE82"
+				item: "sophisticatedbackpacks:advanced_jukebox_upgrade"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "7767048D35BA31D9"
+			tasks: [{
+				id: "1EB5D81E03D019AC"
+				item: "sophisticatedbackpacks:tool_swapper_upgrade"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "45AD61960A28BDB7"
+			tasks: [{
+				id: "7522B058A680EEEF"
+				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "0F1FEA5780414714"
+			tasks: [{
+				id: "4CB45243408E6094"
+				item: "sophisticatedbackpacks:tank_upgrade"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "500A3F0396116181"
+			tasks: [{
+				id: "437A34BF60173B76"
+				item: "sophisticatedbackpacks:battery_upgrade"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "41812478BC2FFBFB"
+			tasks: [{
+				id: "5D2AFA6E2C2E8EF4"
+				item: "sophisticatedbackpacks:pump_upgrade"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "7755C524C1744D5F"
+			tasks: [{
+				id: "6201011E2A1D576C"
+				item: "sophisticatedbackpacks:advanced_pump_upgrade"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "5DC2AA8B10F0E588"
+			tasks: [{
+				id: "3AB57EC4DD16B6BF"
+				item: "sophisticatedbackpacks:xp_pump_upgrade"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "7826E755D8D50DFC"
+			tasks: [{
+				id: "0E6496C8C2AA5B3E"
+				item: "sophisticatedbackpacks:anvil_upgrade"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "0EEBB2FAED8FE267"
+			tasks: [{
+				id: "2172C5535DC66978"
+				item: "sophisticatedbackpacks:smithing_upgrade"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2AF314B37D030890"]
+			id: "0BD371B350B86C25"
+			tasks: [{
+				id: "0E55FAAF2C9AAF9E"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "3A7B1BD0FD21A677"
+			tasks: [{
+				id: "0A1F9E679ECB337E"
+				item: "sophisticatedbackpacks:chipped/botanist_workbench_upgrade"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "510D91EB90DA7614"
+			tasks: [{
+				id: "3164BF5B94501808"
+				item: "sophisticatedbackpacks:chipped/glassblower_upgrade"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "6E8B4B1F90BBC8CB"
+			tasks: [{
+				id: "45540AA92EFC76F6"
+				item: "sophisticatedbackpacks:chipped/carpenters_table_upgrade"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "3D85D9DE2E1DA752"
+			tasks: [{
+				id: "22556D5AAA702B74"
+				item: "sophisticatedbackpacks:chipped/mason_table_upgrade"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "62ACC3B0C77B5172"
+			tasks: [{
+				id: "02F140CFF2BF15A9"
+				item: "sophisticatedbackpacks:chipped/loom_table_upgrade"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "0E14E66084AFE738"
+			tasks: [{
+				id: "6067B0CD5DEFCFB6"
+				item: "sophisticatedbackpacks:chipped/alchemy_bench_upgrade"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "4A59F1E292CA512D"
+			tasks: [{
+				id: "73E894D2184B0B80"
+				item: "sophisticatedbackpacks:chipped/tinkering_table_upgrade"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "55512DCF31A124E3"
+			tasks: [{
+				id: "4A77FEEAB96B4E55"
+				item: "sophisticatedstorage:pickup_upgrade"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "60ED0D3938428838"
+			tasks: [{
+				id: "6CB90ED2882C24DA"
+				item: "sophisticatedstorage:advanced_pickup_upgrade"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "486026379710C2FA"
+			tasks: [{
+				id: "5BB82E95660D8C05"
+				item: "sophisticatedstorage:filter_upgrade"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "5C40F1F6BFC66EAB"
+			tasks: [{
+				id: "7871203784D53110"
+				item: "sophisticatedstorage:advanced_filter_upgrade"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "5C7E23A5FACA1C65"
+			tasks: [{
+				id: "27D4FD72E54A2880"
+				item: "sophisticatedstorage:magnet_upgrade"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "0A9CEF1B9AE6F05A"
+			tasks: [{
+				id: "749EFB3C455D4005"
+				item: "sophisticatedstorage:advanced_magnet_upgrade"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "7F6A9EC8465645BF"
+			tasks: [{
+				id: "40EFA71AAB5FD881"
+				item: "sophisticatedstorage:feeding_upgrade"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "1899B368695F4FF4"
+			tasks: [{
+				id: "013D4448ECAA286D"
+				item: "sophisticatedstorage:advanced_feeding_upgrade"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "3963CBF7816875CA"
+			tasks: [{
+				id: "00CB3DD8D5AFDED7"
+				item: "sophisticatedstorage:compacting_upgrade"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "0B06F71B06D670B5"
+			tasks: [{
+				id: "17AEEA860732F4B4"
+				item: "sophisticatedstorage:advanced_compacting_upgrade"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "51675B44A626E1E4"
+			tasks: [{
+				id: "266DC4265123092B"
+				item: "sophisticatedstorage:void_upgrade"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "01E3B70172B92D76"
+			tasks: [{
+				id: "5010675B171CA9E4"
+				item: "sophisticatedstorage:advanced_void_upgrade"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "4379525CCB592855"
+			tasks: [{
+				id: "526CFE5C6AA71763"
+				item: "sophisticatedstorage:smelting_upgrade"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "5615B9EFEB4F302B"
+			tasks: [{
+				id: "3A4646BC1EB7886C"
+				item: "sophisticatedstorage:auto_smelting_upgrade"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "0621786300501436"
+			tasks: [{
+				id: "70765AA32D013BD7"
+				item: "sophisticatedstorage:smoking_upgrade"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "4A83B9B2FD3CC69E"
+			tasks: [{
+				id: "04CAB54DA7322566"
+				item: "sophisticatedstorage:auto_smoking_upgrade"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "38473FE1E71B0827"
+			tasks: [{
+				id: "0CB70EE188D0086D"
+				item: "sophisticatedstorage:blasting_upgrade"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "1B9407864F1CD7C8"
+			tasks: [{
+				id: "526A71374F0C97B7"
+				item: "sophisticatedstorage:auto_blasting_upgrade"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "3494F28945FB11B5"
+			tasks: [{
+				id: "697A73F5F48C1FE2"
+				item: "sophisticatedstorage:crafting_upgrade"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "55A2239637E98FA5"
+			tasks: [{
+				id: "1743390860A56151"
+				item: "sophisticatedstorage:stonecutter_upgrade"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "7ECE3EAEA264931C"
+			tasks: [{
+				id: "6B7C8778C2A39D7E"
+				item: "sophisticatedstorage:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "6A1C8085BE13725D"
+			tasks: [{
+				id: "0A90A92F0614E6CD"
+				item: "sophisticatedstorage:stack_upgrade_tier_1_plus"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "6879A95A697C51A4"
+			tasks: [{
+				id: "13475C9DD3788FFE"
+				item: "sophisticatedstorage:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "3BC539E7EC2325EF"
+			tasks: [{
+				id: "2A7106A9B13F5B5C"
+				item: "sophisticatedstorage:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "7458A53AE7D645D7"
+			tasks: [{
+				id: "0B6A9D6D54C0B65F"
+				item: "sophisticatedstorage:stack_upgrade_tier_4"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "19AF465CE6EB5C78"
+			tasks: [{
+				id: "6F4F81B6187A27D1"
+				item: "sophisticatedstorage:stack_upgrade_tier_5"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "3DFD5042FB57627E"
+			tasks: [{
+				id: "257FEEBDE3B63B9A"
+				item: "sophisticatedstorage:stack_upgrade_omega_tier"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "61DDB2F0A7A44451"
+			tasks: [{
+				id: "0660327AD54FC9E6"
+				item: "sophisticatedstorage:stack_downgrade_tier_2"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "7698165EF3CF9B51"
+			tasks: [{
+				id: "15CA734BA851B719"
+				item: "sophisticatedstorage:stack_downgrade_tier_1"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "4713AB3527F93468"
+			tasks: [{
+				id: "41B38EE50ADB6776"
+				item: "sophisticatedstorage:stack_downgrade_tier_3"
+				type: "item"
+			}]
+			x: 21.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "44119BD57E8E2112"
+			tasks: [{
+				id: "0F68990EBDE53944"
+				item: "sophisticatedstorage:jukebox_upgrade"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "6C55566CD9C635EC"
+			tasks: [{
+				id: "103348877809A4A1"
+				item: "sophisticatedstorage:advanced_jukebox_upgrade"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "5EC82B3DC0BF8BF3"
+			tasks: [{
+				id: "46612214727B0315"
+				item: "sophisticatedstorage:compression_upgrade"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "2B610D50DD11BE5C"
+			tasks: [{
+				id: "11D994C331D00A83"
+				item: "sophisticatedstorage:hopper_upgrade"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["58874B23DD8116FE"]
+			id: "27CF51AB1995F03B"
+			tasks: [{
+				id: "5AAA424F324D5758"
+				item: "sophisticatedstorage:advanced_hopper_upgrade"
+				type: "item"
+			}]
+			x: 21.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "3D0FEDFC52EEC987"
+			tasks: [{
+				id: "370E36E817C6CDBB"
+				item: "sophisticatedbackpacks:blasting_upgrade"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BD371B350B86C25"]
+			id: "44F4C35A97B289B8"
+			tasks: [{
+				id: "389FFD3235310531"
+				item: "sophisticatedbackpacks:auto_blasting_upgrade"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AF314B37D030890"]
+			id: "58874B23DD8116FE"
+			tasks: [{
+				id: "7EA8C4AA1C55A078"
+				item: "sophisticatedstorage:upgrade_base"
+				type: "item"
+			}]
+			x: 21.5d
+			y: -3.5d
+		}
+		{
+			description: ["This mighty obelisk shows all the upgrades available in sophisticate storage/backpack &n&lThe orange are for sophisticated backpacks&r &l&nThe brown are for Sophisticate storage chests and barrels"]
+			id: "2AF314B37D030890"
+			tasks: [{
+				id: "2A7607E9578D979A"
+				title: "A sophisticated upgrade"
+				type: "checkmark"
+			}]
+			x: 20.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["50056D86008B9189"]
+			description: ["&lEnderstorage&r items will connect to other &lEnderStorage&r items that have the same colour code great for tranfering items and fluids large distances."]
+			id: "6AAF1F6BE3613ED1"
+			tasks: [{
+				id: "5CBD861271684407"
+				title: "Checkmark"
+				type: "checkmark"
+			}]
+			title: "Ender storage"
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["50056D86008B9189"]
+			id: "6599E80978731735"
+			tasks: [{
+				id: "5ED2EF150C2E83EC"
+				title: "Storage drawera"
+				type: "checkmark"
+			}]
+			title: "Storage drawers"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["060DEEEC2134FEC4"]
+			description: ["The heart of a &lTom's simple storage&r system &nOnly one per system!&r They will connect to all storage blocks touching any face (multiple storage blocks touching eachother I.e a line of chests will connect to a single side) or touching a face via cables and cable connectors."]
+			id: "7C28AB6934B791E4"
+			rewards: [
+				{
+					id: "66303B70B8102028"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 3
+					id: "644F7DA7B9FCE336"
+					item: "minecraft:chest"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "17B8ECB559072DF0"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["367624E1CBB31AE8"]
+			description: ["The basic storage terminal allows for access to the system and can be used to search and pul items out &lApplied energistics&r lite"]
+			id: "0A0DF5C1904E4614"
+			rewards: [
+				{
+					id: "145C7F465AFA8EDE"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 3
+					id: "78F9AEE2DCFB6DC8"
+					item: "minecraft:chest"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "687150AC6AB967C4"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0A0DF5C1904E4614"]
+			description: ["The crafting terminal works similarly to the storage terminal but comes with its own built in crafting terminal that can pull from the system for bulk crafting"]
+			id: "0A4D71F5FA9FB60C"
+			rewards: [
+				{
+					id: "6E38F6C495DE116B"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 3
+					id: "2C044D8E783BD3D0"
+					item: "minecraft:oak_trapdoor"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "59F950DDA7C84EB8"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0799403AC5F79FA2"]
+			description: ["The inventory trim is an alternative connection method for adding storage blocks to your system"]
+			id: "60A42676BA2E1704"
+			rewards: [
+				{
+					id: "77455A3684236EF4"
+					type: "xp"
+					xp: 201
+				}
+				{
+					count: 32
+					id: "009FC6FE2183BC15"
+					item: "minecraft:oak_planks"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "731BA5918830CFD4"
+				item: "toms_storage:ts.trim"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2180D213F2E38A58"]
+			description: ["The open crate drops items fed into it as item entities in conjunction witha a filter can be used for simple lava voiding"]
+			id: "22AAC9BDF61C81C8"
+			rewards: [
+				{
+					id: "0418D9D69385A749"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 3
+					id: "196D2D93904D7341"
+					item: "minecraft:oak_trapdoor"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "37C2D82BC928072E"
+				item: "toms_storage:ts.open_crate"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7C28AB6934B791E4"]
+			description: ["The basic cable for connecting your &lTom's simple storage system&r together &nWont work on storage terminals alone grab a connector"]
+			id: "367624E1CBB31AE8"
+			rewards: [
+				{
+					id: "0E8FA7AEFF7F8D71"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 3
+					id: "504C9DA3407D3BC7"
+					item: "minecraft:chest"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "73F7BCA0F781FBB5"
+				item: "toms_storage:ts.inventory_cable"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["367624E1CBB31AE8"]
+			description: ["Cable connectors are used to connect inventories and Storage terminals to the system &nThey place facing you "]
+			id: "26D28779035D50E1"
+			rewards: [
+				{
+					id: "55B2619C1FA315BB"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 3
+					id: "09D4F938B6C2C5B3"
+					item: "minecraft:chest"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "212AB5E10CA50468"
+				item: "toms_storage:ts.inventory_cable_connector"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["367624E1CBB31AE8"]
+			description: ["A framed cable will connect to other cables and blocks for the mod &nexcept the storage terminals .Grab a connector&r like the basic cable but with the option of changing its aesthetics."]
+			id: "0799403AC5F79FA2"
+			rewards: [
+				{
+					id: "64DD70278A443906"
+					type: "xp"
+					xp: 201
+				}
+				{
+					count: 32
+					id: "29EB80064A98AFAE"
+					item: "minecraft:oak_planks"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3C1D741A61BDA01D"
+				item: "toms_storage:ts.inventory_cable_framed"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["26D28779035D50E1"]
+			description: ["An advanced variant of the cable connector allowing filtering for items draw from and placed into the connected inventory"]
+			id: "2C0EB64B07AA9DE6"
+			rewards: [
+				{
+					id: "0469CD9371D6A4B8"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 3
+					id: "734384BCB42462E4"
+					item: "minecraft:chest"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6302B6E539A38644"
+				item: "toms_storage:ts.inventory_cable_connector_filtered"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["26D28779035D50E1"]
+			description: ["An advanced variant of the cable connector Capable of being painted to blend in."]
+			id: "246AB4B705C3FBAC"
+			rewards: [
+				{
+					id: "18E8DD64DF942A66"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 3
+					id: "2CCE795CA0B57012"
+					item: "minecraft:chest"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3C592A2441A07017"
+				item: "toms_storage:ts.inventory_cable_connector_framed"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0A4D71F5FA9FB60C"]
+			description: ["The basic hopper pulls items out of attached inventorys into the system"]
+			id: "2180D213F2E38A58"
+			rewards: [
+				{
+					id: "1A62ABEE7B3687F6"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 3
+					id: "49909B6B00F0B949"
+					item: "minecraft:oak_trapdoor"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0BDB9E6BB9DB4F6C"
+				item: "toms_storage:ts.inventory_hopper_basic"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["0A4D71F5FA9FB60C"]
+			description: ["Great for keeping a certain stock of items in chests. emits a redstone signal based on inventory contents"]
+			id: "5247265EE53334BF"
+			rewards: [
+				{
+					id: "34B9ED73CC847F5F"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 3
+					id: "33797F0A262EA332"
+					item: "minecraft:oak_trapdoor"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7DDAA9711C32A4AE"
+				item: "toms_storage:ts.level_emitter"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["0799403AC5F79FA2"]
+			description: ["Unlike framed blocks from other mods right clicking on this mods \"framed blocks\" wont change its appearance you'll need a paint kit for this purpose"]
+			id: "0C0730FAC8807214"
+			rewards: [
+				{
+					id: "555E004D73796FB3"
+					type: "xp"
+					xp: 201
+				}
+				{
+					count: 32
+					id: "1E078266B6D7AEA1"
+					item: "minecraft:oak_planks"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3148613021F4B89F"
+				item: {
+					Count: 1
+					id: "toms_storage:ts.paint_kit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0A4D71F5FA9FB60C"]
+			description: ["The wireless crafting terminal can be used to access the system provided you have line of sight to the inventory connector its range can be increased by building a beacon under it"]
+			id: "6B2864DDF93520BE"
+			rewards: [
+				{
+					id: "307B7D51C348730B"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 3
+					id: "2CE3B0CE8254EBAD"
+					item: "minecraft:oak_trapdoor"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "237AE2222D27CA31"
+				item: "toms_storage:ts.wireless_terminal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6B2864DDF93520BE"]
+			description: ["An advanced terminal will allow for cross dimensional acces provided there is a stage 4 beacon under the inventory connecter"]
+			id: "35967F0A2EBAA52A"
+			rewards: [
+				{
+					id: "2D10F922AB23835B"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 3
+					id: "674D76B83BA8DA67"
+					item: "minecraft:oak_trapdoor"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3C81116C363CA225"
+				item: "toms_storage:ts.adv_wireless_terminal"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5247265EE53334BF"]
+			id: "20D622AFCC78A3CA"
+			rewards: [
+				{
+					id: "006C809C18D3E59A"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 3
+					id: "418A52C0AF803A1B"
+					item: "minecraft:oak_trapdoor"
+					type: "item"
+				}
+			]
+			subtitle: "A versatile base filter allowing items to be filtered specifically by nbt if you so desire"
+			tasks: [{
+				id: "3DA42CB6BD17D666"
+				item: "toms_storage:ts.item_filter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["20D622AFCC78A3CA"]
+			id: "5B788AB98BFD2C4D"
+			rewards: [
+				{
+					id: "029B55AF6E8E8499"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 3
+					id: "465155504B542817"
+					item: "minecraft:oak_trapdoor"
+					type: "item"
+				}
+			]
+			subtitle: "This filter will only allow items in that already exist in th inventory"
+			tasks: [{
+				id: "2A445A280C1CC9D9"
+				item: "toms_storage:ts.polymorphic_item_filter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["20D622AFCC78A3CA"]
+			description: ["Filter items by there tag and keep all that wool in oe place"]
+			id: "7072F634052D238B"
+			rewards: [
+				{
+					id: "56ED978FECE32AE9"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 3
+					id: "66414BECC15937CF"
+					item: "minecraft:oak_trapdoor"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "410136308980D7DA"
+				item: "toms_storage:ts.tag_item_filter"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6AAF1F6BE3613ED1"]
+			description: ["The ender pouch is your handheld variant connecting to enderchests with the same code "]
+			id: "519FA3F9BEC3449C"
+			rewards: [{
+				count: 10
+				id: "172AF2796CDD7D56"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "535B4AD5E076EE73"
+				item: "enderstorage:ender_pouch"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6AAF1F6BE3613ED1"]
+			description: ["Enderchests work the same as there vanilla varients, although these can be configured by colour for mor utility"]
+			id: "3E1087B73C39F3F1"
+			rewards: [{
+				count: 10
+				id: "4F867C079B271EDB"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FCF46EE6519FD8D"
+				item: "enderstorage:ender_chest"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6AAF1F6BE3613ED1"]
+			description: ["The ender tank transfers fluids &o\"wirelessly\""]
+			id: "4E8493693782ADDF"
+			rewards: [{
+				count: 10
+				id: "547A347C5A99BCF3"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10C367FF50E4A058"
+				item: "enderstorage:ender_tank"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["64366FA04C40B191"]
+			description: ["Full drawers hold 32 stacks of an item per 1x1 16 stacks for a 1x2 and 8 stacks for a 2x2"]
+			id: "54CCAD1BC0FCD5F0"
+			rewards: [{
+				id: "0D2E028E3424C7B5"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "1FAF3E6FEC8FD5E9"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "storagedrawers:full_drawers"
+					}
+				}
+				type: "item"
+			}]
+			title: "Full drawers"
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64366FA04C40B191"]
+			description: ["Half size drawers at base size will store 16 stacks for a 1x1, 8 stacks for a 1x2 and 4 stacks for a 2x2 per item"]
+			id: "6E9F62DB1E17895C"
+			rewards: [{
+				id: "6943144D7ED5ED47"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "1BC286E84A60114A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "storagedrawers:half_drawers"
+					}
+				}
+				type: "item"
+			}]
+			title: "Half drawers"
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64366FA04C40B191"]
+			description: ["Trims are decoative blocks that can connect blocks within a &lStorage drawers&r system"]
+			id: "7B5A4E0A3F23C2C0"
+			rewards: [{
+				id: "3566847A16E12B2D"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "64C2FDE2E91AC596"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "storagedrawers:trim"
+					}
+				}
+				type: "item"
+			}]
+			title: "Drawer trims"
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6599E80978731735"]
+			description: ["Drawer controllers will search for blocks within 12 blocks and connect them as a single access point"]
+			id: "64366FA04C40B191"
+			rewards: [
+				{
+					id: "0CD84C36228FE9AB"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 10
+					id: "7CAF9E5CFF438751"
+					item: "minecraft:comparator"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "4B3D68D5E61F1F0D"
+				item: "storagedrawers:controller"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["64366FA04C40B191"]
+			description: ["Controller slaves connect to a controller and act as an extra acces point for pipes &nthey do &lNOT&r&nconnect to multiple controllers"]
+			id: "7933493EFD03DBED"
+			rewards: [{
+				id: "1A3FDC952F1FDF30"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "299D77061CFEE4E6"
+				item: "storagedrawers:controller_slave"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["64366FA04C40B191"]
+			description: ["Place framed drawers &l&nFrom storage drawers&r in this in order to change there aesthetics"]
+			id: "359A28936BAB2474"
+			rewards: [{
+				id: "33F75BF294DD109C"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "5D1350C5FF056DC4"
+				item: "storagedrawers:framing_table"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["64366FA04C40B191"]
+			description: ["The base template used to create all of the following templates"]
+			id: "2DCF96515C3FDFE9"
+			optional: true
+			rewards: [{
+				id: "67E663475D634207"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "06CCA8CCF38B10D4"
+				item: "storagedrawers:upgrade_template"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["64366FA04C40B191"]
+			description: ["Store all of your &lStorage drawers&r keys in one handy place"]
+			id: "4D286C66818A02DE"
+			optional: true
+			rewards: [{
+				id: "2B9FE8545EF515C7"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "47378C828F5BF443"
+				item: "storagedrawers:keyring"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["64366FA04C40B191"]
+			description: ["The drawer puller can be used to remove drawers so you can change locations without breaking th eblock"]
+			id: "6D63F52262D4EB1B"
+			rewards: [{
+				id: "10A4B85EF09459AD"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "0C336078907A2865"
+				item: "storagedrawers:drawer_puller"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4D286C66818A02DE"]
+			description: ["Used to toggle locks on individual drawers"]
+			id: "486BE899D1D8DC82"
+			optional: true
+			rewards: [{
+				id: "2E98FD5DADEF1844"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "5D28CC1B1BF34DAD"
+				item: "storagedrawers:drawer_key"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4D286C66818A02DE"]
+			description: ["Used to toggle quantity labels on individual drawers"]
+			id: "37522A087C23B56A"
+			optional: true
+			rewards: [{
+				id: "397CBB51C18DB9DC"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "466C787479CD14BC"
+				item: "storagedrawers:quantify_key"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4D286C66818A02DE"]
+			description: ["Used to toggle item labels on individual drawers"]
+			id: "36C2A88B6AF9FAEF"
+			optional: true
+			rewards: [{
+				id: "037D462FBF8C76EE"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "58977D0E9B0D15C8"
+				item: "storagedrawers:shroud_key"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4D286C66818A02DE"]
+			description: ["Used prevent others from accessing individual drawers"]
+			id: "434D8C2ED15A2CFA"
+			optional: true
+			rewards: [{
+				id: "0A405D054F97F188"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "6845D7B4C5C08DDF"
+				item: "storagedrawers:personal_key"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4D286C66818A02DE"]
+			description: ["Used to toggle input/output levels priority on individual drawers"]
+			id: "71A20F4C66B93F4D"
+			optional: true
+			rewards: [{
+				id: "20D6A3B7F8D73712"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "1F83FD80BF03BE66"
+				item: "storagedrawers:priority_key"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2DCF96515C3FDFE9"]
+			description: ["Increases the storage available in drawers 2x"]
+			id: "6D155A8DE4CF97E2"
+			optional: true
+			rewards: [
+				{
+					id: "1473DF7BF1AF8403"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 5
+					id: "1C830B761F40427C"
+					item: "storagedrawers:obsidian_storage_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "06FDA54380244382"
+				item: "storagedrawers:obsidian_storage_upgrade"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2DCF96515C3FDFE9"]
+			description: ["Increases the storage available in drawers 4x"]
+			id: "63AA123ED21A4F17"
+			optional: true
+			rewards: [
+				{
+					id: "4AC049F27F1C0B52"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 5
+					id: "695E5DDFAC7E86A1"
+					item: "storagedrawers:iron_storage_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1DD96A4C3A7F3CAF"
+				item: "storagedrawers:iron_storage_upgrade"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2DCF96515C3FDFE9"]
+			description: ["Increases the storage available in drawers 8x"]
+			id: "66C2217B7E5CF59A"
+			optional: true
+			rewards: [
+				{
+					id: "3EF09BA6DB5BFA36"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 5
+					id: "2B81D658BE537B9A"
+					item: "storagedrawers:gold_storage_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "436F15B7A3DCE44E"
+				item: "storagedrawers:gold_storage_upgrade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2DCF96515C3FDFE9"]
+			description: ["Increases the storage available in drawers 16x"]
+			id: "54394ABDDF2C2E1D"
+			optional: true
+			rewards: [
+				{
+					id: "0A80F2B999FC5F31"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 5
+					id: "08B29C4BD1B73652"
+					item: "storagedrawers:diamond_storage_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "79C11C7A1A3CB24C"
+				item: "storagedrawers:diamond_storage_upgrade"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2DCF96515C3FDFE9"]
+			description: ["Increases the storage available in drawers 32x"]
+			id: "38BA0F2F52B3B9DC"
+			optional: true
+			rewards: [
+				{
+					id: "7AB75D67C2DCCB82"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 5
+					id: "722C61FF4881A27C"
+					item: "storagedrawers:emerald_storage_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "198D305FDEC6E5DE"
+				item: "storagedrawers:emerald_storage_upgrade"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2DCF96515C3FDFE9"]
+			description: ["Makes the drawer hold only a single stack"]
+			id: "25F5B5C00E392D27"
+			optional: true
+			rewards: [
+				{
+					id: "7F6E0729311628A7"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 5
+					id: "16B028974C8D2EDF"
+					item: "storagedrawers:one_stack_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7190CF0B1D70A905"
+				item: "storagedrawers:one_stack_upgrade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2DCF96515C3FDFE9"]
+			description: ["Void excess items"]
+			id: "191046D66D4B9D54"
+			optional: true
+			rewards: [
+				{
+					id: "23B43F4D3340C9E4"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 5
+					id: "14B8261F27C71EF6"
+					item: "storagedrawers:void_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C5363E51AC15CA4"
+				item: "storagedrawers:void_upgrade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["2DCF96515C3FDFE9"]
+			description: ["Converts inputted items into the item in the drawer &nConverts types not crafting I.e turns Ice and fire silver to alltheores silver or viceversa"]
+			id: "470DD457EF6D82C8"
+			optional: true
+			rewards: [
+				{
+					id: "6C86F3D554E5D383"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 5
+					id: "2B7ACAFFD1FEA5A8"
+					item: "storagedrawers:conversion_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "416C146CF829D904"
+				item: "storagedrawers:conversion_upgrade"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2DCF96515C3FDFE9"]
+			description: ["Emits a redstone signal based on \"fullness\""]
+			id: "2ABAFC6DB0F7691B"
+			optional: true
+			rewards: [
+				{
+					id: "75B4D2C5F7D73BD0"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 5
+					id: "7CA1D502BC959306"
+					item: "storagedrawers:redstone_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "10EAD77D95755FE3"
+				item: "storagedrawers:redstone_upgrade"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2DCF96515C3FDFE9"]
+			description: ["Emits a redstone signal for the least full slot"]
+			id: "229A90AD1A322EC4"
+			optional: true
+			rewards: [
+				{
+					id: "5F7FEEDD8E6384A1"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 5
+					id: "2AFEB72DA17F155B"
+					item: "storagedrawers:min_redstone_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3FA695100E1258CE"
+				item: "storagedrawers:min_redstone_upgrade"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2DCF96515C3FDFE9"]
+			description: ["Emits a redstone signal for the most full slot"]
+			id: "76572D1821127A3B"
+			optional: true
+			rewards: [
+				{
+					id: "66683BE211FEDCE7"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 5
+					id: "0354A2FB66A0A2DB"
+					item: "storagedrawers:max_redstone_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "775CCC82DC7B9A0F"
+				item: "storagedrawers:max_redstone_upgrade"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2DCF96515C3FDFE9"]
+			description: ["Increses visability for lables in dark areas &nDoesnt function as a light source "]
+			id: "360F97F8B0493866"
+			optional: true
+			rewards: [
+				{
+					id: "461CE641AA5AF720"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 5
+					id: "334449E62C4A1DC2"
+					item: "storagedrawers:illumination_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7B0685B377F23B4E"
+				item: "storagedrawers:illumination_upgrade"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2DCF96515C3FDFE9"]
+			description: ["Adds a handy little bar that shows you how full the drawer is"]
+			id: "4AA6759EE094B1F7"
+			optional: true
+			rewards: [
+				{
+					id: "2191F37C23184070"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 5
+					id: "570939E5DA3165DA"
+					item: "storagedrawers:fill_level_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "56AAD06C337AC41F"
+				item: "storagedrawers:fill_level_upgrade"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2DCF96515C3FDFE9"]
+			description: ["Splits the sta.... Splits items evenly across drawer slots"]
+			id: "59A1290806AD9AF9"
+			optional: true
+			rewards: [
+				{
+					id: "3291260D57DD6B05"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 5
+					id: "5649BA353D32A5BD"
+					item: "storagedrawers:balance_fill_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "680A65E095F68089"
+				item: "storagedrawers:balance_fill_upgrade"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2DCF96515C3FDFE9"]
+			description: ["Connect a drawer to a controller it isn't touching"]
+			id: "56DACD43D32BBDB0"
+			optional: true
+			rewards: [
+				{
+					id: "0B110A34C146994E"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 5
+					id: "4CC69CB28535FC44"
+					item: "storagedrawers:remote_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "17F6DD69671C8FA7"
+				item: "storagedrawers:remote_upgrade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2DCF96515C3FDFE9"]
+			description: ["Connect your drawers to a controller they aren't touching"]
+			id: "7E1DB72CD3729B79"
+			optional: true
+			rewards: [
+				{
+					id: "7086DEEAA62D1B99"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "508F8D238DA21BC8"
+					item: "storagedrawers:remote_group_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "75220B298688C597"
+				item: "storagedrawers:remote_group_upgrade"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["4D286C66818A02DE"]
+			description: ["Placed on a controller/controller slave can be used to toggle the lock status of all connected drawers"]
+			id: "4389C28AB760173F"
+			rewards: [{
+				id: "2DD5F588E996F758"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "3E443211F0D59934"
+				item: "storagedrawers:keybutton_drawer"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4D286C66818A02DE"]
+			description: ["Placed on a controller/controller slave can be used to toggle the quantity lable of all connected drawers"]
+			id: "6A984F0B98CDF171"
+			rewards: [{
+				id: "378DBF0F70372725"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "4FB30D5B8791DF6C"
+				item: "storagedrawers:keybutton_quantify"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4D286C66818A02DE"]
+			description: ["Placed on a controller/controller slave can be used to toggle the item lable of all connected drawers"]
+			id: "003AC2FF039B1C1F"
+			rewards: [{
+				id: "527DA5476ACE9DB4"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "3FAAFA97AC29D5B0"
+				item: "storagedrawers:keybutton_concealment"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6D63F52262D4EB1B"]
+			description: ["A fresh drawer great for swapping around your item placements without leaving holes"]
+			id: "7047662D18651F2F"
+			rewards: [{
+				id: "173DA6A781AFD7F0"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "5BD6A1145B2E7922"
+				item: "storagedrawers:detached_drawer"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: ["The Pipez mod is perfect for when you haven't decided what system to use yet. It perfectly connects to any machines and can easely be upgraded!"]
+			id: "1D4EC33A2D6741C2"
+			rewards: [{
+				id: "0B399E54770E0790"
+				item: "pipez:wrench"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "73F09C14F1D5DE4F"
+					item: "pipez:item_pipe"
+					type: "item"
+				}
+				{
+					id: "138204821F908972"
+					item: "pipez:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "2DDF7101445F0D20"
+					item: "pipez:energy_pipe"
+					type: "item"
+				}
+				{
+					id: "3F94970B3B0A6D15"
+					item: "pipez:gas_pipe"
+					type: "item"
+				}
+				{
+					id: "29A52A1020A1EB82"
+					item: "pipez:universal_pipe"
+					type: "item"
+				}
+			]
+			title: "Pipez"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1D4EC33A2D6741C2"]
+			id: "5242C22E24378F0C"
+			rewards: [{
+				count: 16
+				id: "4AA2130119C4F306"
+				item: "pipez:universal_pipe"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C2BF87641926040"
+				item: "pipez:basic_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5242C22E24378F0C"]
+			id: "6524BB86843A55EC"
+			rewards: [{
+				id: "38D0AC0E6A74E5CD"
+				item: "pipez:basic_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B0A7ACF79670B45"
+				item: "pipez:improved_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6524BB86843A55EC"]
+			id: "5E759316EFB33AE6"
+			rewards: [{
+				id: "6D143A9AC07415C7"
+				item: "pipez:improved_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67317CD23801C336"
+				item: "pipez:advanced_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5E759316EFB33AE6"]
+			id: "73E1D872DE51A1F5"
+			rewards: [{
+				id: "1C70547EF9F49569"
+				item: "pipez:advanced_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F673347225BC611"
+				item: "pipez:ultimate_upgrade"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+	]
+	title: "Starter storage"
+}

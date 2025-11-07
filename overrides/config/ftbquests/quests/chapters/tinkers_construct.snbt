@@ -1,0 +1,1445 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tinkers_construct"
+	group: "2BE1A27F73200C54"
+	id: "0716E143A0DD71F5"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Tinkers' construct is back and better than ever."
+				""
+				"Most of the mod features are the customizability of weapons of armour"
+				"and the various modifiers that can be applied based on the used material,"
+				"or modifiers added at workstations meaning a full guide won't be available"
+				"in the quests, but the books featured above will give more detailed explanations."
+				""
+				"Note blocks like the parts chest, tinkers anvil, etc if placed together will work as a multiblock allowing the user to tab between the different blocks from the U.I."
+			]
+			id: "6C9C7613B9245595"
+			rewards: [{
+				id: "327EA25BC9587A56"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "334833E628A72A4B"
+				title: "welcome to tinkers"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24BE1804669E3796"]
+			description: ["The part builder is used to make basic low tier parts using blank wood patterns (amount of patterns used varies by part) can be used for any none molten material."]
+			id: "15A677EE19F3E8AB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "38B365E99B910EA5"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "7D5672004EEB0660"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "07AB4A862BD2F6C2"
+				item: "tconstruct:part_builder"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["24BE1804669E3796"]
+			description: ["The parts chest holds excess parts you've created, and most importantly it looks nice."]
+			id: "494522CC9D82DEDB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "34144EC53B263EC2"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "5F7691CBDB44F111"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "4E66E96C0C3A7294"
+				item: "tconstruct:part_chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["24BE1804669E3796"]
+			description: ["The tinkers chest holds parts,materials and patterns in stacks of 16, also it looks nice."]
+			id: "45EB4F0D9CB994CE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "35BFF1F06192DE4F"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "17E0F5ACA3861403"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "274CC7C790B3B669"
+				item: "tconstruct:tinkers_chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["24BE1804669E3796"]
+			description: ["The tinker station is used to combine parts together into functional equipment check your books for material information."]
+			id: "56F6725D455CDD1E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7A61A7066F831E2D"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "06D0C6036DA5BAD5"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "3A097598BF12D1DE"
+				item: {
+					Count: 1
+					id: "tconstruct:tinker_station"
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["428603DEC4742947"]
+			description: ["The upgraded version of the tinkers station capable of creating more equipment types amd applying more modifiers."]
+			id: "51A4DE5BBA8C9595"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "27537D9546D64F25"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "768D2ED0D59496A4"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "7EC6894D754D3CB1"
+					item: "minecraft:cookie"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3E56CD27AC21B317"
+				item: "tconstruct:tinkers_anvil"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["428603DEC4742947"]
+			description: ["Works similarly to the part chest but allows the user to store casts instead."]
+			id: "68E52F360000BABF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4CC1D4271CACADE8"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "4A3E135578CCFD1F"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "76942030A5E3912C"
+				item: "tconstruct:cast_chest"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4EB56B1FD7FDD761"]
+			description: [
+				"The smelter you'll be making for the quest can have a 3x3 base (seared bricks) and 2 layers comprised of the controller,fuel tank and drain, leaving a 3x3x2 internal area for melting."
+				""
+				"As long as there is an internal empty area seared bricks as the floor a controller and a tank the smelter will function but a greater internal size will hold more molten liquid."
+				""
+				"smelters have a max size of 16x16x64 (length,width,height) external and 14x14x64 internal"
+				""
+				"A large smelter can also be used for alloying."
+			]
+			id: "5DD4A68F66A56109"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "059E45F95751307C"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "735BAE766684B234"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					id: "0E5A75EFED6D84BE"
+					item: "tconstruct:seared_fuel_tank"
+					type: "item"
+				}
+				{
+					id: "5D9715C9AD3BFB40"
+					item: "tconstruct:smeltery_controller"
+					type: "item"
+				}
+				{
+					count: 38L
+					id: "7B317C6F3E44BED8"
+					item: "tconstruct:seared_bricks"
+					type: "item"
+				}
+				{
+					id: "32F0C621810794C5"
+					item: "tconstruct:seared_drain"
+					type: "item"
+				}
+				{
+					id: "3660F7BC9F47382C"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+			]
+			title: "bulk smelting"
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["79381C76C9D43037"]
+			description: [
+				"The first kind of smelter tinkers provides after your large smelters are made theyre great for scrapping unwanted equipment although they dont hold a large amount of fluid."
+				""
+				"A seared melter placed on top of a seared tank (filled with lava or blazing blood) or seared heater (solid fuel) can be used to melt items and faucets placed on the sides of the melter can be used to pour the contents into a casting table or basin."
+				""
+				""
+				""
+				"{@pagebreak}"
+				"Smelters provide a higher return of base resources when melting ores, for instance Raw or crushed iron will provide 1 ingot and 3 nuggets when melted and an iron ore block will provide 2 ingots and 6 nuggets but an iron block will only provide a block of iron."
+			]
+			id: "4EB56B1FD7FDD761"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "68E9EEC17A45234E"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "223BF9350F27DB9E"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Starter smelter"
+			tasks: [
+				{
+					id: "514AD7602A0AF11C"
+					item: "tconstruct:seared_melter"
+					type: "item"
+				}
+				{
+					id: "54E51389B007FC37"
+					item: "tconstruct:seared_heater"
+					type: "item"
+				}
+				{
+					id: "4533D7703FD7AF14"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					id: "1303A0ACCA33C931"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0856FAFFEE6443F1"]
+			description: [
+				"Grout is used as a binding between tiles to help sea.... wait no this is minecraft."
+				""
+				"Grout can be smelted to make seared bricks which are required to make smelters (they can be cast once you have a way of making and pouring molten metal for a greater return per material input)."
+			]
+			id: "79381C76C9D43037"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "621E47C321FA40A4"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "2B33D17ED6507218"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				count: 24L
+				id: "3D57676A57843829"
+				item: "tconstruct:grout"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["01E2646006BCAD52"]
+			description: [
+				"An alloying setup or smelter will be needed for alloys in a foundry setup to mix materials as foundries don't allow alloying. "
+				""
+				"for this secondary setup a  scorched alloyer will be placed on top of a tank filled with either lava or blazing blood and a tank either side to add the molten liquids you want to mix."
+			]
+			id: "4043663C8DF8E061"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2399F37EAE971DF6"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "588923DF054CFC57"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "755707518DD82B23"
+					item: "tconstruct:scorched_fuel_tank"
+					type: "item"
+				}
+				{
+					id: "1D29332C4FEEC97C"
+					item: "tconstruct:scorched_alloyer"
+					type: "item"
+				}
+			]
+			title: "Alloying"
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0856FAFFEE6443F1"]
+			description: [
+				"Nether grout is used as a binding between nether tiles to help sea.... wait no this is minecraft."
+				""
+				"Nether grout can be smelted to make scorched bricks which are required to make Foundries (they can be cast once you have a way of making and pouring molten metal for a greater return per material input)."
+			]
+			id: "01E2646006BCAD52"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6E395EE69A1FAC68"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "7D099E78FF43CAF6"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				count: 40L
+				id: "738879E609FD714D"
+				item: "tconstruct:nether_grout"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["64C4F46E4392AC76"]
+			description: ["By placing a blank sand cast in a casting table and using a made part on it you will make a single use pattern for casting."]
+			id: "1049D19251D31DB4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6A68BD3645943351"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "62645162706127FB"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "26F2F8608ABF5C83"
+				item: "tconstruct:blank_sand_cast"
+				type: "item"
+			}]
+			title: "Single use casts"
+			x: 0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4043663C8DF8E061"]
+			description: [
+				"Foundries are similar to smelteries in construction and use but different in key details."
+				"A foundry will hold more fluids than a smelter of the same size."
+				"Will not create alloys where applicable."
+				"has to be rectangular in shape."
+				"Must have corners and edges."
+				"Takes larger amounts of fuel at larger sizes."
+				"And finally can produce secondary metals when melting ores."
+				""
+				"The max size available for a foundry is the same as that of a smelter"
+				"although smaller foundries for the actual act of melting is better due to fuel costs."
+			]
+			id: "48426A2E526825BF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "71613AA76D74202E"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "2BCF98C2B56CDB0B"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					id: "2BAA3884BD139A5E"
+					item: "tconstruct:scorched_drain"
+					type: "item"
+				}
+				{
+					count: 62L
+					id: "5B7C74D2F1D1F564"
+					item: "tconstruct:scorched_bricks"
+					type: "item"
+				}
+				{
+					id: "6CE2539E36112D85"
+					item: "tconstruct:scorched_table"
+					type: "item"
+				}
+				{
+					id: "40BCA3B6A789A7D5"
+					item: "tconstruct:foundry_controller"
+					type: "item"
+				}
+				{
+					id: "4ABB55D03BA08E39"
+					item: "tconstruct:scorched_fuel_tank"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6C9C7613B9245595"]
+			description: ["Blank patterns will be used to create certain blocks aswell as low tier tool parts"]
+			id: "24BE1804669E3796"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2A849F29FAA7260E"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "0A4294BE4363447B"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "49E5754CB0F760E4"
+				item: "tconstruct:pattern"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64C4F46E4392AC76"]
+			description: ["By placing a part on an empty casting table and pouring molten gold onto it you'll create a multy use pattern for casting (the part will be destroyed in the process)."]
+			id: "428603DEC4742947"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "226C5729615669F4"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "136EB6F0AE19B816"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "4492D9F3AACAF40F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tconstruct:patterns/reusable"
+					}
+				}
+				type: "item"
+			}]
+			title: "Reusable casts"
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0856FAFFEE6443F1"]
+			description: ["This will be used in the pickaxe making process"]
+			id: "62C1E16489D63D09"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "62E325D162A91247"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "1020530358F71BEE"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "0B52F773BAC43237"
+				item: {
+					Count: 1
+					id: "tconstruct:pick_head"
+					tag: {
+						Material: "tconstruct:rock"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0856FAFFEE6443F1"]
+			description: ["This will be used in the pickaxe making process, Bindings do not need to be made out of smelted materials to be effective."]
+			id: "690F39830FFE2C3D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "03573F8C7A7BC042"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "0BB9FB6FA1CC73C9"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "132274D06CCF0701"
+				item: {
+					Count: 1
+					id: "tconstruct:tool_binding"
+					tag: {
+						Material: "tconstruct:rock"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0856FAFFEE6443F1"]
+			description: ["This will be used in the pickaxe making process, handles do not need to be made out of smelted materials to be effective."]
+			id: "7B3EA046B204FBF0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "68F60FA61983D677"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "7668CCEE75C244C7"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "44F6B8550E4B5259"
+				item: {
+					Count: 1
+					id: "tconstruct:tool_handle"
+					tag: {
+						Material: "tconstruct:rock"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"15A677EE19F3E8AB"
+				"45EB4F0D9CB994CE"
+				"494522CC9D82DEDB"
+				"56F6725D455CDD1E"
+			]
+			description: [
+				"Its time to learn about casting on your left you'll find the quests that lead to the classic tinkers' smeltery."
+				""
+				"On your right the instructions for foundries."
+				""
+				"Finally below are instructions for casting itself"
+				""
+				"lets start by making the necessary pieces for a pickaxe"
+			]
+			id: "0856FAFFEE6443F1"
+			rewards: [{
+				id: "31F7DE1BB6B51126"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "0D09EA6E3F25C73D"
+				title: "Master caster"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"62C1E16489D63D09"
+				"7B3EA046B204FBF0"
+				"690F39830FFE2C3D"
+			]
+			id: "64C4F46E4392AC76"
+			rewards: [{
+				id: "0F54182F3CA52725"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "74F34CBEBF7D277B"
+				title: "Casting patterns"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6C9C7613B9245595"]
+			description: ["&lMaterials and you&r is the first book you'll need to understand the basics of low level tools. (tier1)"]
+			id: "5CD9D77697FD50ED"
+			optional: true
+			rewards: [{
+				id: "0947290951F5A5F5"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "3A20303DB140DDB8"
+				item: "tconstruct:materials_and_you"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6C9C7613B9245595"]
+			description: ["&lPuny smelting&r will explain the basics of a small smelting setup. aswell as low tier materials (tier 2)"]
+			id: "711C09ADD3D65667"
+			optional: true
+			rewards: [{
+				id: "67DE9CE00EE19C71"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "0A71B5EDD29B59F6"
+				item: "tconstruct:puny_smelting"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6C9C7613B9245595"]
+			description: ["&lTinkers' gadgetry&r Teaches the player about certain speciality materials and where to find them."]
+			id: "3813426C4A3E860A"
+			optional: true
+			rewards: [{
+				id: "05C144C669147986"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "6915CF7D57AA2EB0"
+				item: "tconstruct:tinkers_gadgetry"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6C9C7613B9245595"]
+			description: ["&lFantastic foundry&r will tyeach the player about foundries an alternative to the classic smelter aswell as explaining high level materials (tier4)."]
+			id: "61007A1A096A20E9"
+			optional: true
+			rewards: [{
+				id: "0D99B946EB7BEBC5"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "7C44B882F80F5D7C"
+				item: "tconstruct:fantastic_foundry"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6C9C7613B9245595"]
+			description: ["&lMighty smelting&r will explain larger smelter setups and higher tier materials (tier 3)"]
+			id: "04696F2BCC015E15"
+			optional: true
+			rewards: [{
+				id: "35A5DEF8AC71A394"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "4FF8DA72B9CB3E6F"
+				item: "tconstruct:mighty_smelting"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6C9C7613B9245595"]
+			description: ["&lEncyclopedia of tinkering&r is a list of all available materials for tinkers' equipment."]
+			id: "3E03AADDBB50986D"
+			optional: true
+			rewards: [{
+				id: "575DEE8D03858264"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "3C38F9EE2D121D40"
+				item: "tconstruct:encyclopedia"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0F1B0E064D759C52"]
+			description: ["They grow the slimy grasses that spawn the slimy slimes."]
+			id: "29CF3CB8F6957A09"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "61EF2ACCA32397ED"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "1E816FB890D64499"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "0DF4F5664AA7CBEE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tconstruct:slimy_grass_seeds"
+					}
+				}
+				type: "item"
+			}]
+			title: "Slimy seeds"
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0F1B0E064D759C52"]
+			description: ["The grow the slimy trees that you find on the slimy grass that spawns the slimy slimes."]
+			id: "11E34D652A280AC3"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "37681142A235784A"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "5444D62A33FAEC87"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "3D62FCA85F75ED95"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tconstruct:slimy_saplings"
+					}
+				}
+				type: "item"
+			}]
+			title: "Slimy saplings"
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0F1B0E064D759C52"]
+			description: ["A overworld based slimy crystal it seems sturdy."]
+			id: "31F60024B20CF918"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7117871FFA66FD3C"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "7C87D8CFE1FC37EB"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "4EE6F0772B16A719"
+				item: "tconstruct:earth_slime_crystal"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0F1B0E064D759C52"]
+			description: ["Another overworld slime crystal this one seems lighter."]
+			id: "33C432B047B6CA09"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "01F33EFE435118BA"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "7604CAA90E5E8CE0"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "149130F990FE22FD"
+				item: "tconstruct:sky_slime_crystal"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0F1B0E064D759C52"]
+			description: ["A nether based slimy crystal its hot to the touch"]
+			id: "6A649BD237DFB097"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "27D47710ACEC2368"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "2529FFB3AF23A9A7"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "76B29705253E5E32"
+				item: "tconstruct:ichor_slime_crystal"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0F1B0E064D759C52"]
+			description: ["An end based slimy crystal the dimensions don't seem right."]
+			id: "13864C614507F590"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3DF4EE2A8E370201"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "4FCED7092347B963"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "7075DD2ABD1F021F"
+				item: "tconstruct:ender_slime_crystal"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6C9C7613B9245595"]
+			description: ["Tinkers adds its own special materials finding these are optional to the learning experience."]
+			id: "0F1B0E064D759C52"
+			rewards: [{
+				id: "5D478D4B73F64CA3"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "5AA4D533ED288AEC"
+				title: "unique materials"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F1B0E064D759C52"]
+			description: ["It's a lovely shade of blue you'll find it in the nether."]
+			id: "4AD53957A9F8912A"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3FE4003347D10A26"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "7910BA64A00C229D"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "2A0EC0E114FA93CF"
+				item: "tconstruct:cobalt_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0F1B0E064D759C52"]
+			description: ["A deep purple alloy of the nether"]
+			id: "23EE0E7FF231BF2A"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "108529F56521C33C"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "6ED22653F1E11703"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "32458C6A15044CF0"
+				item: "tconstruct:manyullyn_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0F1B0E064D759C52"]
+			description: ["That skyslime was to light anyway it works better as an alloy."]
+			id: "07998BE24D2AD0C1"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1FE9BBF0A8B0B945"
+				table_id: 8385796777540074439L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6F48138FFFED8EC5"
+				item: "tconstruct:slimesteel_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0F1B0E064D759C52"]
+			description: ["Nether slime ingots it feels like warm jelly."]
+			id: "61A5BF924AF97B7E"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6E75EB3C24536B82"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "7BAF03B1C2DF252D"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "2BDF77D2084D945B"
+				item: "tconstruct:cinderslime_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0F1B0E064D759C52"]
+			description: ["So regal so strong this doesnt seem like slime."]
+			id: "79238F5987EF9632"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6CEF736DD7971A2D"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "3FF806A7F54DCB65"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "5DD0B6C66F8784DE"
+				item: "tconstruct:queens_slime_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0F1B0E064D759C52"]
+			description: ["Did ... did this ingot just oink at me."]
+			id: "37AB0D5D06533B6E"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "728B8E184C3C8637"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "30C759A393A9E384"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "7F7020DC17A33C3E"
+				item: "tconstruct:pig_iron_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6C9C7613B9245595"]
+			description: ["&lArtificing for dummies&r Teaches players about tinkers' jewellery and the usable jewellery materials."]
+			id: "7F411B3CE9E33F19"
+			optional: true
+			rewards: [{
+				id: "77BF4AF36518612F"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "1C8942A1D446973E"
+				item: "tinkersjewelry:book"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6C9C7613B9245595"]
+			description: ["There are alot of different available modifiers in tinkers to many to add into quests here but you should check JEI."]
+			id: "6CB0701435AD0AE4"
+			rewards: [{
+				id: "18FCA462B31C2FDA"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "410E1C44B1AA0AE3"
+				title: "Modifiers"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E3845F474617EB1"]
+			description: ["Ducts can be added to allow the removal or addition of specific fluids with a bucket or can placed in the filter slot."]
+			id: "0089E05C41DB2CDA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3031AF8B89FDD47D"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "39A7BAD31293DDF6"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "4F3203E521F9FF71"
+				item: "tconstruct:seared_duct"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1E3845F474617EB1"]
+			description: ["Chutes can be used to input items into the smelter rather than having to use the controller or throw them in the top and output liquids using faucets."]
+			id: "5656087F699B559B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0555AECD199A46B1"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "4A5CBD30B5C65A5B"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "7553A64FF6A8DC46"
+				item: "tconstruct:seared_chute"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1E3845F474617EB1"]
+			description: ["Seared ladders can be used instead of bricks to easily scale the exterior of a smelter."]
+			id: "2B62B838DE3E3026"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "243336F23BC36EDE"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "514339595890FF71"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "68A4D0970B85B626"
+				item: "tconstruct:seared_ladder"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1E3845F474617EB1"]
+			description: ["Seared glass (not panes) can be used as an alternative to bricks when making the walls of a smelter allowing the player to see inside."]
+			id: "402AB7BE3083EDD0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "382F737D11BB4EF8"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "165372BD60EBEEBA"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				count: 10L
+				id: "76379A8BE7462A74"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "tconstruct:seared_soul_glass"
+							}
+							{
+								Count: 1b
+								id: "tconstruct:seared_tinted_glass"
+							}
+							{
+								Count: 1b
+								id: "tconstruct:seared_glass"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Smeltery glass"
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5DD4A68F66A56109"]
+			description: ["There are other valid blocks that can be used in a smelter they're listed here."]
+			id: "1E3845F474617EB1"
+			rewards: [{
+				id: "00A608D3E9E07497"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "441626B13F3916E3"
+				title: "Alternate blocks"
+				type: "checkmark"
+			}]
+			title: "Alternate Smelter blocks"
+			x: -3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["48426A2E526825BF"]
+			id: "4A414C37E729632B"
+			rewards: [{
+				id: "2C7FAC5A35784DCF"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "267AA020F954796C"
+				title: "Alternate Foundry blocks"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4A414C37E729632B"]
+			description: ["Ducts can be added to allow the removal or addition of specific fluids with a bucket or can placed in the filter slot."]
+			id: "20A7865D4B347A33"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "500A14E9C3F78FA8"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "119BC488C852051E"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "260DCDAFEBC6F855"
+				item: "tconstruct:scorched_duct"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4A414C37E729632B"]
+			description: ["Chutes can be used to input items into the smelter rather than having to use the controller or throw them in the top and output liquids using faucets."]
+			id: "4C422598496D5097"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6A9CF2CCFB74F419"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "2B79AA770DA802E7"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "602BF5BA0B657D30"
+				item: "tconstruct:scorched_chute"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4A414C37E729632B"]
+			description: ["Scorched ladders can be used instead of bricks to easily scale the exterior of a foundry."]
+			id: "39BABC54AA313880"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1AAF4DFED0DBF846"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "6A07E8837C8D04DC"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "340536DE8779E4E7"
+				item: "tconstruct:scorched_ladder"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4A414C37E729632B"]
+			description: ["Scorched glass (not panes) can be used as an alternative to bricks when making the walls of a foundry allowing the player to see inside."]
+			id: "7A98DF4A418ECA96"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "70C40F8ED5CDA69B"
+					table_id: 8385796777540074439L
+					type: "random"
+				}
+				{
+					id: "6234D3DB1BDCA278"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				count: 10L
+				id: "18FECF81D41EDB74"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "tconstruct:scorched_soul_glass"
+							}
+							{
+								Count: 1b
+								id: "tconstruct:scorched_tinted_glass"
+							}
+							{
+								Count: 1b
+								id: "tconstruct:scorched_glass"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Scorched Glass"
+			x: 4.0d
+			y: 10.0d
+		}
+	]
+	title: "Age 1: Tinkers Construct"
+}

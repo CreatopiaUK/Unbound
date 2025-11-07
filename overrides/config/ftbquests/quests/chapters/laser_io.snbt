@@ -1,0 +1,381 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "laser_io"
+	group: "3FEDCCADD53AC5E8"
+	id: "38A0C438833D1FE3"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Laser IO is a easily editable logistics mod that uses lasers and nodes to move resources using various cards."]
+			id: "29FB0E28F49428E7"
+			rewards: [{
+				id: "0C4BBF76CB156CA5"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "562BC075B4B27712"
+				title: "Light logistics"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63B8CB24755B904B"]
+			description: ["The main block of the mod used to house cards and set direction of transfer of resources wirelessly , its logistical uses are pretty much limited by your imagination."]
+			id: "684F41FC06414D33"
+			rewards: [{
+				id: "19802990467004B7"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "21F1E6CE85C0392E"
+				item: "laserio:laser_node"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["29FB0E28F49428E7"]
+			description: ["Smelt me do it do it now."]
+			id: "2E253C7F3F11F861"
+			rewards: [{
+				id: "1B1CB4B02397A6FB"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "60525AE769E049FE"
+				item: "laserio:logic_chip_raw"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2E253C7F3F11F861"]
+			description: ["Logic chips will be used in making most items in the mod."]
+			id: "1583C3702F61AB4B"
+			rewards: [
+				{
+					count: 5
+					id: "78B35027EC56C868"
+					item: "laserio:logic_chip"
+					type: "item"
+				}
+				{
+					id: "58CF2E1E3FB84F2A"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				count: 5L
+				id: "675CD42F05B0BC40"
+				item: { Count: 5, id: "laserio:logic_chip" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1583C3702F61AB4B"]
+			description: ["Used to connect multiple nodes/connectors together over short distances."]
+			id: "63B8CB24755B904B"
+			rewards: [{
+				id: "127B77832DA9E410"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "411C7235062E8EBF"
+				item: "laserio:laser_connector"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["63B8CB24755B904B"]
+			description: ["Can only be connected to 1 other connector but range is no longer an issue "]
+			id: "0C11F574237B5E69"
+			rewards: [{
+				id: "4E5D726150E716B8"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "3A1116083E53F065"
+				item: "laserio:laser_connector_advanced"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["29FB0E28F49428E7"]
+			description: ["Used to connect ,connectors and laser nodes together manually."]
+			id: "7C7A600923987C50"
+			rewards: [{
+				id: "67055734FD31C4BC"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "0968F160734F56FD"
+				item: "laserio:laser_wrench"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C7A600923987C50"]
+			description: ["Holds all of your cards that aren't in use nice and compact."]
+			id: "33BE1318DD940654"
+			rewards: [{
+				id: "70D063DE79BB00C6"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "36356A37AB7FB1F2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 15
+						}
+					}
+					id: "laserio:card_holder"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7C7A600923987C50"]
+			description: ["Copies settings from one card to another."]
+			id: "74F4112CA3339A5C"
+			rewards: [{
+				id: "63A37D3CF976AC10"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "5A5303BDFA57330C"
+				item: "laserio:card_cloner"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["29FB0E28F49428E7"]
+			description: ["Item cards hold filters and are responsible for the movement of items in the face it has been placed in."]
+			id: "3956630A1A7E8098"
+			rewards: [{
+				id: "06C6836A627D7E7A"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "51D117163B58CF4A"
+				item: "laserio:card_item"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["29FB0E28F49428E7"]
+			description: ["Fluid cards hold filters and are responsible for the movement of Fluids in the face it has been placed in."]
+			id: "268226C2B07182F9"
+			rewards: [{
+				id: "47C496A2F3643A21"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "7D28877D8FF8CD58"
+				item: "laserio:card_fluid"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["29FB0E28F49428E7"]
+			description: ["Energy cards hold filters and are responsible for the movement of energy in the face it has been placed in."]
+			id: "1031530C2597102A"
+			rewards: [{
+				id: "29C2B2CB96C8FF38"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "473F3BD1A9E8652F"
+				item: "laserio:card_energy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["29FB0E28F49428E7"]
+			description: ["Redstone cards hold filters and are responsible for the movement of Redstone signals in the face it has been placed in."]
+			id: "68475486B3D22245"
+			rewards: [{
+				id: "71E805A0386AF955"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "349492A2A7338217"
+				item: "laserio:card_redstone"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["29FB0E28F49428E7"]
+			description: [
+				"Does exactly what it says adds few filters but is used to make the more advanced filters."
+				""
+				"Filters must be placed within cards to be of use"
+			]
+			id: "2049CB88C616125F"
+			rewards: [
+				{
+					count: 5
+					id: "4424E84BDE222B64"
+					item: "laserio:filter_basic"
+					type: "item"
+				}
+				{
+					id: "75E0792459EEA567"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "3ACE97FE43796BFD"
+				item: "laserio:filter_basic"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2049CB88C616125F"]
+			description: ["Allows the card to count how many resources are being moved limiting the amounts of a resource input or pulled from storage."]
+			id: "392B3ED614FB18B3"
+			rewards: [{
+				id: "31F5A5DE9FD62B89"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "50EB01DFB79A1E1D"
+				item: "laserio:filter_count"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2049CB88C616125F"]
+			description: ["Allows filtering by item tags."]
+			id: "17FA7003CE9E61AD"
+			rewards: [{
+				id: "6B4D5891028F2A50"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "0379BF583FE9FCB4"
+				item: "laserio:filter_tag"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2049CB88C616125F"]
+			description: ["Allows options for filtering by mod."]
+			id: "0CB9E5991AB5AD1B"
+			rewards: [{
+				id: "23CB56737646652B"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "0113AFE38E4B1CFB"
+				item: "laserio:filter_mod"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2049CB88C616125F"]
+			description: ["Allows filtering by Nbt tags"]
+			id: "2B71558D0BD3A379"
+			rewards: [{
+				id: "77B9AE03D2413F18"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "2171D203842626E0"
+				item: "laserio:filter_nbt"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7C7A600923987C50"]
+			description: ["increases the speed of cards installed in a node."]
+			id: "74A4B8E3AAC8F314"
+			rewards: [{
+				id: "30CD2C552AB2FD73"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "1425ECB03CB02F2C"
+				item: "laserio:overclocker_card"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7C7A600923987C50"]
+			description: ["Allows a node to use multiple cards at once."]
+			id: "72CB734DB6541724"
+			rewards: [{
+				id: "418BAD9983C337F3"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "2C15481B66D932FE"
+				item: "laserio:overclocker_node"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+	]
+	title: "Laser IO"
+}

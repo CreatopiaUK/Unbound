@@ -1,0 +1,7528 @@
+{
+	autofocus_id: "57F74513B8EFCF4E"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "productive_bees"
+	group: "4FA6C94C55E25BA1"
+	id: "548186AEC75A28DD"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Have you ever had a spoon full of honey and thought there are no diamonds in this ew? well we can solve this issue "
+				"productive bees put many of the worlds buzzing residents to work for you!"
+				""
+				"{@pagebreak}"
+				"&l&nWARNING&r This will take a bit of breeding and take some time but will be worth it"
+			]
+			id: "57F74513B8EFCF4E"
+			size: 2.0d
+			subtitle: "An introduction to the magical world of bees"
+			tasks: [{
+				id: "06ACD387C6F4E4E9"
+				title: "Productive bee beginners"
+				type: "checkmark"
+			}]
+			title: "Honey i want more resources"
+			x: 0.0d
+			y: 24.5d
+		}
+		{
+			dependencies: ["6D45CE3644668EDC"]
+			description: ["Caught in the overworld or attracted to Dirt,Gravel or Sand nests using honey treats."]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_ashy_mining_bee"
+			id: "5B33A4293F7B5B01"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00CB9411FE233AA8"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "20986DD2F7A06817"
+				title: "Ashy mining bee"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["6D45CE3644668EDC"]
+			description: ["Caught in the overworld or attracted to Dirt,Gravel or Sand nests using honey treats."]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_chocolate_mining_bee"
+			id: "3045E96E0748D43B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03867E7E8E99A81F"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "58D5D85688442042"
+				title: "Chocolate mining bee"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6D45CE3644668EDC"]
+			description: ["Caught in the overworld or attracted to Birch, Oak, Dark oak, Jungle, Mangrove or Spruce nests using honey treats."]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_green_carpenter_bee"
+			id: "4A797FF55DA2CED3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77E95949F5833E83"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5372A9C0537D4D3C"
+				title: "Green carpenter bee"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6D45CE3644668EDC"]
+			description: ["Caught in the overworld or attracted to Birch, Oak, Dark oak or Spruce nests using honey treats."]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_yellow_black_carpenter_bee"
+			id: "14F3733556D27AE0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CA1DE71ED48D5E1"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "67CDFBD8D58804DC"
+				title: "Yellow carpenter bee"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6D45CE3644668EDC"]
+			description: ["Caught in the overworld or attracted to Dark oak, Cherry or Acacia nests using honey treats."]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_blue_banded_bee"
+			id: "3844694588C5EF09"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6825249CDB5278B7"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7D5A3372A23E84A5"
+				title: "Blue banded bee"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6D45CE3644668EDC"]
+			description: ["Caught in the overworld or attracted to Gravel or Stone nests using honey treats."]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_digger_bee"
+			id: "475F0373C56FB9DF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32D78BD5CCC03DF6"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2FEAA00F15851FEF"
+				title: "Digger bee"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6D45CE3644668EDC"]
+			description: ["Caught in the overworld or attracted to Dirt nests using honey treats."]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_leafcutter_bee"
+			id: "10E7E661322D839E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6809930AFDE51D67"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "45D2CD5D5F35AEEF"
+				title: "Leafcutter bee"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6D45CE3644668EDC"]
+			description: ["Caught in the overworld or attracted to Stone or Reed nests using honey treats."]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_mason_bee"
+			id: "51E61D81A82B5E5C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52A180FE50E6852D"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "51024195ED9DB506"
+				title: "Mason bee"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6D45CE3644668EDC"]
+			description: ["Neon cuckoo bees will only spawn in nests currently inhabited by a blue banded bee that have a viable flower around"]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_neon_cuckoo_bee"
+			id: "076AA282B0DD75CA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D4FE1B10699D977"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0A66829E6CA3D6C8"
+				title: "Neon cookoo bee"
+				type: "checkmark"
+			}]
+			title: "Neon Cuckoo bee"
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6D45CE3644668EDC"]
+			description: ["Nomad bees will only spawn in nests currently inhabited by a Ashy mining bee that have a viable flower around"]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_nomad_bee"
+			id: "068DC270E2A4BB13"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "073F4BE7A241BD07"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "420B2644FE29E13F"
+				title: "Nomad bee"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["6D45CE3644668EDC"]
+			description: ["Caught in the overworld or attracted to Reed nests using honey treats."]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_reed_bee"
+			id: "0578C4D05A07F4E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "159337ED5C7FDB5E"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4EF3972647370602"
+				title: "Reed bee"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6D45CE3644668EDC"]
+			description: ["Caught in the overworld or attracted to Spruce nests using honey treats."]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_resin_bee"
+			id: "3A896AE4149E8857"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "239CA28C9C3F4C65"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3F354A1C4FFF1F24"
+				title: "Resin bee"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6D45CE3644668EDC"]
+			description: ["Caught in the overworld or attracted to Snow nests using honey treats."]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_sweat_bee"
+			id: "5CFD58C528F85C16"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A3FAE59701FA93C"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "12AF8B92E14BAF20"
+				title: "Sweat bee"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6D45CE3644668EDC"]
+			description: ["Caught in the Nether or attracted to Quartz nests using Nether quartz."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:crystalline"
+					}
+				}
+			}
+			id: "1F41210621F9FB9B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0BBE0C815A37F3E9"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "52036AC2B2449E6E"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:crystalline"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Crystalline bee"
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6D45CE3644668EDC"]
+			description: [
+				"Caught in the end or attracted to obsidian nests using dragons breath"
+				""
+				"Creates draconic dust"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:draconic"
+					}
+				}
+			}
+			id: "77C712F487BC6BE3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "678672C6378294BD"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7ADD924CF7086663"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:draconic"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Draconic bees"
+			x: 0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6D45CE3644668EDC"]
+			description: [
+				"Caught in the end or attracted to end nests using popped chorus fruit &lWARNING MAY TELEPORT WITHOUT PRECAUTIONS"
+				""
+				"&rCreates ender pearls"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:ender"
+					}
+				}
+			}
+			id: "029EB9E873430C6E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65D9D8293F8B600B"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "313D387B7360A549"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:ender"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Ender bees"
+			x: 0.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6D45CE3644668EDC"]
+			description: [
+				"Caught in the Nether or attracted to Soul sand nests using Ghast tears."
+				""
+				"Ghostly little Ghast tear maker"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:ghostly"
+					}
+				}
+			}
+			id: "71A4A3A4A9FB1FAD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3FDE4C243B4712B6"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "41C9853CB45C65EE"
+				item: "productivebees:honeycomb_ghostly"
+				type: "item"
+			}]
+			title: "Ghostly bee"
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6D45CE3644668EDC"]
+			description: ["Caught in the nether or attracted to a glowstone hive with glowstone dust"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:glowing"
+					}
+				}
+			}
+			id: "146645F0EF72C7F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C042FB3C54F10EC"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2A98CD83CC0F4776"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:glowing"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Glowing bee"
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6D45CE3644668EDC"]
+			description: [
+				"Caught in the Nether or attracted to Nether brick nests using Magma cream."
+				""
+				"Burning little magma cream maker"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:magmatic"
+					}
+				}
+			}
+			id: "31371B43F1E5ED8B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "710B1C0BB1F380BC"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "571B428B1D8D44CE"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:magmatic"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6D45CE3644668EDC"]
+			description: ["Caught in the overworld or attracted to Slimy nests using honey treats."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:slimy"
+					}
+				}
+			}
+			id: "1E93D578ED98E5EF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60CF8105A040E819"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3E9328AC5BF25CFD"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:slimy"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Slimy bee"
+			x: -2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6D45CE3644668EDC"]
+			description: ["This unique bee lacks a nest spawn of its own , rather it has a chance to spawn when u destroy a mature cocoa pod"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:sugarbag"
+					}
+				}
+			}
+			id: "59AABC0FBB111E2E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DCF8E48C5B5E9C1"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "39B0C8D35504A373"
+				item: "productivebees:sugarbag_honeycomb"
+				type: "item"
+			}]
+			title: "Sugarbag bee"
+			x: -0.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"1F41210621F9FB9B"
+				"5B33A4293F7B5B01"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Crystalline + Ashy mining bee = Iron bee"
+				""
+				"Fuzzy little Iron maker"
+			]
+			hide_dependency_lines: true
+			id: "6C25812DC5527CCB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27E5904A2F8D4FD7"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "34D3AEC8516A2807"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:iron"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Iron bee"
+			x: 6.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"1F41210621F9FB9B"
+				"5B33A4293F7B5B01"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Crystalline + Ashy mining bee = Copper bee"
+				""
+				"Fuzzy little Copper maker"
+			]
+			hide_dependency_lines: true
+			id: "070F55107429556C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7266D4A075C7391F"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "394E51A8391A7431"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:copper"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Copper bee"
+			x: 5.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"1F41210621F9FB9B"
+				"5B33A4293F7B5B01"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Crystalline + Ashy mining bee = Tin bee"
+				""
+				"Fuzzy little Tin maker"
+			]
+			hide_dependency_lines: true
+			id: "5A6D745DE1CAC5BA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E0F11A43FD38073"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4C3BB6D3C420170C"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:tin"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Tin bee"
+			x: 7.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"1F41210621F9FB9B"
+				"5B33A4293F7B5B01"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Crystalline + Ashy mining bee = Aluminium bee"
+				""
+				"Fuzzy little Aluminium maker"
+			]
+			hide_dependency_lines: true
+			id: "4AFDA5C7E8DF6CE3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4021242E43CA95AF"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5CB8C3F2A7502C40"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:aluminum"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Aluminium bee"
+			x: 8.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"146645F0EF72C7F0"
+				"3045E96E0748D43B"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Glowing + Chocolate mining bee = Redstone bee"
+				""
+				"Fuzzy little Redstone maker"
+			]
+			hide_dependency_lines: true
+			id: "5A00E40666BEE8DB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D425ACD3A040B6D"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "759C7625E9502C2B"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:redstone"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Redstone bee"
+			x: 4.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"3045E96E0748D43B"
+				"475F0373C56FB9DF"
+				"72AE1B783A5A52A6"
+			]
+			description: [
+				"The loving child of a Chocolate mining and a digger bee"
+				""
+				"This lil fuzzball will harvest near by stone type blocks bringing usefulll fragments back to its hive"
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_quarry_bee"
+			id: "353ABE158B45908A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F7EEB885F00FE16"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2D9639058DE38E43"
+				title: "Quarry bee"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"475F0373C56FB9DF"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Feed a Digger bee a Sculk block"
+				""
+				"Fuzzy little sculk maker"
+			]
+			hide_dependency_lines: true
+			id: "2834BC71565533B0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60F90E6798D556B7"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "78DE215FEF527F5D"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:sculk"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Sculk bee"
+			x: 5.0d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"3844694588C5EF09"
+				"5A00E40666BEE8DB"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Blue banded + Redstone bee = Lapis bee"
+				""
+				"Fuzzy little Lapis maker"
+			]
+			hide_dependency_lines: true
+			id: "62BBAE2E3099881B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F7C91D0F973A667"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "19B79BDCDE308927"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:lapis"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Lapis bee"
+			x: 6.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"6C25812DC5527CCB"
+				"3844694588C5EF09"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Iron + Blue banded bee = Lead bee"
+				""
+				"Fuzzy little Lead maker"
+			]
+			hide_dependency_lines: true
+			id: "31BC28D31BB3C436"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70DD453367CEC062"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1ED2FFD8F8D68B55"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:lead"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Lead bee"
+			x: 5.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"4A797FF55DA2CED3"
+				"14F3733556D27AE0"
+				"72AE1B783A5A52A6"
+			]
+			description: [
+				"The loving child of a Green and a yellow carpenter bee"
+				""
+				"This lil fuzzball will harvest near by log blocks bringing usefulll fragments back to its hive"
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_lumber_bee"
+			id: "540242E834351469"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "589A80E67D3B7036"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "28B52915FF4D68E2"
+				title: "lumber bee"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"10E7E661322D839E"
+				"31371B43F1E5ED8B"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Magmatic + Leafcutter bee = Coal bee"
+				""
+				"Fuzzy little Coal maker"
+			]
+			hide_dependency_lines: true
+			id: "40F26D020C670D87"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A6F9304C265F927"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "33937662BF624EB7"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:coal"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Coal bee"
+			x: 7.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"31371B43F1E5ED8B"
+				"5CFD58C528F85C16"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Magmatic + Sweat bee = Obsidian bee"
+				""
+				"Fuzzy little Obsidian maker"
+			]
+			hide_dependency_lines: true
+			id: "374110D0161C9840"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0BE39CFFD5423045"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "28A63386F52973C9"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:obsidian"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"31371B43F1E5ED8B"
+				"068DC270E2A4BB13"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Magmatic + Nomad bee = Blazing bee"
+				""
+				"Fuzzy little Blaze powder maker"
+			]
+			hide_dependency_lines: true
+			id: "44335374E2997178"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D82FB1DDB8E05F3"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "75E6E1968A5C99D7"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:blazing"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Blazing bee"
+			x: 3.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"40F26D020C670D87"
+				"31371B43F1E5ED8B"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Magmatic + Coal bee = Sulfur bee"
+				""
+				"Fuzzy little Sulfur maker"
+			]
+			hide_dependency_lines: true
+			id: "092F235A1B7CED62"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DCE5397919DD8B6"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3EEACDD0497D4352"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:sulfur"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Sulfur Bee"
+			x: 8.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"5CFD58C528F85C16"
+				"5A00E40666BEE8DB"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Redstone + Sweat bee = Cinnabar bee"
+				""
+				"Fuzzy little Cinnabar maker"
+			]
+			hide_dependency_lines: true
+			id: "497323B473328B63"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "168B31DD2801E96F"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "33F175EFE2E3DCC1"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:cinnabar"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Cinnabar bee"
+			x: 9.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"6C25812DC5527CCB"
+				"5CFD58C528F85C16"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Iron + Sweat bee = Zinc bee"
+				""
+				"Fuzzy little Zinc maker"
+			]
+			hide_dependency_lines: true
+			id: "591E4F2327B4A35C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "109F0EB70DA0AFDF"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "016E4F98341A4785"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:zinc"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Zinc bee"
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"6C25812DC5527CCB"
+				"5CFD58C528F85C16"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Iron + Sweat bee = Nickel bee"
+				""
+				"Fuzzy little Nickel maker"
+			]
+			hide_dependency_lines: true
+			id: "1848648B1E0EC5E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "168F0F8592C22033"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0075D5C22E824702"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:nickel"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Nickel bee"
+			x: 8.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"5CFD58C528F85C16"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Feed a Sweat bee a block of snow or ice"
+				""
+				"Fuzzy little Ice machine"
+			]
+			hide_dependency_lines: true
+			id: "1670B822004B891D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DC8E9CB02842DEA"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7F3634FDFD1BA90B"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:frosty"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Frosty bee"
+			x: 9.0d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"3A896AE4149E8857"
+				"540242E834351469"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Lumber + Resin bee = Plastic bee"
+				""
+				"Fuzzy little Plastic maker"
+			]
+			hide_dependency_lines: true
+			id: "092B03023EB51ECC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CF769625F61E218"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "24452AD575BBF325"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:plastic"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Plastic bee"
+			x: 7.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"3A896AE4149E8857"
+				"0578C4D05A07F4E7"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Reed + Resin bee = Silky bee"
+				""
+				"Fuzzy little Silky maker"
+			]
+			hide_dependency_lines: true
+			id: "20A870B7783E5C4D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5170ADAFA8AB7ECE"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2AF10C6E368B348C"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:silky"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Silky bee"
+			x: 4.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"0578C4D05A07F4E7"
+				"068DC270E2A4BB13"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Nomad + Reed bee = Silicon bee"
+				""
+				"Fuzzy little Silicon maker"
+			]
+			hide_dependency_lines: true
+			id: "497E29D3ABD369FA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56A5983E23FF2BB9"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1EA1DD4B56CD9FEA"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:silicon"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Silicon bee"
+			x: 4.0d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"6C25812DC5527CCB"
+				"51E61D81A82B5E5C"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Iron + Mason bee = Silver bee"
+				""
+				"Fuzzy little Silver maker"
+			]
+			hide_dependency_lines: true
+			id: "4E11DCD64BB77532"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BE2DD8F8476E19F"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "61F484953475C198"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:silver"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Silver bee"
+			x: 7.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"51E61D81A82B5E5C"
+				"1F41210621F9FB9B"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Crystalline + Mason bee = Gold bee"
+				""
+				"Fuzzy little Gold maker"
+			]
+			hide_dependency_lines: true
+			id: "25C6E7E26D6BA815"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3386517C4F4B16FB"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6315F61635244530"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:gold"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Gold bee"
+			x: 6.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"59AABC0FBB111E2E"
+				"076AA282B0DD75CA"
+				"72AE1B783A5A52A6"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:pepto_bismol"
+					}
+				}
+			}
+			id: "4B7946351F0BD4DD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77F0293CF59BDE0D"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2794192D6645BC9F"
+				title: "Pepto bee"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"076AA282B0DD75CA"
+				"1F41210621F9FB9B"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Crystalline + Neon cuckoo bee = Menril bee"
+				""
+				"Fuzzy little Menril maker"
+			]
+			hide_dependency_lines: true
+			id: "5870A130AC93685E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36A5BEEF4516FC22"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "05C8A5366F3B42F4"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:menril"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Menril bee"
+			x: 8.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"076AA282B0DD75CA"
+				"1F41210621F9FB9B"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Crystalline + Neon cuckoo bee = Iridium bee"
+				""
+				"Fuzzy little Iridium maker"
+			]
+			hide_dependency_lines: true
+			id: "50C24EE91DBD4CD0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3857F0F6C1481F83"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2F638EE23C7CA8A8"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:iridium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Iridium bee"
+			x: 10.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"6C25812DC5527CCB"
+				"076AA282B0DD75CA"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Neon cuckoo + Iron bee = Osmium bee"
+				""
+				"Fuzzy little Osmium maker"
+			]
+			hide_dependency_lines: true
+			id: "76F7E7976045AD86"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A4C168FC7FF4A63"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7CE068C8DCE13733"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:osmium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Osmium bee"
+			x: 5.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"76F7E7976045AD86"
+				"146645F0EF72C7F0"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Glowing + Osmium bee = Refined Glowstone bee"
+				""
+				"Fuzzy little Refined Glowstone maker"
+			]
+			hide_dependency_lines: true
+			id: "0F94065E410D7E9C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F29920BD50D958B"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "09C7D55BF790095E"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:refined_glowstone"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Refined Glowstone bee"
+			x: 11.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"540242E834351469"
+				"5CFD58C528F85C16"
+			]
+			description: [
+				"Lumber + Sweat bee = Rancher bee"
+				""
+				"Fuzzy little Milk maker"
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_rancher_bee"
+			id: "7C2E630913A1ABE7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EF29BB251054189"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "74DA855108FC5290"
+				item: "productivebees:honeycomb_milky"
+				type: "item"
+			}]
+			title: "Rancher bee"
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["6D45CE3644668EDC"]
+			description: [
+				"Feed a regular minecraft bee a block of TNT"
+				""
+				"Fuzzy little gunpowder maker"
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_creeper_bee"
+			id: "0076E6BC4FF953BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5599FF29E01EB70E"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "540DFEC4C6CDAF63"
+				item: "productivebees:honeycomb_powdery"
+				type: "item"
+			}]
+			title: "Cree bee"
+			x: 1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6620AD266AD97557"]
+			description: [
+				"Feed a Diamond bee a block of Dark gem"
+				""
+				"Hardened little Dark gem maker"
+			]
+			hide_dependency_lines: true
+			id: "69E01FB6B25E7950"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69FE3862AED5950D"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4DD44A3E16CD49D5"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:dark_gem"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Dark gem bee"
+			x: 22.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["63F173B1E9223490"]
+			description: [
+				"Surround a Nomad bee egg with blood orbs to create this bee. This got gorey quickly."
+				""
+				"The fuzzy friend created from this will make creating Evilcraft blood easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:bloody"
+					}
+				}
+			}
+			id: "0CB9563E00814057"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E758116818B8F12"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "76E87440067E1156"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:bloody"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Bloody bee"
+			x: -12.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"5A00E40666BEE8DB"
+				"63F173B1E9223490"
+			]
+			description: [
+				"A Redstone bee egg combined with Destabilized redstone creates this egg"
+				""
+				"The fuzzy friend created from this will make creating Destabilized Redstone easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:destabilized_redstone"
+					}
+				}
+			}
+			id: "0E48934DB3DF5812"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2260EA7E701A5BBF"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "60DD4BA014454E6B"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:destabilized_redstone"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Destabilized Redstone bee"
+			x: -12.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["64A76CA478324B6C"]
+			description: [
+				"One infusion altar ,4 blocks of Insanium ,4 Insanium essence will make your Supremium bee egg stronger"
+				""
+				"The fuzzy friend created from this will make creating Insanium easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:insanium"
+					}
+				}
+			}
+			id: "3584D8BFB9758398"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A320A897FA5A520"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7A15D5D9B638C6C7"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:insanium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Insanium bee"
+			x: -8.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["0DA5EFCFE1971BE8"]
+			description: [
+				"Reforging a Regenerative bee egg in a Hellfire forge with intricate hellfire components seems like it would kill any living thing."
+				""
+				"The fuzzy friend created from this will make creating Hellfire components easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:hellfire"
+					}
+				}
+			}
+			id: "2EE3E49A9CD49B02"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4729D4549F400716"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2EB8F203B671AF39"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:hellfire"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Hellfire bee"
+			x: -11.0d
+			y: 17.0d
+		}
+		{
+			dependencies: [
+				"62BBAE2E3099881B"
+				"3EF701880622C92A"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Lapis + Emerald bee = Experience bee"
+				""
+				"Fuzzy little Experience Generator"
+			]
+			hide_dependency_lines: true
+			id: "75C17C6369CF2903"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57A84C0D99BB4503"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "17BAC25CD2C3FAA4"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:experience"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Experience bee"
+			x: 4.5d
+			y: 18.5d
+		}
+		{
+			dependencies: [
+				"6620AD266AD97557"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Feed a Diamond bee a block of Amethyst"
+				""
+				"Hardened little amethyst maker"
+			]
+			hide_dependency_lines: true
+			id: "27C019AC653531AB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D6DEB089A79A667"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0557A94B5B9B8949"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:amethyst"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Amethyst bee"
+			x: 9.0d
+			y: 19.5d
+		}
+		{
+			dependencies: [
+				"4CD4714A57E6802E"
+				"63F173B1E9223490"
+			]
+			description: [
+				"Feed a Blutonium bee some Magentite to make it even more radioactive and even more purple."
+				""
+				"The fuzzy friend created from this will make creating Magentite easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:magentite"
+					}
+				}
+			}
+			id: "49AAAE516E838BF0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C400535397D72B8"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0DA34D85EB07E26B"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:magentite"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Magentite bee"
+			x: -10.5d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"63F173B1E9223490"
+				"27C019AC653531AB"
+			]
+			description: [
+				"Using an Enchanting apperatus, an Amethyst bee spawn egg and some source gems something magical happens"
+				""
+				"This fuzzy friend created from this will make creating source gems easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:arcane"
+					}
+				}
+			}
+			id: "32ECE867AA6D59EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F333B5A7C6148FD"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "69D56AFA5E1A505B"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:arcane"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Arcane bee"
+			x: -12.5d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"6D45CE3644668EDC"
+				"72AE1B783A5A52A6"
+			]
+			description: [
+				"Fishing in deep oceans can spawn this bee."
+				""
+				"Wet little prismarine maker"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:prismarine"
+					}
+				}
+			}
+			id: "42C642902228BD83"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1981630965C7AFA2"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4FB824A91BB8B720"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:prismarine"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Prismarine bee"
+			x: -6.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"63F173B1E9223490"
+				"2F4F16C2CB36F471"
+			]
+			description: [
+				"Throw an Manasteel bee egg onto a Terrestrial agglomeration . overworld magic bee time"
+				""
+				"The fuzzy friend created from this will make creating Terrasteel easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:terrasteel"
+					}
+				}
+			}
+			id: "10D7B4F1B1794053"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20BE32692D3EEE26"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "155B803F4144EFB5"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:terrasteel"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Terrasteel bee"
+			x: -7.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"2953A60768AF0532"
+				"71F563C425637629"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Withered bee + Ancient bee = Allthemodium bee"
+				""
+				"Hardened little Allthemodium maker"
+			]
+			hide_dependency_lines: true
+			id: "0C2C58CF34AD63E3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C7197A1965EC102"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "21BBBF6BBBA50321"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:allthemodium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Allthemodium bee"
+			x: 3.5d
+			y: 18.5d
+		}
+		{
+			dependencies: [
+				"4CD4714A57E6802E"
+				"49AAAE516E838BF0"
+				"63F173B1E9223490"
+			]
+			description: [
+				"Using a ludicrite bee to expose a Magentite bee egg to further radiation will create something more radioactive and pinker?"
+				""
+				"The fuzzy friend created from this will make creating Ridiculite easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:ridiculite"
+					}
+				}
+			}
+			id: "4C3465ECC291859C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7216E9CF764F57BF"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "684AD0970A64C269"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:ridiculite"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Ridiculite bee"
+			x: -11.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"75C17C6369CF2903"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Feed an Experience bee a bottle o' hyper enchanting"
+				""
+				"Fuzzy little Hyper experience Generator"
+			]
+			hide_dependency_lines: true
+			id: "64FEB32598239890"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4002EB9F424E0955"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "28C7C9B35F6DA937"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:hyper_experience"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Hyper experience bee"
+			x: 6.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["5A4CAB653868FAE3"]
+			description: [
+				"One infusion altar ,4 blocks of Imperium ,4 Imperium essence will make your Tertium bee egg stronger."
+				""
+				"The fuzzy friend created from this will make creating Imperium easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:imperium"
+					}
+				}
+			}
+			id: "738CCDD186945D37"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B3AC6D4298696FE"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2D3C258B634D1928"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:imperium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Imperium bee"
+			x: -7.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"6620AD266AD97557"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Feed a Diamond bee a block of Onyx"
+				""
+				"Hardened little Onyx maker"
+			]
+			hide_dependency_lines: true
+			id: "6F23C7C9305FFB72"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "075D6DAC764E7A2E"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "64F19F3918861617"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:onyx"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Onyx bee"
+			x: 9.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["63F173B1E9223490"]
+			description: [
+				"Placing a draconic egg in a Ice dragon forge and having a large dangerous lizard breathe its death breath on it ... oh wait its fine you also need the blood of the ice dragons too good atleast its not just the bees getting bullied."
+				""
+				"The fuzzy friend created from this will make creating Ice dragonsteel easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:ice_dragonsteel"
+					}
+				}
+			}
+			id: "3310C31C7D814C1A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "318F2EB33378436A"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7577AC7F1717CDB4"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:ice_dragonsteel"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Ice dragonsteel bee"
+			x: -12.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"44335374E2997178"
+				"63F173B1E9223490"
+			]
+			description: [
+				"Surround a Blazing bee egg with Basalz powder"
+				""
+				"Fuzzy little Basalz maker"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:basalz"
+					}
+				}
+			}
+			id: "760D9364E1D429D3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57448586FD2598A4"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "26738D4D6B1AD236"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:basalz"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Bazbee"
+			x: -6.5d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"71A4A3A4A9FB1FAD"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Feed a Ghostly bee a bucket of soul lava"
+				""
+				"Molten hot soul lava maker"
+			]
+			hide_dependency_lines: true
+			id: "3169D83AA09D4267"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0500398812AA6B48"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1AC7C78DBF273FD5"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:soul_lava"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Soul lava bee"
+			x: 3.5d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"5A00E40666BEE8DB"
+				"497E29D3ABD369FA"
+				"63F173B1E9223490"
+			]
+			description: [
+				"Placing Redstone and Silicon bee spawn eggs in an alloy smelter... seriously who discovers these methods what were they trying to do."
+				""
+				"The fuzzy friend created from this will make creating Redstone alloy easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:redstone_alloy"
+					}
+				}
+			}
+			id: "2BC3B43CB208CA7F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48B51265AC89DC43"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "415A143EF085A43A"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:redstone_alloy"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Redstone alloy bee"
+			x: -12.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["64A76CA478324B6C"]
+			description: [
+				"One Awakening altar ,4 blocks of Awakened supremium ,20 Earth, Water, Fire and air long ago the four nations lived together in harmon.... sorry got side tracked. These will make your Supremium bee egg stronger in a different way."
+				""
+				"The fuzzy friend created from this will make creating Awakened supremium easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:awakened_supremium"
+					}
+				}
+			}
+			id: "06CB5FC9D56698BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44C5E412379CAC37"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2EB94ECCA482414D"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:awakened_supremium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Awakened supremium bee"
+			x: -9.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["63F173B1E9223490"]
+			description: [
+				"Placing a draconic egg in a Fire dragon forge and having a large dangerous lizard breathe its death breath on it ... oh wait its fine you also need the blood of the Fire dragons too good atleast its not just the bees getting bullied."
+				""
+				"The fuzzy friend created from this will make creating Fire dragonsteel easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:fire_dragonsteel"
+					}
+				}
+			}
+			id: "78639723753D3E23"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "579431B598FB5665"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "242C380281190E69"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:fire_dragonsteel"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Fire dragonsteel bee"
+			x: -12.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"029EB9E873430C6E"
+				"62BBAE2E3099881B"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Lapis + Ender bee = Diamond bee"
+				""
+				"Hardened little Diamond maker"
+			]
+			hide_dependency_lines: true
+			id: "6620AD266AD97557"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26190A3FB9CCFD8B"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5DC856304B3974EC"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:diamond"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Diamond bee"
+			x: 2.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["40F26D020C670D87"]
+			description: [
+				"Crushing 8 Coal bee eggs in a ... Industrial ... squeezer ,these crafting recipes are awefully inhumane."
+				""
+				"This fuzzy friend created from this will make creating HOP graphite easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:hop_graphite"
+					}
+				}
+			}
+			id: "4124408F032F6460"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44B564649317F535"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3EBF944E703F9608"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:hop_graphite"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "HOP graphite bee"
+			x: -13.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["4D8287F997B51A31"]
+			description: [
+				"In a Draconic+ Tier Fusion crafter a draconium bee spawn egg gains power"
+				""
+				"The fuzzy friend created by this operation will make aquiring awakened draconium easier."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:awakened"
+					}
+				}
+			}
+			id: "225E21476C86D8B1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "734440F2AFA88A84"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "26D3C305138F493C"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:awakened"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Awakened bee"
+			x: -10.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"6620AD266AD97557"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Feed a Diamond bee a block of Fluorite"
+				""
+				"Hardened little Fluorite maker"
+			]
+			hide_dependency_lines: true
+			id: "1C460438A90DD668"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F0691530BF4DD33"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5E153C0CFB7E14A2"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:fluorite"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Fluorite bee"
+			x: 8.5d
+			y: 18.5d
+		}
+		{
+			dependencies: [
+				"029EB9E873430C6E"
+				"63F173B1E9223490"
+			]
+			description: [
+				"A Ender bee egg combined with Resonant ender creates this egg"
+				""
+				"The fuzzy friend created from this will make creating Resonant ender easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:resonant_ender"
+					}
+				}
+			}
+			id: "69F2FF502B1D4BA2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B5626BE77333CEC"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "694B883E7DC812A0"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:resonant_ender"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Resonant ender bee"
+			x: -11.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"6620AD266AD97557"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Feed a Diamond bee a block of ruby"
+				""
+				"Hardened little Ruby maker"
+			]
+			hide_dependency_lines: true
+			id: "12E79617D0387D19"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D8ACF789B193B05"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "425175A1C7E0CC41"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:ruby"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "RuBee"
+			x: 8.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["146645F0EF72C7F0"]
+			description: [
+				"A Glowing bee egg combined with Energized glowstone creates this egg"
+				""
+				"The fuzzy friend created from this will make creating energized glowstone easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:energized_glowstone"
+					}
+				}
+			}
+			id: "0FC646A01DF7A347"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F04D705ABA579C2"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "384B36A6B6760E76"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:energized_glowstone"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Energized glowstone bee"
+			x: -12.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6D45CE3644668EDC"]
+			description: [
+				"Caught in the Warped forests of the nether or feed any other shroom bee a warped fungus"
+				""
+				"Fuzzy little warped fungus maker"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:warped"
+					}
+				}
+			}
+			id: "21D3B7C4A4652D27"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "639993C9FA74B4B4"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3300EE0468E5743C"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:warped"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6D45CE3644668EDC"]
+			description: [
+				"Caught in the Mushroom fields of the overworld or feed any other shroom bee a Brown mushroom"
+				""
+				"Fuzzy little Brown mushroom maker"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:brown_shroom"
+					}
+				}
+			}
+			id: "6EFC37CB776CF9E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78D42CA28F34631F"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "341FA2DE92E1C7B0"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:brown_shroom"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Brown shroombee"
+			x: -2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"71F563C425637629"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Feed a Ancient bee a block of Arcane Debris"
+				""
+				"Hardened little Arcane Debris maker"
+			]
+			hide_dependency_lines: true
+			id: "23C47CF975A2B42C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0144FF3D8E663ADD"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "31ED1DCAB9A2C7C0"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:arcane_debris"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Arcane Debris bee"
+			x: 4.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["611777A62C57CA65"]
+			description: [
+				"One infusion altar ,4 blocks of Prudentium ,4 Prudentium essence will make your inferium bee egg stronger."
+				""
+				"The fuzzy friend created from this will make creating Prudentium easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:prudentium"
+					}
+				}
+			}
+			id: "7945942B6097E838"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18B997A5969E5EBF"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7C3DC4EA8FE32B1B"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:prudentium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Prudentium bee"
+			x: -8.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"25C6E7E26D6BA815"
+				"029EB9E873430C6E"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Gold + Ender bee = Platinum bee"
+				""
+				"Fuzzy little Platinum maker"
+			]
+			hide_dependency_lines: true
+			id: "5F3A444ECC06B588"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42D4B8B07F8E24A9"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "63286DBB74EA30DF"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:platinum"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Platinum bee"
+			x: 8.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"36F798D665DB5B59"
+				"4C3465ECC291859C"
+				"63F173B1E9223490"
+			]
+			description: [
+				"Using a Ridiculite bee to expose a Ludicrite bee egg to further radiation will create something more radioactive ah ok its getting more purple again"
+				""
+				"The fuzzy friend created from this will make creating Inanite easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:inanite"
+					}
+				}
+			}
+			id: "2BD9F5AD4858B6A5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11DAAAF5AA75301D"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "39F27E767712751F"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:inanite"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Inanite bee"
+			x: -10.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6D45CE3644668EDC"]
+			description: [
+				"Caught in the Mushroom fields of the overworld or feed any other shroom bee a red mushroom"
+				""
+				"Fuzzy little Red mushroom maker"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:red_shroom"
+					}
+				}
+			}
+			id: "4BC1BAC6C22723F9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C3428CF8B1ACA4A"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3FC74C475355D5E8"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:red_shroom"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Red shroombee"
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"25C6E7E26D6BA815"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Feed a Gold bee a block of copper"
+				""
+				"Fuzzy little Rose gold maker"
+			]
+			hide_dependency_lines: true
+			id: "6B2C33AC3CB9B53A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4278D3561889BABA"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0642CDCF1CE9FF09"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:rose_gold"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Rose gold bee"
+			x: 7.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"6620AD266AD97557"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Feed a Diamond bee a block of Sapphire"
+				""
+				"Hardened little Sapphire maker"
+			]
+			hide_dependency_lines: true
+			id: "08E3CD579C27CB32"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "164010FBC7561A0E"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "399F2C09C8E1DD3F"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:sapphire"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Sapphire bee"
+			x: 7.0d
+			y: 19.5d
+		}
+		{
+			dependencies: [
+				"6C25812DC5527CCB"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Feed a Planar stabaliser to an Iron bee"
+				""
+				"Fuzzy little Scrap maker"
+			]
+			hide_dependency_lines: true
+			id: "4607AEE6D725C541"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A584A008E4A9774"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2B5CD6A8A6143E2C"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:scrapped"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Scrapped bee"
+			x: 7.0d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"6FE4C8B843F05D90"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Feed a Skeletal bee a wither rose"
+				""
+				"Fuzzy little wither chunk maker"
+			]
+			hide_dependency_lines: true
+			id: "2953A60768AF0532"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DC9A0BBA886AC63"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "73E59B238B651818"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:withered"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Withered bee"
+			x: 4.5d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"40A94AC5A4DE8911"
+				"63F173B1E9223490"
+			]
+			description: [
+				"One infusion altar ,4 blocks of inferium ,4 inferium essence will make your prosperibee egg stronger."
+				""
+				"The fuzzy friend created from this will make creating Inferium easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:inferium"
+					}
+				}
+			}
+			id: "611777A62C57CA65"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "378FE17C80D69575"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "63BA59F3A8BE6020"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:inferium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Inferium bee"
+			x: -9.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["225E21476C86D8B1"]
+			description: [
+				"In a Chaotic Tier Fusion crafter a awakened draconium bee spawn egg gains power"
+				""
+				"The fuzzy friend created by this operation will make aquiring Chaos fragments easier."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:chaos"
+					}
+				}
+			}
+			id: "403A9E6C70A77DA4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E58A95EB76EDAB3"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1321B5E8FBC72E07"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:chaos"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Chaos bee"
+			x: -9.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"63F173B1E9223490"
+				"374110D0161C9840"
+			]
+			description: [
+				"If you leave a Redstone bee egg on a feeding slab around a Obsidian bee something odd may happen."
+				""
+				"The fuzzy friend created from this will make creating Flux dust easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:flux"
+					}
+				}
+			}
+			id: "75D5B0F1BE7746DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15219DF028E2BC03"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "089E65A2A81B67A7"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:flux"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Flux dust bee"
+			x: -9.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"25C6E7E26D6BA815"
+				"146645F0EF72C7F0"
+				"5A00E40666BEE8DB"
+				"63F173B1E9223490"
+			]
+			description: [
+				"Placing Redstone, Gold and Glowing bee spawn eggs in an alloy smelter... Im gonna embrace it &lMelt the bees."
+				""
+				"The fuzzy friend created from this will make creating Energetic Alloy easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:energetic_alloy"
+					}
+				}
+			}
+			id: "345A32B21FE12B67"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25163404976C4E8D"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "614E70ABD229AED3"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:energetic_alloy"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Energetic alloy bee"
+			x: -8.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["77C712F487BC6BE3"]
+			description: [
+				"In a Wyvern+ Tier Fusion crafter a draconic bee spawn egg gains power"
+				""
+				"The fuzzy friend created by this operation will make aquiring draconium easier."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:draconium"
+					}
+				}
+			}
+			id: "4D8287F997B51A31"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24D44B7FFB42D4F9"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2593B8E37F623702"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:draconium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Draconium Bee"
+			x: -11.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"76F7E7976045AD86"
+				"374110D0161C9840"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Obsidian + Osmium bee = Refined Obsidian bee"
+				""
+				"Fuzzy little Refined Obsidian maker"
+			]
+			hide_dependency_lines: true
+			id: "15512275AD426AFD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "384AE2FE476A20C7"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5ADF064A4905F0D7"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:refined_obsidian"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Refined Obsidian bee"
+			x: 11.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["63F173B1E9223490"]
+			description: [
+				"Placing a draconic egg in a Lightning dragon forge and having a large dangerous lizard breathe its death breath on it ... oh wait its fine you also need the blood of the Lightning dragons too good atleast its not just the bees getting bullied."
+				""
+				"The fuzzy friend created from this will make creating Lightning dragonsteel easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:lightning_dragonsteel"
+					}
+				}
+			}
+			id: "68CC0524F8ACEC9C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66D727B76060360F"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "73613BB75D3D5B67"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:lightning_dragonsteel"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Lightning dragonsteel bee"
+			x: -11.5d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"53E6E61615DCA091"
+				"029EB9E873430C6E"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Nether gobber + Ender bee = Ender gobber bee"
+				""
+				"Fuzzy little Ender gobber maker"
+			]
+			hide_dependency_lines: true
+			id: "78465C089D3B613E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "611A16734E753AF9"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4F9283C5208BE119"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:end_gobber"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Ender gobber bee"
+			x: 9.5d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"340991D2AFA543E3"
+				"0C2C58CF34AD63E3"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Allthemodium + Vibranium bee = Unobtanium bee"
+				""
+				"Hardened little Unobtanium maker"
+			]
+			hide_dependency_lines: true
+			id: "6A8C0BD0B30845BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "239B0656A8A18917"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "21F600C1C9DC347D"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:unobtainium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Unobtanium bee"
+			x: 3.0d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"070F55107429556C"
+				"1848648B1E0EC5E7"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Copper + Nickel bee = Constantan bee"
+				""
+				"Fuzzy little Constantan maker"
+			]
+			hide_dependency_lines: true
+			id: "23E0742F16FF00CC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "384890CFFECD8A63"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "33E8E08857919C97"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:constantan"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Constantan bee"
+			x: 10.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"2E4B556B72089C3E"
+				"374110D0161C9840"
+			]
+			description: [
+				"Placing Dark steel and Obsidian bee spawn eggs in an alloy smelter with endstone... so you're just going to keep smelting them then ok i cant stop you."
+				""
+				"The fuzzy friend created from this will make creating End steel easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:end_steel"
+					}
+				}
+			}
+			id: "080A3CC900843F82"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C4EEFE90EEBC7E9"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2681001C4C71D157"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:end_steel"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "End steel bee"
+			x: -8.5d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"0CC050CA79579137"
+				"3EF701880622C92A"
+			]
+			description: [
+				"The Energizing orb desires Niotic Crystal and emerald bee eggs to create this and give it Powah."
+				""
+				"The fuzzy friend created from this will make creating Spirited crystals easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:spirited_crystal"
+					}
+				}
+			}
+			id: "105162418EC6C3AB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "468B106446867853"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "12B814DC764A0805"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:spirited_crystal"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Spirited crystal bee"
+			x: -9.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"6D45CE3644668EDC"
+				"72AE1B783A5A52A6"
+			]
+			description: [
+				"Fishing in deep oceans can spawn this bee."
+				""
+				"Fuzzy little oil tycoon"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:oily"
+					}
+				}
+			}
+			id: "48F0D0C82EFD483C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "470D6AC60154AF09"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "529E216A0AFB7E4E"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:oily"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Oily bee"
+			x: -4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6D45CE3644668EDC"]
+			description: [
+				"Leave an advanced beehive in the dark and this bee might make it its home"
+				""
+				"Decaying little Rotten flesh maker"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:zombie"
+					}
+				}
+			}
+			id: "29F5D24AEA15E4C0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0689D5318759A470"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2C15C2B1B7D7D081"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:zombie"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Zombee"
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"27C019AC653531AB"
+				"029EB9E873430C6E"
+				"25C6E7E26D6BA815"
+				"63F173B1E9223490"
+			]
+			description: [
+				"Fusing an Ender, Gold and Amethyst bee egg together creates this egg"
+				""
+				"The fuzzy friend created from this will make creating Melodium easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:melodium"
+					}
+				}
+			}
+			id: "0CA77D29F473C610"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60345CECF7251988"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0279AFCF20503996"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:melodium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"6C25812DC5527CCB"
+				"40F26D020C670D87"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Iron + Coal bee = Steel bee"
+				""
+				"Fuzzy little Steel maker"
+			]
+			hide_dependency_lines: true
+			id: "1CF034BFE8F51534"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E825FA7A1D76C03"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1B442B4244555D36"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:steel"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Steel bee"
+			x: 4.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"1E93D578ED98E5EF"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Feed a Slimy bee a pink slime ball"
+				""
+				"Fuzzy little pink slime producer"
+			]
+			hide_dependency_lines: true
+			id: "0FA7A491502924F3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F16D4CF4CFD6B00"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7BDEB55AA8FC2DFE"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:pink_slimy"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Pink slimy bee"
+			x: 5.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["6D45CE3644668EDC"]
+			description: [
+				"Leave an advanced beehive in the dark and this bee might make it its home"
+				""
+				"Boney little bone meal maker"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:skeletal"
+					}
+				}
+			}
+			id: "6FE4C8B843F05D90"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "574604CAF1F42DCB"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "408EB7C996BD935A"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:skeletal"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Skeletal bee"
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"6C25812DC5527CCB"
+				"374110D0161C9840"
+			]
+			description: [
+				"Placing Obsidian and iron bee spawn eggs in an alloy smelter with coal dust... I thought we were supposed to be saving the bees not melting them?"
+				""
+				"The fuzzy friend created from this will make creating Copper alloy easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:dark_steel"
+					}
+				}
+			}
+			id: "2E4B556B72089C3E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59893D69DA06E0C2"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "13D9F8255A5B66DF"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:dark_steel"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Dark steel bee"
+			x: -9.5d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"71A4A3A4A9FB1FAD"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Feed a Ghostly bee a soulium dagger"
+				""
+				"fuzzy little soulium maker"
+			]
+			hide_dependency_lines: true
+			id: "7F9A01DE6ABDE10E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43B2F2993FBDDA7B"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3F192A3744D4F8E8"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:soulium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Soulium bee"
+			x: 2.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"0076E6BC4FF953BB"
+				"40F26D020C670D87"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Creebee + Coal bee = Niter bee"
+				""
+				"Fuzzy little Niter maker"
+			]
+			hide_dependency_lines: true
+			id: "73196707AC84EBBA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BC10FAEBB691911"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6830D872C98A7310"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:niter"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Niter bee"
+			x: 8.0d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"44335374E2997178"
+				"63F173B1E9223490"
+			]
+			description: [
+				"Surround a Blazing bee egg with Blizz powder"
+				""
+				"Fuzzy little Blizz powder maker"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:blizz"
+					}
+				}
+			}
+			id: "52CB6E52DBA6594D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A84DD2351D999FA"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3BB3E6A40472CBD0"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:blizz"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Bizbee"
+			x: -7.5d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"63F173B1E9223490"
+				"25C6E7E26D6BA815"
+				"6C25812DC5527CCB"
+			]
+			description: [
+				"The Energizing orb desires Iron and gold bee eggs to create this and give it Powah."
+				""
+				"The fuzzy friend created from this will make creating Energized steel easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:energized_steel"
+					}
+				}
+			}
+			id: "4C87BE49576D7F98"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F4C981D86412590"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "38153AB8A540D0B4"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:energized_steel"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Energized steel bee"
+			x: -10.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2F4F16C2CB36F471"]
+			description: [
+				"Throw an Manasteel bee egg into a Elven gateway . Heavens yeah elven magic bee time"
+				""
+				"The fuzzy friend created from this will make creating Elementium easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:elementium"
+					}
+				}
+			}
+			id: "210C059778F9D789"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "357146C71F024C2B"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4C1D06C67FEB5CBA"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:elementium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Elementium bee"
+			x: -7.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"6620AD266AD97557"
+				"5F3A444ECC06B588"
+				"31BC28D31BB3C436"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Diamond + Lead &lOR&r Platinum + Lead = Enderium bee"
+				""
+				"Fuzzy little Enderium maker"
+			]
+			hide_dependency_lines: true
+			id: "787A2838BBF07EA0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E76A7336AF28B28"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "473F2AA99ADD9129"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:enderium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Enderium bee"
+			x: 9.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"4E11DCD64BB77532"
+				"070F55107429556C"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Copper + Silver bee = Signalum bee"
+				""
+				"Fuzzy little Signalum maker"
+			]
+			hide_dependency_lines: true
+			id: "1DDDD12431F7ECE1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1987E893427049B5"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5042C23E287F7342"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:signalum"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Signalum bee"
+			x: 4.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"6C25812DC5527CCB"
+				"5A00E40666BEE8DB"
+				"4CB4FD0A416146AE"
+				"63F173B1E9223490"
+			]
+			description: [
+				"Placing Copper alloy ,Redstone and Iron bee spawn eggs in an alloy smelter... Please im begging you stop smelting the bees."
+				""
+				"The fuzzy friend created from this will make creating Conductive alloy easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:conductive_alloy"
+					}
+				}
+			}
+			id: "25CCE2120F9BC42A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1EDFAD5702422917"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4EBCA8BDD893BE4F"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:conductive_alloy"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Conductive alloy bee"
+			x: -11.5d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"070F55107429556C"
+				"5A6D745DE1CAC5BA"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Copper + Tin bee = Bronze bee"
+				""
+				"Fuzzy little Bronze maker"
+			]
+			hide_dependency_lines: true
+			id: "77331CF7B85F940E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "080CC4BD96709559"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3A62B934DAD28F9E"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:bronze"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Bronze bee"
+			x: 9.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"71F563C425637629"
+				"63F173B1E9223490"
+			]
+			description: [
+				"A Ancient and Quarry bee egg combined with a nether star creates this egg"
+				""
+				"The fuzzy friend created from this will make creating Stellarium easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:stellarium"
+					}
+				}
+			}
+			id: "7972C7CE53472E5D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EEABDDEFA8F5539"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5AED84089285D5E6"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:stellarium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Stellarium bee"
+			x: -13.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"6620AD266AD97557"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Feed a Diamond bee a block of Peridot"
+				""
+				"Hardened little Peridot maker"
+			]
+			hide_dependency_lines: true
+			id: "46E38C84BBF74891"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4794DD71CEC7C297"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "192DD65B9F76425F"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:peridot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Peridot bee"
+			x: 6.0d
+			y: 19.5d
+		}
+		{
+			dependencies: [
+				"6C25812DC5527CCB"
+				"1F41210621F9FB9B"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Crystalline + Iron bee = Quartz enriched iron bee"
+				""
+				"Fuzzy little Quartz enriched iron maker"
+			]
+			hide_dependency_lines: true
+			id: "1B53EA9D95517B97"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5213BD883658DF24"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1468B84D35939CAB"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:quartz_enriched_iron"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Quartz enriched iron bee"
+			x: 3.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["6D45CE3644668EDC"]
+			description: [
+				"Caught in the Crimson forests of the nether or feed any other shroom bee a Crimson fungus"
+				""
+				"Fuzzy little Crimson fungus maker"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:crimson"
+					}
+				}
+			}
+			id: "3D00899C75A7CC7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E35B5A6F549FC9B"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0FA173CE99574712"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:crimson"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Crimson shroombee"
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"29F5D24AEA15E4C0"
+				"6FE4C8B843F05D90"
+				"71A4A3A4A9FB1FAD"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Ghostly + Skeletal Bee or Ghostly + Zombee = Grave bee"
+				""
+				"Haunting little Gravedust maker"
+			]
+			hide_dependency_lines: true
+			id: "3F343D4B539A85A0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1589474B16342128"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "61051E9A056816D3"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:grave"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Grave bee"
+			x: 5.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"0076E6BC4FF953BB"
+				"6C25812DC5527CCB"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Creebee + Iron bee = Radioactive bee"
+				""
+				"Fuzzy little Uranium maker"
+			]
+			hide_dependency_lines: true
+			id: "185649CFE520B5EB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D7E8F8408BA45D2"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "283D995985F014C7"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:radioactive"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Radioactive bee"
+			x: 6.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"4E11DCD64BB77532"
+				"63F173B1E9223490"
+			]
+			description: [
+				"Throw a silver bee spawn egg into spirit fire. this omlette would tase horrible"
+				""
+				"The fuzzy friend created from this will make creating Iesnium easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:iesnium"
+					}
+				}
+			}
+			id: "280CDB3B6F2513BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3806A6CEC65CC84F"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "66422225C1C0CF4A"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:iesnium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Iesnium bee"
+			x: -10.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"25C6E7E26D6BA815"
+				"4E11DCD64BB77532"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Gold + Silver bee = Electrum bee"
+				""
+				"Fuzzy little Electrum maker"
+			]
+			hide_dependency_lines: true
+			id: "319FF6BE3F682A60"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71267F11B9889188"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "1D3CE6C7C42AAE2F"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:electrum"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Electrum bee"
+			x: 5.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"6620AD266AD97557"
+				"1E93D578ED98E5EF"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Feed a Diamond bee a block of Emerald"
+				""
+				"Hardened little Emerald maker"
+			]
+			hide_dependency_lines: true
+			id: "3EF701880622C92A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "503344A12ACD79A1"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "41DBE8D0D6197723"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:emerald"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Emerald bee"
+			x: 5.0d
+			y: 19.5d
+		}
+		{
+			dependencies: [
+				"40F26D020C670D87"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Feed a Coal bee a block of graphite"
+				""
+				"Fuzzy little Graphite maker"
+			]
+			hide_dependency_lines: true
+			id: "1A8712210B936545"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A061339020C9066"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "77F06532D122C148"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:graphite"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Graphite bee"
+			x: 5.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"6620AD266AD97557"
+				"25C6E7E26D6BA815"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Diamond + Gold bee = Gobber bee"
+				""
+				"Fuzzy little Gobber maker"
+			]
+			hide_dependency_lines: true
+			id: "0135A7AAC268B469"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "469588662D0E1E6E"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "08A3ACA44AF2B71F"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:gobber"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Gobber bee"
+			x: 7.5d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"029EB9E873430C6E"
+				"1F41210621F9FB9B"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Crystalline + Ender bee = Spatial bee"
+				""
+				"Fuzzy little Certus Quartz maker"
+			]
+			hide_dependency_lines: true
+			id: "3993E85C18C512C6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C2E70B2A039EAD5"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "701B1154165F043B"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:spacial"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Spatial bee"
+			x: 11.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"070F55107429556C"
+				"497E29D3ABD369FA"
+				"63F173B1E9223490"
+			]
+			description: [
+				"Placing Copper and Silicon bee spawn eggs in an alloy smelter... wow ok great back to throwing them in the smelter."
+				""
+				"The fuzzy friend created from this will make creating Copper alloy easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:copper_alloy"
+					}
+				}
+			}
+			id: "4CB4FD0A416146AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3497A3318CDDAD7C"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6826ED3A03FA0DC2"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:copper_alloy"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Copper alloy bee"
+			x: -10.5d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"0FA7A491502924F3"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Feed a Pink slimy be a bucket of ethergas"
+				""
+				"fuzzy little ethergas maker"
+			]
+			hide_dependency_lines: true
+			id: "7B5E2D7C5D9918EF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "635AD7E9E7E67B13"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "34941CC8868FB20E"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:ether_gas"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Ether gas bee"
+			x: 6.5d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"0076E6BC4FF953BB"
+				"6C25812DC5527CCB"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Iron + Creebee = Uraninite bee"
+				""
+				"Fuzzy little Uraninite maker"
+			]
+			hide_dependency_lines: true
+			id: "5B4C992E6F6E4973"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F53C6B89BC7C043"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "359B8B477646A285"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:uraninite"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Uraninite bee"
+			x: 8.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"1CF034BFE8F51534"
+				"77331CF7B85F940E"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Bronze + Steel bee = Mithril bee"
+				""
+				"Fuzzy little Mithril maker"
+			]
+			hide_dependency_lines: true
+			id: "286EAD7D7E123011"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F8DF8DDCD098249"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2ED4B265383A4EF8"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:mithril"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Mithril bee"
+			x: 6.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"10E7E661322D839E"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Feeding a Leafcutter bee a water bucket creates the tea bee"
+				""
+				"Fuzzy lil guy gets a brew on the go (makes builders tea)"
+			]
+			hide_dependency_lines: true
+			id: "2D8FA4E4AF8DFDBE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CD84D1FA20545A6"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7F023BACC629241F"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:tea"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Tea bee"
+			x: 9.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"345A32B21FE12B67"
+				"029EB9E873430C6E"
+				"63F173B1E9223490"
+			]
+			description: [
+				"Placing Energetic alloy and ender bee spawn eggs in an alloy smelter... &lYES MORE SMELT THEM AND RE SMELT THEM."
+				""
+				"The fuzzy friend created from this will make creating Vibrant alloy easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:vibrant_alloy"
+					}
+				}
+			}
+			id: "71987E2F7D68B44C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70225BDA748C5A83"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "14AD86E357E26D7A"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:vibrant_alloy"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Vibrant alloy bee"
+			x: -7.5d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"6620AD266AD97557"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Feed a Diamond bee a block of rose quartz"
+				""
+				"Hardened little rose quartz maker"
+			]
+			hide_dependency_lines: true
+			id: "4A810DE7E0BD19AC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "53FFF8F0574AAB0A"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "020CD1B1E4901DAC"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:rose_quartz"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Rose quartz bee"
+			x: 7.5d
+			y: 18.5d
+		}
+		{
+			dependencies: [
+				"6620AD266AD97557"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Feed a Diamond bee a block of Netherite"
+				""
+				"Hardened little Netherite scrap maker"
+			]
+			hide_dependency_lines: true
+			id: "71F563C425637629"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1235EC84B74BAF79"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "68A28B7461A301EA"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:netherite"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Ancient bee"
+			x: 5.5d
+			y: 18.5d
+		}
+		{
+			dependencies: [
+				"029EB9E873430C6E"
+				"6C25812DC5527CCB"
+				"63F173B1E9223490"
+			]
+			description: [
+				"Placing Ender and iron bee spawn eggs in an alloy smelter... Few i think we're finally done smelting bees."
+				""
+				"The fuzzy friend created from this will make creating Pulsating alloy easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:pulsating_alloy"
+					}
+				}
+			}
+			id: "1C187F210A0986D2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58EB8678E2465DA3"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "04568A8FF3E73CA3"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:pulsating_alloy"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Pulsating alloy bee"
+			x: -7.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"71F563C425637629"
+				"77C712F487BC6BE3"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Draconic bee + Ancient bee = Vibranium bee"
+				""
+				"Hardened little Vibranium maker"
+			]
+			hide_dependency_lines: true
+			id: "340991D2AFA543E3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C8DC90AAA2B1681"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0FCF4E6C05DF75EA"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:vibranium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Vibranium bee"
+			x: 2.5d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"3993E85C18C512C6"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Feed a Spatial bee a Fluix pearl"
+				""
+				"Fuzzy little Fluix Crystal maker"
+			]
+			hide_dependency_lines: true
+			id: "4FFA03B2DCDEA2C7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F3677ADCA5EE423"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "189AE5D63B54051E"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:fluix"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Fluix bee"
+			x: 10.5d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"3FE23FEEADEC4A72"
+				"185649CFE520B5EB"
+				"63F173B1E9223490"
+			]
+			description: [
+				"Using a Radioactive bee to expose a Cyanite bee egg to further radiation will create something more radioactive"
+				""
+				"The fuzzy friend created from this will make creating Blutonium easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:blutonium"
+					}
+				}
+			}
+			id: "4CD4714A57E6802E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F72D506369BA85D"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "68B42B328B4CCA07"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:blutonium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Blutonium bee"
+			x: -11.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"2BD9F5AD4858B6A5"
+				"4C3465ECC291859C"
+				"63F173B1E9223490"
+			]
+			description: [
+				"Using a Inanite bee to expose a Ridiculite bee egg to further radiation will create something more radioactive and for some reason this ones green"
+				""
+				"The fuzzy friend created from this will make creating Insanite easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:insanite"
+					}
+				}
+			}
+			id: "1A1F21CD208ABF52"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19EC8580E71DF362"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "25FFA0BD9CF4D580"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:insanite"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Insanite bee"
+			x: -11.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"0135A7AAC268B469"
+				"71F563C425637629"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Gobber + Ancient bee = Nether gobber bee"
+				""
+				"Fuzzy little Nether gobber maker"
+			]
+			hide_dependency_lines: true
+			id: "53E6E61615DCA091"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D5F43340F54ACD7"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "59C3D9A3DE3F4FF8"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:nether_gobber"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Nether Gobber bee"
+			x: 8.5d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"6C25812DC5527CCB"
+				"63F173B1E9223490"
+			]
+			description: [
+				"Throw an iron bee egg into a mana pool . Hell yeah magic bee time"
+				""
+				"The fuzzy friend created from this will make creating Manasteel easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:manasteel"
+					}
+				}
+			}
+			id: "2F4F16C2CB36F471"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7410E43E276DA0F6"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "63FB401F7F02E418"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:manasteel"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Manasteel bee"
+			x: -8.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"1F41210621F9FB9B"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Feed a crystalline bee a prosperity block"
+				""
+				"Fuzzy little Prosperity shard maker"
+			]
+			hide_dependency_lines: true
+			id: "40A94AC5A4DE8911"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "660C1E1F05784EB8"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "32D5536294E12B10"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:prosperity"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Prosperibee"
+			x: 10.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"210C059778F9D789"
+				"63F173B1E9223490"
+			]
+			description: [
+				"Throw an Elemintium bee egg onto a mana infuser . The magic bees of Alfheim await"
+				""
+				"The fuzzy friend created from this will make creating Alfsteel easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:alfsteel"
+					}
+				}
+			}
+			id: "587E496EBB439F58"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "124BFC55C0FFE9B1"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "61A0E655A328031D"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:alfsteel"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Alfsteel bee"
+			x: -6.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"105162418EC6C3AB"
+				"44335374E2997178"
+				"5A00E40666BEE8DB"
+			]
+			description: [
+				"The Energizing orb desires Spirted crystal, Redstone and Blazing bee eggs to create this and give it Powah."
+				""
+				"The fuzzy friend created from this will make creating Nitro crystals easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:nitro_crystal"
+					}
+				}
+			}
+			id: "73DBD57A610FBF95"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79B73108F5D78168"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4FE5E537E857EE83"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:nitro_crystal"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Nitro crystal bee"
+			x: -10.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"6C25812DC5527CCB"
+				"1848648B1E0EC5E7"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Nickel + Iron bee = Invar bee"
+				""
+				"Fuzzy little Invar maker"
+			]
+			hide_dependency_lines: true
+			id: "015076AD5EB054EC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A61BC14849E0816"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "03C9EC91E22CF4F6"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:invar"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Invar bee"
+			x: 4.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["738CCDD186945D37"]
+			description: [
+				"One infusion altar ,4 blocks of Supremium ,4 Supremium essence will make your Imperium bee egg stronger."
+				""
+				"The fuzzy friend created from this will make creating Supremium easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:supremium"
+					}
+				}
+			}
+			id: "64A76CA478324B6C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46536F163AACEA68"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3E08C8E8024713AD"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:supremium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Supremium bee"
+			x: -8.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"6620AD266AD97557"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Feed a Diamond bee a block of apatite"
+				""
+				"Hardened little apatite maker"
+			]
+			hide_dependency_lines: true
+			id: "5F03EDDE639FA448"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43716C7C6DFD0F2E"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "28EBD35499B45261"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:apatite"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Apatite bee"
+			x: 6.5d
+			y: 18.5d
+		}
+		{
+			dependencies: [
+				"185649CFE520B5EB"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Feed a Radioactive bee a Cyanite block"
+				""
+				"Fuzzy little Cyanite maker"
+			]
+			hide_dependency_lines: true
+			id: "3FE23FEEADEC4A72"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48972FD86184D200"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2D484D1910BF6B4A"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:cyanite"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Cyanite bee"
+			x: 3.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"070F55107429556C"
+				"591E4F2327B4A35C"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Zinc + Copper bee = Brass bee"
+				""
+				"Fuzzy little Brass maker"
+			]
+			hide_dependency_lines: true
+			id: "32282297145F56C4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B99CD23BD922679"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "565A5EA3BFB758E8"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:brass"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Brass bee"
+			x: 10.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"068DC270E2A4BB13"
+				"63F173B1E9223490"
+			]
+			description: [
+				"&lDRENCH IT IN THE BLOOD OF YOUR ENE.....&r I mean adding a nomad bee spawn eggg to a tier 2 blood altar."
+				""
+				"The fuzzy friend created from this will make creating Life essence easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:hematophagous"
+					}
+				}
+			}
+			id: "17E133C5F887B68F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1AC4B09053CF238E"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "58363990621F7F00"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:hematophagous"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Hematophagus Bee"
+			x: -9.0d
+			y: 17.0d
+		}
+		{
+			dependencies: [
+				"09139781ADB47650"
+				"6620AD266AD97557"
+			]
+			description: [
+				"The Energizing orb desires Blazing crystal and diamond bee eggs to create this and give it Powah."
+				""
+				"The fuzzy friend created from this will make creating Niotic crystals easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:niotic_crystal"
+					}
+				}
+			}
+			id: "0CC050CA79579137"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36EEFFD1B301E7C9"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7BE3D684078F7FB5"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:niotic_crystal"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Niotic crystal bee"
+			x: -8.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"71A4A3A4A9FB1FAD"
+				"25C6E7E26D6BA815"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Alloy smelt a ghostly and gold bee spawn egg together. I think this will set a bad precedent in the Gotta make an egg line ..."
+				""
+				"Fuzzy little Soularium maker"
+			]
+			hide_dependency_lines: true
+			id: "29BB3CCCDCD55B35"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64E6E3CB4E1DE890"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5E1F56AC02C142E1"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:soularium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Soularium bee"
+			x: 3.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"185649CFE520B5EB"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Radioactive bees dying of radiation can become wasted bees"
+				""
+				"Fuzzy little Radiation hoover"
+			]
+			hide_dependency_lines: true
+			id: "148A8ACED21ADE5A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D4525BC7F9EAA0E"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6640965D15344F64"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:wasted_radioactive"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Wasted radioactive bee"
+			x: 7.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7945942B6097E838"]
+			description: [
+				"One infusion altar ,4 blocks of Tertium ,4 Tertium essence will make your Prudentium bee egg stronger."
+				""
+				"The fuzzy friend created from this will make creating Tertium easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:tertium"
+					}
+				}
+			}
+			id: "5A4CAB653868FAE3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "151F35B3FC878612"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "05A79B15E6E38914"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:tertium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Tertium bee"
+			x: -8.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"5A6D745DE1CAC5BA"
+				"4E11DCD64BB77532"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Silver + Tin bee = Lumium bee"
+				""
+				"Fuzzy little Lumium maker"
+			]
+			hide_dependency_lines: true
+			id: "493D65CC91D512BE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25153E4DFA54BAB3"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2B40E5A0728E6BB6"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:lumium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Lumium bee"
+			x: 9.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"4CD4714A57E6802E"
+				"3FE23FEEADEC4A72"
+				"63F173B1E9223490"
+			]
+			description: [
+				"Using a Cyanite bee to expose a Blutonium bee egg to further radiation will create something more radioactive and even more even more purple"
+				""
+				"The fuzzy friend created from this will make creating Ludicrite easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:ludicrite"
+					}
+				}
+			}
+			id: "36F798D665DB5B59"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79A197F32F8CCA70"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "479D7B9F47BC4775"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:ludicrite"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Ludicrite bee"
+			x: -11.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"4C87BE49576D7F98"
+				"44335374E2997178"
+			]
+			description: [
+				"The Energizing orb desires Energized Steel and Blazing bee eggs to create this and give it Powah."
+				""
+				"The fuzzy friend created from this will make creating Blazing crystals easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:blazing_crystal"
+					}
+				}
+			}
+			id: "09139781ADB47650"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72F11E2497148EF7"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3ED394FADE0E42F2"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:blazing_crystal"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Blazing crystal bee"
+			x: -9.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"42C642902228BD83"
+				"1848648B1E0EC5E7"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Prismarine + Nickel bee = Prismalium bee"
+				""
+				"Fuzzy little Prismalium maker"
+			]
+			hide_dependency_lines: true
+			id: "359AE589EE36C66B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6202905BD8351B05"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3E650C45B7624415"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:prismalium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Prismalium bee"
+			x: 9.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"59AABC0FBB111E2E"
+				"23F4D9DC006417A0"
+			]
+			description: [
+				"Feeding a Sugarbag bee cocao beans creates this bee"
+				""
+				"Oompa loompa"
+				""
+				"This fuzzball creates liquid chocolate."
+			]
+			hide_dependency_lines: true
+			id: "1803B23E224D674E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2444144EB71992A3"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0303D100AD909B8D"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:chocolate"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Choco bee"
+			x: 10.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"44335374E2997178"
+				"63F173B1E9223490"
+			]
+			description: [
+				"Surround a Blazing bee with blitz powder"
+				""
+				"Fuzzy little Blitz powder maker"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:blitz"
+					}
+				}
+			}
+			id: "388BB2227FFDDDAD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31B011C9735C1194"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "393AD2670BA0664B"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:blitz"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Bitzbee"
+			x: -7.0d
+			y: 17.0d
+		}
+		{
+			dependencies: [
+				"6620AD266AD97557"
+				"63F173B1E9223490"
+			]
+			description: [
+				"Surround a Diamond bee Spawn egg with arcane essence"
+				""
+				"Hardened little Arcane essence maker"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:arcane_essence"
+					}
+				}
+			}
+			id: "1D0C8DF6931067E2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C838799086D9F3B"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "16758A9AB7E38AC4"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:arcane_essence"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Arcane essence bee"
+			x: -6.0d
+			y: 15.0d
+		}
+		{
+			description: ["Some bees cant be bred directly or found in the wild looks like were gonna have to make their eggs"]
+			id: "63F173B1E9223490"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6087244EAFD023EF"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "20EF1D4DD76B6224"
+				title: "Gotta make an egg"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"6D45CE3644668EDC"
+				"72AE1B783A5A52A6"
+			]
+			description: [
+				"This bee is created by feeding a regular minecraft bee a ... hopper , I doubt it tastes good but it does the job."
+				""
+				"This lil fuzzball takes dropped items and keeps them safe in its hive"
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_collector_bee"
+			id: "0AD68D5FCBA156DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0ECEF930EA8EE746"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2D547A9789045517"
+				title: "Collector bee"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"0AD68D5FCBA156DC"
+				"72AE1B783A5A52A6"
+			]
+			description: [
+				"This bee is created by feeding a collector bee a ... Shulker shell , Did this bee do something to upset you stop feeding it random things."
+				""
+				"This lil fuzzball takes dropped items and keeps them safe in its hive able to carry alot more than the collector bee."
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_hoarder_bee"
+			id: "18291C80E278377A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DBE413671F2EF68"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F54A6AD0A276CE3"
+				title: "Hoarder bee"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"353ABE158B45908A"
+				"72AE1B783A5A52A6"
+			]
+			description: [
+				"Created by feeding a Quarry bee a pristine tetra gemstone. Why? Why do you insist on feeding these poor fuzzy creature inorganic materials ?"
+				""
+				"These little fuzzballs created tetra geodes."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:geode"
+					}
+				}
+			}
+			id: "46C693367E73C10A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52B877DC7E9EC67F"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "117F12E3784D4F33"
+				title: "Geode bee"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"6D45CE3644668EDC"
+				"72AE1B783A5A52A6"
+			]
+			description: [
+				"Bumble bees spawn from bumblebee nests , shocking I know."
+				""
+				"These medium sized fuzzballs can be riden as a cheap form of flight and directed using a honey treat on a stick."
+				""
+				"(Bumblezone Beehemoths are bigger stronger fuzzballs when you get the chance)"
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_bumble_bee"
+			id: "3D46C58E335DFE7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5BFA1DFBF6BABC33"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "706F7CFCC18FDA66"
+				title: "Bumble bee"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"6D45CE3644668EDC"
+				"72AE1B783A5A52A6"
+			]
+			description: [
+				"These bees are a little unique not spawning in the world but rather from a helmet? They will spawned when you're attacked rushing to your aid and laying down there lives for your safety."
+				""
+				"Is it just me or do they seem a little &lToo eager to work.?"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:kamikaz"
+					}
+				}
+			}
+			id: "483DD84F3AF42F0E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DEC4E3917D31D9B"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5D9C84D670160D0D"
+				item: {
+					Count: 1
+					id: "productivebees:bee_nest_diamond_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Kamikaze bees"
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"6FE4C8B843F05D90"
+				"62BBAE2E3099881B"
+				"72AE1B783A5A52A6"
+			]
+			description: [
+				"The child of a Lapis and a Skeletal bee"
+				""
+				"This lil fuzzball will stela flower petals so you can make dye"
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_dye_bee"
+			id: "20AA119B31CECBB7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "606B1FFF8F79E0F3"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7D8DC0E1ADCEA3D7"
+				title: "Dye bee"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"6FB345D0E43342E8"
+				"7C2E630913A1ABE7"
+				"72AE1B783A5A52A6"
+			]
+			description: [
+				"The loving child of a Rancher and a Farmer bee"
+				""
+				"This lil fuzzball will get near by animals in the mood for breeding"
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_cupid_bee"
+			id: "1A521C057D3F0484"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FED8F1BB97E9118"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "231A97E0EEB35E3F"
+				title: "Cubee"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"6D45CE3644668EDC"
+				"72AE1B783A5A52A6"
+			]
+			description: ["Sponge bees can be caught when fishing in Deep oceans and require sponges in order to make you , you guessed it sponges (not combs dont fill your centrifuges)"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:sponge"
+					}
+				}
+			}
+			id: "25F955BCF6735537"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10ACD2DA9A32050E"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "WHO LIVES IN A PINEAPPLE AND IS A BEE"
+			tasks: [{
+				id: "3F90BE491131E16B"
+				title: "Sponge bee"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6D45CE3644668EDC"]
+			description: ["Sussy bees will be located and brought to players by sniffers and can make certain blocks seem &oSuspicious"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:sussy"
+					}
+				}
+			}
+			id: "07CFEC60BB9BF0CA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A537BE88F6ECE7F"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "Archeology made easy"
+			tasks: [{
+				id: "655EEECC350F11E5"
+				title: "Sussy bee"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"4B7946351F0BD4DD"
+				"18291C80E278377A"
+				"1A521C057D3F0484"
+				"7C2E630913A1ABE7"
+				"63F173B1E9223490"
+			]
+			description: [
+				"Create the spawn eggs using the ggs of the Hoarder, Rancher, Cubee and Pepto bees along with echo shards and a certain ancient music disk"
+				""
+				"The Wannabee will interact with amber encased mobs turning them into valuable loot"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:wanna"
+					}
+				}
+			}
+			id: "778178A60C975B69"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01261B3872D94CA1"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2B00D58BDEF33696"
+				title: "Wannabee"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["63F173B1E9223490"]
+			description: [
+				"Through the power of the petal apothecary a simple minecraft bee spawn egg can be turned into a Pure bee"
+				""
+				"This lil fuzzball is your own floating cuddly pure daisy, Botania in motion."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:pure"
+					}
+				}
+			}
+			id: "250DA314ED4B2636"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "662FD08B51DEF6D4"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "491F32FEF04D22EE"
+				title: "Pure bee"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"44335374E2997178"
+				"374110D0161C9840"
+			]
+			description: [
+				"If you leave a Obsidian bee egg on a feeding slab around a blazing bee something odd may happen."
+				""
+				"The fuzzy friend created from this will make creating Grains of infinity easier"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:infinity"
+					}
+				}
+			}
+			id: "6A59B7C5D565FD9E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21225C677ABB426A"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0E31592E06788E0C"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:infinity"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Bee of infinity"
+			x: -8.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"6D45CE3644668EDC"
+				"72AE1B783A5A52A6"
+			]
+			description: [
+				"Aquired by brushing suspicious blocks in cold ocean ruins"
+				""
+				"The Amber bee will encase mobs in amber allowing them to be used by the Wannabee or to generate life essence..."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:amber"
+					}
+				}
+			}
+			id: "6FC02B316234A033"
+			shape: "hexagon"
+			tasks: [{
+				id: "3BCA3AF61C122162"
+				title: "Amber bee"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"6D45CE3644668EDC"
+				"72AE1B783A5A52A6"
+			]
+			description: [
+				"Fish this bad boy out of the water and watch as it slowly generates it?"
+				""
+				"Water bees dont seem all that bothered by the weather do they?"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:water"
+					}
+				}
+			}
+			id: "306C4018AB783C6E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26AA0034CB968F29"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "056326946FE0B29E"
+				title: "Water bee"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"540242E834351469"
+				"7C2E630913A1ABE7"
+				"72AE1B783A5A52A6"
+			]
+			description: [
+				"The loving child of a Rancher and a lumber bee"
+				""
+				"This lil fuzzball will tend your crops for you"
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_farmer_bee"
+			id: "6FB345D0E43342E8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37A783E129497475"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "642BFD1F1E9E5B0C"
+				title: "Farmer bee"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["17E133C5F887B68F"]
+			description: ["&lRETURN IT TO THE EVERFLOWING LIQUID OF LIFE&r Dip a hematophagus bee egg in a tier 4 or higher blood altar to create this bee"]
+			hide_dependency_lines: true
+			id: "0DA5EFCFE1971BE8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05B479EB0EAE6F0F"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "78C2628F7EDB84D2"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:regenerative"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["57F74513B8EFCF4E"]
+			description: [
+				"The advanced beehive is a superior version of vanilla minecrafts beehive block but removes the need for shears and campfires allowing its products to be pumped out with pipes or bottles to be pumped in"
+				""
+				"&nOnly holds 3 bees .Bees will only enter/exit the hole at the front of the hive watch your placement"
+			]
+			id: "33318E97632794AF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24FCABB3073192B3"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6964046D1CCEC25B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "productivebees:advanced_beehives"
+					}
+				}
+				type: "item"
+			}]
+			title: "Advanced beehives"
+			x: 0.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["33318E97632794AF"]
+			description: [
+				"An expansion box can be placed on any side of the Advanced beehive except the front to link to it and increase it capacity"
+				""
+				"&nOnly 1 per advanced beehive. Ups bee capacity to 5. allows for upgrades"
+			]
+			id: "59C02656200A8EA6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EBB5EBF8A76244A"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			tasks: [{
+				id: "22D7222F49047B37"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "productivebees:expansion_boxes"
+					}
+				}
+				type: "item"
+			}]
+			title: "Expansion boxes"
+			x: 0.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["57F74513B8EFCF4E"]
+			description: [
+				"The centrifuge is the most basic form of comb processing converting combs into &lPURE DELICIOUS LIQUID HONEY&r beeswax and tertiary drops depending on the comb"
+				""
+				"{@pagebreak}"
+				"It's not very fast but it doesn't need power"
+			]
+			id: "79ABC826F2EE5097"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "183ABF35F458927C"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			tasks: [{
+				id: "60CC09616479D1A7"
+				item: "productivebees:centrifuge"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 24.5d
+		}
+		{
+			dependencies: ["79ABC826F2EE5097"]
+			description: ["The powered centrifuge is the upgrade to your base unit providing a much higher output speed"]
+			id: "103ED029A723C4AF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "498C4647E05B7FFB"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			tasks: [{
+				id: "39928A4F9C3C971F"
+				item: "productivebees:powered_centrifuge"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 24.5d
+		}
+		{
+			dependencies: ["103ED029A723C4AF"]
+			description: ["The heated centrifuge is the final tier and the fastest requiring more power than its predecessor &l&nWARNING&r&l IT WILL DESTROY YOUR PURE DELICIOUS LIQUID HONEY&r "]
+			id: "55B2C753A659371D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3497547873E0EB6C"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			tasks: [{
+				id: "01DA775A2FFC9159"
+				item: "productivebees:heated_centrifuge"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 24.5d
+		}
+		{
+			dependencies: ["28605EF00119ADBC"]
+			description: [
+				"The babee incubator allows you to grow baby bees into there adult form in a safe enviroment free from damage and weather effects it can also be used to infuse adult bees with different genetic traits making them more powerful producers or create bee spawn eggs using a regular chicken egg and a honey treat infused with the gene of a bee &m100% genes always work&r"
+				""
+				"&nRequires power and honey treats to grow baby bees&r"
+				""
+				"&nRequires power and and gene infused honey treats to change genetic traits&r"
+			]
+			id: "59CEA0B3C89D721B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "177E497CFA93BE4F"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7FF9A3F5324CB5B8"
+				item: "productivebees:incubator"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["57F74513B8EFCF4E"]
+			description: ["The bottler can be used to automatically bottle fluids provided it has a sufficient amount of bottles inside it's also a fantastic place for smushing adult bees with a piston."]
+			id: "5EF0E9AE258CE677"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "183A184E6816B41C"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6F697525E8DF2F0C"
+				item: "productivebees:bottler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 26.5d
+		}
+		{
+			dependencies: ["57F74513B8EFCF4E"]
+			description: ["The Honey generator allows you to turn your &n&lPURE DELICIOUS HONEY&r into sweet sweet power to run your devices and if you make enough power your base."]
+			id: "28605EF00119ADBC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0ED7B2C98C1E10B7"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			tasks: [{
+				id: "69912D59291621C0"
+				item: "productivebees:honey_generator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["28605EF00119ADBC"]
+			description: [
+				"Genes from productive bees come in large varieties and the gene indexer is a large scale inventory that will hold only genes &nGiven a redstone signal like a lever will allow the genes to autocombine into purer more effective forms.&r"
+				""
+				""
+				"{@pagebreak}"
+				""
+				"Genes can be gathered 2 ways either Crush an adult bee into a bottler &mwith bottles inside&r and throw the resulting bottle into a centrifuge this method is very fast and produces a bulk of purer genes but kills the bee in the process."
+				""
+				"The other method takes a little more patience The pokey pokey gene upgrade can be placed in a advanced hive &mwith an expansion box&r to gather genes from the bees within over time this doesn't harm the bee."
+			]
+			id: "5D1D03C9841C2AB4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BFCA747A7D30F16"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			tasks: [{
+				id: "613B8B3A5EFE096F"
+				item: "productivebees:gene_indexer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["28605EF00119ADBC"]
+			description: [
+				"The Breeding chamber requires a few items to work but saves you the hassle of tying your bees to posts "
+				""
+				"&nRequires power, 2 valid caged bees, breeding materials compatible with the afformentioned bees and bee cages for the babies to be forced into once they're born"
+			]
+			id: "6662D7B7257BE069"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C306574D0ED295D"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			tasks: [{
+				id: "049BC3AAACCC649D"
+				item: "productivebees:breeding_chamber"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["57F74513B8EFCF4E"]
+			description: ["Honey treats are used to grow Babees in the incubater, they can be combined with genes to change traits in adult bees and used to attract bees to certain nests spawning the base bees needed for breeding."]
+			hide_dependency_lines: true
+			id: "639C9CC90E438343"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B4B226D8F7115BD"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5F24780FB4ECC8C7"
+				item: "productivebees:honey_treat"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 28.5d
+		}
+		{
+			dependencies: ["639C9CC90E438343"]
+			description: ["The treat on a stick can be used to direct a bumble bee you're riding where you want it to go"]
+			hide_dependency_lines: true
+			id: "7E7E2875AE0CC7EC"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DE98CD1A282573E"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			tasks: [{
+				id: "053AEA23F44DE64A"
+				item: {
+					Count: 1
+					id: "productivebees:treat_on_a_stick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 26.5d
+		}
+		{
+			dependencies: ["57F74513B8EFCF4E"]
+			description: ["Each of the upgrades available in productive bees requires a Upgrade bas at some point in it's crafting chain get ready to make a few."]
+			id: "3A2A12883B0CEB48"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A150C3314B19592"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3771EAB24A996F90"
+				item: "productivebees:upgrade_base"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 24.5d
+		}
+		{
+			dependencies: ["3A2A12883B0CEB48"]
+			id: "4CEDA9EC624D98A6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7556D34414237EC7"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5F81757DB8903C3C"
+				item: "productivebees:upgrade_time"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["3A2A12883B0CEB48"]
+			description: [
+				"The Babee upgrade will automatically breed bees overtime if placed into a hive with parents that can breed or can be used to filter the catcher to only catch baby bees."
+				""
+				"&l&nWARNING&r&l bees do not care if there is not enough space in the hive they will keep breeding."
+			]
+			id: "4B6427BB39962177"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54911ADAB77EB859"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			tasks: [{
+				id: "63718C01061A8E5B"
+				item: "productivebees:upgrade_breeding"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["4B6427BB39962177"]
+			description: ["The Not BaBee upgrade works as the oppsite of the BaBee upgrade preventing machines and hives from accepting them until theyre all grown up"]
+			id: "397729429B34DBCB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43F536500F84CD78"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5A8844E6AC2A6C63"
+				item: "productivebees:upgrade_not_babee"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 27.5d
+		}
+		{
+			dependencies: [
+				"6BC9658DEF387413"
+				"0935BC2C580CF40D"
+			]
+			description: ["The block upgrade changes the produced items in a hive from beeing (you get it) scraps/combs to full blocks, very usefull for lumber and quarry bees."]
+			id: "0E20A03ED88F30FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "146926760D24D56B"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			tasks: [{
+				id: "08C4B8938E0AA6EE"
+				item: "productivebees:upgrade_comb_block"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 26.5d
+		}
+		{
+			dependencies: ["3A2A12883B0CEB48"]
+			description: ["When placed in a hive it will prevent certain bees from escaping there enclosures and setting up residence elsewhere &llooking at you Ender bees!"]
+			id: "0D42F63481485793"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3FBF5C8F10E3E7F4"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			tasks: [{
+				id: "23BEC35EB479AF06"
+				item: "productivebees:upgrade_anti_teleport"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["3A2A12883B0CEB48"]
+			description: ["Increases the opertational range of a machine not much more to say really"]
+			id: "33FF1A3F3495C8A0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E9DDC6A651D8D72"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6AB6FAEBDBB5B64B"
+				item: "productivebees:upgrade_range"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 27.5d
+		}
+		{
+			dependencies: ["3A2A12883B0CEB48"]
+			description: ["The filter item can be used to filter certain types of bees allowing them from entering specific hives (usefull in conjunction with the babee upgrade to avoid unwanted combos) or to make the catcher only accept certain bees."]
+			id: "5802A7A191F54037"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "128DEAA55079EDEB"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1B831D495DCB25EA"
+				item: "productivebees:upgrade_filter"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["3A2A12883B0CEB48"]
+			description: ["The pokey pokey gene sampler allows you to &l&nSAFELY&r extract genes from bees entering a hive over time allowing you to passivley aquire the strongest traits with out harming your fuzzy flying producers."]
+			id: "2FB04E8DFD7D7D88"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D7DF358B38070E0"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6FB32A34FB83E7C2"
+				item: "productivebees:upgrade_bee_sampler"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["0D42F63481485793"]
+			description: [
+				"The simulator upgrade stops bees from exiting the hive increasing there output speed and reducing lag. The upgrade also allows bee to be placed in and removed with cages via the interface"
+				""
+				"&lRequires a feeding slab placed infront of the hive &nnot covering the exit hole but in the top slot of the block below that&r&l filled with flowering items for the bees inside."
+				""
+				"&lIf you attempt to place cages inside to remove bees pipes will steal your bees and place them into the centrifuges the pipes aim at (the bees will not be processed im just warning you where to look)"
+			]
+			id: "011ECE852CAE0097"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C2FCCCF181C869B"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			tasks: [{
+				id: "61E58C5A42A9BEBD"
+				item: "productivebees:upgrade_simulator"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["3A2A12883B0CEB48"]
+			description: ["The first tier of output upgrade available increases output by a humble 120% and stacks with other productivity upgrades."]
+			id: "47D512746127A50E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E5EE2A5ED7CFB3F"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7E76EE4ED6F771BF"
+				item: "productivebees:upgrade_productivity"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 24.5d
+		}
+		{
+			dependencies: ["47D512746127A50E"]
+			description: ["The second tier of output upgrade available increases output by a humble 150% and stacks with other productivity upgrades."]
+			id: "6BC9658DEF387413"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79DA04C914B8C2E3"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			tasks: [{
+				id: "310853927ED7A12E"
+				item: "productivebees:upgrade_productivity_2"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 24.5d
+		}
+		{
+			dependencies: [
+				"6BC9658DEF387413"
+				"011ECE852CAE0097"
+			]
+			description: ["The third tier of output upgrade available increases output by a humble 200% and stacks with other productivity upgrades whilst also functioning as a simulator upgrade."]
+			id: "55FCC5BA3F1A2E42"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20C1858D495A8FA1"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			tasks: [{
+				id: "45C6848D820DD58E"
+				item: "productivebees:upgrade_productivity_3"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 24.5d
+		}
+		{
+			dependencies: ["55FCC5BA3F1A2E42"]
+			description: ["The final tier of output upgrade available increases output by a humble 260% and stacks with other productivity upgrades whilst also functioning as a simulator and a block upgrade."]
+			id: "0935BC2C580CF40D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3633605FF6BA74DC"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			tasks: [{
+				id: "740D9DC3EF16A737"
+				item: "productivebees:upgrade_productivity_4"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 24.5d
+		}
+		{
+			dependencies: ["57F74513B8EFCF4E"]
+			description: ["The bee cage is your handy dandy single use bee capturing device. &oSimply right click a bee with it in hand"]
+			id: "4E95D9C937E2E1A1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42021007169D7551"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			tasks: [{
+				id: "64080FF0944D9A40"
+				item: "productivebees:bee_cage"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 26.5d
+		}
+		{
+			dependencies: ["4E95D9C937E2E1A1"]
+			description: ["The sturdy bee Cage isn't craftable &mlooting chests and certain villagers might have a stock of them&r but it doesn't break recycling is good for the enviroment"]
+			id: "78F456F24FC2ECC1"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "060635050B4857CB"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6F8DA6F1B8511250"
+				item: "productivebees:sturdy_bee_cage"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 28.5d
+		}
+		{
+			dependencies: ["5EF0E9AE258CE677"]
+			description: ["The catcher can automatically catch any bee that flies above it provided it has bee cages within."]
+			id: "21EB224F298711E1"
+			tasks: [{
+				id: "2AD4E72B136B5DA1"
+				item: "productivebees:catcher"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 28.0d
+		}
+		{
+			dependencies: ["57F74513B8EFCF4E"]
+			description: [
+				"&mOk its not an upgrade as such but it does balance out the placement leave me alone.&r"
+				""
+				"The feeding slab can be used to hold flowering items for bees can also be fed items for those special few bees that can perform item transmutations. "
+				""
+				"&l&nWARNING&r &lsusceptible to pipes and may try to autofill with combs if the slots aren't taken up"
+			]
+			hide_dependency_lines: true
+			id: "75AD9CA01D345547"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "353D70F29E47858B"
+				table_id: 6141816592056227016L
+				type: "random"
+			}]
+			tasks: [{
+				id: "72D36F5855AA52AF"
+				item: "productivebees:feeder"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 23.0d
+		}
+		{
+			id: "6D45CE3644668EDC"
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "189B00C16C367057"
+				title: "Basic bees"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			description: ["These bees are either used for purposes other than directly making items or are caught via fishing"]
+			id: "72AE1B783A5A52A6"
+			shape: "hexagon"
+			tasks: [{
+				id: "2FDED0E8D2DA6837"
+				title: "Utility and Aquatic bees"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 9.5d
+		}
+		{
+			description: ["These bees can be bred"]
+			id: "23F4D9DC006417A0"
+			tasks: [{
+				id: "795FFB00BA638F91"
+				title: "Bee breeding"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 14.5d
+		}
+	]
+	title: "Productive Bees"
+}
