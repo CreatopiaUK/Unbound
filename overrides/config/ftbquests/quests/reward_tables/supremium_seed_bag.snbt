@@ -1,0 +1,27 @@
+{
+	id: "605DAA91E787AA45"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{ item: "mysticalagriculture:diamond_seeds" }
+		{ item: "mysticalagriculture:emerald_seeds" }
+		{ item: "mysticalagriculture:netherite_seeds" }
+		{ item: "mysticalagriculture:wither_skeleton_seeds" }
+		{ item: "mysticalagriculture:platinum_seeds" }
+		{ item: "mysticalagriculture:iridium_seeds" }
+		{ item: "mysticalagriculture:enderium_seeds" }
+		{ item: "mysticalagriculture:vibrant_alloy_seeds" }
+		{ item: "mysticalagriculture:end_steel_seeds" }
+		{ item: "mysticalagriculture:terrasteel_seeds" }
+		{ item: "mysticalagriculture:yellorium_seeds" }
+		{ item: "mysticalagriculture:cyanite_seeds" }
+		{ item: "mysticalagriculture:niotic_crystal_seeds" }
+		{ item: "mysticalagriculture:spirited_crystal_seeds" }
+		{ item: "mysticalagriculture:uraninite_seeds" }
+		{
+			type: "xp"
+			xp: 2000
+		}
+	]
+	title: "Supremium seed bag"
+}

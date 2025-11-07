@@ -1,0 +1,23 @@
+{
+	id: "0563D0C7F6CDC46B"
+	loot_size: 1
+	order_index: 24
+	rewards: [
+		{ count: 4, item: "powah:crystal_niotic", weight: 2.0f }
+		{ count: 4, item: "powah:capacitor_niotic", weight: 2.0f }
+		{ item: "powah:battery_niotic" }
+		{ item: "powah:energy_cell_niotic" }
+		{ item: "powah:ender_cell_niotic", weight: 0.8f }
+		{ count: 16, item: "powah:energy_cable_niotic", weight: 2.0f }
+		{ count: 4, item: "powah:ender_gate_niotic", weight: 0.8f }
+		{ item: "powah:energizing_rod_niotic" }
+		{ item: "powah:furnator_niotic" }
+		{ item: "powah:magmator_niotic" }
+		{ item: "powah:thermo_generator_niotic", weight: 0.8f }
+		{ item: "powah:solar_panel_niotic" }
+		{ count: 4, item: "powah:reactor_niotic", weight: 0.6f }
+		{ item: "powah:energy_hopper_niotic" }
+		{ item: "powah:energy_discharger_niotic" }
+	]
+	title: "POWAH niotic bag"
+}

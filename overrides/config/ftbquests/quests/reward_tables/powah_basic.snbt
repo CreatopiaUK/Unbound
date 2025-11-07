@@ -1,0 +1,22 @@
+{
+	id: "3AB28596C4939A8E"
+	loot_size: 1
+	order_index: 21
+	rewards: [
+		{ count: 20, item: "powah:capacitor_basic", weight: 2.0f }
+		{ item: "powah:battery_basic", weight: 2.0f }
+		{ item: "powah:energy_cell_basic" }
+		{ item: "powah:ender_cell_basic", weight: 0.8f }
+		{ count: 16, item: "powah:energy_cable_basic", weight: 2.0f }
+		{ count: 4, item: "powah:ender_gate_basic", weight: 0.8f }
+		{ item: "powah:energizing_rod_basic" }
+		{ item: "powah:furnator_basic" }
+		{ item: "powah:magmator_basic" }
+		{ item: "powah:thermo_generator_basic", weight: 0.8f }
+		{ item: "powah:solar_panel_basic" }
+		{ item: "powah:reactor_basic", weight: 0.6f }
+		{ item: "powah:energy_hopper_basic" }
+		{ item: "powah:energy_discharger_basic" }
+	]
+	title: "POWAH basic bag"
+}

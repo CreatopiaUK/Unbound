@@ -1,0 +1,42 @@
+{
+	id: "7EFB27AF6C13B3BA"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			type: "xp"
+			xp: 500
+		}
+		{
+			type: "xp"
+			weight: 0.9f
+			xp: 750
+		}
+		{
+			type: "xp"
+			weight: 0.8f
+			xp: 1000
+		}
+		{
+			type: "xp"
+			weight: 0.6f
+			xp: 1500
+		}
+		{
+			type: "xp"
+			weight: 0.4f
+			xp: 2500
+		}
+		{
+			type: "xp"
+			weight: 0.2f
+			xp: 5000
+		}
+		{
+			type: "xp"
+			weight: 0.01f
+			xp: 7500
+		}
+	]
+	title: "xp crate mid"
+}

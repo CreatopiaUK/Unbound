@@ -1,0 +1,23 @@
+{
+	id: "28F16B477D7B6444"
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{ count: 4, item: "powah:crystal_blazing", weight: 2.0f }
+		{ count: 4, item: "powah:capacitor_blazing", weight: 2.0f }
+		{ item: "powah:battery_blazing" }
+		{ item: "powah:energy_cell_blazing" }
+		{ item: "powah:ender_cell_blazing", weight: 0.8f }
+		{ count: 16, item: "powah:energy_cable_blazing", weight: 2.0f }
+		{ count: 4, item: "powah:ender_gate_blazing" }
+		{ item: "powah:energizing_rod_blazing" }
+		{ item: "powah:furnator_blazing" }
+		{ item: "powah:magmator_blazing" }
+		{ item: "powah:thermo_generator_blazing", weight: 0.8f }
+		{ item: "powah:solar_panel_blazing" }
+		{ count: 4, item: "powah:reactor_blazing", weight: 0.6f }
+		{ item: "powah:energy_hopper_blazing" }
+		{ item: "powah:energy_discharger_blazing" }
+	]
+	title: "POWAH blazing bag"
+}

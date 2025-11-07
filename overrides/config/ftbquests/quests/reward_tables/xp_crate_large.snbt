@@ -1,0 +1,33 @@
+{
+	icon: "minecraft:experience_bottle"
+	id: "59631CF337287FFE"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			type: "xp"
+			xp: 10000
+		}
+		{
+			type: "xp_levels"
+			xp_levels: 8000
+		}
+		{
+			type: "xp"
+			xp: 6000
+		}
+		{
+			type: "xp"
+			xp: 4000
+		}
+		{
+			type: "xp"
+			xp: 2000
+		}
+		{
+			type: "xp_levels"
+			xp_levels: 5
+		}
+	]
+	title: "xp crate large"
+}

@@ -1,0 +1,14 @@
+{
+	icon: "framedblocks:framed_chest"
+	id: "028680808BFDAEDB"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ item: "minecraft:sentry_armor_trim_smithing_template" }
+		{ item: "minecraft:vex_armor_trim_smithing_template" }
+		{ item: "minecraft:wild_armor_trim_smithing_template" }
+		{ item: "minecraft:coast_armor_trim_smithing_template" }
+		{ item: "minecraft:ward_armor_trim_smithing_template" }
+	]
+	title: "Basic Trim Crate"
+}

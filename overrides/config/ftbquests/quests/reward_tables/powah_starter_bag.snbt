@@ -1,0 +1,22 @@
+{
+	id: "7A30A5751B31DDF3"
+	loot_size: 1
+	order_index: 20
+	rewards: [
+		{ count: 5, item: "powah:capacitor_basic", weight: 2.0f }
+		{ count: 16, item: "powah:dielectric_paste", weight: 2.0f }
+		{ item: "powah:battery_starter" }
+		{ item: "powah:energy_cell_starter" }
+		{ item: "powah:ender_cell_starter", weight: 0.8f }
+		{ count: 16, item: "powah:energy_cable_starter" }
+		{ item: "powah:ender_gate_starter", weight: 0.8f }
+		{ item: "powah:energizing_rod_starter", weight: 0.6f }
+		{ item: "powah:furnator_starter" }
+		{ item: "powah:magmator_starter" }
+		{ item: "powah:thermo_generator_starter", weight: 0.8f }
+		{ count: 4, item: "powah:reactor_starter", weight: 0.8f }
+		{ item: "powah:energy_hopper_starter" }
+		{ item: "powah:energy_discharger_starter" }
+	]
+	title: "POWAH starter bag"
+}

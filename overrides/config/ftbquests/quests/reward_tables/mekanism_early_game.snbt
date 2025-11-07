@@ -1,0 +1,38 @@
+{
+	icon: {
+		Count: 1
+		id: "mekanism:basic_energy_cube"
+		tag: {
+			mekData: {
+				EnergyContainers: [{
+					Container: 0b
+					stored: "4000000"
+				}]
+			}
+		}
+	}
+	id: "4971596E8B6046A5"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "mekanism_early_game"
+	}
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{ item: "mekanism:basic_control_circuit" }
+		{ item: "mekanism:advanced_control_circuit" }
+		{ item: "mekanism:elite_control_circuit" }
+		{ item: "mekanism:ultimate_control_circuit", weight: 0.4f }
+		{ item: "mekanism:alloy_infused" }
+		{ item: "mekanism:alloy_reinforced" }
+		{ item: "mekanism:alloy_atomic", weight: 0.4f }
+		{ item: "mekanism:ingot_osmium" }
+		{ item: "mekanism:block_osmium" }
+	]
+	title: "Mekanism early game"
+}

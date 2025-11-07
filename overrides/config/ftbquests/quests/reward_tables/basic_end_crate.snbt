@@ -1,0 +1,64 @@
+{
+	icon: "minecraft:ender_chest"
+	id: "5E1C27A75611FDD1"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "basic_end_crate"
+	}
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ item: "minecraft:ender_chest" }
+		{ item: "statues:enderman_statue" }
+		{ item: "statues:endermite_statue" }
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:ender_lead"
+				tag: {
+					Damage: 0
+					entity_data: { }
+				}
+			}
+		}
+		{ item: "minecraft:enderman_spawn_egg", weight: 0.1f }
+		{ item: "minecraft:endermite_spawn_egg", weight: 0.1f }
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "irons_spellbooks:ender"
+				}
+			}
+			weight: 0.01f
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "irons_spellbooks:ender"
+				}
+			}
+			weight: 2.0f
+		}
+		{ count: 16, item: "forbidden_arcanus:ender_pearl_fragment" }
+		{ count: 8, item: "minecraft:end_rod", weight: 2.0f }
+		{ count: 4, item: "supplementaries:enderman_head", weight: 2.0f }
+		{ item: "minecraft:end_crystal" }
+		{ item: "botania:ender_air_bottle", weight: 3.0f }
+	]
+	title: "Basic End Crate"
+}

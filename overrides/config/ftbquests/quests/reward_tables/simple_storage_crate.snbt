@@ -1,0 +1,15 @@
+{
+	id: "3EB3A92673943A11"
+	loot_size: 1
+	order_index: 19
+	rewards: [{
+		item: {
+			Count: 1
+			id: "itemfilters:tag"
+			tag: {
+				value: "functionalstorage:drawer"
+			}
+		}
+	}]
+	title: "simple storage crate"
+}

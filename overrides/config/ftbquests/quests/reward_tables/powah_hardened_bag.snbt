@@ -1,0 +1,23 @@
+{
+	id: "28440C9E428C036B"
+	loot_size: 1
+	order_index: 22
+	rewards: [
+		{ count: 2, item: "powah:capacitor_hardened", weight: 2.0f }
+		{ item: "powah:battery_hardened" }
+		{ count: 4, item: "powah:steel_energized", weight: 2.0f }
+		{ item: "powah:energy_cell_hardened" }
+		{ item: "powah:ender_cell_hardened", weight: 0.8f }
+		{ count: 16, item: "powah:energy_cable_hardened", weight: 2.0f }
+		{ count: 4, item: "powah:ender_gate_hardened", weight: 0.8f }
+		{ item: "powah:energizing_rod_hardened" }
+		{ item: "powah:furnator_hardened" }
+		{ item: "powah:magmator_hardened" }
+		{ item: "powah:thermo_generator_hardened", weight: 0.8f }
+		{ item: "powah:solar_panel_hardened" }
+		{ item: "powah:reactor_hardened", weight: 0.6f }
+		{ item: "powah:energy_hopper_hardened" }
+		{ item: "powah:energy_discharger_hardened" }
+	]
+	title: "POWAH hardened bag"
+}

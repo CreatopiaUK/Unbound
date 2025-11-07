@@ -1,0 +1,26 @@
+{
+	id: "746055BD43E43BC7"
+	loot_size: 1
+	order_index: 30
+	rewards: [
+		{ count: 10, item: "tconstruct:grout", weight: 10.0f }
+		{ count: 10, item: "tconstruct:nether_grout", weight: 10.0f }
+		{ count: 20, item: "tconstruct:seared_brick", weight: 7.0f }
+		{ count: 20, item: "tconstruct:scorched_brick", weight: 7.0f }
+		{ count: 5, item: "tconstruct:pattern", weight: 7.0f }
+		{ count: 5, item: "tconstruct:seared_glass", weight: 5.0f }
+		{ count: 5, item: "tconstruct:seared_tinted_glass", weight: 5.0f }
+		{ count: 5, item: "tconstruct:seared_soul_glass", weight: 5.0f }
+		{ count: 5, item: "tconstruct:scorched_glass", weight: 5.0f }
+		{ count: 5, item: "tconstruct:scorched_tinted_glass", weight: 5.0f }
+		{ count: 5, item: "tconstruct:scorched_soul_glass", weight: 5.0f }
+		{ count: 2, item: "tconstruct:raw_cobalt", weight: 2.0f }
+		{ count: 5, item: "tconstruct:pig_iron_ingot", weight: 3.0f }
+		{ item: "tconstruct:necrotic_bone" }
+		{ item: "tconstruct:necronium_bone", weight: 2.0f }
+		{ item: "tconstruct:blazing_bone", weight: 2.0f }
+		{ item: "tconstruct:venombone", weight: 2.0f }
+		{ item: "tconstruct:dragon_scale" }
+	]
+	title: "tinkers' bag"
+}

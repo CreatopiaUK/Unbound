@@ -1,0 +1,175 @@
+{
+	id: "174CC55EC66B12B8"
+	loot_crate: {
+		color: 16722489
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "andventurecreate"
+	}
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			type: "xp"
+			weight: 1.2f
+			xp: 100
+		}
+		{
+			type: "xp"
+			xp: 200
+		}
+		{
+			type: "xp"
+			xp: 300
+		}
+		{
+			type: "xp"
+			xp: 400
+		}
+		{
+			type: "xp"
+			xp: 500
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 1.2f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:crossbow"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 1.2f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			type: "xp_levels"
+			xp_levels: 5
+		}
+		{ count: 5, item: "minecraft:apple", weight: 1.2f }
+		{ count: 5, item: "minecraft:bread", weight: 1.2f }
+		{ count: 2, item: "minecraft:chicken_spawn_egg" }
+		{ count: 2, item: "minecraft:cow_spawn_egg" }
+		{ count: 2, item: "minecraft:pig_spawn_egg" }
+		{ count: 10, item: "minecraft:arrow", weight: 1.2f }
+		{ count: 50, item: "minecraft:arrow" }
+		{ item: "minecraft:horse_spawn_egg" }
+		{ count: 10, item: "minecraft:torch" }
+		{ item: "minecraft:saddle", weight: 1.2f }
+		{ item: "explorerscompass:explorerscompass", weight: 1.2f }
+		{ count: 10, item: "minecraft:wheat_seeds", weight: 1.2f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:bucket", weight: 1.2f }
+		{ item: "minecraft:water_bucket" }
+		{ item: "minecraft:lava_bucket" }
+		{ count: 5, item: "minecraft:cooked_chicken" }
+		{ count: 10, item: "minecraft:feather" }
+		{ count: 10, item: "minecraft:string" }
+		{ item: "minecraft:white_bed" }
+		{ item: "minecraft:red_bed" }
+		{ item: "minecraft:blue_bed" }
+		{ count: 5, item: "minecraft:diamond", weight: 0.5f }
+	]
+	title: "Basic Adventure Crate"
+}

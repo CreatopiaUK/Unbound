@@ -1,0 +1,23 @@
+{
+	id: "076AD8AA986BA1DB"
+	loot_size: 1
+	order_index: 25
+	rewards: [
+		{ count: 4, item: "powah:crystal_spirited", weight: 2.0f }
+		{ count: 4, item: "powah:capacitor_spirited", weight: 2.0f }
+		{ item: "powah:battery_spirited" }
+		{ item: "powah:energy_cell_spirited" }
+		{ item: "powah:ender_cell_spirited", weight: 0.8f }
+		{ count: 16, item: "powah:energy_cable_spirited", weight: 2.0f }
+		{ count: 4, item: "powah:ender_gate_spirited" }
+		{ item: "powah:energizing_rod_spirited" }
+		{ item: "powah:furnator_spirited" }
+		{ item: "powah:magmator_spirited" }
+		{ item: "powah:thermo_generator_spirited", weight: 0.8f }
+		{ item: "powah:solar_panel_spirited" }
+		{ count: 4, item: "powah:reactor_spirited", weight: 0.6f }
+		{ item: "powah:energy_hopper_spirited" }
+		{ item: "powah:energy_discharger_spirited" }
+	]
+	title: "POWAH spirited bag"
+}

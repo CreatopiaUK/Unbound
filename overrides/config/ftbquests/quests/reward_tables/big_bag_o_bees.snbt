@@ -1,0 +1,155 @@
+{
+	id: "553C1DA6551C94C8"
+	loot_size: 1
+	order_index: 27
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:iron"
+					}
+				}
+			}
+			weight: 0.3f
+		}
+		{
+			item: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:copper"
+					}
+				}
+			}
+			weight: 0.3f
+		}
+		{
+			item: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:redstone"
+					}
+				}
+			}
+			weight: 0.3f
+		}
+		{
+			item: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:gold"
+					}
+				}
+			}
+			weight: 0.3f
+		}
+		{
+			item: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:tin"
+					}
+				}
+			}
+			weight: 0.3f
+		}
+		{
+			item: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:lapis"
+					}
+				}
+			}
+			weight: 0.3f
+		}
+		{
+			item: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:lead"
+					}
+				}
+			}
+			weight: 0.3f
+		}
+		{
+			item: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:coal"
+					}
+				}
+			}
+			weight: 0.3f
+		}
+		{
+			item: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:nickel"
+					}
+				}
+			}
+			weight: 0.3f
+		}
+		{
+			item: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:zinc"
+					}
+				}
+			}
+			weight: 0.3f
+		}
+		{ item: "productivebees:spawn_egg_nomad_bee", weight: 0.3f }
+		{ item: "productivebees:spawn_egg_neon_cuckoo_bee", weight: 0.3f }
+		{ count: 5, item: "minecraft:beehive" }
+		{ count: 2, item: "productivebees:advanced_oak_beehive", weight: 0.9f }
+		{ count: 2, item: "productivebees:expansion_box_oak", weight: 0.9f }
+		{ count: 10, item: "productivebees:bee_cage" }
+		{ count: 4, item: "productivebees:sturdy_bee_cage", weight: 0.8f }
+		{ item: "productivebees:centrifuge" }
+		{ item: "productivebees:powered_centrifuge", weight: 0.3f }
+		{ item: "productivebees:heated_centrifuge", weight: 0.1f }
+		{ count: 6, item: "minecraft:honey_bottle" }
+		{ count: 6, item: "minecraft:honeycomb" }
+		{ count: 4, item: "productivebees:honey_treat" }
+		{ item: "minecraft:bee_nest", weight: 0.1f }
+		{
+			type: "xp"
+			xp: 200
+		}
+		{
+			type: "xp"
+			xp: 500
+		}
+		{ count: 5, item: "productivebees:upgrade_base", weight: 0.8f }
+		{ count: 2, item: "productivebees:upgrade_productivity", weight: 0.7f }
+		{ item: "productivebees:upgrade_productivity_2", weight: 0.5f }
+		{ count: 2, item: "productivebees:upgrade_time", weight: 0.8f }
+		{ item: "productivebees:upgrade_breeding", weight: 0.5f }
+	]
+	title: "Big bag o' Bees"
+}

@@ -1,0 +1,102 @@
+{
+	icon: {
+		Count: 1
+		id: "sophisticatedstorage:copper_chest"
+		tag: {
+			accentColor: 13061821
+			mainColor: 13061821
+		}
+	}
+	id: "3CCCBF5491113F58"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "intermidiate_adventure_crate"
+	}
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 5, item: "minecraft:chicken_spawn_egg", weight: 1.5f }
+		{ count: 5, item: "minecraft:sheep_spawn_egg", weight: 1.5f }
+		{ count: 5, item: "minecraft:cow_spawn_egg", weight: 1.5f }
+		{ count: 5, item: "minecraft:pig_spawn_egg", weight: 1.5f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:leather_horse_armor" }
+		{ item: "minecraft:iron_horse_armor", weight: 0.8f }
+		{ item: "minecraft:golden_horse_armor", weight: 0.2f }
+		{
+			type: "xp"
+			weight: 0.8f
+			xp: 250
+		}
+		{
+			type: "xp"
+			weight: 0.6f
+			xp: 500
+		}
+		{
+			type: "xp"
+			weight: 0.4f
+			xp: 1000
+		}
+		{ item: "sophisticatedbackpacks:backpack", weight: 1.5f }
+		{ item: "sophisticatedbackpacks:iron_backpack", weight: 0.8f }
+		{ item: "sophisticatedbackpacks:gold_backpack", weight: 0.1f }
+		{ count: 2, item: "minecraft:horse_spawn_egg" }
+		{ count: 2, item: "minecraft:donkey_spawn_egg" }
+		{
+			item: {
+				Count: 1
+				id: "onlyhammersandexcavators:iron_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 5, item: "minecraft:cooked_beef" }
+		{ count: 5, item: "minecraft:cooked_porkchop" }
+		{ count: 5, item: "minecraft:golden_apple", weight: 0.4f }
+		{ item: "minecraft:enchanted_golden_apple", weight: 0.01f }
+	]
+	title: "Intermidiate Adventure Crate"
+}

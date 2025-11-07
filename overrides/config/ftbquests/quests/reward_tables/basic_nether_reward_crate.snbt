@@ -1,0 +1,37 @@
+{
+	icon: "ba_bt:nether_chest"
+	id: "1EB01AA139954E6B"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "basic_nether_reward_crate"
+	}
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ count: 16, item: "minecraft:quartz" }
+		{
+			type: "xp_levels"
+			xp_levels: 10
+		}
+		{ count: 5, item: "minecraft:gold_block", weight: 2.0f }
+		{ count: 18, item: "minecraft:gold_nugget", weight: 9.0f }
+		{ count: 8, item: "minecraft:gold_ingot", weight: 4.0f }
+		{
+			type: "xp_levels"
+			weight: 7.0f
+			xp_levels: 20
+		}
+		{ count: 4, item: "minecraft:warped_fungus", weight: 6.0f }
+		{ count: 4, item: "quark:warped_bookshelf", weight: 5.0f }
+		{ count: 16, item: "minecraft:nether_brick", weight: 4.0f }
+		{ item: "minecraft:netherite_scrap", weight: 0.05f }
+		{ item: "netherite_horse_armor:netherite_horse_armor", weight: 0.1f }
+		{ count: 64, item: "minecraft:netherrack", weight: 4.0f }
+	]
+	title: "Basic Nether Reward Crate"
+}

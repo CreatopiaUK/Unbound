@@ -1,0 +1,33 @@
+{
+	icon: "minecraft:experience_bottle"
+	id: "64CEDF6A82285849"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			type: "xp"
+			xp: 100
+		}
+		{
+			type: "xp"
+			weight: 0.8f
+			xp: 200
+		}
+		{
+			type: "xp"
+			weight: 0.5f
+			xp: 500
+		}
+		{
+			type: "xp"
+			weight: 0.2f
+			xp: 1000
+		}
+		{
+			type: "xp"
+			weight: 0.01f
+			xp: 5000
+		}
+	]
+	title: "Xp crate small"
+}

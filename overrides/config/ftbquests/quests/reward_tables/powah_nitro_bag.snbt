@@ -1,0 +1,23 @@
+{
+	id: "7E69D0373DF9F03E"
+	loot_size: 1
+	order_index: 26
+	rewards: [
+		{ count: 4, item: "powah:crystal_nitro", weight: 2.0f }
+		{ count: 4, item: "powah:capacitor_nitro", weight: 2.0f }
+		{ item: "powah:battery_nitro" }
+		{ item: "powah:energy_cell_nitro" }
+		{ item: "powah:ender_cell_nitro", weight: 0.8f }
+		{ count: 16, item: "powah:energy_cable_nitro", weight: 2.0f }
+		{ count: 4, item: "powah:ender_gate_nitro", weight: 0.8f }
+		{ item: "powah:energizing_rod_nitro" }
+		{ item: "powah:furnator_nitro" }
+		{ item: "powah:magmator_nitro" }
+		{ item: "powah:thermo_generator_nitro", weight: 0.8f }
+		{ item: "powah:solar_panel_nitro" }
+		{ count: 4, item: "powah:reactor_nitro", weight: 0.6f }
+		{ item: "powah:energy_hopper_nitro" }
+		{ item: "powah:energy_discharger_nitro" }
+	]
+	title: "POWAH nitro bag"
+}

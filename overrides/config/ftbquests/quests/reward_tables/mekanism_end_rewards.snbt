@@ -1,0 +1,19 @@
+{
+	icon: "mekanism:pellet_polonium"
+	id: "0BEDFEBC709A097C"
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{ count: 4, item: "mekanism:pellet_polonium", weight: 0.3f }
+		{ count: 4, item: "mekanism:hdpe_pellet", weight: 0.2f }
+		{ count: 2, item: "mekanism:hdpe_sheet", weight: 0.2f }
+		{ count: 2, item: "mekanism:hdpe_rod", weight: 0.2f }
+		{ item: "mekanism:pellet_antimatter", weight: 0.01f }
+		{ count: 12, item: "mekanism:ultimate_control_circuit" }
+		{ count: 12, item: "mekanism:alloy_atomic" }
+		{ count: 24, item: "minecraft:diamond" }
+		{ count: 32, item: "mekanism:ingot_osmium" }
+		{ count: 12, item: "mekanism:alloy_reinforced" }
+	]
+	title: "Mekanism End Rewards"
+}
