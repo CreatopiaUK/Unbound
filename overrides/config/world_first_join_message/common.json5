@@ -1,0 +1,14 @@
+{
+	// Enable or disable the welcome message
+	"enabled": true,
+	// The message to be displayed when a player joins the game for the first time
+	"welcomeMessage": "Welcome To Creatopia Unbound! Looking to start your own Server? Click This Link And Use The Promo Code C_U_O For 20% Off Your Order!",
+	// The RGB color code for the welcome message. Examples: 'FF0000' for red, '00FF00' for green, '0000FF' for blue 'FFFF00' for yellow, 'FF00FF' for magenta, '00FFFF' for cyan
+	"welcomeMessageColor": "FFFFFF",
+	// The URL to be opened when the player clicks the link
+	"clickableUrl": "https://www.bisecthosting.com/C_U_O",
+	// clickable text
+	"clickhere": "[Click here]",
+	// The RGB color code for the clickable text '[Click here]'Examples: 'FF0000' for red, '00FF00' for green, '0000FF' for blue'FFFF00' for yellow, 'FF00FF' for magenta, '00FFFF' for cyan, 'FFFFFF' for white
+	"clickableTextColor": "00FFAA"
+}
