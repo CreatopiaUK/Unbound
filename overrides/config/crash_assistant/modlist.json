@@ -617,20 +617,20 @@
     "modId": "cosmeticcorpsecompat",
     "version": "1.0.0"
   },
-  "craftingprerequisites-1.20.1-1.1.0.jar": {
-    "jarName": "craftingprerequisites-1.20.1-1.1.0.jar",
+  "craftingprerequisites-1.20.1-1.2.0.jar": {
+    "jarName": "craftingprerequisites-1.20.1-1.2.0.jar",
     "modId": "craftingprerequisites",
-    "version": "1.20.1-1.1.0"
+    "version": "1.20.1-1.2.0"
   },
   "craftingtweaks-forge-1.20.1-18.2.6.jar": {
     "jarName": "craftingtweaks-forge-1.20.1-18.2.6.jar",
     "modId": "craftingtweaks",
     "version": "18.2.6"
   },
-  "CrashAssistant-forge-1.19-1.20.1-1.10.18.jar": {
-    "jarName": "CrashAssistant-forge-1.19-1.20.1-1.10.18.jar",
+  "CrashAssistant-forge-1.19-1.20.1-1.10.19.jar": {
+    "jarName": "CrashAssistant-forge-1.19-1.20.1-1.10.19.jar",
     "modId": "crash_assistant",
-    "version": "1.10.18"
+    "version": "1.10.19"
   },
   "crashexploitfixer-forge-1.1.0+1.20.1.jar": {
     "jarName": "crashexploitfixer-forge-1.1.0+1.20.1.jar",
@@ -1593,10 +1593,10 @@
     "modId": "jumpoverfences",
     "version": "1.3.1"
   },
-  "justenoughbreeding-forge-1.20-1.20.1-2.2.1.jar": {
-    "jarName": "justenoughbreeding-forge-1.20-1.20.1-2.2.1.jar",
+  "justenoughbreeding-forge-1.20-1.20.1-2.3.0.jar": {
+    "jarName": "justenoughbreeding-forge-1.20-1.20.1-2.3.0.jar",
     "modId": "justenoughbreeding",
-    "version": "2.2.1"
+    "version": "2.3.0"
   },
   "JustEnoughMekanismMultiblocks-1.20.1-4.15.jar": {
     "jarName": "JustEnoughMekanismMultiblocks-1.20.1-4.15.jar",
@@ -1881,10 +1881,10 @@
     "modId": "mcwfences",
     "version": "1.2.0"
   },
-  "mcw-furniture-3.3.0-mc1.20.1forge.jar": {
-    "jarName": "mcw-furniture-3.3.0-mc1.20.1forge.jar",
+  "mcw-furniture-3.4.0-mc1.20.1forge.jar": {
+    "jarName": "mcw-furniture-3.4.0-mc1.20.1forge.jar",
     "modId": "mcwfurnitures",
-    "version": "3.3.0"
+    "version": "3.4.0"
   },
   "mcw-lights-1.1.2-mc1.20.1forge.jar": {
     "jarName": "mcw-lights-1.1.2-mc1.20.1forge.jar",
@@ -2051,10 +2051,10 @@
     "modId": "mobtimizations",
     "version": "1.20.1-1.0.0"
   },
-  "modernfix-forge-5.25.0+mc1.20.1.jar": {
-    "jarName": "modernfix-forge-5.25.0+mc1.20.1.jar",
+  "modernfix-forge-5.25.1+mc1.20.1.jar": {
+    "jarName": "modernfix-forge-5.25.1+mc1.20.1.jar",
     "modId": "modernfix",
-    "version": "5.25.0+mc1.20.1"
+    "version": "5.25.1+mc1.20.1"
   },
   "modonomicon-1.20.1-forge-1.79.2.jar": {
     "jarName": "modonomicon-1.20.1-forge-1.79.2.jar",
@@ -2098,6 +2098,11 @@
   },
   "MoreFurnaces-1.4.0-MC1.8.8.jar": {
     "jarName": "MoreFurnaces-1.4.0-MC1.8.8.jar"
+  },
+  "morejs-forge-1.20.1-0.10.1.jar": {
+    "jarName": "morejs-forge-1.20.1-0.10.1.jar",
+    "modId": "morejs",
+    "version": "0.10.1"
   },
   "MoreMekanismProcessing-1.20.1-4.4.jar": {
     "jarName": "MoreMekanismProcessing-1.20.1-4.4.jar",
@@ -2206,11 +2211,6 @@
     "jarName": "netherwartblock-forge-1.20.1-7.2.jar",
     "modId": "netherwartblock",
     "version": "7.2"
-  },
-  "noisium-forge-2.3.0+mc1.20-1.20.1.jar": {
-    "jarName": "noisium-forge-2.3.0+mc1.20-1.20.1.jar",
-    "modId": "noisium",
-    "version": "2.3.0+mc1.20-1.20.1"
   },
   "notenoughanimations-forge-1.10.6-mc1.20.1.jar": {
     "jarName": "notenoughanimations-forge-1.10.6-mc1.20.1.jar",
@@ -2349,6 +2349,11 @@
   },
   "PowerApples-1.8.8-1.1.3.jar": {
     "jarName": "PowerApples-1.8.8-1.1.3.jar"
+  },
+  "powerfuljs-1.6.1.jar": {
+    "jarName": "powerfuljs-1.6.1.jar",
+    "modId": "powerfuljs",
+    "version": "1.6.1"
   },
   "PowerPots-1.20.1-1.0.0.jar": {
     "jarName": "PowerPots-1.20.1-1.0.0.jar",
