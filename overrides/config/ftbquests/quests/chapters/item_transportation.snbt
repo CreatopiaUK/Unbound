@@ -1,0 +1,117 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "item_transportation"
+	group: "3FEDCCADD53AC5E8"
+	id: "2B25AD99C110DE29"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependency_requirement: "one_completed"
+			description: ["The Pipez mod is perfect for when you haven't decided what system to use yet. It perfectly connects to any machines and can easely be upgraded!"]
+			id: "1D4EC33A2D6741C2"
+			rewards: [{
+				id: "0B399E54770E0790"
+				item: "pipez:wrench"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "73F09C14F1D5DE4F"
+					item: "pipez:item_pipe"
+					type: "item"
+				}
+				{
+					id: "138204821F908972"
+					item: "pipez:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "2DDF7101445F0D20"
+					item: "pipez:energy_pipe"
+					type: "item"
+				}
+				{
+					id: "3F94970B3B0A6D15"
+					item: "pipez:gas_pipe"
+					type: "item"
+				}
+				{
+					id: "29A52A1020A1EB82"
+					item: "pipez:universal_pipe"
+					type: "item"
+				}
+			]
+			title: "Pipez"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D4EC33A2D6741C2"]
+			id: "5242C22E24378F0C"
+			rewards: [{
+				count: 16
+				id: "4AA2130119C4F306"
+				item: "pipez:universal_pipe"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C2BF87641926040"
+				item: "pipez:basic_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5242C22E24378F0C"]
+			id: "6524BB86843A55EC"
+			rewards: [{
+				id: "38D0AC0E6A74E5CD"
+				item: "pipez:basic_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B0A7ACF79670B45"
+				item: "pipez:improved_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6524BB86843A55EC"]
+			id: "5E759316EFB33AE6"
+			rewards: [{
+				id: "6D143A9AC07415C7"
+				item: "pipez:improved_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67317CD23801C336"
+				item: "pipez:advanced_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5E759316EFB33AE6"]
+			id: "73E1D872DE51A1F5"
+			rewards: [{
+				id: "1C70547EF9F49569"
+				item: "pipez:advanced_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F673347225BC611"
+				item: "pipez:ultimate_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+	]
+	title: "Pipez"
+}

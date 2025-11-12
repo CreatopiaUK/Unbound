@@ -1,0 +1,35 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "theurgy"
+	group: "6B05E91E7584D695"
+	icon: {
+		Count: 1
+		id: "theurgy:divination_rod_t1"
+		tag: {
+			Damage: 0
+			"theurgy:divination.setting.allow_attuning": 1b
+			"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t1_allowed_blocks"
+			"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t1_disallowed_blocks"
+			"theurgy:divination.setting.duration": 40
+			"theurgy:divination.setting.max_damage": 8
+			"theurgy:divination.setting.range": 96
+			"theurgy:divination.setting.tier": "minecraft:stone"
+		}
+	}
+	id: "34EE5B57A8266141"
+	order_index: 7
+	quest_links: [ ]
+	quests: [{
+		id: "67EE38FA0A695B6E"
+		subtitle: "WIP!"
+		tasks: [{
+			id: "42092C0F9783453A"
+			item: "theurgy:sal_ammoniac_crystal"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Theurgy"
+}
